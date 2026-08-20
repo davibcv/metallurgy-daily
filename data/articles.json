@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-20T21:02:54.750934+00:00",
+  "updatedAt": "2026-08-20T21:31:48.191736+00:00",
   "research": [
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
-      "source": "MIT News — Materials Processing",
+      "source": "MIT News — Materials Science",
       "date": "Wed, 20 May 2026 14:50:00 -0400",
       "url": "https://news.mit.edu/2026/steel-developed-at-mit-formula-one-baja-1000-mit-motorsports-0520",
       "summary": "Ferrium C61 was designed with the aid of computers in a field pioneered at the Institute.",
@@ -13,54 +13,125 @@
     },
     {
       "title": "MIT engineers whip up a more breathable hydrogel",
-      "source": "MIT News — Materials Science and Engineering",
+      "source": "MIT News — Materials Science",
       "date": "Wed, 08 Jul 2026 11:00:00 -0400",
       "url": "https://news.mit.edu/2026/mit-engineers-whip-up-more-breathable-hydrogel-0708",
       "summary": "The new aerated material could enable longer-lasting bandages, implants, and wearable sensors.",
       "category": "research",
       "relevanceScore": 7,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Improving carbon nanotube consistency in the lab",
-      "source": "MIT News — Materials Processing",
-      "date": "Wed, 12 Feb 2014 17:00:00 -0500",
-      "url": "https://news.mit.edu/2014/mechanical-engineering-professor-graduate-student-automate-chemical-vapor-deposition-process-with-bench-top-robofurnace-bench-top-automation-in-the-lab-can-reduce-variation-in-carbon-nanotube-growth-as-well-as-enable-better-production-of-other-n",
-      "summary": "Bench-top 'Robofurnace' automates chemical vapor deposition process.",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Advances in materials driving new technologies",
-      "source": "MIT News — Materials Processing",
-      "date": "Fri, 01 Nov 2013 18:42:00 -0400",
-      "url": "https://news.mit.edu/2013/advances-materials-driving-new-technologies",
-      "summary": "Quantum dots for lighting and television, specialty fibers for surgery, highlighted at annual MPC Materials Day",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Controlling the growth of semiconducting nanowires",
-      "source": "MIT News — Materials Processing",
-      "date": "Fri, 13 Sep 2013 16:07:00 -0400",
-      "url": "https://news.mit.edu/2013/controlling-the-growth-of-semiconducting-nanowires",
-      "summary": "MIT doctoral candidate Sam Crawford has contributed to fundamental understanding of growth processes using metal seed particles.",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Tuning metal-oxygen bond strength",
-      "source": "MIT News — Materials Processing",
-      "date": "Mon, 05 Aug 2013 15:55:18 -0400",
-      "url": "https://news.mit.edu/2013/tuning-metal-oxygen-bond-strength",
-      "summary": "Controlling spin state through strain could lead to better cathodes for solid oxide fuel cells",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     }
   ],
-  "industry": []
+  "industry": [
+    {
+      "title": "U. S. Steel Brings New Era of Steelmaking to Mon Valley",
+      "source": "World Steel Association",
+      "date": "Mon, 08 Jun 2026 08:18:55 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-brings-new-era-of-steelmaking-to-mon-valley/",
+      "summary": "<p>Planned Mon Valley Investments to Generate Up to $1.7 Billion in Economic Impact, 6,381 Jobs, and $58 Million in Tax Revenue for Pennsylvania Over Three Years</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-brings-new-era-of-steelmaking-to-mon-valley/\">U. S. Steel Brings New Era of Steelmaking to Mon Valley</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 20,
+      "seriousnessScore": 72
+    },
+    {
+      "title": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+      "source": "World Steel Association",
+      "date": "Mon, 15 Jun 2026 09:02:44 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+      "summary": "<p>Consortium of 10 industry-academic-research organizations launches a national R&#38;D project to develop “6.5% Silicon-content Wide Electrical Steel Sheet” and EV efficiency-enhancing core/drive motor manufacturing technologies</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/\">POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 17,
+      "seriousnessScore": 59
+    },
+    {
+      "title": "June 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Thu, 23 Jul 2026 06:13:35 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 155.7 million tonnes (Mt) in June 2026, a 1.7% increase compared to June 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/\">June 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 16,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "May 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Tue, 23 Jun 2026 08:36:17 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 157.9 million tonnes (Mt) in May 2026, a 0.3% decrease compared to May 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/\">May 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 16,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "World Steel in Figures 2026 now available",
+      "source": "World Steel Association",
+      "date": "Thu, 04 Jun 2026 08:14:28 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/world-steel-in-figures-2026-now-available/",
+      "summary": "<p>World Steel in Figures provides a snapshot of of today’s steel industry, including top steel producers, production by country and processes, demand, trade, and much more.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/world-steel-in-figures-2026-now-available/\">World Steel in Figures 2026 now available</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain",
+      "source": "World Steel Association",
+      "date": "Thu, 18 Jun 2026 14:28:23 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain-2/",
+      "summary": "<p>Tata Steel and Google Cloud today announced a major expansion of their strategic partnership to architect the future of steel and advance Tata Steel’s unified, enterprise-wide agentic AI strategy.</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain-2/\">Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
+    },
+    {
+      "title": "Access Temporarily Restricted",
+      "source": "World Steel Association",
+      "date": "Tue, 21 Jul 2026 07:50:22 +0000",
+      "url": "https://worldsteel.org/access-temporarily-restricted/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/access-temporarily-restricted/\">Access Temporarily Restricted</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "15th China International Steel Congress |19-20 September 2026 | Shanghai, China",
+      "source": "World Steel Association",
+      "date": "Thu, 25 Jun 2026 08:47:24 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/15th-china-international-steel-congress-19-20-september-2026-shanghai-china/",
+      "summary": "<p>China International Steel Congress is a high-level conference focusing on the profound, overall and strategic issues of development of the steel industry.</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/15th-china-international-steel-congress-19-20-september-2026-shanghai-china/\">15th China International Steel Congress |19-20 September 2026 | Shanghai, China</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Top Producers 2025/2024",
+      "source": "World Steel Association",
+      "date": "Thu, 04 Jun 2026 09:21:08 +0000",
+      "url": "https://worldsteel.org/data/top-steel-producers/",
+      "summary": "<p>Global steel industry data: A list of the top 50 largest steel-producing companies in the world in 2025. </p>\n<p>The post <a href=\"https://worldsteel.org/data/top-steel-producers/\">Top Producers 2025/2024</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Baowu: From 13 Days to 6 – How Collaboration Turned a Slow Canal into a Fast Lane",
+      "source": "World Steel Association",
+      "date": "Sun, 24 May 2026 08:42:20 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/baowu-from-13-days-to-6-how-collaboration-turned-a-slow-canal-into-a-fast-lane/",
+      "summary": "<p>What's cheaper than a truck and faster than the vehicle you know? A smarter water route.</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/baowu-from-13-days-to-6-how-collaboration-turned-a-slow-canal-into-a-fast-lane/\">Baowu: From 13 Days to 6 – How Collaboration Turned a Slow Canal into a Fast Lane</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
+      "source": "Instituto Aço Brasil",
+      "date": "Mon, 24 Jun 2019 18:40:14 +0000",
+      "url": "https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/",
+      "summary": "<p>Há quatro semanas, a estimativa de crescimento era de 1,23% A expectativa de alta para o Produto Interno Bruto (PIB) em 2019 recuou mais uma vez, agora de 0,93% para 0,87%, conforme o Relatório de Mercado Focus divulgado na manhã desta segunda-feira, 24, pelo Banco Central. Há quatro semanas, a estimativa de crescimento era de [&#8230;]</p>\n<p>The post <a href=\"https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/\">Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus</a> appeared first on <a href=\"https://www.acobrasil.org.br/site\">Instituto Aço Brasil</a>.</p>",
+      "category": "industry",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    }
+  ]
 }
