@@ -18,8 +18,28 @@ SOURCES = [
         "category": "research"
     },
     {
+        "name": "MIT News — Materials Processing",
+        "url": "https://news.mit.edu/rss/topic/materials-processing",
+        "category": "research"
+    },
+    {
         "name": "NIMS Japan",
         "url": "https://www.nims.go.jp/eng/news/atom.xml",
+        "category": "research"
+    },
+    {
+        "name": "Tohoku University — Materials",
+        "url": "https://www.tohoku.ac.jp/en/news/research/rss.xml",
+        "category": "research"
+    },
+    {
+        "name": "AGH — JCME",
+        "url": "https://journals.agh.edu.pl/jcme/gateway/plugin/WebFeedGatewayPlugin/rss2",
+        "category": "research"
+    },
+    {
+        "name": "Silesian University of Technology",
+        "url": "https://www.polsl.pl/en/feed/",
         "category": "research"
     },
     
@@ -37,6 +57,21 @@ SOURCES = [
     {
         "name": "Instituto Aço Brasil",
         "url": "https://acobrasil.org.br/site/feed/",
+        "category": "industry"
+    },
+    {
+        "name": "SteelOnTheNet",
+        "url": "https://www.steelonthenet.com/feed/",
+        "category": "industry"
+    },
+    {
+        "name": "EUROFER",
+        "url": "https://www.eurofer.eu/news/rss/",
+        "category": "industry"
+    },
+    {
+        "name": "European Commission — Trade",
+        "url": "https://ec.europa.eu/trade/rss/",
         "category": "industry"
     }
 ]
@@ -186,6 +221,7 @@ LOW_SERIOUSNESS_TERMS = {
 # ============================================================
 
 SERIOUSNESS_TERMS = {
+    # Inglês
     "million": 5,
     "billion": 6,
     "tonnes": 5,
@@ -220,6 +256,22 @@ SERIOUSNESS_TERMS = {
     "agreement": 4,
     "trade": 5,
     "market": 4,
+    
+    # Português
+    "toneladas": 5,
+    "investimento": 6,
+    "produção": 5,
+    "exportação": 5,
+    "importação": 5,
+    "preço": 5,
+    "tarifa": 6,
+    "imposto": 5,
+    "usina": 5,
+    "aquisição": 6,
+    "fusão": 6,
+    "expansão": 6,
+    "construção": 5,
+    "mercado": 4,
 }
 
 
@@ -385,8 +437,8 @@ def process_source(source):
             article["summary"]
         )
 
-        # Mínimo para entrar no sistema
-        if relevance < 2:
+        # Mínimo para entrar no sistema restaurado para maior rigor
+        if relevance < 5:
             continue
 
         processed.append({
