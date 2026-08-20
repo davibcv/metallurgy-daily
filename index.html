@@ -3,303 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Metallurgy Daily</title>
-
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <!-- =====================================================
-         CABEÇALHO
-    ====================================================== -->
-
     <header class="site-header">
-
         <div class="header-content">
-
             <div>
-                <h1>Metallurgy Daily <span style="font-size: 0.4em; color: var(--gold); vertical-align: super;">v1.3</span></h1>
-
-                <p>
-                    Aços • Ferros Fundidos • Siderurgia • Materiais
-                </p>
+                <h1>Metallurgy Daily <span style="font-size: 0.4em; color: var(--gold); vertical-align: super;">v1.4</span></h1>
+                <p>Aços • Ferros Fundidos • Siderurgia • Materiais</p>
             </div>
-
             <div class="header-date" id="currentDate"></div>
-
         </div>
-
     </header>
 
-
-    <!-- =====================================================
-         CONTEÚDO PRINCIPAL
-    ====================================================== -->
-
     <main class="main-container">
-
-
-        <!-- =================================================
-             FAIXA 1 — PESQUISAS
-        ================================================== -->
-
         <section class="news-section">
-
             <div class="section-title">
-
                 <div>
                     <span class="section-label">PESQUISA</span>
-
-                    <h2>
-                        Pesquisas recentes
-                    </h2>
-
-                    <p>
-                        Aços, ferros fundidos e tecnologias relacionadas
-                    </p>
+                    <h2>Pesquisas recentes</h2>
+                    <p>Aços, ferros fundidos e tecnologias relacionadas</p>
                 </div>
-
                 <div class="carousel-controls">
-
-                    <button
-                        class="carousel-button"
-                        id="researchPrev"
-                        aria-label="Pesquisas anteriores">
-                        ←
-                    </button>
-
-                    <button
-                        class="carousel-button"
-                        id="researchNext"
-                        aria-label="Próximas pesquisas">
-                        →
-                    </button>
-
+                    <button class="carousel-button" id="researchPrev" aria-label="Pesquisas anteriores">←</button>
+                    <button class="carousel-button" id="researchNext" aria-label="Próximas pesquisas">→</button>
                 </div>
-
             </div>
-
-
             <div class="carousel-wrapper">
-
-                <div
-                    class="carousel"
-                    id="researchCarousel">
-
-                    <!-- Os cartões serão criados pelo JavaScript -->
-
-                </div>
-
+                <div class="carousel" id="researchCarousel"></div>
             </div>
-
         </section>
-
-
-
-        <!-- =================================================
-             FAIXA 2 — NOTÍCIAS
-        ================================================== -->
 
         <section class="news-section">
-
             <div class="section-title">
-
                 <div>
-
-                    <span class="section-label">
-                        INDÚSTRIA
-                    </span>
-
-                    <h2>
-                        Mundo do aço e ferro fundido
-                    </h2>
-
-                    <p>
-                        Indústria • Comércio • Energia • Mineração • Geopolítica
-                    </p>
-
+                    <span class="section-label">INDÚSTRIA</span>
+                    <h2>Mundo do aço e ferro fundido</h2>
+                    <p>Indústria • Comércio • Energia • Mineração • Geopolítica</p>
                 </div>
-
-
                 <div class="carousel-controls">
-
-                    <button
-                        class="carousel-button"
-                        id="industryPrev"
-                        aria-label="Notícias anteriores">
-                        ←
-                    </button>
-
-                    <button
-                        class="carousel-button"
-                        id="industryNext"
-                        aria-label="Próximas notícias">
-                        →
-                    </button>
-
+                    <button class="carousel-button" id="industryPrev" aria-label="Notícias anteriores">←</button>
+                    <button class="carousel-button" id="industryNext" aria-label="Próximas notícias">→</button>
                 </div>
-
             </div>
-
-
             <div class="carousel-wrapper">
-
-                <div
-                    class="carousel"
-                    id="industryCarousel">
-
-                    <!-- Os cartões serão criados pelo JavaScript -->
-
-                </div>
-
+                <div class="carousel" id="industryCarousel"></div>
             </div>
-
         </section>
-
-
-
-        <!-- =================================================
-             QUADRO DE LEITURA
-        ================================================== -->
 
         <section class="reading-board-section">
-
             <div class="board-header">
-
-                <span class="section-label">
-                    QUADRO DE LEITURA
-                </span>
-
-                <h2 id="boardTitle">
-                    Selecione uma pesquisa ou notícia
-                </h2>
-
+                <span class="section-label">QUADRO DE LEITURA</span>
+                <h2 id="boardTitle">Selecione uma pesquisa ou notícia</h2>
             </div>
-
-
-            <article
-                class="reading-board"
-                id="readingBoard">
-
+            <article class="reading-board" id="readingBoard">
                 <div class="board-placeholder">
-
-                    <div class="placeholder-icon">
-                        ⚙
-                    </div>
-
-                    <h3>
-                        Seu quadro de leitura
-                    </h3>
-
-                    <p>
-                        Clique em qualquer cartão acima e escolha
-                        <strong>“Ver no Quadro”</strong> para ler
-                        a matéria nesta área.
-                    </p>
-
+                    <div class="placeholder-icon">⚙</div>
+                    <h3>Seu quadro de leitura</h3>
+                    <p>Clique em qualquer cartão acima para ler o resumo da matéria nesta área.</p>
                 </div>
-
             </article>
-
         </section>
-
     </main>
 
-
-
-    <!-- =====================================================
-         POP-UP
-    ====================================================== -->
-
-    <div
-        class="modal-overlay"
-        id="articleModal"
-        aria-hidden="true">
-
-        <div
-            class="modal"
-            role="dialog"
-            aria-modal="true"
-            aria-labelledby="modalTitle">
-
-
-            <button
-                class="modal-close"
-                id="modalClose"
-                aria-label="Fechar">
-                ×
-            </button>
-
-
-            <span
-                class="section-label"
-                id="modalCategory">
-                PESQUISA
-            </span>
-
-
-            <h2 id="modalTitle">
-                Título da matéria
-            </h2>
-
-
-            <p
-                class="modal-source"
-                id="modalSource">
-                Fonte
-            </p>
-
-
-            <p
-                class="modal-description"
-                id="modalDescription">
-                Descrição da matéria.
-            </p>
-
-
-            <div class="modal-actions">
-
-                <button
-                    class="modal-button secondary"
-                    id="viewExternal">
-                    Ver no site
-                </button>
-
-                <button
-                    class="modal-button primary"
-                    id="viewBoard">
-                    Ver no Quadro
-                </button>
-
-            </div>
-
-        </div>
-
-    </div>
-
-
-
-    <!-- =====================================================
-         RODAPÉ
-    ====================================================== -->
-
     <footer class="site-footer">
-
-        <p>
-            Metallurgy Daily
-        </p>
-
-        <span>
-            Monitoramento de informações sobre a indústria dos metais ferrosos.
-        </span>
-
+        <p>Metallurgy Daily</p>
+        <span>Monitoramento de informações sobre a indústria dos metais ferrosos.</span>
     </footer>
 
-
-
     <script src="script.js"></script>
-
 </body>
 </html>
