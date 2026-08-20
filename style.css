@@ -1,32 +1,78 @@
-/* =========================================================
-   BOTÃO EXTERNO DO QUADRO
-========================================================= */
-.board-external-btn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: var(--green);
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 8px;
-    font-size: 0.95rem;
-    font-weight: bold;
-    border: 1px solid var(--border);
-    transition: 0.2s;
-    z-index: 10;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metallurgy Daily</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.board-external-btn:hover {
-    background: var(--green-dark);
-    border-color: var(--gold);
-    color: white;
-}
+    <header class="site-header">
+        <div class="header-content">
+            <div>
+                <h1>Metallurgy Daily</h1>
+                <p>Aços • Ferros Fundidos • Siderurgia • Materiais</p>
+            </div>
+            <div class="header-date" id="currentDate"></div>
+        </div>
+    </header>
 
-@media (max-width: 700px) {
-    .board-external-btn {
-        position: relative;
-        display: inline-block;
-        margin-bottom: 20px;
-    }
-}
+    <main class="main-container">
+        <section class="news-section">
+            <div class="section-title">
+                <div>
+                    <span class="section-label">PESQUISA</span>
+                    <h2>Pesquisas recentes</h2>
+                    <p>Aços, ferros fundidos e tecnologias relacionadas</p>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-button" id="researchPrev" aria-label="Pesquisas anteriores">←</button>
+                    <button class="carousel-button" id="researchNext" aria-label="Próximas pesquisas">→</button>
+                </div>
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel" id="researchCarousel"></div>
+            </div>
+        </section>
+
+        <section class="news-section">
+            <div class="section-title">
+                <div>
+                    <span class="section-label">INDÚSTRIA</span>
+                    <h2>Mundo do aço e ferro fundido</h2>
+                    <p>Indústria • Comércio • Energia • Mineração • Geopolítica</p>
+                </div>
+                <div class="carousel-controls">
+                    <button class="carousel-button" id="industryPrev" aria-label="Notícias anteriores">←</button>
+                    <button class="carousel-button" id="industryNext" aria-label="Próximas notícias">→</button>
+                </div>
+            </div>
+            <div class="carousel-wrapper">
+                <div class="carousel" id="industryCarousel"></div>
+            </div>
+        </section>
+
+        <section class="reading-board-section">
+            <div class="board-header">
+                <span class="section-label">QUADRO DE LEITURA</span>
+                <h2 id="boardTitle">Selecione uma pesquisa ou notícia</h2>
+            </div>
+            <article class="reading-board" id="readingBoard">
+                <div class="board-placeholder">
+                    <div class="placeholder-icon">⚙</div>
+                    <h3>Seu quadro de leitura</h3>
+                    <p>Clique em qualquer cartão acima para ler o resumo da matéria nesta área.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>Metallurgy Daily</p>
+        <span>Monitoramento de informações sobre a indústria dos metais ferrosos.</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
