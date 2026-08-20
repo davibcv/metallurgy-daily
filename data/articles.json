@@ -1,5 +1,66 @@
 {
-  "updatedAt": null,
-  "research": [],
+  "updatedAt": "2026-08-20T20:50:25.972329+00:00",
+  "research": [
+    {
+      "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
+      "source": "MIT News — Materials Processing",
+      "date": "Wed, 20 May 2026 14:50:00 -0400",
+      "url": "https://news.mit.edu/2026/steel-developed-at-mit-formula-one-baja-1000-mit-motorsports-0520",
+      "summary": "Ferrium C61 was designed with the aid of computers in a field pioneered at the Institute.",
+      "category": "research",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "MIT engineers whip up a more breathable hydrogel",
+      "source": "MIT News — Materials Science and Engineering",
+      "date": "Wed, 08 Jul 2026 11:00:00 -0400",
+      "url": "https://news.mit.edu/2026/mit-engineers-whip-up-more-breathable-hydrogel-0708",
+      "summary": "The new aerated material could enable longer-lasting bandages, implants, and wearable sensors.",
+      "category": "research",
+      "relevanceScore": 7,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Improving carbon nanotube consistency in the lab",
+      "source": "MIT News — Materials Processing",
+      "date": "Wed, 12 Feb 2014 17:00:00 -0500",
+      "url": "https://news.mit.edu/2014/mechanical-engineering-professor-graduate-student-automate-chemical-vapor-deposition-process-with-bench-top-robofurnace-bench-top-automation-in-the-lab-can-reduce-variation-in-carbon-nanotube-growth-as-well-as-enable-better-production-of-other-n",
+      "summary": "Bench-top 'Robofurnace' automates chemical vapor deposition process.",
+      "category": "research",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Advances in materials driving new technologies",
+      "source": "MIT News — Materials Processing",
+      "date": "Fri, 01 Nov 2013 18:42:00 -0400",
+      "url": "https://news.mit.edu/2013/advances-materials-driving-new-technologies",
+      "summary": "Quantum dots for lighting and television, specialty fibers for surgery, highlighted at annual MPC Materials Day",
+      "category": "research",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Controlling the growth of semiconducting nanowires",
+      "source": "MIT News — Materials Processing",
+      "date": "Fri, 13 Sep 2013 16:07:00 -0400",
+      "url": "https://news.mit.edu/2013/controlling-the-growth-of-semiconducting-nanowires",
+      "summary": "MIT doctoral candidate Sam Crawford has contributed to fundamental understanding of growth processes using metal seed particles.",
+      "category": "research",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Tuning metal-oxygen bond strength",
+      "source": "MIT News — Materials Processing",
+      "date": "Mon, 05 Aug 2013 15:55:18 -0400",
+      "url": "https://news.mit.edu/2013/tuning-metal-oxygen-bond-strength",
+      "summary": "Controlling spin state through strain could lead to better cathodes for solid oxide fuel cells",
+      "category": "research",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    }
+  ],
   "industry": []
 }
