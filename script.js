@@ -3,23 +3,37 @@
    JAVASCRIPT PRINCIPAL
 ========================================================= */
 
+
 /* =========================================================
    ELEMENTOS
 ========================================================= */
+
 const researchCarousel = document.getElementById("researchCarousel");
 const industryCarousel = document.getElementById("industryCarousel");
+
 const boardTitle = document.getElementById("boardTitle");
 const readingBoard = document.getElementById("readingBoard");
 
+
+
+/* =========================================================
+   CONTROLE DO QUADRO
+========================================================= */
+
 let selectedArticle = null;
+
+
 
 /* =========================================================
    BUSCA DOS DADOS REAIS
 ========================================================= */
+
 async function fetchArticles() {
+
     try {
+
         // Busca o arquivo JSON gerado pelo GitHub Actions
-        const response = await fetch('data/articles.json');
+        const response = await fetch("data/articles.json");
 
         if (!response.ok) {
             throw new Error(`Erro HTTP: ${response.status}`);
@@ -27,47 +41,92 @@ async function fetchArticles() {
 
         const data = await response.json();
 
+
         // Carrega os carrosséis com os dados reais
-        loadCarousel(researchCarousel, data.research || []);
-        loadCarousel(industryCarousel, data.industry || []);
+        loadCarousel(
+            researchCarousel,
+            data.research || []
+        );
+
+        loadCarousel(
+            industryCarousel,
+            data.industry || []
+        );
+
 
     } catch (error) {
-        console.error("Falha ao carregar as notícias:", error);
+
+        console.error(
+            "Falha ao carregar as notícias:",
+            error
+        );
+
 
         researchCarousel.innerHTML =
             "<p style='padding: 20px;'>Não foi possível carregar as pesquisas.</p>";
 
+
         industryCarousel.innerHTML =
             "<p style='padding: 20px;'>Não foi possível carregar as notícias.</p>";
+
     }
+
 }
+
+
 
 /* =========================================================
    CRIAÇÃO DOS CARTÕES
 ========================================================= */
+
 function createCard(article) {
+
     const card = document.createElement("article");
+
     card.className = "article-card";
 
-    // Formatação de data simplificada
+
+    // Formatação da data
     let displayDate = article.date;
 
-    if (displayDate && displayDate.length > 15) {
+
+    if (
+        displayDate &&
+        displayDate.length > 15
+    ) {
+
         const d = new Date(displayDate);
 
+
         if (!isNaN(d)) {
-            displayDate = d.toLocaleDateString("pt-BR", {
-                day: "2-digit",
-                month: "short",
-                year: "numeric"
-            });
+
+            displayDate =
+                d.toLocaleDateString(
+                    "pt-BR",
+                    {
+                        day: "2-digit",
+                        month: "short",
+                        year: "numeric"
+                    }
+                );
+
         }
+
     }
 
+
     card.innerHTML = `
+
         <div class="card-image">
-            ${article.category === 'research' ? 'PESQUISA' : 'INDÚSTRIA'}
+
+            ${
+                article.category === "research"
+                    ? "PESQUISA"
+                    : "INDÚSTRIA"
+            }
+
         </div>
+
 
         <div class="card-content">
 
@@ -75,41 +134,60 @@ function createCard(article) {
                 ${article.source}
             </div>
 
+
             <h3 class="card-title">
                 ${article.title}
             </h3>
+
 
             <div class="card-date">
                 ${displayDate}
             </div>
 
         </div>
+
     `;
 
+
     /*
-     * Ao clicar no cartão, a matéria vai diretamente
-     * para o quadro de leitura.
-     */
-    card.addEventListener("click", () => {
+       Agora o cartão vai diretamente para o quadro.
+       Não existe mais janela intermediária.
+    */
 
-        displayOnBoard(article);
+    card.addEventListener(
+        "click",
+        () => {
 
-        document.getElementById("readingBoard").scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        });
+            displayOnBoard(article);
 
-    });
+            document
+                .getElementById("readingBoard")
+                .scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                });
+
+        }
+    );
+
 
     return card;
+
 }
+
+
 
 /* =========================================================
    CARREGA OS CARTÕES
 ========================================================= */
-function loadCarousel(carousel, articles) {
+
+function loadCarousel(
+    carousel,
+    articles
+) {
 
     carousel.innerHTML = "";
+
 
     if (articles.length === 0) {
 
@@ -117,56 +195,87 @@ function loadCarousel(carousel, articles) {
             "<p style='padding: 20px; color: var(--text-secondary);'>Nenhuma matéria recente encontrada com os critérios atuais.</p>";
 
         return;
+
     }
 
-    articles.forEach(article => {
-        carousel.appendChild(createCard(article));
-    });
+
+    articles.forEach(
+        article => {
+
+            carousel.appendChild(
+                createCard(article)
+            );
+
+        }
+    );
+
 }
+
+
 
 /* =========================================================
    COLOCAR MATÉRIA NO QUADRO
 ========================================================= */
+
 function displayOnBoard(article) {
 
     selectedArticle = article;
 
-    boardTitle.textContent = article.title;
 
-    let displayDate = article.date;
+    boardTitle.textContent =
+        article.title;
 
-    const d = new Date(displayDate);
+
+    let displayDate =
+        article.date;
+
+
+    const d =
+        new Date(displayDate);
+
 
     if (!isNaN(d)) {
 
-        displayDate = d.toLocaleDateString("pt-BR", {
-            day: "2-digit",
-            month: "short",
-            year: "numeric"
-        });
+        displayDate =
+            d.toLocaleDateString(
+                "pt-BR",
+                {
+                    day: "2-digit",
+                    month: "short",
+                    year: "numeric"
+                }
+            );
 
     }
 
+
     const categoryLabel =
-        article.category === 'research'
-            ? 'PESQUISA'
-            : 'INDÚSTRIA';
+        article.category === "research"
+            ? "PESQUISA"
+            : "INDÚSTRIA";
+
 
     readingBoard.innerHTML = `
 
         <article class="board-article">
 
+
             <div class="board-article-top">
 
                 <div class="article-category">
+
                     ${categoryLabel}
+
                 </div>
+
 
                 <button
                     class="board-external-button"
                     id="boardExternalButton"
                     type="button">
+
                     Mostrar no site ↗
+
                 </button>
 
             </div>
@@ -178,59 +287,91 @@ function displayOnBoard(article) {
 
 
             <div class="article-meta">
-                ${article.source} • ${displayDate}
+
+                ${article.source}
+                •
+                ${displayDate}
+
             </div>
 
 
             <div class="article-body">
 
                 <p>
+
                     <strong>Resumo:</strong>
-                    ${article.summary || "Nenhum resumo fornecido pela fonte."}
+
+                    ${
+                        article.summary ||
+                        "Nenhum resumo fornecido pela fonte."
+                    }
+
                 </p>
+
 
                 <br>
 
+
                 <p>
+
                     <em>
-                        Este é um resumo da matéria original.
-                        Para acessar o conteúdo completo, utilize o botão
+                        Para consultar o conteúdo completo,
+                        utilize o botão
                         "Mostrar no site".
                     </em>
+
                 </p>
 
             </div>
 
+
         </article>
+
     `;
 
 
-    /* =====================================================
-       BOTÃO — MOSTRAR NO SITE
-    ===================================================== */
+    /*
+       Botão "Mostrar no site"
+    */
 
     const boardExternalButton =
-        document.getElementById("boardExternalButton");
+        document.getElementById(
+            "boardExternalButton"
+        );
 
-    boardExternalButton.addEventListener("click", () => {
 
-        if (selectedArticle && selectedArticle.url) {
+    if (
+        boardExternalButton &&
+        article.url
+    ) {
 
-            window.open(
-                selectedArticle.url,
-                "_blank",
-                "noopener,noreferrer"
-            );
+        boardExternalButton.addEventListener(
+            "click",
+            () => {
 
-        }
+                window.open(
+                    article.url,
+                    "_blank"
+                );
 
-    });
+            }
+        );
+
+    }
 
 }
+
+
 
 /* =========================================================
    CONTROLES DOS CARROSSÉIS
 ========================================================= */
+
+/*
+   O avanço corresponde aproximadamente à largura
+   de um cartão + seu espaçamento.
+*/
+
 function setupCarouselControls(
     carousel,
     previousButton,
@@ -239,95 +380,271 @@ function setupCarouselControls(
 
     const amount = 380;
 
-    previousButton.addEventListener("click", () => {
 
-        carousel.scrollBy({
-            left: -amount,
-            behavior: "smooth"
-        });
+    /*
+       Controle da rolagem automática.
+       Quando o usuário clica em uma seta,
+       interrompemos temporariamente o movimento
+       automático para que os dois comandos não
+       entrem em conflito.
+    */
 
-    });
+    let autoScrollPausedUntil = 0;
 
-    nextButton.addEventListener("click", () => {
 
-        carousel.scrollBy({
-            left: amount,
-            behavior: "smooth"
-        });
+    function pauseAutoScroll() {
 
-    });
+        autoScrollPausedUntil =
+            Date.now() + 5000;
+
+    }
+
+
+    previousButton.addEventListener(
+        "click",
+        () => {
+
+            pauseAutoScroll();
+
+
+            carousel.scrollBy({
+
+                left: -amount,
+
+                behavior: "smooth"
+
+            });
+
+        }
+    );
+
+
+    nextButton.addEventListener(
+        "click",
+        () => {
+
+            pauseAutoScroll();
+
+
+            carousel.scrollBy({
+
+                left: amount,
+
+                behavior: "smooth"
+
+            });
+
+        }
+    );
+
+
+    return {
+
+        isAutoScrollPaused() {
+
+            return (
+                Date.now() <
+                autoScrollPausedUntil
+            );
+
+        }
+
+    };
 
 }
 
-setupCarouselControls(
-    researchCarousel,
-    document.getElementById("researchPrev"),
-    document.getElementById("researchNext")
-);
 
-setupCarouselControls(
-    industryCarousel,
-    document.getElementById("industryPrev"),
-    document.getElementById("industryNext")
-);
+
+/* =========================================================
+   CONFIGURAÇÃO DOS CONTROLES
+========================================================= */
+
+const researchAutoControl =
+    setupCarouselControls(
+        researchCarousel,
+        document.getElementById(
+            "researchPrev"
+        ),
+        document.getElementById(
+            "researchNext"
+        )
+    );
+
+
+const industryAutoControl =
+    setupCarouselControls(
+        industryCarousel,
+        document.getElementById(
+            "industryPrev"
+        ),
+        document.getElementById(
+            "industryNext"
+        )
+    );
+
+
 
 /* =========================================================
    ROLAGEM AUTOMÁTICA
 ========================================================= */
-function startAutoScroll(carousel) {
+
+/*
+   Antes:
+       1px a cada 35ms
+       ≈ 28,6 px/s
+
+   Agora:
+       1px a cada 140ms
+       ≈ 7,1 px/s
+
+   A velocidade fica bem mais discreta e
+   permite acompanhar os títulos.
+*/
+
+function startAutoScroll(
+    carousel,
+    autoControl
+) {
 
     let direction = 1;
 
-    setInterval(() => {
 
-        const maxScroll =
-            carousel.scrollWidth - carousel.clientWidth;
+    setInterval(
+        () => {
 
-        if (maxScroll <= 0) return;
 
-        if (carousel.scrollLeft >= maxScroll - 5) {
-            direction = -1;
-        }
+            /*
+               Se o usuário acabou de usar
+               uma das setas, aguardamos.
+            */
 
-        if (carousel.scrollLeft <= 5) {
-            direction = 1;
-        }
+            if (
+                autoControl &&
+                autoControl.isAutoScrollPaused()
+            ) {
 
-        carousel.scrollBy({
-            left: direction * 1,
-            behavior: "auto"
-        });
+                return;
 
-    }, 35);
+            }
+
+
+            const maxScroll =
+                carousel.scrollWidth -
+                carousel.clientWidth;
+
+
+            /*
+               Se não existe conteúdo suficiente
+               para rolar, não fazemos nada.
+            */
+
+            if (maxScroll <= 0) {
+
+                return;
+
+            }
+
+
+            /*
+               Quando chega ao final,
+               muda de direção.
+            */
+
+            if (
+                carousel.scrollLeft >=
+                maxScroll - 2
+            ) {
+
+                direction = -1;
+
+            }
+
+
+            /*
+               Quando chega ao começo,
+               volta a avançar.
+            */
+
+            if (
+                carousel.scrollLeft <= 2
+            ) {
+
+                direction = 1;
+
+            }
+
+
+            carousel.scrollBy({
+
+                left: direction,
+
+                behavior: "auto"
+
+            });
+
+
+        },
+
+        140
+
+    );
 
 }
 
-startAutoScroll(researchCarousel);
-startAutoScroll(industryCarousel);
+
+
+/* =========================================================
+   INICIA A ROLAGEM AUTOMÁTICA
+========================================================= */
+
+startAutoScroll(
+    researchCarousel,
+    researchAutoControl
+);
+
+
+startAutoScroll(
+    industryCarousel,
+    industryAutoControl
+);
+
+
 
 /* =========================================================
    DATA ATUAL
 ========================================================= */
+
 function updateDate() {
 
     const element =
-        document.getElementById("currentDate");
+        document.getElementById(
+            "currentDate"
+        );
 
-    const today = new Date();
+
+    const today =
+        new Date();
+
 
     element.textContent =
-        today.toLocaleDateString("pt-BR", {
-            day: "2-digit",
-            month: "long",
-            year: "numeric"
-        });
+        today.toLocaleDateString(
+            "pt-BR",
+            {
+                day: "2-digit",
+                month: "long",
+                year: "numeric"
+            }
+        );
 
 }
 
-updateDate();
+
 
 /* =========================================================
    INICIALIZAÇÃO
 ========================================================= */
+
+updateDate();
+
 
 fetchArticles();
