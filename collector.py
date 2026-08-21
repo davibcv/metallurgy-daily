@@ -1,9 +1,16 @@
 import json
 import re
 import urllib.request
+import urllib.parse
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
+
+
+# ============================================================
+# METALLURGY DAILY
+# COLLECTOR
+# ============================================================
 
 
 # ============================================================
@@ -11,68 +18,98 @@ from pathlib import Path
 # ============================================================
 
 SOURCES = [
-    # --- PESQUISA ---
+
+    # --------------------------------------------------------
+    # PESQUISA
+    # --------------------------------------------------------
+
     {
         "name": "MIT News — Materials Science",
         "url": "https://news.mit.edu/rss/topic/materials-science-and-engineering",
-        "category": "research"
+        "category": "research",
+        "mode": "rss"
     },
+
     {
         "name": "MIT News — Materials Processing",
         "url": "https://news.mit.edu/rss/topic/materials-processing",
-        "category": "research"
+        "category": "research",
+        "mode": "rss"
     },
+
     {
         "name": "NIMS Japan",
-        "url": "https://www.nims.go.jp/eng/news/atom.xml",
-        "category": "research"
+        "url": "https://www.nims.go.jp/eng/siteinfo/rss-feed.html",
+        "category": "research",
+        "mode": "discover"
     },
+
     {
         "name": "Tohoku University — Materials",
-        "url": "https://www.tohoku.ac.jp/en/news/research/rss.xml",
-        "category": "research"
+        "url": "https://www.tohoku.ac.jp/en/news/research/index.html",
+        "category": "research",
+        "mode": "discover"
     },
+
     {
         "name": "AGH — JCME",
         "url": "https://journals.agh.edu.pl/jcme/gateway/plugin/WebFeedGatewayPlugin/rss2",
-        "category": "research"
+        "category": "research",
+        "mode": "rss"
     },
+
     {
         "name": "Silesian University of Technology",
         "url": "https://www.polsl.pl/en/feed/",
-        "category": "research"
+        "category": "research",
+        "mode": "rss"
     },
 
-    # --- INDÚSTRIA E MERCADO ---
+
+    # --------------------------------------------------------
+    # INDÚSTRIA E MERCADO
+    # --------------------------------------------------------
+
     {
         "name": "World Steel Association",
         "url": "https://worldsteel.org/feed/",
-        "category": "industry"
+        "category": "industry",
+        "mode": "rss"
     },
+
     {
         "name": "EUROMETAL",
         "url": "https://eurometal.net/feed/",
-        "category": "industry"
+        "category": "industry",
+        "mode": "rss"
     },
+
     {
         "name": "Instituto Aço Brasil",
         "url": "https://acobrasil.org.br/site/feed/",
-        "category": "industry"
+        "category": "industry",
+        "mode": "rss"
     },
+
     {
         "name": "SteelOnTheNet",
-        "url": "https://www.steelonthenet.com/feed/",
-        "category": "industry"
+        "url": "https://www.steelonthenet.com/steel-industry-feeds.php",
+        "category": "industry",
+        "mode": "discover"
     },
+
     {
         "name": "EUROFER",
-        "url": "https://www.eurofer.eu/news/rss/",
-        "category": "industry"
+        "url": "https://www.eurofer.eu/",
+        "category": "industry",
+        "mode": "discover"
     },
+
     {
         "name": "European Commission — Trade",
-        "url": "https://ec.europa.eu/trade/rss/",
-        "category": "industry"
+        "url": "https://policy.trade.ec.europa.eu/",
+        "category": "industry",
+        "mode": "discover"
     }
 ]
 
@@ -82,7 +119,7 @@ SOURCES = [
 # ============================================================
 
 RELEVANCE_TERMS = {
-    # Português
+
     "aço": 10,
     "siderurgia": 10,
     "siderúrgica": 10,
@@ -90,7 +127,6 @@ RELEVANCE_TERMS = {
     "minério": 5,
     "sucata": 5,
 
-    # Aço
     "steel": 10,
     "steels": 10,
     "steelmaking": 10,
@@ -98,7 +134,6 @@ RELEVANCE_TERMS = {
     "steelworks": 10,
     "steel production": 10,
 
-    # Ferro fundido
     "cast iron": 10,
     "ductile iron": 10,
     "nodular iron": 10,
@@ -107,13 +142,11 @@ RELEVANCE_TERMS = {
     "white iron": 10,
     "malleable iron": 10,
 
-    # Metalurgia
     "ferrous metallurgy": 8,
     "metallurgy": 8,
     "ironmaking": 8,
     "ferrous": 7,
 
-    # Processos
     "blast furnace": 7,
     "electric arc furnace": 7,
     "eaf": 7,
@@ -125,7 +158,6 @@ RELEVANCE_TERMS = {
     "casting": 7,
     "forging": 7,
 
-    # Comportamento
     "creep": 7,
     "fatigue": 7,
     "fracture": 7,
@@ -134,14 +166,12 @@ RELEVANCE_TERMS = {
     "microstructure": 7,
     "corrosion": 6,
 
-    # Tratamentos
     "heat treatment": 6,
     "quenching": 6,
     "tempering": 6,
     "annealing": 6,
     "normalizing": 6,
 
-    # Ligas
     "stainless steel": 6,
     "alloy steel": 6,
     "low-alloy steel": 6,
@@ -152,7 +182,6 @@ RELEVANCE_TERMS = {
     "chromium steel": 5,
     "nickel steel": 5,
 
-    # Indústria
     "steel plant": 6,
     "steel production": 6,
     "steel capacity": 6,
@@ -162,41 +191,49 @@ RELEVANCE_TERMS = {
 
 
 # ============================================================
-# TERMOS QUE REDUZEM A RELEVÂNCIA
+# TERMOS NEGATIVOS
 # ============================================================
 
 NEGATIVE_TERMS = {
+
     "ceramic": -10,
     "ceramics": -10,
+
     "polymer": -10,
     "polymers": -10,
+
     "plastic": -10,
     "plastics": -10,
+
     "composite": -10,
     "composites": -10,
 
     "biomaterial": -8,
     "biomaterials": -8,
+
     "tissue engineering": -8,
     "drug delivery": -8,
 
     "semiconductor": -8,
     "semiconductors": -8,
+
     "transistor": -8,
     "quantum computing": -8,
 
     "battery": -7,
     "batteries": -7,
+
     "lithium-ion": -7,
     "electrode": -7,
 }
 
 
 # ============================================================
-# TERMOS DE "LERO-LERO"
+# LERO-LERO
 # ============================================================
 
 LOW_SERIOUSNESS_TERMS = {
+
     "award": -7,
     "prize": -7,
     "congratulations": -7,
@@ -217,47 +254,54 @@ LOW_SERIOUSNESS_TERMS = {
 
 
 # ============================================================
-# TERMOS DE SERIEDADE
+# SERIEDADE
 # ============================================================
 
 SERIOUSNESS_TERMS = {
-    # Inglês
+
     "million": 5,
     "billion": 6,
     "tonnes": 5,
     "tons": 5,
     "mt": 5,
+
     "investment": 6,
     "capacity": 6,
     "production": 5,
+
     "export": 5,
     "exports": 5,
     "import": 5,
     "imports": 5,
+
     "price": 5,
     "prices": 5,
+
     "tariff": 6,
     "tariffs": 6,
+
     "tax": 5,
     "ore": 5,
     "scrap": 5,
     "furnace": 5,
     "plant": 5,
+
     "steelworks": 6,
     "installed capacity": 6,
     "commercial production": 6,
+
     "contract": 5,
     "acquisition": 6,
     "merger": 6,
     "closure": 6,
     "expansion": 6,
     "construction": 5,
+
     "project": 4,
     "agreement": 4,
     "trade": 5,
     "market": 4,
 
-    # Português
     "toneladas": 5,
     "investimento": 6,
     "produção": 5,
@@ -276,10 +320,11 @@ SERIOUSNESS_TERMS = {
 
 
 # ============================================================
-# FUNÇÕES
+# NORMALIZAÇÃO
 # ============================================================
 
 def normalize(text):
+
     if not text:
         return ""
 
@@ -289,68 +334,273 @@ def normalize(text):
     return text.strip().lower()
 
 
+# ============================================================
+# RELEVÂNCIA
+# ============================================================
+
 def calculate_relevance(title, summary):
+
     text = normalize(title + " " + summary)
 
     score = 0
 
     for term, points in RELEVANCE_TERMS.items():
+
         if term in text:
             score += points
 
     for term, points in NEGATIVE_TERMS.items():
+
         if term in text:
             score += points
 
     return score
 
 
+# ============================================================
+# SERIEDADE
+# ============================================================
+
 def calculate_seriousness(title, summary):
+
     text = normalize(title + " " + summary)
 
     score = 50
 
     for term, points in SERIOUSNESS_TERMS.items():
+
         if term in text:
             score += points
 
     for term, points in LOW_SERIOUSNESS_TERMS.items():
+
         if term in text:
             score += points
 
     return max(0, min(score, 100))
 
 
-def fetch_feed(url):
+# ============================================================
+# ACESSO HTTP
+# ============================================================
+
+def fetch_url(url):
+
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Pagina-Inicial-News-Aggregator/1.0"
+            "User-Agent":
+                "Mozilla/5.0 "
+                "(compatible; MetallurgyDaily/1.0; "
+                "+https://github.com/davibcv/metallurgy-daily)"
         }
     )
 
-    with urllib.request.urlopen(request, timeout=20) as response:
+    with urllib.request.urlopen(
+        request,
+        timeout=20
+    ) as response:
+
         return response.read()
 
 
+# ============================================================
+# DESCOBERTA AUTOMÁTICA DE RSS / ATOM
+# ============================================================
+
+def discover_feeds(page_url):
+
+    print("  Procurando feeds RSS/Atom na página oficial...")
+
+    try:
+
+        data = fetch_url(page_url)
+
+        html = data.decode(
+            "utf-8",
+            errors="ignore"
+        )
+
+    except Exception as error:
+
+        print(
+            f"  ERRO ao acessar página de descoberta: {error}"
+        )
+
+        return []
+
+
+    feeds = []
+
+    # --------------------------------------------------------
+    # Procura tags:
+    #
+    # <link rel="alternate"
+    #       type="application/rss+xml"
+    #       href="...">
+    #
+    # ou Atom
+    # --------------------------------------------------------
+
+    pattern = re.compile(
+        r'<link[^>]+'
+        r'(?:rel=["\']alternate["\'][^>]*'
+        r'type=["\'](?:application/rss\+xml|application/atom\+xml)["\']'
+        r'[^>]*|'
+        r'type=["\'](?:application/rss\+xml|application/atom\+xml)["\']'
+        r'[^>]*rel=["\']alternate["\'][^>]*)'
+        r'[^>]*href=["\']([^"\']+)["\']',
+        re.IGNORECASE
+    )
+
+    matches = pattern.findall(html)
+
+    for href in matches:
+
+        full_url = urllib.parse.urljoin(
+            page_url,
+            href
+        )
+
+        if full_url not in feeds:
+            feeds.append(full_url)
+
+
+    # --------------------------------------------------------
+    # Fallback: procura URLs que parecem feeds
+    # --------------------------------------------------------
+
+    if not feeds:
+
+        url_pattern = re.compile(
+            r'href=["\']([^"\']*(?:rss|feed|atom)[^"\']*)["\']',
+            re.IGNORECASE
+        )
+
+        matches = url_pattern.findall(html)
+
+        for href in matches:
+
+            full_url = urllib.parse.urljoin(
+                page_url,
+                href
+            )
+
+            if full_url not in feeds:
+                feeds.append(full_url)
+
+
+    print(
+        f"  Feeds candidatos encontrados: {len(feeds)}"
+    )
+
+    for feed in feeds[:10]:
+        print(f"    → {feed}")
+
+    return feeds
+
+
+# ============================================================
+# OBTÉM O FEED
+# ============================================================
+
+def get_feed_data(source):
+
+    if source["mode"] == "rss":
+
+        print(
+            f"  Usando URL RSS configurada diretamente."
+        )
+
+        return fetch_url(source["url"])
+
+
+    if source["mode"] == "discover":
+
+        candidates = discover_feeds(
+            source["url"]
+        )
+
+        if not candidates:
+
+            raise Exception(
+                "Nenhum feed RSS/Atom encontrado "
+                "automaticamente."
+            )
+
+
+        # ----------------------------------------------------
+        # Testa os candidatos até encontrar XML válido
+        # ----------------------------------------------------
+
+        for feed_url in candidates:
+
+            try:
+
+                print(
+                    f"  Testando feed: {feed_url}"
+                )
+
+                data = fetch_url(feed_url)
+
+                ET.fromstring(data)
+
+                print(
+                    f"  FEED VÁLIDO ENCONTRADO: "
+                    f"{feed_url}"
+                )
+
+                return data
+
+            except Exception as error:
+
+                print(
+                    f"  Feed rejeitado: {error}"
+                )
+
+
+        raise Exception(
+            "Foram encontrados candidatos, "
+            "mas nenhum retornou XML válido."
+        )
+
+
+    raise Exception(
+        f"Modo desconhecido: {source['mode']}"
+    )
+
+
+# ============================================================
+# EXTRAÇÃO DE TEXTO
+# ============================================================
+
 def get_text(element, names):
+
     for name in names:
+
         child = element.find(name)
 
         if child is not None and child.text:
+
             return child.text.strip()
 
     return ""
 
 
+# ============================================================
+# PARSER RSS / ATOM
+# ============================================================
+
 def parse_feed(data):
+
     root = ET.fromstring(data)
 
     articles = []
 
-    # ========================================================
+
+    # --------------------------------------------------------
     # RSS
-    # ========================================================
+    # --------------------------------------------------------
 
     for item in root.findall(".//item"):
 
@@ -383,18 +633,23 @@ def parse_feed(data):
         if title and link:
 
             articles.append({
+
                 "title": title,
                 "url": link,
                 "summary": summary,
                 "date": date
+
             })
 
 
-    # ========================================================
+    # --------------------------------------------------------
     # ATOM
-    # ========================================================
+    # --------------------------------------------------------
 
-    atom_namespace = "{http://www.w3.org/2005/Atom}"
+    atom_namespace = (
+        "{http://www.w3.org/2005/Atom}"
+    )
+
 
     for entry in root.findall(
         f".//{atom_namespace}entry"
@@ -412,12 +667,14 @@ def parse_feed(data):
             f"{atom_namespace}updated"
         )
 
+
         title = (
             title_element.text.strip()
             if title_element is not None
             and title_element.text
             else ""
         )
+
 
         summary = (
             summary_element.text.strip()
@@ -426,6 +683,7 @@ def parse_feed(data):
             else ""
         )
 
+
         date = (
             updated_element.text.strip()
             if updated_element is not None
@@ -433,11 +691,13 @@ def parse_feed(data):
             else ""
         )
 
+
         link = ""
 
         link_element = entry.find(
             f"{atom_namespace}link"
         )
+
 
         if link_element is not None:
 
@@ -446,14 +706,18 @@ def parse_feed(data):
                 ""
             )
 
+
         if title and link:
 
             articles.append({
+
                 "title": title,
                 "url": link,
                 "summary": summary,
                 "date": date
+
             })
+
 
     return articles
 
@@ -464,53 +728,78 @@ def parse_feed(data):
 
 def process_source(source):
 
-    print("")
+    print()
     print("=" * 70)
     print(f"FONTE: {source['name']}")
     print(f"CATEGORIA: {source['category']}")
-    print(f"URL: {source['url']}")
+    print(f"MODO: {source['mode']}")
+    print(f"PÁGINA/URL: {source['url']}")
     print("-" * 70)
+
+
+    # --------------------------------------------------------
+    # ACESSO
+    # --------------------------------------------------------
 
     try:
 
-        data = fetch_feed(
-            source["url"]
-        )
+        data = get_feed_data(source)
 
-        print("STATUS: acesso ao feed realizado com sucesso.")
+        print(
+            "STATUS: feed obtido com sucesso."
+        )
 
     except Exception as error:
 
-        print("STATUS: FALHA AO ACESSAR O FEED.")
-        print(f"ERRO: {error}")
+        print(
+            "STATUS: FALHA AO OBTER FEED."
+        )
+
+        print(
+            f"ERRO: {error}"
+        )
 
         return []
 
+
+    # --------------------------------------------------------
+    # PARSING
+    # --------------------------------------------------------
 
     try:
 
         raw_articles = parse_feed(data)
 
         print(
-            f"ARTIGOS ENCONTRADOS NO FEED: "
+            "STATUS: parsing realizado com sucesso."
+        )
+
+        print(
+            f"ARTIGOS ENCONTRADOS: "
             f"{len(raw_articles)}"
         )
 
     except Exception as error:
 
-        print("STATUS: FALHA AO INTERPRETAR O FEED.")
-        print(f"ERRO DE PARSING: {error}")
+        print(
+            "STATUS: FALHA AO INTERPRETAR FEED."
+        )
+
+        print(
+            f"ERRO DE PARSING: {error}"
+        )
 
         return []
 
 
+    # --------------------------------------------------------
+    # FILTRO
+    # --------------------------------------------------------
+
     processed = []
 
-    discarded_relevance = 0
+    discarded = []
 
-    # ========================================================
-    # ANÁLISE DAS MATÉRIAS
-    # ========================================================
 
     for article in raw_articles:
 
@@ -524,13 +813,16 @@ def process_source(source):
             article["summary"]
         )
 
-        # ----------------------------------------------------
-        # FILTRO ATUAL
-        # ----------------------------------------------------
 
         if relevance < 5:
 
-            discarded_relevance += 1
+            discarded.append({
+
+                "title": article["title"],
+                "relevance": relevance,
+                "seriousness": seriousness
+
+            })
 
             continue
 
@@ -538,27 +830,20 @@ def process_source(source):
         processed.append({
 
             "title": article["title"],
-
             "source": source["name"],
-
             "date": article["date"],
-
             "url": article["url"],
-
             "summary": article["summary"],
-
             "category": source["category"],
-
             "relevanceScore": relevance,
-
             "seriousnessScore": seriousness
 
         })
 
 
-    # ========================================================
-    # RESULTADO DO FILTRO
-    # ========================================================
+    # --------------------------------------------------------
+    # DIAGNÓSTICO
+    # --------------------------------------------------------
 
     print(
         f"MATÉRIAS APROVADAS: "
@@ -566,86 +851,92 @@ def process_source(source):
     )
 
     print(
-        f"MATÉRIAS DESCARTADAS POR RELEVÂNCIA: "
-        f"{discarded_relevance}"
+        f"MATÉRIAS DESCARTADAS: "
+        f"{len(discarded)}"
     )
 
-    # ========================================================
-    # MOSTRA ALGUNS EXEMPLOS
-    # ========================================================
 
-    if processed:
+    if discarded:
 
-        print("")
-        print("EXEMPLOS DE MATÉRIAS APROVADAS:")
-
-        # Mostra no máximo 5 para não poluir o log
-        examples = sorted(
-            processed,
+        discarded.sort(
             key=lambda article: (
-                article["relevanceScore"],
-                article["seriousnessScore"]
+                article["relevance"],
+                article["seriousness"]
             ),
             reverse=True
-        )[:5]
+        )
+
+
+        print()
+        print(
+            "PRINCIPAIS MATÉRIAS DESCARTADAS:"
+        )
+
 
         for index, article in enumerate(
-            examples,
+            discarded[:10],
             start=1
         ):
 
             print(
                 f"{index}. "
-                f"[R:{article['relevanceScore']} "
-                f"S:{article['seriousnessScore']}] "
+                f"[R:{article['relevance']} "
+                f"S:{article['seriousness']}] "
                 f"{article['title']}"
             )
 
-    elif raw_articles:
 
-        print("")
+    if processed:
+
+        print()
         print(
-            "ATENÇÃO: O feed possui matérias, "
-            "mas TODAS foram descartadas pelo filtro."
+            "EXEMPLOS DE MATÉRIAS APROVADAS:"
         )
 
-    else:
 
-        print("")
-        print(
-            "ATENÇÃO: O feed foi acessado, "
-            "mas nenhum artigo foi encontrado."
-        )
+        for index, article in enumerate(
+            processed[:5],
+            start=1
+        ):
+
+            print(
+                f"{index}. "
+                f"[R:{article['relevance']} "
+                f"S:{article['seriousness']}] "
+                f"{article['title']}"
+            )
 
 
     return processed
 
 
 # ============================================================
-# EXECUÇÃO
+# EXECUÇÃO PRINCIPAL
 # ============================================================
 
 def main():
 
-    print("")
+    print()
     print("=" * 70)
-    print("METALLURGY DAILY — DIAGNÓSTICO DO COLETOR")
+    print(
+        "METALLURGY DAILY — COLETOR"
+    )
     print("=" * 70)
-    print("")
+
 
     all_articles = []
 
-    # --------------------------------------------------------
-    # ESTATÍSTICAS POR FONTE
-    # --------------------------------------------------------
 
     source_statistics = []
 
-    # ========================================================
+
+    # --------------------------------------------------------
     # CONSULTA TODAS AS FONTES
-    # ========================================================
+    # --------------------------------------------------------
 
     for source in SOURCES:
+
+        before = len(all_articles)
 
         articles = process_source(
             source
@@ -658,19 +949,17 @@ def main():
         source_statistics.append({
 
             "source": source["name"],
-
-            "category": source["category"],
-
             "approved": len(articles)
 
         })
 
 
-    # ========================================================
+    # --------------------------------------------------------
     # REMOVE DUPLICATAS
-    # ========================================================
+    # --------------------------------------------------------
 
     unique = {}
+
 
     for article in all_articles:
 
@@ -682,16 +971,15 @@ def main():
     )
 
 
-    # ========================================================
+    # --------------------------------------------------------
     # ORDENAÇÃO
-    # ========================================================
+    # --------------------------------------------------------
 
     all_articles.sort(
 
         key=lambda article: (
 
             article["relevanceScore"],
-
             article["seriousnessScore"]
 
         ),
@@ -701,9 +989,9 @@ def main():
     )
 
 
-    # ========================================================
-    # SEPARAÇÃO POR CATEGORIA
-    # ========================================================
+    # --------------------------------------------------------
+    # SEPARAÇÃO
+    # --------------------------------------------------------
 
     research = [
 
@@ -727,54 +1015,9 @@ def main():
     ]
 
 
-    # ========================================================
-    # RESUMO FINAL DO DIAGNÓSTICO
-    # ========================================================
-
-    print("")
-    print("")
-    print("=" * 70)
-    print("RESUMO GERAL")
-    print("=" * 70)
-
-    print(
-        f"TOTAL DE MATÉRIAS APROVADAS: "
-        f"{len(all_articles)}"
-    )
-
-    print(
-        f"PESQUISAS APROVADAS: "
-        f"{len(research)}"
-    )
-
-    print(
-        f"NOTÍCIAS DE INDÚSTRIA APROVADAS: "
-        f"{len(industry)}"
-    )
-
-    print("")
-    print("APROVAÇÕES POR FONTE:")
-    print("-" * 70)
-
-
-    # ========================================================
-    # MOSTRA QUANTAS CADA FONTE FORNECEU
-    # ========================================================
-
-    for statistic in source_statistics:
-
-        print(
-
-            f"{statistic['source']}: "
-            f"{statistic['approved']} "
-            f"matérias aprovadas"
-
-        )
-
-
-    # ========================================================
-    # DADOS PARA O SITE
-    # ========================================================
+    # --------------------------------------------------------
+    # SAÍDA
+    # --------------------------------------------------------
 
     output = {
 
@@ -792,13 +1035,10 @@ def main():
     }
 
 
-    # ========================================================
-    # SALVA ARTICLES.JSON
-    # ========================================================
-
     output_path = Path(
         "data/articles.json"
     )
+
 
     output_path.write_text(
 
@@ -813,29 +1053,62 @@ def main():
     )
 
 
-    # ========================================================
-    # RESULTADO FINAL
-    # ========================================================
+    # --------------------------------------------------------
+    # RESUMO
+    # --------------------------------------------------------
 
-    print("")
+    print()
     print("=" * 70)
-    print("ARQUIVO articles.json ATUALIZADO")
+    print(
+        "RESUMO FINAL"
+    )
     print("=" * 70)
+
 
     print(
-        f"Enviadas para o site: "
-        f"{len(research[:30])} pesquisas e "
-        f"{len(industry[:30])} notícias."
+        f"TOTAL APROVADO: "
+        f"{len(all_articles)}"
     )
 
-    print("")
-    print("DIAGNÓSTICO CONCLUÍDO.")
+    print(
+        f"PESQUISAS: "
+        f"{len(research)}"
+    )
+
+    print(
+        f"INDÚSTRIA: "
+        f"{len(industry)}"
+    )
+
+
+    print()
+    print(
+        "APROVAÇÕES POR FONTE:"
+    )
+
+    print("-" * 70)
+
+
+    for statistic in source_statistics:
+
+        print(
+            f"{statistic['source']}: "
+            f"{statistic['approved']}"
+        )
+
+
+    print()
+    print("=" * 70)
+    print(
+        "articles.json ATUALIZADO"
+    )
     print("=" * 70)
 
 
 # ============================================================
-# INICIALIZAÇÃO
+# START
 # ============================================================
 
 if __name__ == "__main__":
+
     main()
