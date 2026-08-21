@@ -45,8 +45,8 @@ SOURCES = [
     },
 
     {
-        "name": "Tohoku University — Materials",
-        "url": "https://www.tohoku.ac.jp/en/news/research/index.html",
+        "name": "Tohoku University — Materials Research",
+        "url": "https://www.imr.tohoku.ac.jp/en/news/",
         "category": "research",
         "mode": "discover"
     },
@@ -59,10 +59,10 @@ SOURCES = [
     },
 
     {
-        "name": "Silesian University of Technology",
-        "url": "https://www.polsl.pl/en/feed/",
+        "name": "Silesian University of Technology — Materials of the Future",
+        "url": "https://www.polsl.pl/pob3/en/",
         "category": "research",
-        "mode": "rss"
+        "mode": "discover"
     },
 
 
@@ -79,9 +79,9 @@ SOURCES = [
 
     {
         "name": "EUROMETAL",
-        "url": "https://eurometal.net/feed/",
+        "url": "https://eurometal.net/news/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "discover"
     },
 
     {
@@ -100,18 +100,25 @@ SOURCES = [
 
     {
         "name": "EUROFER",
-        "url": "https://www.eurofer.eu/",
+        "url": "https://www.eurofer.eu/about-steel/latest-updates",
         "category": "industry",
         "mode": "discover"
     },
 
     {
         "name": "European Commission — Trade",
-        "url": "https://policy.trade.ec.europa.eu/",
+        "url": "https://commission.europa.eu/news-and-media/highlighted-news_en",
         "category": "industry",
         "mode": "discover"
     }
 ]
+
+
+# ============================================================
+# LIMITE POR FONTE
+# ============================================================
+
+MAX_RESEARCH_PER_SOURCE = 2
 
 
 # ============================================================
@@ -434,23 +441,21 @@ def discover_feeds(page_url):
 
 
     # --------------------------------------------------------
-    # Procura tags:
-    #
-    # <link rel="alternate"
-    #       type="application/rss+xml"
-    #       href="...">
-    #
-    # ou Atom
+    # Procura links RSS / Atom
     # --------------------------------------------------------
 
     pattern = re.compile(
         r'<link[^>]+'
-        r'(?:rel=["\']alternate["\'][^>]*'
+        r'(?:'
+        r'rel=["\']alternate["\'][^>]*'
         r'type=["\'](?:application/rss\+xml|application/atom\+xml)["\']'
-        r'[^>]*|'
+        r'[^>]*'
+        r'|'
         r'type=["\'](?:application/rss\+xml|application/atom\+xml)["\']'
-        r'[^>]*rel=["\']alternate["\'][^>]*)'
-        r'[^>]*href=["\']([^"\']+)["\']',
+        r'[^>]*'
+        r'rel=["\']alternate["\'][^>]*'
+        r')'
+        r'href=["\']([^"\']+)["\']',
         re.IGNORECASE
     )
 
@@ -464,17 +469,18 @@ def discover_feeds(page_url):
         )
 
         if full_url not in feeds:
+
             feeds.append(full_url)
 
 
     # --------------------------------------------------------
-    # Fallback: procura URLs que parecem feeds
+    # Procura URLs que parecem feeds
     # --------------------------------------------------------
 
     if not feeds:
 
         url_pattern = re.compile(
-            r'href=["\']([^"\']*(?:rss|feed|atom)[^"\']*)["\']',
+            r'(?:href|src)=["\']([^"\']*(?:rss|feed|atom)[^"\']*)["\']',
             re.IGNORECASE
         )
 
@@ -487,7 +493,15 @@ def discover_feeds(page_url):
                 href
             )
 
+            # Ignora links que obviamente não são feeds
+            if (
+                full_url.startswith("mailto:")
+                or "feedly.com" in full_url
+            ):
+                continue
+
             if full_url not in feeds:
+
                 feeds.append(full_url)
 
 
@@ -496,7 +510,11 @@ def discover_feeds(page_url):
     )
 
     for feed in feeds[:10]:
-        print(f"    → {feed}")
+
+        print(
+            f"    → {feed}"
+        )
+
 
     return feeds
 
@@ -513,7 +531,9 @@ def get_feed_data(source):
             "  Usando URL RSS configurada diretamente."
         )
 
-        return fetch_url(source["url"])
+        return fetch_url(
+            source["url"]
+        )
 
 
     if source["mode"] == "discover":
@@ -530,10 +550,6 @@ def get_feed_data(source):
             )
 
 
-        # ----------------------------------------------------
-        # Testa os candidatos até encontrar XML válido
-        # ----------------------------------------------------
-
         for feed_url in candidates:
 
             try:
@@ -542,12 +558,16 @@ def get_feed_data(source):
                     f"  Testando feed: {feed_url}"
                 )
 
-                data = fetch_url(feed_url)
+                data = fetch_url(
+                    feed_url
+                )
 
-                ET.fromstring(data)
+                ET.fromstring(
+                    data
+                )
 
                 print(
-                    f"  FEED VÁLIDO ENCONTRADO: "
+                    "  FEED VÁLIDO ENCONTRADO: "
                     f"{feed_url}"
                 )
 
@@ -664,6 +684,10 @@ def parse_feed(data):
             f"{atom_namespace}summary"
         )
 
+        content_element = entry.find(
+            f"{atom_namespace}content"
+        )
+
         updated_element = entry.find(
             f"{atom_namespace}updated"
         )
@@ -677,12 +701,21 @@ def parse_feed(data):
         )
 
 
-        summary = (
-            summary_element.text.strip()
-            if summary_element is not None
+        summary = ""
+
+        if (
+            summary_element is not None
             and summary_element.text
-            else ""
-        )
+        ):
+
+            summary = summary_element.text.strip()
+
+        elif (
+            content_element is not None
+            and content_element.text
+        ):
+
+            summary = content_element.text.strip()
 
 
         date = (
@@ -695,17 +728,29 @@ def parse_feed(data):
 
         link = ""
 
-        link_element = entry.find(
+
+        for link_element in entry.findall(
             f"{atom_namespace}link"
-        )
+        ):
 
-
-        if link_element is not None:
-
-            link = link_element.attrib.get(
+            href = link_element.attrib.get(
                 "href",
                 ""
             )
+
+            rel = link_element.attrib.get(
+                "rel",
+                ""
+            )
+
+            if href and (
+                not rel
+                or rel == "alternate"
+            ):
+
+                link = href
+
+                break
 
 
         if title and link:
@@ -731,11 +776,26 @@ def process_source(source):
 
     print()
     print("=" * 70)
-    print(f"FONTE: {source['name']}")
-    print(f"CATEGORIA: {source['category']}")
-    print(f"MODO: {source['mode']}")
-    print(f"PÁGINA/URL: {source['url']}")
-    print("-" * 70)
+
+    print(
+        f"FONTE: {source['name']}"
+    )
+
+    print(
+        f"CATEGORIA: {source['category']}"
+    )
+
+    print(
+        f"MODO: {source['mode']}"
+    )
+
+    print(
+        f"PÁGINA/URL: {source['url']}"
+    )
+
+    print(
+        "-" * 70
+    )
 
 
     # --------------------------------------------------------
@@ -744,7 +804,9 @@ def process_source(source):
 
     try:
 
-        data = get_feed_data(source)
+        data = get_feed_data(
+            source
+        )
 
         print(
             "STATUS: feed obtido com sucesso."
@@ -769,7 +831,9 @@ def process_source(source):
 
     try:
 
-        raw_articles = parse_feed(data)
+        raw_articles = parse_feed(
+            data
+        )
 
         print(
             "STATUS: parsing realizado com sucesso."
@@ -843,12 +907,50 @@ def process_source(source):
 
 
     # --------------------------------------------------------
+    # ORDENAÇÃO LOCAL
+    # --------------------------------------------------------
+
+    processed.sort(
+
+        key=lambda article: (
+
+            article["relevanceScore"],
+            article["seriousnessScore"]
+
+        ),
+
+        reverse=True
+
+    )
+
+
+    # --------------------------------------------------------
+    # LIMITE POR FONTE — SOMENTE PESQUISA
+    # --------------------------------------------------------
+
+    if source["category"] == "research":
+
+        selected = processed[
+            :MAX_RESEARCH_PER_SOURCE
+        ]
+
+    else:
+
+        selected = processed
+
+
+    # --------------------------------------------------------
     # DIAGNÓSTICO
     # --------------------------------------------------------
 
     print(
-        f"MATÉRIAS APROVADAS: "
+        f"MATÉRIAS APROVADAS PELO FILTRO: "
         f"{len(processed)}"
+    )
+
+    print(
+        f"MATÉRIAS SELECIONADAS PARA O SITE: "
+        f"{len(selected)}"
     )
 
     print(
@@ -860,11 +962,16 @@ def process_source(source):
     if discarded:
 
         discarded.sort(
+
             key=lambda article: (
+
                 article["relevance"],
                 article["seriousness"]
+
             ),
+
             reverse=True
+
         )
 
 
@@ -880,35 +987,39 @@ def process_source(source):
         ):
 
             print(
+
                 f"{index}. "
                 f"[R:{article['relevance']} "
                 f"S:{article['seriousness']}] "
                 f"{article['title']}"
+
             )
 
 
-    if processed:
+    if selected:
 
         print()
         print(
-            "EXEMPLOS DE MATÉRIAS APROVADAS:"
+            "MATÉRIAS SELECIONADAS DESTA FONTE:"
         )
 
 
         for index, article in enumerate(
-            processed[:5],
+            selected,
             start=1
         ):
 
             print(
+
                 f"{index}. "
                 f"[R:{article['relevanceScore']} "
                 f"S:{article['seriousnessScore']}] "
                 f"{article['title']}"
+
             )
 
 
-    return processed
+    return selected
 
 
 # ============================================================
@@ -919,14 +1030,15 @@ def main():
 
     print()
     print("=" * 70)
+
     print(
         "METALLURGY DAILY — COLETOR"
     )
+
     print("=" * 70)
 
 
     all_articles = []
-
 
     source_statistics = []
 
@@ -945,6 +1057,7 @@ def main():
             articles
         )
 
+
         source_statistics.append({
 
             "source": source["name"],
@@ -962,7 +1075,9 @@ def main():
 
     for article in all_articles:
 
-        unique[article["url"]] = article
+        unique[
+            article["url"]
+        ] = article
 
 
     all_articles = list(
@@ -971,7 +1086,7 @@ def main():
 
 
     # --------------------------------------------------------
-    # ORDENAÇÃO
+    # ORDENAÇÃO FINAL
     # --------------------------------------------------------
 
     all_articles.sort(
@@ -1039,6 +1154,12 @@ def main():
     )
 
 
+    output_path.parent.mkdir(
+        parents=True,
+        exist_ok=True
+    )
+
+
     output_path.write_text(
 
         json.dumps(
@@ -1058,9 +1179,11 @@ def main():
 
     print()
     print("=" * 70)
+
     print(
         "RESUMO FINAL"
     )
+
     print("=" * 70)
 
 
@@ -1091,16 +1214,20 @@ def main():
     for statistic in source_statistics:
 
         print(
+
             f"{statistic['source']}: "
             f"{statistic['approved']}"
+
         )
 
 
     print()
     print("=" * 70)
+
     print(
         "articles.json ATUALIZADO"
     )
+
     print("=" * 70)
 
 
