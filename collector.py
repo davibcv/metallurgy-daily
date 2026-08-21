@@ -118,7 +118,10 @@ SOURCES = [
 # LIMITE POR FONTE
 # ============================================================
 
-MAX_RESEARCH_PER_SOURCE = 2
+# Cada fonte, independentemente da categoria, pode fornecer
+# no máximo 2 artigos para o site.
+
+MAX_ARTICLES_PER_SOURCE = 2
 
 
 # ============================================================
@@ -190,7 +193,6 @@ RELEVANCE_TERMS = {
     "nickel steel": 5,
 
     "steel plant": 6,
-    "steel production": 6,
     "steel capacity": 6,
     "scrap": 5,
     "iron ore": 5,
@@ -412,12 +414,51 @@ def fetch_url(url):
 
 
 # ============================================================
+# REPARAÇÃO CONSERVADORA DE XML
+# ============================================================
+
+def repair_xml(data):
+
+    """
+    Alguns servidores entregam RSS quase válido, mas com
+    caracteres que quebram o parser XML padrão.
+
+    Esta função faz somente correções conservadoras:
+    - remove caracteres de controle inválidos;
+    - corrige '&' que não inicia uma entidade XML válida.
+    """
+
+    text = data.decode(
+        "utf-8",
+        errors="replace"
+    )
+
+    # Remove caracteres de controle proibidos em XML 1.0.
+    text = re.sub(
+        r"[\x00-\x08\x0B\x0C\x0E-\x1F]",
+        "",
+        text
+    )
+
+    # Corrige '&' que não fazem parte de uma entidade XML.
+    text = re.sub(
+        r"&(?!amp;|lt;|gt;|quot;|apos;|#\d+;|#x[0-9A-Fa-f]+;)",
+        "&amp;",
+        text
+    )
+
+    return text.encode("utf-8")
+
+
+# ============================================================
 # DESCOBERTA AUTOMÁTICA DE RSS / ATOM
 # ============================================================
 
 def discover_feeds(page_url):
 
-    print("  Procurando feeds RSS/Atom na página oficial...")
+    print(
+        "  Procurando feeds RSS/Atom na página oficial..."
+    )
 
     try:
 
@@ -497,6 +538,9 @@ def discover_feeds(page_url):
             if (
                 full_url.startswith("mailto:")
                 or "feedly.com" in full_url
+                or full_url.lower().endswith(
+                    (".png", ".jpg", ".jpeg", ".gif", ".svg")
+                )
             ):
                 continue
 
@@ -562,8 +606,10 @@ def get_feed_data(source):
                     feed_url
                 )
 
+                repaired = repair_xml(data)
+
                 ET.fromstring(
-                    data
+                    repaired
                 )
 
                 print(
@@ -571,7 +617,7 @@ def get_feed_data(source):
                     f"{feed_url}"
                 )
 
-                return data
+                return repaired
 
             except Exception as error:
 
@@ -613,6 +659,8 @@ def get_text(element, names):
 # ============================================================
 
 def parse_feed(data):
+
+    data = repair_xml(data)
 
     root = ET.fromstring(data)
 
@@ -909,13 +957,21 @@ def process_source(source):
     # --------------------------------------------------------
     # ORDENAÇÃO LOCAL
     # --------------------------------------------------------
+    #
+    # Primeiro relevância.
+    # Em caso de empate, seriedade.
+    #
+    # Isso garante que os 2 escolhidos da fonte sejam
+    # realmente os mais relevantes segundo o sistema atual.
+    # --------------------------------------------------------
 
     processed.sort(
 
         key=lambda article: (
 
             article["relevanceScore"],
-            article["seriousnessScore"]
+            article["seriousnessScore"],
+            article["date"]
 
         ),
 
@@ -925,18 +981,15 @@ def process_source(source):
 
 
     # --------------------------------------------------------
-    # LIMITE POR FONTE — SOMENTE PESQUISA
+    # LIMITE POR FONTE
+    # --------------------------------------------------------
+    #
+    # Vale tanto para RESEARCH quanto para INDUSTRY.
     # --------------------------------------------------------
 
-    if source["category"] == "research":
-
-        selected = processed[
-            :MAX_RESEARCH_PER_SOURCE
-        ]
-
-    else:
-
-        selected = processed
+    selected = processed[
+        :MAX_ARTICLES_PER_SOURCE
+    ]
 
 
     # --------------------------------------------------------
@@ -1088,13 +1141,34 @@ def main():
     # --------------------------------------------------------
     # ORDENAÇÃO FINAL
     # --------------------------------------------------------
+    #
+    # IMPORTANTE:
+    #
+    # A relevância é o primeiro critério.
+    #
+    # Portanto:
+    #
+    # R 50 / S 40
+    # vem antes de
+    # R 40 / S 90
+    #
+    # Mesmo que o segundo tenha maior seriedade.
+    #
+    # Em caso de empate de relevância:
+    # 1. seriedade
+    # 2. data
+    #
+    # Assim a ordem do JSON já corresponde à ordem desejada
+    # para a faixa de rolagem.
+    # --------------------------------------------------------
 
     all_articles.sort(
 
         key=lambda article: (
 
             article["relevanceScore"],
-            article["seriousnessScore"]
+            article["seriousnessScore"],
+            article["date"]
 
         ),
 
