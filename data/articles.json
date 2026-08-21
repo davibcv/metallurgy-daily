@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T14:12:14.626962+00:00",
+  "updatedAt": "2026-08-21T14:32:19.566211+00:00",
   "research": [
     {
       "title": "Theoretical Possibilities of Controlling the Cooling Rate in the Heat Treatment of Cast Iron with Water Mist",
@@ -19,146 +19,6 @@
       "summary": "<p>Due to the wide use of HSLA steels in difficult conditions, e.g. at low temperatures, it is extremely important to test the impact strength of these steels. This is equally important because most of those structures are made by welding these steels, and the welding process itself has a significant impact on the properties of joints and welding zones. In this work, the authors analyzed two selected representative HSLA steels rolled in the Krakow branch of ArcelorMittal Poland S.A. – the only place in Poland where HSLA steels in the form of hot-rolled strips can be produced on an industrial scale. Impact tests were performed in accordance with technical acceptance standards, and then the fracture surfaces after impact tests were characterized using light and scanning microscopy. In the next part of the work, a set of previously gathered data were analyzed to determine the influence of thermomechanical rolling process parameters on the level of impact strength and the influence of chemical composition on it.</p>",
       "category": "research",
       "relevanceScore": 40,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Determination of the Heat Transfer Coefficient in the Isothermal Quenching Process of ADI Cast Iron Cooled with Water Mist",
-      "source": "AGH — JCME",
-      "date": "Tue, 31 Mar 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7960",
-      "summary": "<p lang=\"en-US\" style=\"widows: 0; line-height: 150%; orphans: 0; margin-bottom: 0cm;\" align=\"justify\"><span style=\"color: #000000;\"><span style=\"font-family: Cambria, serif;\"><span style=\"font-size: small;\">Isothermal quenching of austempering cast iron (ADI) castings requires that, after austenitization the casting must be rapidly cooled to the temperature of isothermal austenite decomposition. The cooling rate throughout the entire volume of the heat-treated product must be high enough to prevent pearlitic transformation. At the same time, the temperature of the cooled surface must not decrease below the martensitic transformation start temperature Ms. The cooling rate of the casting surface is determined by factors such as the temperature difference between the surface of the cooled casting and the cooling medium, the thermal conductivity of cast iron, the heat transfer coefficient, and the wall thickness of the treated casting. In the case of cooling with water mist, the heat transfer coefficient depends on the temperature of the cooled surface. To control the cooling process of castings using water mist, information about this relationship for the temperature range of 200–800°C is needed. Available scientific publications on this subject contain contradictory data.<br>Therefore, a measuring station was built with the ability to set the temperature of the cooled surface. The station includes a measuring system that allows the measurement of the heat flux flowing from the heating element into the environment. The result of the research is the measurement of the relationship between the temperature of the cooled surface and the heat transfer coefficient. The values obtained will be used in the future to build a numerical model of ADI castings heat treatment. This work may contribute to the future replacement of salt baths (currently used for fast cooling and austempering) with water mist spraying. In this case, the low-temperature operation of austenite decomposition can be performed without the use of salt a bath.</span></span></span></p>",
-      "category": "research",
-      "relevanceScore": 35,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "The Impact of Wall Thickness on the Microstructure and Mechanical Properties of Austenitic High-Nickel Ductile Iron",
-      "source": "AGH — JCME",
-      "date": "Mon, 16 Mar 2026 00:00:00 +0100",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7879",
-      "summary": "<p>Austenitic ductile iron belongs to the cast iron group characterized by high nickel content, ranging from 18% to 36% by weight, which allows the formation of an austenitic metallic matrix. As a consequence, this cast iron group exhibits a combination of highly beneficial properties allowing utilization under extreme conditions and justifies the increased price of these cast iron grades. Some of the applications require complex castings with changing geometry and wall thicknesses. For this reason, the main objective of this study was to determine the possibility of obtaining castings with various degrees of wall thickness, including thin-walled: 3 mm, 5 mm, 13 mm and 25 mm, and good quality microstructures without defects as well as with mechanical properties on a similar level. For our investigations the austenitic ductile cast iron grade EN-GJSA-XNi22 was selected. Material characterization was carried out using optical microscopy, and static tensile test measurements. Additionally, the thermal analysis during crystallization was also determined. The investigations showed the highly homogeneous mechanical properties of castings with various wall thicknesses. The main differences in the microstructure parameters concerned the number and diameter of the graphite nodules.<span class=\"Apple-converted-space\"> </span></p>",
-      "category": "research",
-      "relevanceScore": 34,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Microstructure-Erosion Resistance Correlation in High Chromium Cast Iron: A Digital Image Processing Approach",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8227",
-      "summary": "<p>High chromium cast irons (HCCIs) are widely employed as wear-resistant hardfacing materials in industrial applications where solid particle erosion (SPE) represents a primary degradation mechanism, such as in energy production, mining, and cement manufacturing. The erosive wear resistance of these alloys is strongly dependent on the microstructural features of the primary M<sub>7</sub>C<sub>3 </sub>carbides, particularly their size, morphology, and spatial distribution within the metallic matrix. The quantitative relationship between carbide distribution homogeneity and erosion resistance has received limited attention in the literature. This study investigates the erosive wear resistance of a Fe-Cr-C cast iron hardfacing alloy and proposes three digital image processing methods to quantitatively characterise the carbide microstructure and correlate it with experimental erosion test results. Optical microscopy combined with image binarisation was used to segment primary M<sub>7</sub>C<sub>3</sub> carbides. Three methods were adopted: carbide volume fraction (CVF), minimum inter-carbide distances, and a moving scanning area approach. Erosion tests were conducted according to ASTM G76 guidelines using two Arizona road dust powder grades with two mean diameters under equal kinetic energy conditions. Results show that the erosion rate decreases significantly with the increasing erodent particle size and that carbide distribution homogeneity plays a critical role in determining the erosion resistance. The moving scanning area method proved particularly effective at correlating microstructural coverage with experimental erosion rates.</p>",
-      "category": "research",
-      "relevanceScore": 24,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Occurrence of Chunky graphite in ductile cast iron solution strengthened by silicon",
-      "source": "AGH — JCME",
-      "date": "Mon, 30 Jun 2025 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/6707",
-      "summary": "<p>Solution strengthened ferritic cast iron is characterised in EN 1563:2018 (and also in ISO 1083:2018) as grades EN-GJS-450-18, EN-GJS-500-14 and EN-GJS-600-10. Machine and plant builders have been using this material in new designs since 2011. The strength and ductile properties, competitive in comparison with the previous classical ductile cast iron grades, make it possible to reduce the weight of castings. Particularly preferred is grade EN-GJS-600-10 with UTS min. 600 MPa and A min. 10%. Strengthening of the ferritic matrix is possible due to the content of approximately 4.2% of silicon in the cast iron. In casting practice, this material is difficult to produce in a stable manner due to the frequent occurrence of degenerate Chunky graphite in the casting structure, resulting in a loss of ductile properties of the cast iron. In this article,&nbsp; an analysis has been made, based on literature, of the occurrence of strong negative segregation of silicon in classical ductile cast iron. Own research has confirmed the occurrence of chunky graphite in the cast. Dendritic crystallisation of austenite and strong segregation of silicon favours the formation of Chunky graphite. A much stronger proportion of silicon was found in the Chunky graphite zone, compared to the adjacent ball graphite zone.&nbsp; The introduction of micro-additives into the liquid melt eliminated the presence of Chunky graphite in the casting. The applied modifiers of graphite and metal matrix (hybrid modification) seem to be an effective method to stabilise the technological process of this innovative casting material.</p>",
-      "category": "research",
-      "relevanceScore": 24,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Influence of Cooling Rate on the Structure and Damping Properties of the AlSi6Cu4 Alloy",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Sep 2025 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7337",
-      "summary": "<p>The investigated alloy was cast as a shaft into seven casting molds. Casting molds made of different materials were characterized by different abilities to conduct heat from the sample. This property significantly influenced the cooling rate of the sample casting from the AlSi6Cu4 alloy. The highest cooling rate was achieved in a steel mold at 25°C and the lowest in a mold made of insulating mass. Different cooling rates significantly influenced the structure of the alloy. Different grain sizes were obtained and the morphology of the microstructure components changed. At the highest cooling rate of 16.63 K·s−1, a grain with an average size of 0.58 mm was obtained. However, in the mold with the lowest cooling rate of 0.36 K·s−1, the average grain size was 3.76 mm. Changes in the structure of the alloy also influenced its damping properties. The tested values f the vibration damping coefficient α indicated that the AlSi6Cu4 alloy cooling with the highest cooling rate has the highest value of damping coefficient. This is influenced by the grain size and shape of the silicon precipitates. The refinement structure and fragmented components effectively disperse the vibration wave in the structure of the casting alloy.</p>",
-      "category": "research",
-      "relevanceScore": 24,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Design of a Solidification Rate Measurement Experiment for Cast Steel in Molds Made of Different Sands Using Computer Simulation",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Sep 2025 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7401",
-      "summary": "<p>This article presents the design process of the casting technology for a step-shaped casting made of steel using simulation tools. A series of proposals for gating and feeding systems were simulated in the MAGMASoft® software. Results of numerical simulations allowed the Authors to select the casting technology which allows defect-free casting to be obtained. A numerical analysis of the cooling rate of a step-shaped casting made of GX70CrMnSiNiMo2 tool steel with a 5% Ti addition was carried out for the selected manufacturing technology. Due to the nature of the material used and the extended presence of martensite during cooling, in-mold hardening of the casting may occur. The simulations showed that the type of molding material affects the cooling rate, which is confirmed by the analysis of cooling curves and the morphology of shrinkage porosity. The analysis of solidification rates provides a valuable starting point and basis for subsequent research stages, taking into account the actual properties of the molding sands and the phase transformations occurring in the selected steel type. The casting technology design, which ensures the production of sound casting, was developed as part of this study. A series of simulations using different molding materials confirms the significant impact that the choice of mold material has on the casting solidification and cooling process.</p>",
-      "category": "research",
-      "relevanceScore": 23,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Influence of the Addition of Tellurium and Heat Treatmenton the Microstructure of Hypoeutectic White Cast Iron",
-      "source": "AGH — JCME",
-      "date": "Tue, 23 Dec 2025 00:00:00 +0100",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7428",
-      "summary": "<p>This study investigates how the addition of tellurium and heat treatment affects the microstructure of hypoeutectic white cast iron that has been modified with alloying elements such as titanium, chromium and vanadium. Samples with different chemical compositions were prepared and subjected to a two-step heat treatment process. Microstructural characterisation was performed using optical and scanning electron microscopy. The results show that introducing tellurium significantly affects the morphology of the cementite and carbide phases, causing them to fragment and become more evenly distributed. Furthermore, heat treatment enhanced matrix refinement and promoted phase stability. The combination of tellurium addition and heat treatment produced the most favourable microstructures, characterised by the high dispersion of hard phases within a fine-grained matrix.</p>",
-      "category": "research",
-      "relevanceScore": 23,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Solidification Process Modeling of Equiaxed Investment Castings with Transient Nonuniform Boundary Condition Definition",
-      "source": "AGH — JCME",
-      "date": "Sat, 30 Mar 2024 00:00:00 +0100",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/5893",
-      "summary": "<p>The equiaxed investment casting process is a multi-physics problem which requires knowledge from engineers who have expertise in materials, metallurgy, fluid dynamics, thermodynamics, and heat transfer. Process modeling is a tool used by foundries to help predict casting defects such as shrinkage porosity, hot tears, and poor grain structure. The reliability of these predictions is strongly dependent on the accuracy of the thermal boundary conditions set in the model. In this work, a SGT5-2000E Vane 4 cast in Rene 80 nickel-based superalloy was modeled, using the FEA simulation package ProCAST, with two different methodologies. One methodology had very little effort invested into defining the thermal domain. The other methodology involved a thorough consideration of all heat transfer mechanisms acting on the mold. An extensive literature search was performed to define a unique natural convection heat transfer coefficient for each set of surfaces on the mold. The transient boundary layer development was also captured in the definition of the heat conditions. The shrinkage porosity predictions of the models were compared to real-world x-ray data and the transient nonuniform methodology predictions were much more representative than the low fidelity heat transfer methodology predictions. The low fidelity heat transfer model did predict some shrinkage, but not where it appeared in reality. The process modeler will be misdirected by the model results when deriving a solution to the casting process if the real-world physics are not appropriately accounted for in the model. This will be very counterproductive when the foundry is using the model to reduce developmental trials by running trials in model space. References and derived parameters are provided for material properties, emissivity of shell and insulation wraps, and external mold spatially varying heat transfer coefficients.</p>",
-      "category": "research",
-      "relevanceScore": 22,
-      "seriousnessScore": 61
-    },
-    {
-      "title": "Selection of Molding Sands for Thin-Walled Cast Iron Castings Based on Their Selected Properties",
-      "source": "AGH — JCME",
-      "date": "Mon, 08 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7922",
-      "summary": "<p>The production process of thin-walled iron castings with complex shapes, characterized by high quality while maintaining the required properties, involves many steps. One of them is the appropriate selection of the technology for molding and core sands, taking into account strict environmental requirements. The need to meet high environmental standards is currently the dominant factor in the development of molding sands technologies. It is even being done at the expense of reducing the technological properties of the materials. As part of the development of molding compounds for thin-walled castings, two compounds with organic binders and two compounds with inorganic binders were tested. Tests were carried out on the tensile and bending strength, density, permeability, and friability of the compounds. Their thermophysical behavior was tested via the hot distortion parameter. The tests carried out on the molding sands showed that all the proposed mixtures have the appropriate properties for the production of thin-walled castings.</p> <p> </p>",
-      "category": "research",
-      "relevanceScore": 17,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "Reverse Engineering and Computer Modelling in Archaeometallurgy for the Reconstruction of Heritage Objects Using Precision Casting and 3D Printing",
-      "source": "AGH — JCME",
-      "date": "Tue, 23 Dec 2025 00:00:00 +0100",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7790",
-      "summary": "<p>This article presents an interdisciplinary approach to the reconstruction of a copper-alloy artefact using reverse engineering techniques combined with modern digital and manufacturing technologies. The research was motivated by the need to better understand historical casting techniques while preserving the integrity of cultural heritage objects through non-destructive methods. The study integrates 3D scanning, CAD-based modelling, numerical simulations, investment casting, and metal additive manufacturing. The geometry of the artefact was captured using high-resolution 3D scanning, enabling the development of two CAD models: one representing the preserved state of the object and a second reconstructed model with the missing fragment digitally restored. Both models were used for numerical simulations of mould filling, solidification, cooling, and porosity formation performed in MAGMASOFT® 6.1, allowing the assessment of technological feasibility and defect formation. Based on the simulation results, physical replicas were produced using investment casting and selective laser melting.<br />The obtained numerical and experimental results were compared in terms of geometry reproduction, surface characteristics, and predicted versus observed casting behaviour. The study demonstrates that the combination of digital reconstruction, simulation tools, and experimental manufacturing provides a reliable framework for analysing historical metallurgical processes. The proposed methodology supports both scientific interpretation and the practical reconstruction of heritage objects and can be applied to a wide range of archaeometallurgical studies.</p>",
-      "category": "research",
-      "relevanceScore": 15,
-      "seriousnessScore": 71
-    },
-    {
-      "title": "An Experimental Derivation of Transient Nonuniform External Boundary Conditions for the Solidification Process Modeling of Equiaxed Investment Castings",
-      "source": "AGH — JCME",
-      "date": "Mon, 30 Sep 2024 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/6487",
-      "summary": "<p>The external heat transfer mechanisms acting on the external mold surfaces for equiaxed casting processes are very complex. The mechanisms are multi-mode, transient, and nonuniform, consisting of very complex radiative and convective definitions. In this work, a real-life mold, SGT6-5000 FD 3/4 Blade 4 cast in Alloy-247, was instrumented with thermocouples and temperature readings were recorded throughout the entire casting sequence of events. Analytical models based on the first law of thermodynamics, Fourier’s law, Newton’s Law of Cooling, and diffuse gray radiation for an N-sided enclosure were developed to use the thermocouple data as input to back calculate the emissivity of the mold, as well as the spatially varying heat transfer coefficients for a number of local regions. The derived external heat transfer mechanisms are presented as transient Biot numbers. The derived emissivity and nonuniform heat transfer coefficients for these surfaces were then validated in ProCAST numerical simulation by comparing the external mold temperature profiles. An extensive iterative, curve fitting, extrapolating, and averaging procedure was exercised to derive an expression for emissivity across the entire temperature range associated with the casting process. The predicted temperatures on the nodes corresponding to the thermocouple locations agree within reasonable error with the experimental data. The model also qualitatively predicted the shrinkage porosity detected via x-ray imaging for this casting. The current study confirms the hypothesis of previous work by the current authors with respect to the transient nonuniform boundary condition concept. Unique values of heat transfer coefficients were observed at different vertical positions along the airfoil. The analytical models were also able to capture phenomena associated with specific sequences of the casting process. This work provides the analytical models, and procedure, needed to derive these spatially varying conditions. The current authors contribute to the intellectual know-how of the large gas turbine casting industry which by other foundries is considered highly proprietary and strictly confidential. This paper should be used to set the precedence for how foundries derive and validate the external boundary conditions used in solidification process modeling.</p>",
-      "category": "research",
-      "relevanceScore": 14,
-      "seriousnessScore": 62
-    },
-    {
-      "title": "Numerical Optimization of Investment‑Cast Wheel Components for Drone Applications using MAGMASOFT®",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8176",
-      "summary": "<p>Investment casting technology of thin‑walled components for drone applications requires precise filling and solidification control to minimise porosity and ensure structural integrity. Porosity is one of the most common defects found in castings, and its prediction and analysis are essential for improving the quality of complex superalloy components. In this work, porosity-related defects were examined using the MAGMASOFT® 6.1 numerical simulation software for casting, focusing on the filling and solidification behaviour of an investment casting wheel body component in drone applications. A series of simulations were performed, and two design and simulation versions were developed, analysed and compared.<br>The wheel body component selected for this work is made of IN713 superalloy. The numerical modelling included the assessment of porosity distribution, hot spot formation, filling behaviour, cooling, and solidification patterns. Fifteen combinations of alloy and shell initial temperatures were evaluated to determine the most favourable thermal conditions for reducing porosity, considering the specific geometry and casting characteristics of the wheel. Based on the initial results, the casting design was modified by adjusting the runner geometry and assembly configuration.<br>This study introduces a two-stage simulation approach to optimise porosity reduction. The second version of the simulations demonstrated a noticeable reduction in pores, particularly in critical regions of the wheel body. The findings can support drone component manufacturers in improving casting reliability. The results confirm that simulation-driven optimisation of the casting design and thermal parameters can significantly improve the quality of the components produced by investment casting technology.</p> <p> </p>",
-      "category": "research",
-      "relevanceScore": 14,
-      "seriousnessScore": 61
-    },
-    {
-      "title": "Effect of Titanium Alloying of Zn-Al-Cu Alloys for High Pressure Die Casting in Production Conditions",
-      "source": "AGH — JCME",
-      "date": "Fri, 15 Dec 2023 00:00:00 +0100",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/5943",
-      "summary": "<p>The paper presents the possibility of the industrial production of Zn4Al3Cu alloy with the addition of 0.41% Ti. Tests are described on the manner of introducing the ZnTi2 master alloy to the alloy, so that the chemical composition of the desirable elements proportion is obtained. The chemical persistence of the Zn4Al3CuTi was determined as low in the conditions of the long heating of the alloy before casting. Tests on the microstructure and mechanical properties of the obtained alloys were also conducted. The strength of the die-cast Zn4Al3Cu alloy was 265 MPa and, when measured on samples taken from the high pressure die-cast, it reached 369 MPa. It was determined that the addition of titanium to the Zn4Al3Cu alloy causes significant refinement of the structure and contributes to the formation of intermetallic phases.</p>",
-      "category": "research",
-      "relevanceScore": 14,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "Alloys for Hot Dip Galvanising on Thin-Walled Materials",
-      "source": "AGH — JCME",
-      "date": "Wed, 23 Oct 2024 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/6383",
-      "summary": "<p>The article reviews alloy additives to zinc and their impact on the quality of coatings achieved on structural steel. It also analyses the impact of the concentration of acid used for the chemical stripping of raw material on the zinc coating thickness of the steel. The zinc layer thickness changed depending on the concentration of alloy elements in the bath. It was stated that aluminium and bismuth have a low impact on the decrease in zinc coating thickness, while in the case of tin, a small change to the content (from 0.6% to 0.8%) significantly decreased the zinc layer thickness. Furthermore, it was found that, during the hot dip galvanising of steel, particular alloy elements are extracted from the bath. This results in the need to supplement alloy elements through periodical melting in for the purpose of maintaining the assumed bath composition. It was observed that, together with the increase in alloy elements concentration, zinc uptake (galvanised component weight ratio to black component weight) decreases, improving the process economics.</p>",
-      "category": "research",
-      "relevanceScore": 10,
       "seriousnessScore": 55
     },
     {
@@ -182,16 +42,6 @@
       "seriousnessScore": 60
     },
     {
-      "title": "Evaluation of 3D-printed Pattern Material for Heat-hardened Inorganic Moulds",
-      "source": "AGH — JCME",
-      "date": "Wed, 05 Jun 2024 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/5947",
-      "summary": "<p>Inorganic binders for sand moulding are currently of high interest due to the need to lessen our environmental impact and emissions. In this study, a heat hardened solid inorganic sodium silicate binder was tested with a 3D printed resin material to see how the use of such a material affected a silica mould’s quality, e.g. surface roughness. Results were compared to moulds made with metallic patterns. The unmodified binder had sticking issues when used with a metallic pattern, resulting in a rough as-moulded surface. Such issues were not seen with the printed resin patterns, also hinting at good performance with binders that contain performance increasing additives. The resin pattern material has a Heat Deflection Temperature (HDT) of 230°C, enabling the use of inorganic binders that require temperatures between 160–200°C to harden and dry. Additive manufacturing of such materials also allows designs for other hardening techniques than furnace heating, such as microwave heating. The moulds hardened with microwaves did not exhibit sticking issues. Additive manufacturing of tooling is a potential source of geometrical variation in final castings and are also studied in this work. In general, switching from traditional sand moulding patterns used with organic binder systems to inorganic systems, the patterns and core boxes need to be replaced by new ones made of a metallic or other heat resistant material. The studied material is a promising option for such a switch, especially when a complex shape enabled by additive manufacturing is also required.</p>",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 60
-    },
-    {
       "title": "Improving carbon nanotube consistency in the lab",
       "source": "MIT News — Materials Processing",
       "date": "Wed, 12 Feb 2014 17:00:00 -0500",
@@ -202,54 +52,24 @@
       "seriousnessScore": 55
     },
     {
-      "title": "Comparison of Component Properties between HPDC and Rheocasting Applying the RheoMetalTM Process",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8201",
-      "summary": "<p class=\"MsoBodyText\">Since the 1970s, there has been increasing interest in semi-solid processes, allowing improved mould filling with lower gas porosity and lower melt temperatures with improved tool life compared to the standard HPDC process. Challenges lie in the process know-how and the precise temperature control to ensure process stability and reproducibility. In contrast to other semi-solid processes, the RheoMetalTM process achieves the semi-solid state by stirring in an enthalpy exchange material (EEM). This work compares component properties (engine mount) produced by standard HPDC and rheocasting, applying the RheoMetalTM process using an AlSi7MnMg alloy. The results of component testing and radioscopic examination reveal promising outcomes regarding process stability, pore formation, and component properties compared to the standard HPDC process.</p>",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Advances in materials driving new technologies",
-      "source": "MIT News — Materials Processing",
-      "date": "Fri, 01 Nov 2013 18:42:00 -0400",
-      "url": "https://news.mit.edu/2013/advances-materials-driving-new-technologies",
-      "summary": "Quantum dots for lighting and television, specialty fibers for surgery, highlighted at annual MPC Materials Day",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Controlling the growth of semiconducting nanowires",
-      "source": "MIT News — Materials Processing",
-      "date": "Fri, 13 Sep 2013 16:07:00 -0400",
-      "url": "https://news.mit.edu/2013/controlling-the-growth-of-semiconducting-nanowires",
-      "summary": "MIT doctoral candidate Sam Crawford has contributed to fundamental understanding of growth processes using metal seed particles.",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Tuning metal-oxygen bond strength",
-      "source": "MIT News — Materials Processing",
-      "date": "Mon, 05 Aug 2013 15:55:18 -0400",
-      "url": "https://news.mit.edu/2013/tuning-metal-oxygen-bond-strength",
-      "summary": "Controlling spin state through strain could lead to better cathodes for solid oxide fuel cells",
-      "category": "research",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Influence of Selected Corrosive Environment on the Scale Formation in Selected Materials Manufactured by Directed Energy Deposition 3D Printing Technology",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Sep 2025 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7193",
-      "summary": "<p>Additive technologies, and in particular Directed Energy Deposition (DED), are becoming an increasingly important tool for the rapid production of components operating in, among others, the energy, aviation, petrochemical industries, where components are exposed to extreme thermochemical conditions. In the article, the influence of various corrosive atmospheres atmospheric air, water vapor and SO₂-argon- mixture – on the process of scale formation on the surface of materials manufactured using Directed Energy Deposition (DED) technology is presented. The tests were carried out at a temperature of 600°C (for air and water vapor) and 300°C (for SO₂-argon atmosphere). The mass increase and surface damage was monitored. It has been shown that the chemical composition of materials, especially the content of alloying elements such as Cr and Ni, is crucial for corrosion resistance. The obtained results provide the basis for further optimization of the composition of powders used in additive manufacturing techniques, in terms of operating conditions in aggressive environments.</p>",
+      "title": "Seminar: Zn -alloys, mechanical and corrosion analysis",
+      "source": "Silesian University of Technology — Materials of the Future",
+      "date": "2025-12-11T00:00:00+00:00",
+      "url": "https://www.polsl.pl/pob3/en/news/72145/seminar-zn--alloys-mechanical-and-corrosion-analysis/",
+      "summary": "",
       "category": "research",
       "relevanceScore": 6,
-      "seriousnessScore": 65
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Lecture: Electrochemical methods for corrosion research: anticorrosion anodic oxide films and electrochemical impedance spectroscopy",
+      "source": "Silesian University of Technology — Materials of the Future",
+      "date": "2025-05-05T00:00:00+00:00",
+      "url": "https://www.polsl.pl/pob3/en/news/69849/lecture-electrochemical-methods-for-corrosion-research-anticorrosion-anodic-oxide-films-and-electrochemical-impedance-spectroscopy/",
+      "summary": "",
+      "category": "research",
+      "relevanceScore": 6,
+      "seriousnessScore": 50
     }
   ],
   "industry": [
