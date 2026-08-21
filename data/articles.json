@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T14:37:55.722250+00:00",
+  "updatedAt": "2026-08-21T20:16:58.700683+00:00",
   "research": [
     {
       "title": "Theoretical Possibilities of Controlling the Cooling Rate in the Heat Treatment of Cast Iron with Water Mist",
@@ -22,11 +22,31 @@
       "seriousnessScore": 55
     },
     {
+      "title": "“Cannot be explained” – New super steel stuns scientists",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Tue, 11 Aug 2026 08:59:40 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
+      "summary": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
+      "category": "research",
+      "relevanceScore": 22,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
       "source": "MIT News — Materials Processing",
       "date": "Wed, 20 May 2026 14:50:00 -0400",
       "url": "https://news.mit.edu/2026/steel-developed-at-mit-formula-one-baja-1000-mit-motorsports-0520",
       "summary": "Ferrium C61 was designed with the aid of computers in a field pioneered at the Institute.",
+      "category": "research",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "This new alloy is up to 10 times stronger than steel and surprisingly flexible",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Thu, 30 Jul 2026 23:55:22 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
+      "summary": "Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking. Their nanoscale design produced a yield strength about six to 10 times greater than high-strength structural steel while sustaining substantial deformation at room temperature. The approach could enable tougher turbine blades and higher-performance engines.",
       "category": "research",
       "relevanceScore": 10,
       "seriousnessScore": 50
@@ -94,6 +114,26 @@
       "seriousnessScore": 60
     },
     {
+      "title": "Government brings British Steel into public ownership to protect UK steelmaking",
+      "source": "UK Gov — Business & Trade",
+      "date": "2026-07-16T06:45:08+01:00",
+      "url": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking",
+      "summary": "The Government has today (16 July) taken British Steel into public ownership to protect the future of steel production in the UK.",
+      "category": "industry",
+      "relevanceScore": 30,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "CMRG tells some steel mills to halt talks with Rio Tinto, sources say",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 06 Aug 2026 17:04:33 +0000",
+      "url": "https://www.mining.com/web/cmrg-tells-some-steel-mills-to-halt-talks-with-rio-tinto-sources-say/",
+      "summary": "China Mineral Resources Group has already targeted Australia's other top iron ore producers.",
+      "category": "industry",
+      "relevanceScore": 25,
+      "seriousnessScore": 55
+    },
+    {
       "title": "U. S. Steel Brings New Era of Steelmaking to Mon Valley",
       "source": "World Steel Association",
       "date": "Mon, 08 Jun 2026 08:18:55 +0000",
@@ -112,6 +152,36 @@
       "category": "industry",
       "relevanceScore": 20,
       "seriousnessScore": 70
+    },
+    {
+      "title": "Indian steel mills face margin squeeze as global coking coal prices rise",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 19 Aug 2026 13:48:01 +0000",
+      "url": "https://www.mining.com/web/indian-steel-mills-face-margin-squeeze-as-global-coking-coal-prices-rise/",
+      "summary": "Prices and costs remain high as Indian steel mills deal with supply disruptions from Australia and China.",
+      "category": "industry",
+      "relevanceScore": 20,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Metal Price Volatility Isn’t the Risk, Being Unprepared Is",
+      "source": "MetalMiner",
+      "date": "Mon, 08 Jun 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/06/08/metal-price-forecasting-discussion/",
+      "summary": "<img width=\"300\" height=\"169\" src=\"https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-300x169.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Hedging\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-300x169.png 300w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-1024x576.png 1024w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-768x432.png 768w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-800x450.png 800w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964.png 1279w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"Metal Price Volatility Isn&#039;t the Risk, Being Unprepared Is 9\">For steel, aluminum and copper buyers, the biggest risk in 2026 is not metal price volatility itself. It&#8217;s the metal price forecasting methods behind it. The bigger risk is being unprepared for how volatility affects budgets, supplier pricing, sourcing decisions, forecasting confidence and profit margins. Procurement teams cannot control tariffs, geopolitical instability, supplier behavior or [&#8230;]",
+      "category": "industry",
+      "relevanceScore": 17,
+      "seriousnessScore": 72
+    },
+    {
+      "title": "What Ideal Metal Price Forecasting Looks Like for Decision-Makers",
+      "source": "MetalMiner",
+      "date": "Wed, 01 Jul 2026 06:59:00 +0000",
+      "url": "https://agmetalminer.com/2026/07/01/procurement-market-intelligence/",
+      "summary": "<img width=\"300\" height=\"200\" src=\"https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-300x200.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Decisions, procurement market intelligence\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-300x200.jpg 300w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-768x511.jpg 768w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-800x532.jpg 800w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting.jpg 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"What Ideal Metal Price Forecasting Looks Like for Decision-Makers 6\">When companies tell us they have a metal price forecasts, or procurement market intelligence, we ask a simple question: &#8220;A forecast of what, exactly?&#8221; A generic steel outlook or copper forecast may describe where the market appears to be heading, but it rarely answers the questions procurement and finance leaders actually need to answer. Those [&#8230;]",
+      "category": "industry",
+      "relevanceScore": 17,
+      "seriousnessScore": 64
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
