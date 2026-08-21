@@ -432,6 +432,7 @@ def discover_feeds(page_url):
 
     feeds = []
 
+
     # --------------------------------------------------------
     # Procura tags:
     #
@@ -509,7 +510,7 @@ def get_feed_data(source):
     if source["mode"] == "rss":
 
         print(
-            f"  Usando URL RSS configurada diretamente."
+            "  Usando URL RSS configurada diretamente."
         )
 
         return fetch_url(source["url"])
@@ -901,8 +902,8 @@ def process_source(source):
 
             print(
                 f"{index}. "
-                f"[R:{article['relevance']} "
-                f"S:{article['seriousness']}] "
+                f"[R:{article['relevanceScore']} "
+                f"S:{article['seriousnessScore']}] "
                 f"{article['title']}"
             )
 
@@ -935,8 +936,6 @@ def main():
     # --------------------------------------------------------
 
     for source in SOURCES:
-
-        before = len(all_articles)
 
         articles = process_source(
             source
