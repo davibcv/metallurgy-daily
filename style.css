@@ -1,4 +1,3 @@
-
 /* =========================================================
    METALLURGY DAILY
    ESTILO PRINCIPAL
@@ -430,23 +429,16 @@ body {
     min-height: 600px;
 
     border:
-
         1px solid
-
         var(--border);
 
     border-radius: 20px;
 
     background:
-
         linear-gradient(
-
             145deg,
-
             rgba(17, 54, 30, 0.95),
-
             rgba(7, 22, 14, 0.98)
-
         );
 
     padding: clamp(25px, 5vw, 60px);
@@ -516,6 +508,70 @@ body {
 }
 
 
+/* =========================================================
+   CABEÇALHO DA MATÉRIA NO QUADRO
+========================================================= */
+
+.board-article-top {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    gap: 20px;
+
+    margin-bottom: 5px;
+
+}
+
+
+/* =========================================================
+   BOTÃO — MOSTRAR NO SITE
+========================================================= */
+
+.board-external-button {
+
+    padding: 9px 16px;
+
+    border-radius: 8px;
+
+    border: 1px solid var(--border);
+
+    background: var(--green-dark);
+
+    color: var(--text);
+
+    font-family: inherit;
+
+    font-size: 0.85rem;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    white-space: nowrap;
+
+    transition:
+        background 0.2s,
+        border-color 0.2s,
+        transform 0.2s;
+
+}
+
+
+.board-external-button:hover {
+
+    background: var(--green);
+
+    border-color: var(--gold);
+
+    transform: translateY(-1px);
+
+}
+
+
 .board-article .article-category {
 
     color: var(--gold);
@@ -560,15 +616,10 @@ body {
     height: 300px;
 
     background:
-
         linear-gradient(
-
             135deg,
-
             #173d25,
-
             #315f3c
-
         );
 
     border-radius: 12px;
@@ -603,188 +654,6 @@ body {
 .board-article .article-body p {
 
     margin-bottom: 20px;
-
-}
-
-
-
-/* =========================================================
-   MODAL
-========================================================= */
-
-.modal-overlay {
-
-    position: fixed;
-
-    inset: 0;
-
-    background:
-        rgba(0, 0, 0, 0.75);
-
-    backdrop-filter: blur(5px);
-
-    display: flex;
-
-    align-items: center;
-
-    justify-content: center;
-
-    padding: 20px;
-
-    opacity: 0;
-
-    pointer-events: none;
-
-    transition: opacity 0.25s;
-
-    z-index: 1000;
-
-}
-
-
-.modal-overlay.active {
-
-    opacity: 1;
-
-    pointer-events: auto;
-
-}
-
-
-.modal {
-
-    position: relative;
-
-    width: min(650px, 100%);
-
-    background:
-
-        linear-gradient(
-
-            145deg,
-
-            #173b25,
-
-            #0b1c12
-
-        );
-
-    border:
-
-        1px solid
-
-        var(--border);
-
-    border-radius: 18px;
-
-    padding: 40px;
-
-    box-shadow:
-
-        0 30px 80px rgba(0,0,0,0.55);
-
-}
-
-
-.modal-close {
-
-    position: absolute;
-
-    top: 15px;
-
-    right: 18px;
-
-    background: none;
-
-    border: none;
-
-    color: var(--text-secondary);
-
-    font-size: 2rem;
-
-    cursor: pointer;
-
-}
-
-
-.modal h2 {
-
-    font-size: 1.8rem;
-
-    line-height: 1.3;
-
-    margin: 10px 0;
-
-}
-
-
-.modal-source {
-
-    color: var(--gold);
-
-    font-size: 0.85rem;
-
-}
-
-
-.modal-description {
-
-    color: var(--text-secondary);
-
-    margin: 20px 0 30px;
-
-}
-
-
-.modal-actions {
-
-    display: flex;
-
-    gap: 12px;
-
-}
-
-
-.modal-button {
-
-    flex: 1;
-
-    padding: 13px 18px;
-
-    border-radius: 8px;
-
-    cursor: pointer;
-
-    font-family: inherit;
-
-    font-weight: bold;
-
-    border: 1px solid var(--border);
-
-}
-
-
-.modal-button.primary {
-
-    background: var(--green);
-
-    color: white;
-
-}
-
-
-.modal-button.secondary {
-
-    background: transparent;
-
-    color: var(--text);
-
-}
-
-
-.modal-button:hover {
-
-    border-color: var(--gold);
 
 }
 
@@ -853,14 +722,9 @@ body {
     }
 
 
-    .modal {
+    .board-article-top {
 
-        padding: 30px 22px;
-
-    }
-
-
-    .modal-actions {
+        align-items: flex-start;
 
         flex-direction: column;
 
