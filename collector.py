@@ -42,7 +42,7 @@ SOURCES = [
         "url": "https://www.polsl.pl/en/feed/",
         "category": "research"
     },
-    
+
     # --- INDÚSTRIA E MERCADO ---
     {
         "name": "World Steel Association",
@@ -82,7 +82,7 @@ SOURCES = [
 # ============================================================
 
 RELEVANCE_TERMS = {
-    # Termos em Português
+    # Português
     "aço": 10,
     "siderurgia": 10,
     "siderúrgica": 10,
@@ -256,7 +256,7 @@ SERIOUSNESS_TERMS = {
     "agreement": 4,
     "trade": 5,
     "market": 4,
-    
+
     # Português
     "toneladas": 5,
     "investimento": 6,
@@ -348,20 +348,40 @@ def parse_feed(data):
 
     articles = []
 
+    # ========================================================
     # RSS
+    # ========================================================
+
     for item in root.findall(".//item"):
-        title = get_text(item, ["title"])
-        link = get_text(item, ["link"])
+
+        title = get_text(
+            item,
+            ["title"]
+        )
+
+        link = get_text(
+            item,
+            ["link"]
+        )
+
         summary = get_text(
             item,
-            ["description", "{http://purl.org/rss/1.0/modules/content/}encoded"]
+            [
+                "description",
+                "{http://purl.org/rss/1.0/modules/content/}encoded"
+            ]
         )
+
         date = get_text(
             item,
-            ["pubDate", "{http://purl.org/dc/elements/1.1/}date"]
+            [
+                "pubDate",
+                "{http://purl.org/dc/elements/1.1/}date"
+            ]
         )
 
         if title and link:
+
             articles.append({
                 "title": title,
                 "url": link,
@@ -369,40 +389,65 @@ def parse_feed(data):
                 "date": date
             })
 
-    # Atom
+
+    # ========================================================
+    # ATOM
+    # ========================================================
+
     atom_namespace = "{http://www.w3.org/2005/Atom}"
 
-    for entry in root.findall(f".//{atom_namespace}entry"):
-        title_element = entry.find(f"{atom_namespace}title")
-        summary_element = entry.find(f"{atom_namespace}summary")
-        updated_element = entry.find(f"{atom_namespace}updated")
+    for entry in root.findall(
+        f".//{atom_namespace}entry"
+    ):
+
+        title_element = entry.find(
+            f"{atom_namespace}title"
+        )
+
+        summary_element = entry.find(
+            f"{atom_namespace}summary"
+        )
+
+        updated_element = entry.find(
+            f"{atom_namespace}updated"
+        )
 
         title = (
             title_element.text.strip()
-            if title_element is not None and title_element.text
+            if title_element is not None
+            and title_element.text
             else ""
         )
 
         summary = (
             summary_element.text.strip()
-            if summary_element is not None and summary_element.text
+            if summary_element is not None
+            and summary_element.text
             else ""
         )
 
         date = (
             updated_element.text.strip()
-            if updated_element is not None and updated_element.text
+            if updated_element is not None
+            and updated_element.text
             else ""
         )
 
         link = ""
 
-        link_element = entry.find(f"{atom_namespace}link")
+        link_element = entry.find(
+            f"{atom_namespace}link"
+        )
 
         if link_element is not None:
-            link = link_element.attrib.get("href", "")
+
+            link = link_element.attrib.get(
+                "href",
+                ""
+            )
 
         if title and link:
+
             articles.append({
                 "title": title,
                 "url": link,
@@ -413,20 +458,62 @@ def parse_feed(data):
     return articles
 
 
+# ============================================================
+# PROCESSAMENTO DA FONTE
+# ============================================================
+
 def process_source(source):
-    print(f"Consultando: {source['name']}")
+
+    print("")
+    print("=" * 70)
+    print(f"FONTE: {source['name']}")
+    print(f"CATEGORIA: {source['category']}")
+    print(f"URL: {source['url']}")
+    print("-" * 70)
 
     try:
-        data = fetch_feed(source["url"])
-        raw_articles = parse_feed(data)
+
+        data = fetch_feed(
+            source["url"]
+        )
+
+        print("STATUS: acesso ao feed realizado com sucesso.")
 
     except Exception as error:
+
+        print("STATUS: FALHA AO ACESSAR O FEED.")
         print(f"ERRO: {error}")
+
         return []
+
+
+    try:
+
+        raw_articles = parse_feed(data)
+
+        print(
+            f"ARTIGOS ENCONTRADOS NO FEED: "
+            f"{len(raw_articles)}"
+        )
+
+    except Exception as error:
+
+        print("STATUS: FALHA AO INTERPRETAR O FEED.")
+        print(f"ERRO DE PARSING: {error}")
+
+        return []
+
 
     processed = []
 
+    discarded_relevance = 0
+
+    # ========================================================
+    # ANÁLISE DAS MATÉRIAS
+    # ========================================================
+
     for article in raw_articles:
+
         relevance = calculate_relevance(
             article["title"],
             article["summary"]
@@ -437,20 +524,99 @@ def process_source(source):
             article["summary"]
         )
 
-        # Mínimo para entrar no sistema restaurado para maior rigor
+        # ----------------------------------------------------
+        # FILTRO ATUAL
+        # ----------------------------------------------------
+
         if relevance < 5:
+
+            discarded_relevance += 1
+
             continue
 
+
         processed.append({
+
             "title": article["title"],
+
             "source": source["name"],
+
             "date": article["date"],
+
             "url": article["url"],
+
             "summary": article["summary"],
+
             "category": source["category"],
+
             "relevanceScore": relevance,
+
             "seriousnessScore": seriousness
+
         })
+
+
+    # ========================================================
+    # RESULTADO DO FILTRO
+    # ========================================================
+
+    print(
+        f"MATÉRIAS APROVADAS: "
+        f"{len(processed)}"
+    )
+
+    print(
+        f"MATÉRIAS DESCARTADAS POR RELEVÂNCIA: "
+        f"{discarded_relevance}"
+    )
+
+    # ========================================================
+    # MOSTRA ALGUNS EXEMPLOS
+    # ========================================================
+
+    if processed:
+
+        print("")
+        print("EXEMPLOS DE MATÉRIAS APROVADAS:")
+
+        # Mostra no máximo 5 para não poluir o log
+        examples = sorted(
+            processed,
+            key=lambda article: (
+                article["relevanceScore"],
+                article["seriousnessScore"]
+            ),
+            reverse=True
+        )[:5]
+
+        for index, article in enumerate(
+            examples,
+            start=1
+        ):
+
+            print(
+                f"{index}. "
+                f"[R:{article['relevanceScore']} "
+                f"S:{article['seriousnessScore']}] "
+                f"{article['title']}"
+            )
+
+    elif raw_articles:
+
+        print("")
+        print(
+            "ATENÇÃO: O feed possui matérias, "
+            "mas TODAS foram descartadas pelo filtro."
+        )
+
+    else:
+
+        print("")
+        print(
+            "ATENÇÃO: O feed foi acessado, "
+            "mas nenhum artigo foi encontrado."
+        )
+
 
     return processed
 
@@ -461,59 +627,215 @@ def process_source(source):
 
 def main():
 
+    print("")
+    print("=" * 70)
+    print("METALLURGY DAILY — DIAGNÓSTICO DO COLETOR")
+    print("=" * 70)
+    print("")
+
     all_articles = []
 
-    for source in SOURCES:
-        articles = process_source(source)
-        all_articles.extend(articles)
+    # --------------------------------------------------------
+    # ESTATÍSTICAS POR FONTE
+    # --------------------------------------------------------
 
-    # Remove duplicatas por URL
+    source_statistics = []
+
+    # ========================================================
+    # CONSULTA TODAS AS FONTES
+    # ========================================================
+
+    for source in SOURCES:
+
+        articles = process_source(
+            source
+        )
+
+        all_articles.extend(
+            articles
+        )
+
+        source_statistics.append({
+
+            "source": source["name"],
+
+            "category": source["category"],
+
+            "approved": len(articles)
+
+        })
+
+
+    # ========================================================
+    # REMOVE DUPLICATAS
+    # ========================================================
+
     unique = {}
 
     for article in all_articles:
+
         unique[article["url"]] = article
 
-    all_articles = list(unique.values())
 
-    # Mais relevantes primeiro
-    all_articles.sort(
-        key=lambda article: (
-            article["relevanceScore"],
-            article["seriousnessScore"]
-        ),
-        reverse=True
+    all_articles = list(
+        unique.values()
     )
 
+
+    # ========================================================
+    # ORDENAÇÃO
+    # ========================================================
+
+    all_articles.sort(
+
+        key=lambda article: (
+
+            article["relevanceScore"],
+
+            article["seriousnessScore"]
+
+        ),
+
+        reverse=True
+
+    )
+
+
+    # ========================================================
+    # SEPARAÇÃO POR CATEGORIA
+    # ========================================================
+
     research = [
+
         article
+
         for article in all_articles
+
         if article["category"] == "research"
+
     ]
+
 
     industry = [
+
         article
+
         for article in all_articles
+
         if article["category"] == "industry"
+
     ]
 
-    output = {
-        "updatedAt": datetime.now(timezone.utc).isoformat(),
-        "research": research[:30],
-        "industry": industry[:30]
-    }
 
-    output_path = Path("data/articles.json")
+    # ========================================================
+    # RESUMO FINAL DO DIAGNÓSTICO
+    # ========================================================
 
-    output_path.write_text(
-        json.dumps(output, ensure_ascii=False, indent=2),
-        encoding="utf-8"
+    print("")
+    print("")
+    print("=" * 70)
+    print("RESUMO GERAL")
+    print("=" * 70)
+
+    print(
+        f"TOTAL DE MATÉRIAS APROVADAS: "
+        f"{len(all_articles)}"
     )
 
     print(
-        f"Concluído: {len(research)} pesquisas e "
-        f"{len(industry)} notícias de indústria."
+        f"PESQUISAS APROVADAS: "
+        f"{len(research)}"
     )
 
+    print(
+        f"NOTÍCIAS DE INDÚSTRIA APROVADAS: "
+        f"{len(industry)}"
+    )
+
+    print("")
+    print("APROVAÇÕES POR FONTE:")
+    print("-" * 70)
+
+
+    # ========================================================
+    # MOSTRA QUANTAS CADA FONTE FORNECEU
+    # ========================================================
+
+    for statistic in source_statistics:
+
+        print(
+
+            f"{statistic['source']}: "
+            f"{statistic['approved']} "
+            f"matérias aprovadas"
+
+        )
+
+
+    # ========================================================
+    # DADOS PARA O SITE
+    # ========================================================
+
+    output = {
+
+        "updatedAt":
+            datetime.now(
+                timezone.utc
+            ).isoformat(),
+
+        "research":
+            research[:30],
+
+        "industry":
+            industry[:30]
+
+    }
+
+
+    # ========================================================
+    # SALVA ARTICLES.JSON
+    # ========================================================
+
+    output_path = Path(
+        "data/articles.json"
+    )
+
+    output_path.write_text(
+
+        json.dumps(
+            output,
+            ensure_ascii=False,
+            indent=2
+        ),
+
+        encoding="utf-8"
+
+    )
+
+
+    # ========================================================
+    # RESULTADO FINAL
+    # ========================================================
+
+    print("")
+    print("=" * 70)
+    print("ARQUIVO articles.json ATUALIZADO")
+    print("=" * 70)
+
+    print(
+        f"Enviadas para o site: "
+        f"{len(research[:30])} pesquisas e "
+        f"{len(industry[:30])} notícias."
+    )
+
+    print("")
+    print("DIAGNÓSTICO CONCLUÍDO.")
+    print("=" * 70)
+
+
+# ============================================================
+# INICIALIZAÇÃO
+# ============================================================
 
 if __name__ == "__main__":
     main()
