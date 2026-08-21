@@ -65,6 +65,59 @@ SOURCES = [
         "mode": "discover"
     },
 
+    # --------------------------------------------------------
+    # NOVAS FONTES DE PESQUISA
+    # --------------------------------------------------------
+
+    {
+        "name": "MDPI — Metals",
+        "url": "https://www.mdpi.com/rss/journal/metals",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "MDPI — Materials",
+        "url": "https://www.mdpi.com/rss/journal/materials",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "SciELO — Materials Research",
+        "url": "https://www.scielo.br/rss.php?pid=1516-1439&lang=en",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "Nature — Materials",
+        "url": "https://www.nature.com/nmat.rss",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "ScienceDaily — Materials Science",
+        "url": "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "Springer — Metallurgical and Materials Transactions",
+        "url": "https://link.springer.com/search.rss?facet-journal-id=11661&facet-content-type=Article",
+        "category": "research",
+        "mode": "rss"
+    },
+
+    {
+        "name": "AZoM — Materials Science",
+        "url": "https://www.azom.com/rss/materials.xml",
+        "category": "research",
+        "mode": "rss"
+    },
+
 
     # --------------------------------------------------------
     # INDÚSTRIA E MERCADO
@@ -110,9 +163,75 @@ SOURCES = [
         "url": "https://commission.europa.eu/news-and-media/highlighted-news_en",
         "category": "industry",
         "mode": "discover"
+    },
+
+    # --------------------------------------------------------
+    # NOVAS FONTES DE INDÚSTRIA E GEOPOLÍTICA
+    # --------------------------------------------------------
+
+    {
+        "name": "Mining.com — Iron Ore",
+        "url": "https://www.mining.com/commodity/iron-ore/feed/",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "MetalMiner",
+        "url": "https://agmetalminer.com/feed/",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "Hellenic Shipping News — Steel & Iron",
+        "url": "https://www.hellenicshippingnews.com/category/commodities/steel-iron/feed/",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "UK Gov — Business & Trade",
+        "url": "https://www.gov.uk/search/news-and-communications.atom?organisations[]=department-for-business-and-trade",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "US Department of Commerce",
+        "url": "https://www.commerce.gov/rss.xml",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "US International Trade Commission",
+        "url": "https://www.usitc.gov/press_room/news_release.xml",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "Steel Times International",
+        "url": "https://www.steeltimesint.com/rss",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "World Economic Forum — Trade",
+        "url": "https://www.weforum.org/agenda/trade-and-investment/feed",
+        "category": "industry",
+        "mode": "rss"
+    },
+
+    {
+        "name": "Bnamericas — Mineração e Metais (LatAm)",
+        "url": "https://www.bnamericas.com/rss/mining.xml",
+        "category": "industry",
+        "mode": "rss"
     }
 ]
-
 
 # ============================================================
 # LIMITE POR FONTE
