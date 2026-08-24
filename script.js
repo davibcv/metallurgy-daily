@@ -15,13 +15,11 @@ const boardTitle = document.getElementById("boardTitle");
 const readingBoard = document.getElementById("readingBoard");
 
 
-
 /* =========================================================
    CONTROLE DO QUADRO
 ========================================================= */
 
 let selectedArticle = null;
-
 
 
 /* =========================================================
@@ -74,7 +72,6 @@ async function fetchArticles() {
 }
 
 
-
 /* =========================================================
    CRIAÇÃO DOS CARTÕES
 ========================================================= */
@@ -86,7 +83,10 @@ function createCard(article) {
     card.className = "article-card";
 
 
-    // Formatação da data
+    /* =====================================================
+       FORMATAÇÃO DA DATA
+    ===================================================== */
+
     let displayDate = article.date;
 
 
@@ -115,15 +115,45 @@ function createCard(article) {
     }
 
 
+    /* =====================================================
+       LOGO DA FONTE
+    ===================================================== */
+
+    let logoHTML = "";
+
+
+    /*
+       O coletor deverá futuramente inserir no JSON
+       algo como:
+
+       "logo": "https://.../logo.png"
+
+       Se existir uma logo, ela será exibida.
+    */
+
+    if (article.logo) {
+
+        logoHTML = `
+            <img
+                class="source-logo"
+                src="${article.logo}"
+                alt="Logo ${article.source}"
+                loading="lazy"
+            >
+        `;
+
+    }
+
+
+    /* =====================================================
+       ESTRUTURA DO CARD
+    ===================================================== */
+
     card.innerHTML = `
 
         <div class="card-image">
 
-            ${
-                article.category === "research"
-                    ? "PESQUISA"
-                    : "INDÚSTRIA"
-            }
+            ${logoHTML}
 
         </div>
 
@@ -176,7 +206,6 @@ function createCard(article) {
 }
 
 
-
 /* =========================================================
    CARREGA OS CARTÕES
 ========================================================= */
@@ -210,7 +239,6 @@ function loadCarousel(
     );
 
 }
-
 
 
 /* =========================================================
@@ -362,15 +390,9 @@ function displayOnBoard(article) {
 }
 
 
-
 /* =========================================================
    CONTROLES DOS CARROSSÉIS
 ========================================================= */
-
-/*
-   O avanço corresponde aproximadamente à largura
-   de um cartão + seu espaçamento.
-*/
 
 function setupCarouselControls(
     carousel,
@@ -383,10 +405,6 @@ function setupCarouselControls(
 
     /*
        Controle da rolagem automática.
-       Quando o usuário clica em uma seta,
-       interrompemos temporariamente o movimento
-       automático para que os dois comandos não
-       entrem em conflito.
     */
 
     let autoScrollPausedUntil = 0;
@@ -454,7 +472,6 @@ function setupCarouselControls(
 }
 
 
-
 /* =========================================================
    CONFIGURAÇÃO DOS CONTROLES
 ========================================================= */
@@ -483,23 +500,9 @@ const industryAutoControl =
     );
 
 
-
 /* =========================================================
    ROLAGEM AUTOMÁTICA
 ========================================================= */
-
-/*
-   Antes:
-       1px a cada 35ms
-       ≈ 28,6 px/s
-
-   Agora:
-       1px a cada 140ms
-       ≈ 7,1 px/s
-
-   A velocidade fica bem mais discreta e
-   permite acompanhar os títulos.
-*/
 
 function startAutoScroll(
     carousel,
@@ -592,7 +595,6 @@ function startAutoScroll(
 }
 
 
-
 /* =========================================================
    INICIA A ROLAGEM AUTOMÁTICA
 ========================================================= */
@@ -607,7 +609,6 @@ startAutoScroll(
     industryCarousel,
     industryAutoControl
 );
-
 
 
 /* =========================================================
@@ -639,12 +640,10 @@ function updateDate() {
 }
 
 
-
 /* =========================================================
    INICIALIZAÇÃO
 ========================================================= */
 
 updateDate();
-
 
 fetchArticles();
