@@ -48,6 +48,7 @@ function createCard(article) {
         console.error("URL inválida:", article.url);
     }
 
+    // Busca a logo
     let logoHTML = "";
     if (domain) {
         const logoUrl = `https://s2.googleusercontent.com/s2/favicons?domain=${domain}&sz=128`;
@@ -55,9 +56,22 @@ function createCard(article) {
             <img
                 class="source-logo"
                 src="${logoUrl}"
-                alt="Logo ${article.source}"
+                alt="Logo"
                 loading="lazy"
-                style="width: 45px; height: 45px; border-radius: 8px; background: white; padding: 4px; object-fit: contain; margin-bottom: 8px;"
+                style="width: 45px; height: 45px; border-radius: 8px; background: white; padding: 4px; object-fit: contain;"
+            >
+        `;
+    }
+
+    // Busca a bandeira mapeada pelo coletor Python
+    let flagHTML = "";
+    if (article.country) {
+        const flagUrl = `https://flagcdn.com/24x18/${article.country}.png`;
+        flagHTML = `
+            <img 
+                src="${flagUrl}" 
+                alt="País" 
+                style="width: 20px; height: 15px; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.15);"
             >
         `;
     }
@@ -68,13 +82,19 @@ function createCard(article) {
         shortSource = "MIT";
     }
 
+    // Estrutura visual: Logo e bandeira em bloco horizontal; nome empurrado para a linha de baixo
     card.innerHTML = `
-      card.innerHTML = `
         <div class="card-image" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 15px;">
-            ${logoHTML}
-            <span style="display: block; font-size: 0.75rem; letter-spacing: 1px; color: rgba(255,255,255,0.9); font-weight: bold; text-transform: uppercase; margin-top: 6px;">
+            
+            <div style="display: flex; flex-direction: row; align-items: center; justify-content: center; gap: 10px;">
+                ${logoHTML}
+                ${flagHTML}
+            </div>
+
+            <span style="display: block; font-size: 0.75rem; letter-spacing: 1px; color: rgba(255,255,255,0.9); font-weight: bold; text-transform: uppercase; margin-top: 8px;">
                 ${shortSource}
             </span>
+            
         </div>
         <div class="card-content">
             <h3 class="card-title">${article.title}</h3>
