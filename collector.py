@@ -19,7 +19,7 @@ from pathlib import Path
 
 SOURCES = [
 
-    # --------------------------------------------------------
+   # --------------------------------------------------------
     # PESQUISA
     # --------------------------------------------------------
 
@@ -27,95 +27,104 @@ SOURCES = [
         "name": "MIT News — Materials Science",
         "url": "https://news.mit.edu/rss/topic/materials-science-and-engineering",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/mit.png"
     },
 
     {
         "name": "MIT News — Materials Processing",
         "url": "https://news.mit.edu/rss/topic/materials-processing",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/mit.png"
     },
 
     {
         "name": "NIMS Japan",
         "url": "https://www.nims.go.jp/eng/siteinfo/rss-feed.html",
         "category": "research",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/nims.png"
     },
 
     {
         "name": "Tohoku University — Materials Research",
         "url": "https://www.imr.tohoku.ac.jp/en/news/",
         "category": "research",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/tohoku.png"
     },
 
     {
         "name": "AGH — JCME",
         "url": "https://journals.agh.edu.pl/jcme/gateway/plugin/WebFeedGatewayPlugin/rss2",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/agh.png"
     },
 
     {
         "name": "Silesian University of Technology — Materials of the Future",
         "url": "https://www.polsl.pl/pob3/en/",
         "category": "research",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/silesian.png"
     },
-
-    # --------------------------------------------------------
-    # NOVAS FONTES DE PESQUISA
-    # --------------------------------------------------------
 
     {
         "name": "MDPI — Metals",
         "url": "https://www.mdpi.com/rss/journal/metals",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/mdpi.png"
     },
 
     {
         "name": "MDPI — Materials",
         "url": "https://www.mdpi.com/rss/journal/materials",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/mdpi.png"
     },
 
     {
         "name": "SciELO — Materials Research",
         "url": "https://www.scielo.br/rss.php?pid=1516-1439&lang=en",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/scielo.png"
     },
 
     {
         "name": "Nature — Materials",
         "url": "https://www.nature.com/nmat.rss",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/nature.png"
     },
 
     {
         "name": "ScienceDaily — Materials Science",
         "url": "https://www.sciencedaily.com/rss/matter_energy/materials_science.xml",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/sciencedaily.png"
     },
 
     {
         "name": "Springer — Metallurgical and Materials Transactions",
         "url": "https://link.springer.com/search.rss?facet-journal-id=11661&facet-content-type=Article",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/springer.png"
     },
 
     {
         "name": "AZoM — Materials Science",
         "url": "https://www.azom.com/rss/materials.xml",
         "category": "research",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/azom.png"
     },
 
 
@@ -127,112 +136,123 @@ SOURCES = [
         "name": "World Steel Association",
         "url": "https://worldsteel.org/feed/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/worldsteel.png"
     },
 
     {
         "name": "EUROMETAL",
         "url": "https://eurometal.net/news/",
         "category": "industry",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/eurometal.png"
     },
 
     {
         "name": "Instituto Aço Brasil",
         "url": "https://acobrasil.org.br/site/feed/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/acobrasil.png"
     },
 
     {
         "name": "SteelOnTheNet",
         "url": "https://www.steelonthenet.com/steel-industry-feeds.php",
         "category": "industry",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/steelonthenet.png"
     },
 
     {
         "name": "EUROFER",
         "url": "https://www.eurofer.eu/about-steel/latest-updates",
         "category": "industry",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/eurofer.png"
     },
 
     {
         "name": "European Commission — Trade",
         "url": "https://commission.europa.eu/news-and-media/highlighted-news_en",
         "category": "industry",
-        "mode": "discover"
+        "mode": "discover",
+        "logo": "assets/logos/european-commission.png"
     },
-
-    # --------------------------------------------------------
-    # NOVAS FONTES DE INDÚSTRIA E GEOPOLÍTICA
-    # --------------------------------------------------------
 
     {
         "name": "Mining.com — Iron Ore",
         "url": "https://www.mining.com/commodity/iron-ore/feed/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/mining.png"
     },
 
     {
         "name": "MetalMiner",
         "url": "https://agmetalminer.com/feed/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/metalminer.png"
     },
 
     {
         "name": "Hellenic Shipping News — Steel & Iron",
         "url": "https://www.hellenicshippingnews.com/category/commodities/steel-iron/feed/",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/hellenic-shipping-news.png"
     },
 
     {
         "name": "UK Gov — Business & Trade",
         "url": "https://www.gov.uk/search/news-and-communications.atom?organisations[]=department-for-business-and-trade",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/uk-gov.png"
     },
 
     {
         "name": "US Department of Commerce",
         "url": "https://www.commerce.gov/rss.xml",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/commerce.png"
     },
 
     {
         "name": "US International Trade Commission",
         "url": "https://www.usitc.gov/press_room/news_release.xml",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/usitc.png"
     },
 
     {
         "name": "Steel Times International",
         "url": "https://www.steeltimesint.com/rss",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/steel-times.png"
     },
 
     {
         "name": "World Economic Forum — Trade",
         "url": "https://www.weforum.org/agenda/trade-and-investment/feed",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/wef.png"
     },
 
     {
         "name": "Bnamericas — Mineração e Metais (LatAm)",
         "url": "https://www.bnamericas.com/rss/mining.xml",
         "category": "industry",
-        "mode": "rss"
+        "mode": "rss",
+        "logo": "assets/logos/bnamericas.png"
     }
-]
 
+]
 # ============================================================
 # LIMITE POR FONTE
 # ============================================================
