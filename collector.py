@@ -3,6 +3,8 @@ import re
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from email.utils import parsedate_to_datetime
+from collections import defaultdict
 from pathlib import Path
 
 # ============================================================
@@ -44,7 +46,7 @@ SOURCES = [
 ]
 
 # ============================================================
-# TERMOS E FILTROS (MANTIDOS INTACTOS)
+# TERMOS E FILTROS 
 # ============================================================
 
 RELEVANCE_TERMS = {
@@ -81,7 +83,7 @@ SERIOUSNESS_TERMS = {
 }
 
 # ============================================================
-# FUNÇÕES DE PROCESSAMENTO
+# FUNÇÕES DE PROCESSAMENTO E CONVERSÃO DE DATAS
 # ============================================================
 
 def normalize(text):
@@ -101,6 +103,27 @@ def calculate_seriousness(title, summary):
     score += sum(points for term, points in SERIOUSNESS_TERMS.items() if term in text)
     score += sum(points for term, points in LOW_SERIOUSNESS_TERMS.items() if term in text)
     return max(0, min(score, 100))
+
+def parse_date(date_str):
+    """Converte o texto da data do RSS para um objeto de tempo real."""
+    if not date_str:
+        return datetime.min.replace(tzinfo=timezone.utc)
+    
+    try:
+        # Tenta interpretar como padrão RSS (RFC 2822)
+        return parsedate_to_datetime(date_str)
+    except Exception:
+        pass
+        
+    try:
+        # Tenta interpretar como padrão Atom (ISO 8601)
+        clean_date = date_str.replace('Z', '+00:00')
+        return datetime.fromisoformat(clean_date)
+    except Exception:
+        pass
+        
+    # Se falhar, joga para o fim da fila temporal
+    return datetime.min.replace(tzinfo=timezone.utc)
 
 def fetch_feed(url):
     request = urllib.request.Request(url, headers={"User-Agent": "MetallurgyDaily-Bot/1.0"})
@@ -171,7 +194,7 @@ def process_source(source):
             "url": article["url"],
             "summary": article["summary"],
             "category": source["category"],
-            "country": source.get("country", ""), # Injeta a informação geográfica
+            "country": source.get("country", ""), 
             "relevanceScore": relevance,
             "seriousnessScore": seriousness
         })
@@ -179,19 +202,74 @@ def process_source(source):
     print(f"Matérias aprovadas pelo filtro: {len(processed)}")
     return processed
 
+# ============================================================
+# ALGORITMO DE DISTRIBUIÇÃO E DIVERSIDADE
+# ============================================================
+
+def distribute_articles(articles_list, max_per_source=2):
+    if not articles_list:
+        return []
+
+    # 1. Cria um campo de data real para ordenação temporal
+    for article in articles_list:
+        article['_parsed_date'] = parse_date(article['date'])
+
+    # 2. Ordem Primária: Data (mais recente). Relevância e Seriedade decidem apenas empates exatos de tempo.
+    articles_list.sort(key=lambda x: (x['_parsed_date'], x['relevanceScore'], x['seriousnessScore']), reverse=True)
+
+    # 3. Agrupa por instituição mantendo a ordem interna já estabelecida acima
+    grouped = defaultdict(list)
+    for article in articles_list:
+        grouped[article['source']].append(article)
+
+    # 4. Define quem começa a roda: a instituição que tiver a matéria mais nova puxa a fila
+    ordered_sources = sorted(grouped.keys(), key=lambda s: grouped[s][0]['_parsed_date'], reverse=True)
+
+    distributed = []
+
+    # 5. Aplica a Roda (Round-Robin) com limite de 2 artigos simultâneos por fonte
+    while ordered_sources:
+        next_round_sources = []
+        
+        for source in ordered_sources:
+            # Saca até 2 matérias da fonte atual
+            chunk = grouped[source][:max_per_source]
+            grouped[source] = grouped[source][max_per_source:]
+            distributed.extend(chunk)
+            
+            # Se a fonte ainda tiver matérias, ela volta para a fila da PRÓXIMA rodada
+            if grouped[source]:
+                next_round_sources.append(source)
+                
+        ordered_sources = next_round_sources
+
+    # Remove o campo temporário antes de enviar para o site
+    for article in distributed:
+        del article['_parsed_date']
+
+    return distributed
+
+# ============================================================
+# EXECUÇÃO PRINCIPAL
+# ============================================================
+
 def main():
     all_articles = []
     for source in SOURCES:
         articles = process_source(source)
         all_articles.extend(articles)
 
+    # Limpa duplicatas exatas de URL
     unique = {article["url"]: article for article in all_articles}
     all_articles = list(unique.values())
 
-    all_articles.sort(key=lambda article: (article["relevanceScore"], article["seriousnessScore"]), reverse=True)
+    # Separa os blocos antes da distribuição
+    research_raw = [a for a in all_articles if a["category"] == "research"]
+    industry_raw = [a for a in all_articles if a["category"] == "industry"]
 
-    research = [a for a in all_articles if a["category"] == "research"]
-    industry = [a for a in all_articles if a["category"] == "industry"]
+    # Roda o algoritmo de diversidade cronológica
+    research = distribute_articles(research_raw, max_per_source=2)
+    industry = distribute_articles(industry_raw, max_per_source=2)
 
     output = {
         "updatedAt": datetime.now(timezone.utc).isoformat(),
@@ -204,7 +282,7 @@ def main():
     output_path.write_text(json.dumps(output, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"\n======================================================================")
-    print(f"CONCLUÍDO. Enviadas {len(output['research'])} pesquisas e {len(output['industry'])} notícias.")
+    print(f"CONCLUÍDO. Enviadas {len(output['research'])} pesquisas e {len(output['industry'])} notícias estruturadas.")
 
 if __name__ == "__main__":
     main()
