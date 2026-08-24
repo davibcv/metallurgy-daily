@@ -123,10 +123,10 @@ function createCard(article) {
 
 
     /*
-       O coletor deverá futuramente inserir no JSON
+       O collector poderá inserir no JSON
        algo como:
 
-       "logo": "https://.../logo.png"
+       "logo": "assets/logos/mit.png"
 
        Se existir uma logo, ela será exibida.
     */
@@ -171,7 +171,7 @@ function createCard(article) {
 
 
             <div class="card-date">
-                ${displayDate}
+                ${displayDate || ""}
             </div>
 
         </div>
@@ -180,8 +180,8 @@ function createCard(article) {
 
 
     /*
-       Agora o cartão vai diretamente para o quadro.
-       Não existe mais janela intermediária.
+       Ao clicar no cartão, a matéria é enviada
+       diretamente para o quadro.
     */
 
     card.addEventListener(
@@ -318,7 +318,7 @@ function displayOnBoard(article) {
 
                 ${article.source}
                 •
-                ${displayDate}
+                ${displayDate || ""}
 
             </div>
 
