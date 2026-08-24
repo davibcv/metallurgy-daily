@@ -69,9 +69,10 @@ function createCard(article) {
     }
 
     card.innerHTML = `
-        <div class="card-image">
+      card.innerHTML = `
+        <div class="card-image" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 15px;">
             ${logoHTML}
-            <span style="font-size: 0.75rem; letter-spacing: 1px; color: rgba(255,255,255,0.9); font-weight: bold; text-transform: uppercase;">
+            <span style="display: block; font-size: 0.75rem; letter-spacing: 1px; color: rgba(255,255,255,0.9); font-weight: bold; text-transform: uppercase; margin-top: 6px;">
                 ${shortSource}
             </span>
         </div>
