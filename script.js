@@ -42,16 +42,26 @@ function createCard(article) {
     let domain = "";
     try {
         if (article.url) {
-            domain = new URL(article.url).hostname;
+            // Remove o 'www.' para mapeamento limpo no dicionário
+            domain = new URL(article.url).hostname.replace('www.', '');
         }
     } catch (e) {
         console.error("URL inválida:", article.url);
     }
 
+    // ==========================================
+    // DICIONÁRIO DE EXCEÇÕES (LOGOS MANUAIS)
+    // ==========================================
+    const customLogos = {
+        "worldsteel.org": "https://logo.clearbit.com/worldsteel.org",
+        "acobrasil.org.br": "https://logo.clearbit.com/acobrasil.org.br"
+    };
+
     // Busca a logo
     let logoHTML = "";
     if (domain) {
-        const logoUrl = `https://s2.googleusercontent.com/s2/favicons?domain=${domain}&sz=128`;
+        // Prioriza o dicionário; se não houver, usa o Google Favicon
+        const logoUrl = customLogos[domain] || `https://s2.googleusercontent.com/s2/favicons?domain=${domain}&sz=128`;
         logoHTML = `
             <img
                 class="source-logo"
