@@ -1081,16 +1081,17 @@ def process_source(source):
 
         processed.append({
 
-            "title": article["title"],
-            "source": source["name"],
-            "date": article["date"],
-            "url": article["url"],
-            "summary": article["summary"],
-            "category": source["category"],
-            "relevanceScore": relevance,
-            "seriousnessScore": seriousness
+    "title": article["title"],
+    "source": source["name"],
+    "date": article["date"],
+    "url": article["url"],
+    "summary": article["summary"],
+    "category": source["category"],
+    "logo": source["logo"],
+    "relevanceScore": relevance,
+    "seriousnessScore": seriousness
 
-        })
+})
 
 
     # --------------------------------------------------------
