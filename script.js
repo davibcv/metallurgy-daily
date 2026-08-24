@@ -3,7 +3,6 @@
    JAVASCRIPT PRINCIPAL
 ========================================================= */
 
-
 /* =========================================================
    ELEMENTOS
 ========================================================= */
@@ -39,7 +38,6 @@ async function fetchArticles() {
 
         const data = await response.json();
 
-
         // Carrega os carrosséis com os dados reais
         loadCarousel(
             researchCarousel,
@@ -51,7 +49,6 @@ async function fetchArticles() {
             data.industry || []
         );
 
-
     } catch (error) {
 
         console.error(
@@ -59,10 +56,8 @@ async function fetchArticles() {
             error
         );
 
-
         researchCarousel.innerHTML =
             "<p style='padding: 20px;'>Não foi possível carregar as pesquisas.</p>";
-
 
         industryCarousel.innerHTML =
             "<p style='padding: 20px;'>Não foi possível carregar as notícias.</p>";
@@ -89,14 +84,12 @@ function createCard(article) {
 
     let displayDate = article.date;
 
-
     if (
         displayDate &&
         displayDate.length > 15
     ) {
 
         const d = new Date(displayDate);
-
 
         if (!isNaN(d)) {
 
@@ -116,32 +109,34 @@ function createCard(article) {
 
 
     /* =====================================================
-       LOGO DA FONTE
+       LOGO DA FONTE (API AUTOMATIZADA)
     ===================================================== */
+
+    let domain = "";
+    
+    try {
+        if (article.url) {
+            domain = new URL(article.url).hostname;
+        }
+    } catch (e) {
+        console.error("URL inválida:", article.url);
+    }
 
     let logoHTML = "";
 
-
-    /*
-       O collector poderá inserir no JSON
-       algo como:
-
-       "logo": "assets/logos/mit.png"
-
-       Se existir uma logo, ela será exibida.
-    */
-
-    if (article.logo) {
-
+    // O sistema puxa o ícone oficial da instituição a partir do domínio
+    if (domain) {
+        const logoUrl = `https://s2.googleusercontent.com/s2/favicons?domain=${domain}&sz=128`;
+        
         logoHTML = `
             <img
                 class="source-logo"
-                src="${article.logo}"
+                src="${logoUrl}"
                 alt="Logo ${article.source}"
                 loading="lazy"
+                style="width: 45px; height: 45px; border-radius: 8px; background: white; padding: 4px; object-fit: contain;"
             >
         `;
-
     }
 
 
@@ -151,9 +146,13 @@ function createCard(article) {
 
     card.innerHTML = `
 
-        <div class="card-image">
+        <div class="card-image" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
 
             ${logoHTML}
+
+            <span style="font-size: 0.75rem; letter-spacing: 1px; color: rgba(255,255,255,0.7); margin-top: 8px;">
+                ${article.category === 'research' ? 'PESQUISA' : 'INDÚSTRIA'}
+            </span>
 
         </div>
 
