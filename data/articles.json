@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T20:47:43.367554+00:00",
+  "updatedAt": "2026-08-24T20:58:28.602982+00:00",
   "research": [
     {
       "title": "Theoretical Possibilities of Controlling the Cooling Rate in the Heat Treatment of Cast Iron with Water Mist",
@@ -8,7 +8,7 @@
       "url": "https://journals.agh.edu.pl/jcme/article/view/6640",
       "summary": "<p style=\"line-height: 100%; page-break-inside: auto; orphans: 0; widows: 0; background: transparent; page-break-after: auto;\" align=\"justify\"><span style=\"font-size: small;\">The goal of the cooling procedure after austenitizing in the austempering heat treatment process applied to ausferritic ductile iron (ADI) castings is to rapidly reduce the temperature throughout the casting volume to the temperature range of the process window in which the proper metal matrix structure is formed. The lower limit of this range must be higher than the temperature at which the martensitic transformation starts. The upper limit is selected to eliminate the possibility of diffusion decomposition of austenite while holding castings at austempering temperature. Most often in heat treatment practice, salt baths are used for this purpose. Such a solution makes it possible to realize in one device both the procedure of cooling down to a given temperature and the procedure of isothermal heat treatment at this temperature. Unfortunately, the presence of molten salt in the process equipment has a very unfavorable impact on working conditions and ecology. The purpose of this research is to analyze the possibility of replacing the salt bath cooling procedure in the manufacturing process of ADI castings with a water mist spray cooling procedure on the surfaces of the heat-treated casting. If such cooling is effective, subsequent procedures of heat treatment operations can be carried out with traditional furnace equipment without the use of molten salt, which will clearly improve the environmental performance of the enterprise. The article, using analytical and numerical methods, analyzes the possibility of cooling objects made of cast iron with the help of a high-efficiency heat receiver such as water mist spraying. The limiting conditions for carrying out the process for the assumed cooling curve were considered. It was proposed to use a PID controller realizing the function of controlling the intensity of water mist spray, which corresponds to the intensity of the heat flux received from the heat-treated casting. The theoretical analysis carried out allows us to conclude that water mist cooling according to the assumed cooling curve is practically feasible.<br /><br /></span></p>",
       "category": "research",
-      "logo": "assets/logos/agh.png",
+      "country": "pl",
       "relevanceScore": 46,
       "seriousnessScore": 60
     },
@@ -19,9 +19,97 @@
       "url": "https://journals.agh.edu.pl/jcme/article/view/6419",
       "summary": "<p>Due to the wide use of HSLA steels in difficult conditions, e.g. at low temperatures, it is extremely important to test the impact strength of these steels. This is equally important because most of those structures are made by welding these steels, and the welding process itself has a significant impact on the properties of joints and welding zones. In this work, the authors analyzed two selected representative HSLA steels rolled in the Krakow branch of ArcelorMittal Poland S.A. – the only place in Poland where HSLA steels in the form of hot-rolled strips can be produced on an industrial scale. Impact tests were performed in accordance with technical acceptance standards, and then the fracture surfaces after impact tests were characterized using light and scanning microscopy. In the next part of the work, a set of previously gathered data were analyzed to determine the influence of thermomechanical rolling process parameters on the level of impact strength and the influence of chemical composition on it.</p>",
       "category": "research",
-      "logo": "assets/logos/agh.png",
+      "country": "pl",
       "relevanceScore": 40,
       "seriousnessScore": 55
+    },
+    {
+      "title": "Determination of the Heat Transfer Coefficient in the Isothermal Quenching Process of ADI Cast Iron Cooled with Water Mist",
+      "source": "AGH — JCME",
+      "date": "Tue, 31 Mar 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7960",
+      "summary": "<p lang=\"en-US\" style=\"widows: 0; line-height: 150%; orphans: 0; margin-bottom: 0cm;\" align=\"justify\"><span style=\"color: #000000;\"><span style=\"font-family: Cambria, serif;\"><span style=\"font-size: small;\">Isothermal quenching of austempering cast iron (ADI) castings requires that, after austenitization the casting must be rapidly cooled to the temperature of isothermal austenite decomposition. The cooling rate throughout the entire volume of the heat-treated product must be high enough to prevent pearlitic transformation. At the same time, the temperature of the cooled surface must not decrease below the martensitic transformation start temperature Ms. The cooling rate of the casting surface is determined by factors such as the temperature difference between the surface of the cooled casting and the cooling medium, the thermal conductivity of cast iron, the heat transfer coefficient, and the wall thickness of the treated casting. In the case of cooling with water mist, the heat transfer coefficient depends on the temperature of the cooled surface. To control the cooling process of castings using water mist, information about this relationship for the temperature range of 200–800°C is needed. Available scientific publications on this subject contain contradictory data.<br>Therefore, a measuring station was built with the ability to set the temperature of the cooled surface. The station includes a measuring system that allows the measurement of the heat flux flowing from the heating element into the environment. The result of the research is the measurement of the relationship between the temperature of the cooled surface and the heat transfer coefficient. The values obtained will be used in the future to build a numerical model of ADI castings heat treatment. This work may contribute to the future replacement of salt baths (currently used for fast cooling and austempering) with water mist spraying. In this case, the low-temperature operation of austenite decomposition can be performed without the use of salt a bath.</span></span></span></p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 35,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "The Impact of Wall Thickness on the Microstructure and Mechanical Properties of Austenitic High-Nickel Ductile Iron",
+      "source": "AGH — JCME",
+      "date": "Mon, 16 Mar 2026 00:00:00 +0100",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7879",
+      "summary": "<p>Austenitic ductile iron belongs to the cast iron group characterized by high nickel content, ranging from 18% to 36% by weight, which allows the formation of an austenitic metallic matrix. As a consequence, this cast iron group exhibits a combination of highly beneficial properties allowing utilization under extreme conditions and justifies the increased price of these cast iron grades. Some of the applications require complex castings with changing geometry and wall thicknesses. For this reason, the main objective of this study was to determine the possibility of obtaining castings with various degrees of wall thickness, including thin-walled: 3 mm, 5 mm, 13 mm and 25 mm, and good quality microstructures without defects as well as with mechanical properties on a similar level. For our investigations the austenitic ductile cast iron grade EN-GJSA-XNi22 was selected. Material characterization was carried out using optical microscopy, and static tensile test measurements. Additionally, the thermal analysis during crystallization was also determined. The investigations showed the highly homogeneous mechanical properties of castings with various wall thicknesses. The main differences in the microstructure parameters concerned the number and diameter of the graphite nodules.<span class=\"Apple-converted-space\"> </span></p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 34,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Microstructure-Erosion Resistance Correlation in High Chromium Cast Iron: A Digital Image Processing Approach",
+      "source": "AGH — JCME",
+      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8227",
+      "summary": "<p>High chromium cast irons (HCCIs) are widely employed as wear-resistant hardfacing materials in industrial applications where solid particle erosion (SPE) represents a primary degradation mechanism, such as in energy production, mining, and cement manufacturing. The erosive wear resistance of these alloys is strongly dependent on the microstructural features of the primary M<sub>7</sub>C<sub>3 </sub>carbides, particularly their size, morphology, and spatial distribution within the metallic matrix. The quantitative relationship between carbide distribution homogeneity and erosion resistance has received limited attention in the literature. This study investigates the erosive wear resistance of a Fe-Cr-C cast iron hardfacing alloy and proposes three digital image processing methods to quantitatively characterise the carbide microstructure and correlate it with experimental erosion test results. Optical microscopy combined with image binarisation was used to segment primary M<sub>7</sub>C<sub>3</sub> carbides. Three methods were adopted: carbide volume fraction (CVF), minimum inter-carbide distances, and a moving scanning area approach. Erosion tests were conducted according to ASTM G76 guidelines using two Arizona road dust powder grades with two mean diameters under equal kinetic energy conditions. Results show that the erosion rate decreases significantly with the increasing erodent particle size and that carbide distribution homogeneity plays a critical role in determining the erosion resistance. The moving scanning area method proved particularly effective at correlating microstructural coverage with experimental erosion rates.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 24,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Occurrence of Chunky graphite in ductile cast iron solution strengthened by silicon",
+      "source": "AGH — JCME",
+      "date": "Mon, 30 Jun 2025 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/6707",
+      "summary": "<p>Solution strengthened ferritic cast iron is characterised in EN 1563:2018 (and also in ISO 1083:2018) as grades EN-GJS-450-18, EN-GJS-500-14 and EN-GJS-600-10. Machine and plant builders have been using this material in new designs since 2011. The strength and ductile properties, competitive in comparison with the previous classical ductile cast iron grades, make it possible to reduce the weight of castings. Particularly preferred is grade EN-GJS-600-10 with UTS min. 600 MPa and A min. 10%. Strengthening of the ferritic matrix is possible due to the content of approximately 4.2% of silicon in the cast iron. In casting practice, this material is difficult to produce in a stable manner due to the frequent occurrence of degenerate Chunky graphite in the casting structure, resulting in a loss of ductile properties of the cast iron. In this article,&nbsp; an analysis has been made, based on literature, of the occurrence of strong negative segregation of silicon in classical ductile cast iron. Own research has confirmed the occurrence of chunky graphite in the cast. Dendritic crystallisation of austenite and strong segregation of silicon favours the formation of Chunky graphite. A much stronger proportion of silicon was found in the Chunky graphite zone, compared to the adjacent ball graphite zone.&nbsp; The introduction of micro-additives into the liquid melt eliminated the presence of Chunky graphite in the casting. The applied modifiers of graphite and metal matrix (hybrid modification) seem to be an effective method to stabilise the technological process of this innovative casting material.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 24,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Influence of Cooling Rate on the Structure and Damping Properties of the AlSi6Cu4 Alloy",
+      "source": "AGH — JCME",
+      "date": "Thu, 18 Sep 2025 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7337",
+      "summary": "<p>The investigated alloy was cast as a shaft into seven casting molds. Casting molds made of different materials were characterized by different abilities to conduct heat from the sample. This property significantly influenced the cooling rate of the sample casting from the AlSi6Cu4 alloy. The highest cooling rate was achieved in a steel mold at 25°C and the lowest in a mold made of insulating mass. Different cooling rates significantly influenced the structure of the alloy. Different grain sizes were obtained and the morphology of the microstructure components changed. At the highest cooling rate of 16.63 K·s−1, a grain with an average size of 0.58 mm was obtained. However, in the mold with the lowest cooling rate of 0.36 K·s−1, the average grain size was 3.76 mm. Changes in the structure of the alloy also influenced its damping properties. The tested values f the vibration damping coefficient α indicated that the AlSi6Cu4 alloy cooling with the highest cooling rate has the highest value of damping coefficient. This is influenced by the grain size and shape of the silicon precipitates. The refinement structure and fragmented components effectively disperse the vibration wave in the structure of the casting alloy.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 24,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Design of a Solidification Rate Measurement Experiment for Cast Steel in Molds Made of Different Sands Using Computer Simulation",
+      "source": "AGH — JCME",
+      "date": "Thu, 18 Sep 2025 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7401",
+      "summary": "<p>This article presents the design process of the casting technology for a step-shaped casting made of steel using simulation tools. A series of proposals for gating and feeding systems were simulated in the MAGMASoft® software. Results of numerical simulations allowed the Authors to select the casting technology which allows defect-free casting to be obtained. A numerical analysis of the cooling rate of a step-shaped casting made of GX70CrMnSiNiMo2 tool steel with a 5% Ti addition was carried out for the selected manufacturing technology. Due to the nature of the material used and the extended presence of martensite during cooling, in-mold hardening of the casting may occur. The simulations showed that the type of molding material affects the cooling rate, which is confirmed by the analysis of cooling curves and the morphology of shrinkage porosity. The analysis of solidification rates provides a valuable starting point and basis for subsequent research stages, taking into account the actual properties of the molding sands and the phase transformations occurring in the selected steel type. The casting technology design, which ensures the production of sound casting, was developed as part of this study. A series of simulations using different molding materials confirms the significant impact that the choice of mold material has on the casting solidification and cooling process.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 23,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Influence of the Addition of Tellurium and Heat Treatmenton the Microstructure of Hypoeutectic White Cast Iron",
+      "source": "AGH — JCME",
+      "date": "Tue, 23 Dec 2025 00:00:00 +0100",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7428",
+      "summary": "<p>This study investigates how the addition of tellurium and heat treatment affects the microstructure of hypoeutectic white cast iron that has been modified with alloying elements such as titanium, chromium and vanadium. Samples with different chemical compositions were prepared and subjected to a two-step heat treatment process. Microstructural characterisation was performed using optical and scanning electron microscopy. The results show that introducing tellurium significantly affects the morphology of the cementite and carbide phases, causing them to fragment and become more evenly distributed. Furthermore, heat treatment enhanced matrix refinement and promoted phase stability. The combination of tellurium addition and heat treatment produced the most favourable microstructures, characterised by the high dispersion of hard phases within a fine-grained matrix.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 23,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Solidification Process Modeling of Equiaxed Investment Castings with Transient Nonuniform Boundary Condition Definition",
+      "source": "AGH — JCME",
+      "date": "Sat, 30 Mar 2024 00:00:00 +0100",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/5893",
+      "summary": "<p>The equiaxed investment casting process is a multi-physics problem which requires knowledge from engineers who have expertise in materials, metallurgy, fluid dynamics, thermodynamics, and heat transfer. Process modeling is a tool used by foundries to help predict casting defects such as shrinkage porosity, hot tears, and poor grain structure. The reliability of these predictions is strongly dependent on the accuracy of the thermal boundary conditions set in the model. In this work, a SGT5-2000E Vane 4 cast in Rene 80 nickel-based superalloy was modeled, using the FEA simulation package ProCAST, with two different methodologies. One methodology had very little effort invested into defining the thermal domain. The other methodology involved a thorough consideration of all heat transfer mechanisms acting on the mold. An extensive literature search was performed to define a unique natural convection heat transfer coefficient for each set of surfaces on the mold. The transient boundary layer development was also captured in the definition of the heat conditions. The shrinkage porosity predictions of the models were compared to real-world x-ray data and the transient nonuniform methodology predictions were much more representative than the low fidelity heat transfer methodology predictions. The low fidelity heat transfer model did predict some shrinkage, but not where it appeared in reality. The process modeler will be misdirected by the model results when deriving a solution to the casting process if the real-world physics are not appropriately accounted for in the model. This will be very counterproductive when the foundry is using the model to reduce developmental trials by running trials in model space. References and derived parameters are provided for material properties, emissivity of shell and insulation wraps, and external mold spatially varying heat transfer coefficients.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 22,
+      "seriousnessScore": 61
     },
     {
       "title": "“Cannot be explained” – New super steel stuns scientists",
@@ -30,9 +118,75 @@
       "url": "https://www.sciencedaily.com/releases/2026/08/260811052717.htm",
       "summary": "Scientists have created an unusually corrosion-resistant stainless steel that could replace costly titanium components used to produce green hydrogen. The breakthrough could reduce structural material costs by roughly 40 times and make seawater-based hydrogen production far more economical.",
       "category": "research",
-      "logo": "assets/logos/sciencedaily.png",
+      "country": "us",
       "relevanceScore": 22,
       "seriousnessScore": 60
+    },
+    {
+      "title": "Selection of Molding Sands for Thin-Walled Cast Iron Castings Based on Their Selected Properties",
+      "source": "AGH — JCME",
+      "date": "Mon, 08 Jun 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7922",
+      "summary": "<p>The production process of thin-walled iron castings with complex shapes, characterized by high quality while maintaining the required properties, involves many steps. One of them is the appropriate selection of the technology for molding and core sands, taking into account strict environmental requirements. The need to meet high environmental standards is currently the dominant factor in the development of molding sands technologies. It is even being done at the expense of reducing the technological properties of the materials. As part of the development of molding compounds for thin-walled castings, two compounds with organic binders and two compounds with inorganic binders were tested. Tests were carried out on the tensile and bending strength, density, permeability, and friability of the compounds. Their thermophysical behavior was tested via the hot distortion parameter. The tests carried out on the molding sands showed that all the proposed mixtures have the appropriate properties for the production of thin-walled castings.</p> <p> </p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 17,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Reverse Engineering and Computer Modelling in Archaeometallurgy for the Reconstruction of Heritage Objects Using Precision Casting and 3D Printing",
+      "source": "AGH — JCME",
+      "date": "Tue, 23 Dec 2025 00:00:00 +0100",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/7790",
+      "summary": "<p>This article presents an interdisciplinary approach to the reconstruction of a copper-alloy artefact using reverse engineering techniques combined with modern digital and manufacturing technologies. The research was motivated by the need to better understand historical casting techniques while preserving the integrity of cultural heritage objects through non-destructive methods. The study integrates 3D scanning, CAD-based modelling, numerical simulations, investment casting, and metal additive manufacturing. The geometry of the artefact was captured using high-resolution 3D scanning, enabling the development of two CAD models: one representing the preserved state of the object and a second reconstructed model with the missing fragment digitally restored. Both models were used for numerical simulations of mould filling, solidification, cooling, and porosity formation performed in MAGMASOFT® 6.1, allowing the assessment of technological feasibility and defect formation. Based on the simulation results, physical replicas were produced using investment casting and selective laser melting.<br />The obtained numerical and experimental results were compared in terms of geometry reproduction, surface characteristics, and predicted versus observed casting behaviour. The study demonstrates that the combination of digital reconstruction, simulation tools, and experimental manufacturing provides a reliable framework for analysing historical metallurgical processes. The proposed methodology supports both scientific interpretation and the practical reconstruction of heritage objects and can be applied to a wide range of archaeometallurgical studies.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 15,
+      "seriousnessScore": 71
+    },
+    {
+      "title": "An Experimental Derivation of Transient Nonuniform External Boundary Conditions for the Solidification Process Modeling of Equiaxed Investment Castings",
+      "source": "AGH — JCME",
+      "date": "Mon, 30 Sep 2024 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/6487",
+      "summary": "<p>The external heat transfer mechanisms acting on the external mold surfaces for equiaxed casting processes are very complex. The mechanisms are multi-mode, transient, and nonuniform, consisting of very complex radiative and convective definitions. In this work, a real-life mold, SGT6-5000 FD 3/4 Blade 4 cast in Alloy-247, was instrumented with thermocouples and temperature readings were recorded throughout the entire casting sequence of events. Analytical models based on the first law of thermodynamics, Fourier’s law, Newton’s Law of Cooling, and diffuse gray radiation for an N-sided enclosure were developed to use the thermocouple data as input to back calculate the emissivity of the mold, as well as the spatially varying heat transfer coefficients for a number of local regions. The derived external heat transfer mechanisms are presented as transient Biot numbers. The derived emissivity and nonuniform heat transfer coefficients for these surfaces were then validated in ProCAST numerical simulation by comparing the external mold temperature profiles. An extensive iterative, curve fitting, extrapolating, and averaging procedure was exercised to derive an expression for emissivity across the entire temperature range associated with the casting process. The predicted temperatures on the nodes corresponding to the thermocouple locations agree within reasonable error with the experimental data. The model also qualitatively predicted the shrinkage porosity detected via x-ray imaging for this casting. The current study confirms the hypothesis of previous work by the current authors with respect to the transient nonuniform boundary condition concept. Unique values of heat transfer coefficients were observed at different vertical positions along the airfoil. The analytical models were also able to capture phenomena associated with specific sequences of the casting process. This work provides the analytical models, and procedure, needed to derive these spatially varying conditions. The current authors contribute to the intellectual know-how of the large gas turbine casting industry which by other foundries is considered highly proprietary and strictly confidential. This paper should be used to set the precedence for how foundries derive and validate the external boundary conditions used in solidification process modeling.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 14,
+      "seriousnessScore": 62
+    },
+    {
+      "title": "Numerical Optimization of Investment‑Cast Wheel Components for Drone Applications using MAGMASOFT®",
+      "source": "AGH — JCME",
+      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8176",
+      "summary": "<p>Investment casting technology of thin‑walled components for drone applications requires precise filling and solidification control to minimise porosity and ensure structural integrity. Porosity is one of the most common defects found in castings, and its prediction and analysis are essential for improving the quality of complex superalloy components. In this work, porosity-related defects were examined using the MAGMASOFT® 6.1 numerical simulation software for casting, focusing on the filling and solidification behaviour of an investment casting wheel body component in drone applications. A series of simulations were performed, and two design and simulation versions were developed, analysed and compared.<br>The wheel body component selected for this work is made of IN713 superalloy. The numerical modelling included the assessment of porosity distribution, hot spot formation, filling behaviour, cooling, and solidification patterns. Fifteen combinations of alloy and shell initial temperatures were evaluated to determine the most favourable thermal conditions for reducing porosity, considering the specific geometry and casting characteristics of the wheel. Based on the initial results, the casting design was modified by adjusting the runner geometry and assembly configuration.<br>This study introduces a two-stage simulation approach to optimise porosity reduction. The second version of the simulations demonstrated a noticeable reduction in pores, particularly in critical regions of the wheel body. The findings can support drone component manufacturers in improving casting reliability. The results confirm that simulation-driven optimisation of the casting design and thermal parameters can significantly improve the quality of the components produced by investment casting technology.</p> <p> </p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 14,
+      "seriousnessScore": 61
+    },
+    {
+      "title": "Effect of Titanium Alloying of Zn-Al-Cu Alloys for High Pressure Die Casting in Production Conditions",
+      "source": "AGH — JCME",
+      "date": "Fri, 15 Dec 2023 00:00:00 +0100",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/5943",
+      "summary": "<p>The paper presents the possibility of the industrial production of Zn4Al3Cu alloy with the addition of 0.41% Ti. Tests are described on the manner of introducing the ZnTi2 master alloy to the alloy, so that the chemical composition of the desirable elements proportion is obtained. The chemical persistence of the Zn4Al3CuTi was determined as low in the conditions of the long heating of the alloy before casting. Tests on the microstructure and mechanical properties of the obtained alloys were also conducted. The strength of the die-cast Zn4Al3Cu alloy was 265 MPa and, when measured on samples taken from the high pressure die-cast, it reached 369 MPa. It was determined that the addition of titanium to the Zn4Al3Cu alloy causes significant refinement of the structure and contributes to the formation of intermetallic phases.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 14,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Alloys for Hot Dip Galvanising on Thin-Walled Materials",
+      "source": "AGH — JCME",
+      "date": "Wed, 23 Oct 2024 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/6383",
+      "summary": "<p>The article reviews alloy additives to zinc and their impact on the quality of coatings achieved on structural steel. It also analyses the impact of the concentration of acid used for the chemical stripping of raw material on the zinc coating thickness of the steel. The zinc layer thickness changed depending on the concentration of alloy elements in the bath. It was stated that aluminium and bismuth have a low impact on the decrease in zinc coating thickness, while in the case of tin, a small change to the content (from 0.6% to 0.8%) significantly decreased the zinc layer thickness. Furthermore, it was found that, during the hot dip galvanising of steel, particular alloy elements are extracted from the bath. This results in the need to supplement alloy elements through periodical melting in for the purpose of maintaining the assumed bath composition. It was observed that, together with the increase in alloy elements concentration, zinc uptake (galvanised component weight ratio to black component weight) decreases, improving the process economics.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 10,
+      "seriousnessScore": 55
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
@@ -41,7 +195,7 @@
       "url": "https://news.mit.edu/2026/steel-developed-at-mit-formula-one-baja-1000-mit-motorsports-0520",
       "summary": "Ferrium C61 was designed with the aid of computers in a field pioneered at the Institute.",
       "category": "research",
-      "logo": "assets/logos/mit.png",
+      "country": "us",
       "relevanceScore": 10,
       "seriousnessScore": 50
     },
@@ -52,9 +206,20 @@
       "url": "https://www.sciencedaily.com/releases/2026/07/260729051524.htm",
       "summary": "Engineers have transformed a notoriously brittle cobalt-aluminum compound into a material that is both extremely strong and capable of bending without breaking. Their nanoscale design produced a yield strength about six to 10 times greater than high-strength structural steel while sustaining substantial deformation at room temperature. The approach could enable tougher turbine blades and higher-performance engines.",
       "category": "research",
-      "logo": "assets/logos/sciencedaily.png",
+      "country": "us",
       "relevanceScore": 10,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Scientists reveal the hidden force driving the universe’s hottest fluid",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Mon, 03 Aug 2026 07:58:59 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260802223422.htm",
+      "summary": "When atomic nuclei smash together at nearly the speed of light, they create the hottest fluid in the universe, but scientists may have overlooked one of its most important forces. New simulations reveal that extreme acceleration builds up along the edges of quark-gluon plasma, helping drive its explosive expansion. This acceleration may do far more than move the fluid, potentially changing its temperature-like behavior, influencing particle spins, and even reshaping how matter transitions between fundamental states.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 66
     },
     {
       "title": "MIT engineers whip up a more breathable hydrogel",
@@ -63,7 +228,18 @@
       "url": "https://news.mit.edu/2026/mit-engineers-whip-up-more-breathable-hydrogel-0708",
       "summary": "The new aerated material could enable longer-lasting bandages, implants, and wearable sensors.",
       "category": "research",
-      "logo": "assets/logos/mit.png",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Evaluation of 3D-printed Pattern Material for Heat-hardened Inorganic Moulds",
+      "source": "AGH — JCME",
+      "date": "Wed, 05 Jun 2024 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/5947",
+      "summary": "<p>Inorganic binders for sand moulding are currently of high interest due to the need to lessen our environmental impact and emissions. In this study, a heat hardened solid inorganic sodium silicate binder was tested with a 3D printed resin material to see how the use of such a material affected a silica mould’s quality, e.g. surface roughness. Results were compared to moulds made with metallic patterns. The unmodified binder had sticking issues when used with a metallic pattern, resulting in a rough as-moulded surface. Such issues were not seen with the printed resin patterns, also hinting at good performance with binders that contain performance increasing additives. The resin pattern material has a Heat Deflection Temperature (HDT) of 230°C, enabling the use of inorganic binders that require temperatures between 160–200°C to harden and dry. Additive manufacturing of such materials also allows designs for other hardening techniques than furnace heating, such as microwave heating. The moulds hardened with microwaves did not exhibit sticking issues. Additive manufacturing of tooling is a potential source of geometrical variation in final castings and are also studied in this work. In general, switching from traditional sand moulding patterns used with organic binder systems to inorganic systems, the patterns and core boxes need to be replaced by new ones made of a metallic or other heat resistant material. The studied material is a promising option for such a switch, especially when a complex shape enabled by additive manufacturing is also required.</p>",
+      "category": "research",
+      "country": "pl",
       "relevanceScore": 7,
       "seriousnessScore": 60
     },
@@ -74,30 +250,85 @@
       "url": "https://news.mit.edu/2014/mechanical-engineering-professor-graduate-student-automate-chemical-vapor-deposition-process-with-bench-top-robofurnace-bench-top-automation-in-the-lab-can-reduce-variation-in-carbon-nanotube-growth-as-well-as-enable-better-production-of-other-n",
       "summary": "Bench-top 'Robofurnace' automates chemical vapor deposition process.",
       "category": "research",
-      "logo": "assets/logos/mit.png",
+      "country": "us",
       "relevanceScore": 7,
       "seriousnessScore": 55
     },
     {
-      "title": "Seminar: Zn -alloys, mechanical and corrosion analysis",
-      "source": "Silesian University of Technology — Materials of the Future",
-      "date": "2025-12-11T00:00:00+00:00",
-      "url": "https://www.polsl.pl/pob3/en/news/72145/seminar-zn--alloys-mechanical-and-corrosion-analysis/",
-      "summary": "",
+      "title": "Comparison of Component Properties between HPDC and Rheocasting Applying the RheoMetalTM Process",
+      "source": "AGH — JCME",
+      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8201",
+      "summary": "<p class=\"MsoBodyText\">Since the 1970s, there has been increasing interest in semi-solid processes, allowing improved mould filling with lower gas porosity and lower melt temperatures with improved tool life compared to the standard HPDC process. Challenges lie in the process know-how and the precise temperature control to ensure process stability and reproducibility. In contrast to other semi-solid processes, the RheoMetalTM process achieves the semi-solid state by stirring in an enthalpy exchange material (EEM). This work compares component properties (engine mount) produced by standard HPDC and rheocasting, applying the RheoMetalTM process using an AlSi7MnMg alloy. The results of component testing and radioscopic examination reveal promising outcomes regarding process stability, pore formation, and component properties compared to the standard HPDC process.</p>",
       "category": "research",
-      "logo": "assets/logos/silesian.png",
-      "relevanceScore": 6,
+      "country": "pl",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Mysterious Milky Way object accelerates protons beyond one quadrillion electron volts",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Sat, 01 Aug 2026 22:59:35 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260731034150.htm",
+      "summary": "Scientists have identified LHAASO J1912+1014u as a cosmic accelerator that can push protons beyond one quadrillion electron volts. The finding may help reveal where the Milky Way’s most energetic cosmic rays come from and how they influence the galaxy.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "New dark matter theory could solve multiple cosmic mysteries at once",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Mon, 13 Jul 2026 22:30:53 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260711010128.htm",
+      "summary": "Dark matter may be far more complicated than scientists once believed. A new study suggests it could consist of at least two different kinds of particles that slowly separate over time, with heavier particles sinking toward the centers of galaxies and lighter ones drifting outward. This simple idea could explain several puzzling cosmic observations that have frustrated astronomers for years, from unusually diffuse dwarf galaxies to surprisingly dense dark matter clumps that bend light through gravitational lensing.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "New solid-state material converts sunlight into higher-energy UV light",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Fri, 26 Jun 2026 11:21:17 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260623083058.htm",
+      "summary": "A new sunlight-powered material can convert visible light into higher-energy UV light, overcoming a challenge that has frustrated scientists for years. The breakthrough could enable cleaner air purification, solar-driven chemistry, and advanced manufacturing technologies using nothing more than natural sunlight.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Advances in materials driving new technologies",
+      "source": "MIT News — Materials Processing",
+      "date": "Fri, 01 Nov 2013 18:42:00 -0400",
+      "url": "https://news.mit.edu/2013/advances-materials-driving-new-technologies",
+      "summary": "Quantum dots for lighting and television, specialty fibers for surgery, highlighted at annual MPC Materials Day",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
       "seriousnessScore": 50
     },
     {
-      "title": "Lecture: Electrochemical methods for corrosion research: anticorrosion anodic oxide films and electrochemical impedance spectroscopy",
-      "source": "Silesian University of Technology — Materials of the Future",
-      "date": "2025-05-05T00:00:00+00:00",
-      "url": "https://www.polsl.pl/pob3/en/news/69849/lecture-electrochemical-methods-for-corrosion-research-anticorrosion-anodic-oxide-films-and-electrochemical-impedance-spectroscopy/",
-      "summary": "",
+      "title": "Controlling the growth of semiconducting nanowires",
+      "source": "MIT News — Materials Processing",
+      "date": "Fri, 13 Sep 2013 16:07:00 -0400",
+      "url": "https://news.mit.edu/2013/controlling-the-growth-of-semiconducting-nanowires",
+      "summary": "MIT doctoral candidate Sam Crawford has contributed to fundamental understanding of growth processes using metal seed particles.",
       "category": "research",
-      "logo": "assets/logos/silesian.png",
-      "relevanceScore": 6,
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Tuning metal-oxygen bond strength",
+      "source": "MIT News — Materials Processing",
+      "date": "Mon, 05 Aug 2013 15:55:18 -0400",
+      "url": "https://news.mit.edu/2013/tuning-metal-oxygen-bond-strength",
+      "summary": "Controlling spin state through strain could lead to better cathodes for solid oxide fuel cells",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
       "seriousnessScore": 50
     }
   ],
@@ -109,19 +340,8 @@
       "url": "https://www.gov.uk/government/news/government-brings-british-steel-into-public-ownership-to-protect-uk-steelmaking",
       "summary": "The Government has today (16 July) taken British Steel into public ownership to protect the future of steel production in the UK.",
       "category": "industry",
-      "logo": "assets/logos/uk-gov.png",
+      "country": "gb",
       "relevanceScore": 30,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "CMRG tells some steel mills to halt talks with Rio Tinto, sources say",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 06 Aug 2026 17:04:33 +0000",
-      "url": "https://www.mining.com/web/cmrg-tells-some-steel-mills-to-halt-talks-with-rio-tinto-sources-say/",
-      "summary": "China Mineral Resources Group has already targeted Australia's other top iron ore producers.",
-      "category": "industry",
-      "logo": "assets/logos/mining.png",
-      "relevanceScore": 25,
       "seriousnessScore": 55
     },
     {
@@ -131,9 +351,31 @@
       "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-brings-new-era-of-steelmaking-to-mon-valley/",
       "summary": "<p>Planned Mon Valley Investments to Generate Up to $1.7 Billion in Economic Impact, 6,381 Jobs, and $58 Million in Tax Revenue for Pennsylvania Over Three Years</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-brings-new-era-of-steelmaking-to-mon-valley/\">U. S. Steel Brings New Era of Steelmaking to Mon Valley</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "logo": "assets/logos/worldsteel.png",
+      "country": "be",
       "relevanceScore": 20,
       "seriousnessScore": 72
+    },
+    {
+      "title": "July 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Mon, 24 Aug 2026 05:35:43 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/july-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 149.2 million tonnes (Mt) in July 2026, a 0.3% decrease compared to July 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/july-2026-crude-steel-production/\">July 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "June 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Thu, 23 Jul 2026 06:13:35 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 155.7 million tonnes (Mt) in June 2026, a 1.7% increase compared to June 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/\">June 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
     },
     {
       "title": "May 2026 crude steel production",
@@ -142,20 +384,9 @@
       "url": "https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/",
       "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 157.9 million tonnes (Mt) in May 2026, a 0.3% decrease compared to May 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/\">May 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "logo": "assets/logos/worldsteel.png",
+      "country": "be",
       "relevanceScore": 20,
       "seriousnessScore": 70
-    },
-    {
-      "title": "Indian steel mills face margin squeeze as global coking coal prices rise",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 19 Aug 2026 13:48:01 +0000",
-      "url": "https://www.mining.com/web/indian-steel-mills-face-margin-squeeze-as-global-coking-coal-prices-rise/",
-      "summary": "Prices and costs remain high as Indian steel mills deal with supply disruptions from Australia and China.",
-      "category": "industry",
-      "logo": "assets/logos/mining.png",
-      "relevanceScore": 20,
-      "seriousnessScore": 60
     },
     {
       "title": "Metal Price Volatility Isn’t the Risk, Being Unprepared Is",
@@ -164,7 +395,7 @@
       "url": "https://agmetalminer.com/2026/06/08/metal-price-forecasting-discussion/",
       "summary": "<img width=\"300\" height=\"169\" src=\"https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-300x169.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Hedging\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-300x169.png 300w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-1024x576.png 1024w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-768x432.png 768w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964-800x450.png 800w, https://agmetalminer.com/wp-content/uploads/2026/06/1780075520964.png 1279w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"Metal Price Volatility Isn&#039;t the Risk, Being Unprepared Is 9\">For steel, aluminum and copper buyers, the biggest risk in 2026 is not metal price volatility itself. It&#8217;s the metal price forecasting methods behind it. The bigger risk is being unprepared for how volatility affects budgets, supplier pricing, sourcing decisions, forecasting confidence and profit margins. Procurement teams cannot control tariffs, geopolitical instability, supplier behavior or [&#8230;]",
       "category": "industry",
-      "logo": "assets/logos/metalminer.png",
+      "country": "us",
       "relevanceScore": 17,
       "seriousnessScore": 72
     },
@@ -175,9 +406,64 @@
       "url": "https://agmetalminer.com/2026/07/01/procurement-market-intelligence/",
       "summary": "<img width=\"300\" height=\"200\" src=\"https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-300x200.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Decisions, procurement market intelligence\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-300x200.jpg 300w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-768x511.jpg 768w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting-800x532.jpg 800w, https://agmetalminer.com/wp-content/uploads/2026/03/Forecasting.jpg 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"What Ideal Metal Price Forecasting Looks Like for Decision-Makers 6\">When companies tell us they have a metal price forecasts, or procurement market intelligence, we ask a simple question: &#8220;A forecast of what, exactly?&#8221; A generic steel outlook or copper forecast may describe where the market appears to be heading, but it rarely answers the questions procurement and finance leaders actually need to answer. Those [&#8230;]",
       "category": "industry",
-      "logo": "assets/logos/metalminer.png",
+      "country": "us",
       "relevanceScore": 17,
       "seriousnessScore": 64
+    },
+    {
+      "title": "POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs",
+      "source": "World Steel Association",
+      "date": "Mon, 15 Jun 2026 09:02:44 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/",
+      "summary": "<p>Consortium of 10 industry-academic-research organizations launches a national R&#38;D project to develop “6.5% Silicon-content Wide Electrical Steel Sheet” and EV efficiency-enhancing core/drive motor manufacturing technologies</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/posco-partners-with-hyundai-motor-and-8-organizations-to-develop-next-generation-high-efficiency-electrical-steel-for-evs/\">POSCO Partners with Hyundai Motor and 8 Organizations to Develop Next-Generation High-Efficiency Electrical Steel for EVs</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 17,
+      "seriousnessScore": 59
+    },
+    {
+      "title": "World Steel in Figures 2026 now available",
+      "source": "World Steel Association",
+      "date": "Thu, 04 Jun 2026 08:14:28 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/world-steel-in-figures-2026-now-available/",
+      "summary": "<p>World Steel in Figures provides a snapshot of of today’s steel industry, including top steel producers, production by country and processes, demand, trade, and much more.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/world-steel-in-figures-2026-now-available/\">World Steel in Figures 2026 now available</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "The Best Strategies for Comparing Steel Prices From Various Suppliers",
+      "source": "MetalMiner",
+      "date": "Wed, 03 Jun 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/06/03/trategies-for-comparing-steel-prices/",
+      "summary": "<img width=\"300\" height=\"200\" src=\"https://agmetalminer.com/wp-content/uploads/2024/09/SteelMill-300x200.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"steel news and steel industry.\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2024/09/SteelMill-300x200.png 300w, https://agmetalminer.com/wp-content/uploads/2024/09/SteelMill-800x534.png 800w, https://agmetalminer.com/wp-content/uploads/2024/09/SteelMill-768x512.png 768w, https://agmetalminer.com/wp-content/uploads/2024/09/SteelMill.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"The Best Strategies for Comparing Steel Prices From Various Suppliers 10\">If you compare steel prices and quotes by entering supplier bids into a spreadsheet and highlighting the lowest number, you’re not really comparing prices.  Instead of comparing prices, here&#8217;s what you&#8217;re really looking at:  Understanding this is important. Many sourcing teams think they’ve found a competitive quote when, in fact, they’ve only accepted a different [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Why AI Hallucinates Metal Prices Without an MCP Server",
+      "source": "MetalMiner",
+      "date": "Mon, 10 Aug 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/08/10/ai-data-integration/",
+      "summary": "<img width=\"300\" height=\"175\" src=\"https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-300x175.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Ai Hallucination\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-300x175.png 300w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-768x449.png 768w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-800x467.png 800w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"Why AI Hallucinates Metal Prices Without an MCP Server 2\">When a manufacturer has AI data integration and asks AI for “the copper price” or “the steel price,” the most harmful error is usually not only a fabricated number but also a real number attached to the wrong benchmark. In industrial metals, a model can return a plausible answer while quietly confusing: The answer may [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 10,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain",
+      "source": "World Steel Association",
+      "date": "Thu, 18 Jun 2026 14:28:23 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain-2/",
+      "summary": "<p>Tata Steel and Google Cloud today announced a major expansion of their strategic partnership to architect the future of steel and advance Tata Steel’s unified, enterprise-wide agentic AI strategy.</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/tata-steel-partners-with-google-cloud-to-deploy-a-unified-agentic-ai-across-its-global-value-chain-2/\">Tata Steel Partners with Google Cloud To Deploy a Unified Agentic AI Across its Global Value Chain</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
@@ -186,31 +472,53 @@
       "url": "https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/",
       "summary": "<p>Há quatro semanas, a estimativa de crescimento era de 1,23% A expectativa de alta para o Produto Interno Bruto (PIB) em 2019 recuou mais uma vez, agora de 0,93% para 0,87%, conforme o Relatório de Mercado Focus divulgado na manhã desta segunda-feira, 24, pelo Banco Central. Há quatro semanas, a estimativa de crescimento era de [&#8230;]</p>\n<p>The post <a href=\"https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/\">Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus</a> appeared first on <a href=\"https://www.acobrasil.org.br/site\">Instituto Aço Brasil</a>.</p>",
       "category": "industry",
-      "logo": "assets/logos/acobrasil.png",
+      "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
     },
     {
-      "title": "Stepping up support for Ukraine’s defence, recovery and reconstruction",
-      "source": "European Commission — Trade",
-      "date": "Fri, 26 Jun 2026 14:30:31 +0200",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1465",
-      "summary": "<p>At the Ukraine Recovery Conference in Gdańsk President von der Leyen reaffirmed that the EU will continue to stand firmly by Ukraine. She also announced the first disbursement of €3.2 billion in budgetary support under the Ukraine Support Loan.</p>",
+      "title": "Access Temporarily Restricted",
+      "source": "World Steel Association",
+      "date": "Tue, 21 Jul 2026 07:50:22 +0000",
+      "url": "https://worldsteel.org/access-temporarily-restricted/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/access-temporarily-restricted/\">Access Temporarily Restricted</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "logo": "assets/logos/european-commission.png",
-      "relevanceScore": 7,
-      "seriousnessScore": 61
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
     },
     {
-      "title": "EU reaffirms solidarity with Ukraine on 35th anniversary of regained independence",
-      "source": "European Commission — Trade",
-      "date": "Mon, 24 Aug 2026 12:02:56 +0200",
-      "url": "https://commission.europa.eu/news-and-media/news/eu-reaffirms-solidarity-ukraine-35th-anniversary-regained-independence-2026-08-24_en",
-      "summary": "<p>On Ukraine’s Independence Day, the EU underlines its continued support for the country's sovereignty, defence and European path.</p>",
+      "title": "15th China International Steel Congress |19-20 September 2026 | Shanghai, China",
+      "source": "World Steel Association",
+      "date": "Thu, 25 Jun 2026 08:47:24 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/15th-china-international-steel-congress-19-20-september-2026-shanghai-china/",
+      "summary": "<p>China International Steel Congress is a high-level conference focusing on the profound, overall and strategic issues of development of the steel industry.</p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/15th-china-international-steel-congress-19-20-september-2026-shanghai-china/\">15th China International Steel Congress |19-20 September 2026 | Shanghai, China</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "logo": "assets/logos/european-commission.png",
-      "relevanceScore": 7,
+      "country": "be",
+      "relevanceScore": 10,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Top Producers 2025/2024",
+      "source": "World Steel Association",
+      "date": "Thu, 04 Jun 2026 09:21:08 +0000",
+      "url": "https://worldsteel.org/data/top-steel-producers/",
+      "summary": "<p>Global steel industry data: A list of the top 50 largest steel-producing companies in the world in 2025. </p>\n<p>The post <a href=\"https://worldsteel.org/data/top-steel-producers/\">Top Producers 2025/2024</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "How to Judge Forecast Performance in Metals: Setting up an MCP for Metal Prices",
+      "source": "MetalMiner",
+      "date": "Tue, 14 Jul 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/07/14/mcp-for-metal-prices/",
+      "summary": "<img width=\"300\" height=\"200\" src=\"https://agmetalminer.com/wp-content/uploads/2024/07/BullsAndBears-300x200.jpg\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"insights sv, market signal\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2024/07/BullsAndBears-300x200.jpg 300w, https://agmetalminer.com/wp-content/uploads/2024/07/BullsAndBears-800x534.jpg 800w, https://agmetalminer.com/wp-content/uploads/2024/07/BullsAndBears-768x512.jpg 768w, https://agmetalminer.com/wp-content/uploads/2024/07/BullsAndBears.jpg 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"How to Judge Forecast Performance in Metals: Setting up an MCP for Metal Prices 5\">Industrial metals intelligence is no longer consumed solely through reports and market dashboards. Now, companies can set up an MCP for metal prices (Model Context Protocol). Increasingly, proprietary metal prices, forecasts, and analytical models are retrieved directly by AI agents through APIs. That shift fundamentally changes how organizations should evaluate metal price forecasting.  A forecast [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 69
     }
   ]
 }
