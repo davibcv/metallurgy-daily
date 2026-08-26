@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T11:22:11.926360+00:00",
+  "updatedAt": "2026-08-26T11:37:50.912625+00:00",
   "research": [
     {
       "title": "Microstructure-Erosion Resistance Correlation in High Chromium Cast Iron: A Digital Image Processing Approach",
@@ -90,6 +90,28 @@
       "country": "at",
       "relevanceScore": 7,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Samarco eyes regaining No. 2 iron ore pellet exporter spot in 2028",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 25 Aug 2026 22:24:12 +0000",
+      "url": "https://www.mining.com/web/samarco-eyes-regaining-no-2-iron-ore-pellet-exporter-spot-in-2028/",
+      "summary": "Samarco has fallen in the pellet exporters ranking, which is led by Vale, after halting some operations following the deadly collapse of its Fundao tailings dam in 2015.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Cleveland-Cliffs to match $500 million DOE grant for Ohio steel plant project",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 21 Aug 2026 16:07:37 +0000",
+      "url": "https://www.mining.com/web/cleveland-cliffs-to-match-500-million-doe-grant-for-ohio-steel-plant-project/",
+      "summary": "The rebuild of the facility is set to be completed by 2030, and will employ more than 1,500 workers.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 69
     },
     {
       "title": "July 2026 crude steel production",
