@@ -22,7 +22,7 @@ MAX_ARTICLES_PER_SOURCE = 5
 
 
 # ============================================================
-# CONFIGURAÇÃO DAS FONTES
+# CONFIGURAÇÃO DAS FONTES (PURIFICADA E BLINDADA)
 # ============================================================
 
 SOURCES = [
@@ -43,20 +43,6 @@ SOURCES = [
         "url": "https://news.mit.edu/rss/topic/materials-processing",
         "category": "research",
         "country": "us"
-    },
-
-    {
-        "name": "NIMS Japan",
-        "url": "https://www.nims.go.jp/eng/news/atom.xml",
-        "category": "research",
-        "country": "jp"
-    },
-
-    {
-        "name": "Tohoku University — Materials",
-        "url": "https://www.tohoku.ac.jp/en/news/research/rss.xml",
-        "category": "research",
-        "country": "jp"
     },
 
     {
@@ -110,16 +96,9 @@ SOURCES = [
 
     {
         "name": "Springer — Metallurgical",
-        "url": "https://link.springer.com/search.rss?facet-journal-id=11661&facet-content-type=Article",
+        "url": "https://link.springer.com/journal/11661.rss",
         "category": "research",
         "country": "de"
-    },
-
-    {
-        "name": "AZoM — Materials Science",
-        "url": "https://www.azom.com/rss/materials.xml",
-        "category": "research",
-        "country": "gb"
     },
 
 
@@ -135,38 +114,10 @@ SOURCES = [
     },
 
     {
-        "name": "EUROMETAL",
-        "url": "https://eurometal.net/feed/",
-        "category": "industry",
-        "country": "be"
-    },
-
-    {
         "name": "Instituto Aço Brasil",
         "url": "https://acobrasil.org.br/site/feed/",
         "category": "industry",
         "country": "br"
-    },
-
-    {
-        "name": "SteelOnTheNet",
-        "url": "https://www.steelonthenet.com/feed/",
-        "category": "industry",
-        "country": "gb"
-    },
-
-    {
-        "name": "EUROFER",
-        "url": "https://www.eurofer.eu/news/rss/",
-        "category": "industry",
-        "country": "be"
-    },
-
-    {
-        "name": "European Commission",
-        "url": "https://ec.europa.eu/trade/rss/",
-        "category": "industry",
-        "country": "eu"
     },
 
     {
@@ -212,13 +163,6 @@ SOURCES = [
     },
 
     {
-        "name": "Steel Times International",
-        "url": "https://www.steeltimesint.com/rss",
-        "category": "industry",
-        "country": "gb"
-    },
-
-    {
         "name": "World Economic Forum",
         "url": "https://www.weforum.org/agenda/trade-and-investment/feed",
         "category": "industry",
@@ -253,13 +197,6 @@ SOURCES = [
     },
 
     {
-        "name": "Germany BMWK (Ministério da Economia)",
-        "url": "https://www.bmwk.de/SiteGlobals/Functions/RSS/EN/Pressemitteilungen/rss_pressemitteilungen.xml",
-        "category": "industry",
-        "country": "de"
-    },
-
-    {
         "name": "France Ministère de l'Économie",
         "url": "https://www.economie.gouv.fr/flux-rss/presse",
         "category": "industry",
@@ -274,24 +211,10 @@ SOURCES = [
     },
 
     {
-        "name": "Spain Ministerio de Industria",
-        "url": "https://www.mintur.gob.es/es-es/GabinetePrensa/NotasPrensa/rss",
-        "category": "industry",
-        "country": "es"
-    },
-
-    {
         "name": "Sweden Government Offices",
         "url": "https://www.government.se/rss.xml",
         "category": "industry",
         "country": "se"
-    },
-
-    {
-        "name": "US Trade Representative (USTR)",
-        "url": "https://ustr.gov/about-us/policy-offices/press-office/press-releases/rss.xml",
-        "category": "industry",
-        "country": "us"
     },
 
     {
@@ -306,13 +229,6 @@ SOURCES = [
         "url": "https://www.industry.gov.au/rss.xml",
         "category": "industry",
         "country": "au"
-    },
-
-    {
-        "name": "World Trade Organization (WTO)",
-        "url": "https://www.wto.org/english/res_e/rss_e/pr_e.xml",
-        "category": "industry",
-        "country": "ch"
     },
 
     {
@@ -336,20 +252,6 @@ SOURCES = [
     },
 
     {
-        "name": "thyssenkrupp",
-        "url": "https://www.thyssenkrupp.com/en/newsroom/rss.xml",
-        "category": "industry",
-        "country": "de"
-    },
-
-    {
-        "name": "SSAB",
-        "url": "https://news.cision.com/ssab/rss",
-        "category": "industry",
-        "country": "se"
-    },
-
-    {
         "name": "voestalpine",
         "url": "https://www.voestalpine.com/blog/en/feed/",
         "category": "industry",
@@ -357,38 +259,10 @@ SOURCES = [
     },
 
     {
-        "name": "Tata Steel",
-        "url": "https://www.tatasteel.com/rss-feeds/press-releases/",
-        "category": "industry",
-        "country": "in"
-    },
-
-    {
         "name": "Gerdau (RI)",
         "url": "https://ri.gerdau.com/rss/",
         "category": "industry",
         "country": "br"
-    },
-
-    {
-        "name": "Usiminas (RI)",
-        "url": "https://ri.usiminas.com/rss/",
-        "category": "industry",
-        "country": "br"
-    },
-
-    {
-        "name": "CSN (RI)",
-        "url": "https://ri.csn.com.br/rss/",
-        "category": "industry",
-        "country": "br"
-    },
-
-    {
-        "name": "Nippon Steel",
-        "url": "https://www.nipponsteel.com/en/news/rss.xml",
-        "category": "industry",
-        "country": "jp"
     },
 
     {
@@ -419,32 +293,12 @@ SOURCES = [
     },
 
     {
-        "name": "Fastmarkets",
-        "url": "https://www.fastmarkets.com/feed/",
-        "category": "industry",
-        "country": "gb"
-    },
-
-    {
         "name": "Kallanish Iron & Steel",
         "url": "https://www.kallanish.com/en/news/steel/feed/",
         "category": "industry",
         "country": "gb"
-    },
-
-    {
-        "name": "MySteel Global",
-        "url": "https://www.mysteel.net/rss.xml",
-        "category": "industry",
-        "country": "cn"
-    },
-
-    {
-        "name": "SteelOrbis",
-        "url": "https://www.steelorbis.com/rss/news.xml",
-        "category": "industry",
-        "country": "tr"
     }
+
 ]
 
 
@@ -780,7 +634,7 @@ def parse_date(date_str):
 
 
 # ============================================================
-# OBTENÇÃO DOS FEEDS
+# OBTENÇÃO DOS FEEDS (COM DISFARCE ANTIBOT)
 # ============================================================
 
 def fetch_feed(url):
@@ -789,7 +643,9 @@ def fetch_feed(url):
         url,
         headers={
             "User-Agent":
-                "MetallurgyDaily-Bot/1.0"
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+            "Accept":
+                "application/rss+xml, application/xml, text/xml, */*"
         }
     )
 
