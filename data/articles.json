@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-26T11:37:50.912625+00:00",
+  "updatedAt": "2026-09-16T13:51:08.687034+00:00",
   "research": [
+    {
+      "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
+      "source": "MIT News — Materials Science",
+      "date": "Thu, 03 Sep 2026 13:00:00 -0400",
+      "url": "https://news.mit.edu/2026/mit-assistant-professor-thomas-rose-archaeometallurgy-expert-dies-0903",
+      "summary": "Colleagues remember Rose as an enthusiastic and gracious friend who had recently started a promising research track at MIT.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 8,
+      "seriousnessScore": 50
+    },
     {
       "title": "Microstructure-Erosion Resistance Correlation in High Chromium Cast Iron: A Digital Image Processing Approach",
       "source": "AGH — JCME",
@@ -70,48 +81,92 @@
   ],
   "industry": [
     {
-      "title": "Hairuo’s #FavoriteMoments as a Key Account Manager: Recognition",
+      "title": "Indonesia launches anti-dumping investigation into steel products from China, ministry says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 15 Sep 2026 19:28:51 +0000",
+      "url": "https://www.mining.com/web/indonesia-launches-anti-dumping-investigation-into-steel-products-from-china-ministry-says/",
+      "summary": "The investigation will be conducted within the next year and comes after requests logged by two Indonesia steel producers.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Radiant World sues Glencore for $2 billion",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 15 Sep 2026 12:03:00 +0000",
+      "url": "https://www.mining.com/radiant-world-axes-more-jobs-as-legal-pressure-mounts/",
+      "summary": "It escalates mounting legal scrutiny over allegedly falsified iron ore trades, invoices and financing involving the two trading firms.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 66
+    },
+    {
+      "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
       "source": "voestalpine",
-      "date": "Wed, 26 Aug 2026 07:36:28 +0000",
-      "url": "https://www.voestalpine.com/blog/en/career/people/hairuos-favoritemoments-as-a-key-account-manager-recognition/",
-      "summary": "<p>Selling with “Hairuo quality”—at voestalpine Krems Finaltechnik, we know exactly what that means: Our Key Account Manager, Hairuo C., is constantly striving to find the best steel construction solutions for our international customers in the high-bay warehouse sector. That’s exactly why he’s recognized by everyone. These are true #FavoriteMoments.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/career/people/hairuos-favoritemoments-as-a-key-account-manager-recognition/\">Hairuo’s #FavoriteMoments as a Key Account Manager: Recognition</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "date": "Mon, 14 Sep 2026 05:00:01 +0000",
+      "url": "https://www.voestalpine.com/blog/en/innovation-technology/automotive/how-steel-shapes-modern-automotive-design-and-creates-favoritemoments/",
+      "summary": "<p>If you compare cars over the years, you’ll see: shapes are cleaner today, surfaces are smoother, the front end makes a stronger statement than before, and lighting also serves as a brand ambassador. People intuitively perceive these differences—as they walk by, when they open the door, or at their first glance at the front end. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/automotive/how-steel-shapes-modern-automotive-design-and-creates-favoritemoments/\">How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
       "category": "industry",
       "country": "at",
       "relevanceScore": 10,
       "seriousnessScore": 55
     },
     {
-      "title": "#FavoriteMoments: How We’re Making Mobility Safer",
+      "title": "Electric Mobility – #FavoriteMoments With Sustainable Driving",
       "source": "voestalpine",
-      "date": "Thu, 06 Aug 2026 12:25:43 +0000",
-      "url": "https://www.voestalpine.com/blog/en/innovation-technology/favoritemoments-how-were-making-mobility-safer/",
-      "summary": "<p>How do modern vehicle components protect people inside the car? To ensure we all arrive safely at work, on vacation, and at home, structural components, restraint systems, and driver-assistance programs keep us safe in cars and buses. Innovative products make significant contributions to our safety and that of other road users.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/favoritemoments-how-were-making-mobility-safer/\">#FavoriteMoments: How We’re Making Mobility Safer</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "date": "Mon, 07 Sep 2026 07:07:45 +0000",
+      "url": "https://www.voestalpine.com/blog/en/innovation-technology/automotive/electric-mobility-favoritemoments-with-sustainable-driving/",
+      "summary": "<p>Sustainability, decarbonization, and electrification— is calling on the global community to embrace these goals, and the automotive industry has long been responding with modern and comfortable electric cars. Today, 900–1,050 fully or partially electric passenger car models are available on the global market, according to Motorwatt . With the switch to electric propulsion, drivers are [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/automotive/electric-mobility-favoritemoments-with-sustainable-driving/\">Electric Mobility – #FavoriteMoments With Sustainable Driving</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
       "category": "industry",
       "country": "at",
       "relevanceScore": 7,
-      "seriousnessScore": 50
+      "seriousnessScore": 54
     },
     {
-      "title": "Samarco eyes regaining No. 2 iron ore pellet exporter spot in 2028",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 25 Aug 2026 22:24:12 +0000",
-      "url": "https://www.mining.com/web/samarco-eyes-regaining-no-2-iron-ore-pellet-exporter-spot-in-2028/",
-      "summary": "Samarco has fallen in the pellet exporters ranking, which is led by Vale, after halting some operations following the deadly collapse of its Fundao tailings dam in 2015.",
+      "title": "A Piece of Rusted Steel, Reborn in an Electric Arc Furnace [3-minute Recap YouTube]",
+      "source": "POSCO",
+      "date": "Fri, 11 Sep 2026 08:00:18 +0000",
+      "url": "https://newsroom.posco.com/en/a-piece-of-rusted-steel-reborn-in-an-electric-arc-furnace-3-minute-recap-youtube/",
+      "summary": "Steel has long supported our daily lives and industries, but over time, it may reach the end of its useful life and become scrap. POSCO group saw new potential",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
+      "country": "kr",
+      "relevanceScore": 22,
       "seriousnessScore": 60
     },
     {
-      "title": "Cleveland-Cliffs to match $500 million DOE grant for Ohio steel plant project",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 21 Aug 2026 16:07:37 +0000",
-      "url": "https://www.mining.com/web/cleveland-cliffs-to-match-500-million-doe-grant-for-ohio-steel-plant-project/",
-      "summary": "The rebuild of the facility is set to be completed by 2030, and will employ more than 1,500 workers.",
+      "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
+      "source": "POSCO",
+      "date": "Wed, 02 Sep 2026 16:25:33 +0000",
+      "url": "https://newsroom.posco.com/en/posco-holdings-secures-us700-million-international-financial-institution-credit-facility-for-argentina-lithium-business-accelerating-project-development/",
+      "summary": "POSCO Argentina secures a US$700 million short-term credit facility from the IDB Group, reaffirming the competitiveness of its lithium business A key outcome",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
-      "seriousnessScore": 69
+      "country": "kr",
+      "relevanceScore": 7,
+      "seriousnessScore": 59
+    },
+    {
+      "title": "An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone",
+      "source": "MetalMiner",
+      "date": "Wed, 09 Sep 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/09/09/metal-market-data-mcps/",
+      "summary": "<img width=\"300\" height=\"167\" src=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Model Context Protocol, metal market data\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png 300w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-768x429.png 768w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-800x446.png 800w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone 2\">A live metal market data cost dashboard built entirely from market data calls will misstate exposure. MetalMiner MCP (Model Context Protocol) data supplies market price, premium, surcharge, technical, and forecast inputs that eliminate manual price drops from the workflow. It cannot supply the bill of materials, demand plan, supplier contracts, purchase orders, scrap factors, or [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 5,
+      "seriousnessScore": 74
+    },
+    {
+      "title": "steelChallenge-21 registration open",
+      "source": "World Steel Association",
+      "date": "Tue, 01 Sep 2026 07:34:10 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/",
+      "summary": "<p>steeluniversity announces the opening of registrations for the 21st edition of steelChallenge.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/\">steelChallenge-21 registration open</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
     },
     {
       "title": "July 2026 crude steel production",
@@ -125,28 +180,6 @@
       "seriousnessScore": 70
     },
     {
-      "title": "June 2026 crude steel production",
-      "source": "World Steel Association",
-      "date": "Thu, 23 Jul 2026 06:13:35 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/",
-      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 155.7 million tonnes (Mt) in June 2026, a 1.7% increase compared to June 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/\">June 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 20,
-      "seriousnessScore": 70
-    },
-    {
-      "title": "Why AI Hallucinates Metal Prices Without an MCP Server",
-      "source": "MetalMiner",
-      "date": "Mon, 10 Aug 2026 06:00:00 +0000",
-      "url": "https://agmetalminer.com/2026/08/10/ai-data-integration/",
-      "summary": "<img width=\"300\" height=\"175\" src=\"https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-300x175.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Ai Hallucination\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-300x175.png 300w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-768x449.png 768w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination-800x467.png 800w, https://agmetalminer.com/wp-content/uploads/2026/08/AI-Hallucination.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"Why AI Hallucinates Metal Prices Without an MCP Server 3\">When a manufacturer has AI data integration and asks AI for “the copper price” or “the steel price,” the most harmful error is usually not only a fabricated number but also a real number attached to the wrong benchmark. In industrial metals, a model can return a plausible answer while quietly confusing: The answer may [&#8230;]",
-      "category": "industry",
-      "country": "us",
-      "relevanceScore": 10,
-      "seriousnessScore": 60
-    },
-    {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
       "source": "Instituto Aço Brasil",
       "date": "Mon, 24 Jun 2019 18:40:14 +0000",
@@ -158,15 +191,48 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Researcher Sarah: Steel in Her Genes",
-      "source": "voestalpine",
-      "date": "Thu, 16 Jul 2026 10:41:06 +0000",
-      "url": "https://www.voestalpine.com/blog/en/innovation-technology/researcher-sarah-steel-in-her-genes/",
-      "summary": "<p>Even as a child, Sarah L. loved experiments, testing, and technology. The passion for steel was instilled in the product and process development expert from the very beginning. Today, here in Kapfenberg, she develops our high-performance materials of the future.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/researcher-sarah-steel-in-her-genes/\">Researcher Sarah: Steel in Her Genes</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "title": "BHP faces arbitration in Port Hedland wage dispute",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 15 Sep 2026 10:51:00 +0000",
+      "url": "https://www.mining.com/bhp-faces-arbitration-in-port-hedland-wage-dispute/",
+      "summary": "Nine months of stalled talks push unionized workers to seek a tribunal ruling on pay and conditions at BHP’s key iron ore hub.",
       "category": "industry",
-      "country": "at",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "UK government seeks to acquire insolvent specialist steelmaker",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 14 Sep 2026 17:12:21 +0000",
+      "url": "https://www.mining.com/web/uk-government-seeks-to-acquire-insolvent-specialist-steelmaker/",
+      "summary": "Speciality Steel was part of Liberty Steel, owned by commodities tycoon Sanjeev Gupta.",
+      "category": "industry",
+      "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 50
+    },
+    {
+      "title": "POSCO group and CSIRO Hold Critical Minerals Forum to Strengthen Collaboration on Low-Carbon Ironmaking Technologies",
+      "source": "POSCO",
+      "date": "Thu, 27 Aug 2026 11:05:17 +0000",
+      "url": "https://newsroom.posco.com/en/posco-group-and-csiro-hold-critical-minerals-forum-to-strengthen-collaboration-on-low-carbon-ironmaking-technologies/",
+      "summary": "Korean and Australian research institutes and universities participate in the forum jointly hosted by CSIRO and POSCO group Participants share technology",
+      "category": "industry",
+      "country": "kr",
+      "relevanceScore": 8,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "June 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Thu, 23 Jul 2026 06:13:35 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 155.7 million tonnes (Mt) in June 2026, a 1.7% increase compared to June 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/june-2026-crude-steel-production/\">June 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
     },
     {
       "title": "Access Temporarily Restricted",
@@ -180,6 +246,17 @@
       "seriousnessScore": 50
     },
     {
+      "title": "Whyalla Steelworks to cut hundreds of jobs ahead of sale",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 14 Sep 2026 13:39:12 +0000",
+      "url": "https://www.mining.com/web/whyalla-steelworks-to-cut-hundreds-of-jobs-ahead-of-sale/",
+      "summary": "Whyalla Steelworks in South Australia is searching for a new owner and it will shut its blast furnace, administrators said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 27,
+      "seriousnessScore": 61
+    },
+    {
       "title": "15th China International Steel Congress |19-20 September 2026 | Shanghai, China",
       "source": "World Steel Association",
       "date": "Thu, 25 Jun 2026 08:47:24 +0000",
@@ -189,17 +266,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 50
-    },
-    {
-      "title": "May 2026 crude steel production",
-      "source": "World Steel Association",
-      "date": "Tue, 23 Jun 2026 08:36:17 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/",
-      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 157.9 million tonnes (Mt) in May 2026, a 0.3% decrease compared to May 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/may-2026-crude-steel-production/\">May 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 20,
-      "seriousnessScore": 70
     }
   ]
 }
