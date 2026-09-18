@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-18T12:15:21.373343+00:00",
+  "updatedAt": "2026-09-18T18:13:42.457545+00:00",
   "research": [
+    {
+      "title": "Caltech’s tiny new chip can steer light in 74 quadrillionths of a second",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Fri, 18 Sep 2026 07:50:13 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024823.htm",
+      "summary": "A new Caltech device can redirect a beam of light in just 74 femtoseconds using another beam and a nanoscale silicon metasurface. The breakthrough could pave the way for dramatically faster photonic communications, computing, and sensing technologies.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
       "source": "MIT News — Materials Science",
@@ -81,6 +92,17 @@
   ],
   "industry": [
     {
+      "title": "EU to impose provisional safeguards to protect electrical steel from imports",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 18 Sep 2026 16:45:19 +0000",
+      "url": "https://www.mining.com/web/eu-to-impose-provisional-safeguards-to-protect-electrical-steel-from-imports/",
+      "summary": "The EU will establish 'safeguards' in the form of quotas for grain-oriented electrical steel to keep production in Europe.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Iron ore price firms on China pre-holiday restocking, demand uncertainty caps gains",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 17 Sep 2026 14:30:56 +0000",
@@ -90,17 +112,6 @@
       "country": "ca",
       "relevanceScore": 25,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Rinehart’s nine-deal spree takes her well beyond iron ore",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 17 Sep 2026 12:46:00 +0000",
-      "url": "https://www.mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore/",
-      "summary": "Australia’s richest person is building a strategic-metals portfolio spanning rare earths, copper, gallium, antimony and gold.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
     },
     {
       "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
@@ -191,15 +202,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Indonesia launches anti-dumping investigation into steel products from China, ministry says",
+      "title": "Rinehart’s nine-deal spree takes her well beyond iron ore",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 15 Sep 2026 19:28:51 +0000",
-      "url": "https://www.mining.com/web/indonesia-launches-anti-dumping-investigation-into-steel-products-from-china-ministry-says/",
-      "summary": "The investigation will be conducted within the next year and comes after requests logged by two Indonesia steel producers.",
+      "date": "Thu, 17 Sep 2026 12:46:00 +0000",
+      "url": "https://www.mining.com/rineharts-nine-deal-spree-takes-her-well-beyond-iron-ore/",
+      "summary": "Australia’s richest person is building a strategic-metals portfolio spanning rare earths, copper, gallium, antimony and gold.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
+      "relevanceScore": 5,
+      "seriousnessScore": 55
     },
     {
       "title": "POSCO group and CSIRO Hold Critical Minerals Forum to Strengthen Collaboration on Low-Carbon Ironmaking Technologies",
