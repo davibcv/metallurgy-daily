@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T03:45:48.320655+00:00",
+  "updatedAt": "2026-09-21T12:12:39.883853+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,28 @@
   ],
   "industry": [
     {
+      "title": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
+      "source": "POSCO",
+      "date": "Mon, 21 Sep 2026 13:30:13 +0000",
+      "url": "https://newsroom.posco.com/en/posco-to-build-state-of-the-art-galvanized-automotive-steel-sheet-plant-bringing-together-the-latest-automotive-steel-technologies/",
+      "summary": "Invests KRW 480 billion in a new continuous galvanizing line (CGL) with an annual production capacity of 450,000 metric tons Builds a next-generation plant",
+      "category": "industry",
+      "country": "kr",
+      "relevanceScore": 10,
+      "seriousnessScore": 77
+    },
+    {
+      "title": "A Piece of Rusted Steel, Reborn in an Electric Arc Furnace [3-minute Recap YouTube]",
+      "source": "POSCO",
+      "date": "Fri, 11 Sep 2026 08:00:18 +0000",
+      "url": "https://newsroom.posco.com/en/a-piece-of-rusted-steel-reborn-in-an-electric-arc-furnace-3-minute-recap-youtube/",
+      "summary": "Steel has long supported our daily lives and industries, but over time, it may reach the end of its useful life and become scrap. POSCO group saw new potential",
+      "category": "industry",
+      "country": "kr",
+      "relevanceScore": 22,
+      "seriousnessScore": 60
+    },
+    {
       "title": "EU to impose provisional safeguards to protect electrical steel from imports",
       "source": "Mining.com — Iron Ore",
       "date": "Fri, 18 Sep 2026 16:45:19 +0000",
@@ -123,28 +145,6 @@
       "country": "at",
       "relevanceScore": 7,
       "seriousnessScore": 54
-    },
-    {
-      "title": "A Piece of Rusted Steel, Reborn in an Electric Arc Furnace [3-minute Recap YouTube]",
-      "source": "POSCO",
-      "date": "Fri, 11 Sep 2026 08:00:18 +0000",
-      "url": "https://newsroom.posco.com/en/a-piece-of-rusted-steel-reborn-in-an-electric-arc-furnace-3-minute-recap-youtube/",
-      "summary": "Steel has long supported our daily lives and industries, but over time, it may reach the end of its useful life and become scrap. POSCO group saw new potential",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 22,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
-      "source": "POSCO",
-      "date": "Wed, 02 Sep 2026 16:25:33 +0000",
-      "url": "https://newsroom.posco.com/en/posco-holdings-secures-us700-million-international-financial-institution-credit-facility-for-argentina-lithium-business-accelerating-project-development/",
-      "summary": "POSCO Argentina secures a US$700 million short-term credit facility from the IDB Group, reaffirming the competitiveness of its lithium business A key outcome",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 7,
-      "seriousnessScore": 59
     },
     {
       "title": "An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone",
@@ -191,15 +191,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "POSCO group and CSIRO Hold Critical Minerals Forum to Strengthen Collaboration on Low-Carbon Ironmaking Technologies",
+      "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
       "source": "POSCO",
-      "date": "Thu, 27 Aug 2026 11:05:17 +0000",
-      "url": "https://newsroom.posco.com/en/posco-group-and-csiro-hold-critical-minerals-forum-to-strengthen-collaboration-on-low-carbon-ironmaking-technologies/",
-      "summary": "Korean and Australian research institutes and universities participate in the forum jointly hosted by CSIRO and POSCO group Participants share technology",
+      "date": "Wed, 02 Sep 2026 16:25:33 +0000",
+      "url": "https://newsroom.posco.com/en/posco-holdings-secures-us700-million-international-financial-institution-credit-facility-for-argentina-lithium-business-accelerating-project-development/",
+      "summary": "POSCO Argentina secures a US$700 million short-term credit facility from the IDB Group, reaffirming the competitiveness of its lithium business A key outcome",
       "category": "industry",
       "country": "kr",
-      "relevanceScore": 8,
-      "seriousnessScore": 55
+      "relevanceScore": 7,
+      "seriousnessScore": 59
     },
     {
       "title": "June 2026 crude steel production",
