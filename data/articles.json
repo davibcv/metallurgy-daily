@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T16:27:17.189699+00:00",
+  "updatedAt": "2026-09-22T20:58:41.811575+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -80,6 +80,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the UN General Assembly on Protecting Civilians Better",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Tue, 22 Sep 2026 17:19:25 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1943",
+      "summary": "European Commission Speech New York, 22 Sep 2026 Across the world civilians are paying an unbearable price for war.\nThe images appear on our screens almost daily. Families searching for food and water under bo...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
       "source": "Mining.com — Iron Ore",
@@ -178,6 +189,17 @@
       "country": "us",
       "relevanceScore": 5,
       "seriousnessScore": 74
+    },
+    {
+      "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
+      "source": "Instituto Aço Brasil",
+      "date": "Mon, 24 Jun 2019 18:40:14 +0000",
+      "url": "https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/",
+      "summary": "<p>Há quatro semanas, a estimativa de crescimento era de 1,23% A expectativa de alta para o Produto Interno Bruto (PIB) em 2019 recuou mais uma vez, agora de 0,93% para 0,87%, conforme o Relatório de Mercado Focus divulgado na manhã desta segunda-feira, 24, pelo Banco Central. Há quatro semanas, a estimativa de crescimento era de [&#8230;]</p>\n<p>The post <a href=\"https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/\">Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus</a> appeared first on <a href=\"https://www.acobrasil.org.br/site\">Instituto Aço Brasil</a>.</p>",
+      "category": "industry",
+      "country": "br",
+      "relevanceScore": 10,
+      "seriousnessScore": 54
     },
     {
       "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
