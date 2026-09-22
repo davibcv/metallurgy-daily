@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T11:06:42.175571+00:00",
+  "updatedAt": "2026-09-22T16:27:17.189699+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,28 @@
   ],
   "industry": [
     {
+      "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 22 Sep 2026 16:17:58 +0000",
+      "url": "https://www.mining.com/vale-takes-30-of-ligga-iron-ore-mine-in-190m-deal/",
+      "summary": "Vale plans to help quadruple Ferro Sul output after Brazil’s stock exchange sought details on the previously undisclosed deal.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "EU to impose provisional safeguards to protect electrical steel from imports",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 18 Sep 2026 16:45:19 +0000",
+      "url": "https://www.mining.com/web/eu-to-impose-provisional-safeguards-to-protect-electrical-steel-from-imports/",
+      "summary": "The EU will establish 'safeguards' in the form of quotas for grain-oriented electrical steel to keep production in Europe.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
       "title": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
       "source": "POSCO",
       "date": "Mon, 21 Sep 2026 13:30:13 +0000",
@@ -125,28 +147,6 @@
       "seriousnessScore": 50
     },
     {
-      "title": "EU to impose provisional safeguards to protect electrical steel from imports",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 18 Sep 2026 16:45:19 +0000",
-      "url": "https://www.mining.com/web/eu-to-impose-provisional-safeguards-to-protect-electrical-steel-from-imports/",
-      "summary": "The EU will establish 'safeguards' in the form of quotas for grain-oriented electrical steel to keep production in Europe.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
-    },
-    {
-      "title": "Iron ore price firms on China pre-holiday restocking, demand uncertainty caps gains",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 17 Sep 2026 14:30:56 +0000",
-      "url": "https://www.mining.com/web/iron-ore-firms-on-china-pre-holiday-restocking-demand-uncertainty-caps-gains/",
-      "summary": "Steel mills may slow restocking as tumbling margins discourage them from increasing output, curbing price upside.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 60
-    },
-    {
       "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
       "source": "voestalpine",
       "date": "Mon, 14 Sep 2026 05:00:01 +0000",
@@ -178,17 +178,6 @@
       "country": "us",
       "relevanceScore": 5,
       "seriousnessScore": 74
-    },
-    {
-      "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
-      "source": "Instituto Aço Brasil",
-      "date": "Mon, 24 Jun 2019 18:40:14 +0000",
-      "url": "https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/",
-      "summary": "<p>Há quatro semanas, a estimativa de crescimento era de 1,23% A expectativa de alta para o Produto Interno Bruto (PIB) em 2019 recuou mais uma vez, agora de 0,93% para 0,87%, conforme o Relatório de Mercado Focus divulgado na manhã desta segunda-feira, 24, pelo Banco Central. Há quatro semanas, a estimativa de crescimento era de [&#8230;]</p>\n<p>The post <a href=\"https://www.acobrasil.org.br/site/projecao-para-alta-do-pib-de-2019-passa-de-093-para-087-preve-focus/\">Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus</a> appeared first on <a href=\"https://www.acobrasil.org.br/site\">Instituto Aço Brasil</a>.</p>",
-      "category": "industry",
-      "country": "br",
-      "relevanceScore": 10,
-      "seriousnessScore": 54
     },
     {
       "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
