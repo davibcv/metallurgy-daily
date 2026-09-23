@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22T20:58:41.811575+00:00",
+  "updatedAt": "2026-09-23T03:42:22.737803+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -80,6 +80,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
+      "source": "UK Gov — Business & Trade",
+      "date": "2026-09-23T00:01:04+01:00",
+      "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026",
+      "summary": "September 2026 update on implementing the independent review of employers&#39; role in tackling health based economic inactivity and promoting healthy and inclusive workplaces to change outcomes, improve lives and drive grow…",
+      "category": "industry",
+      "country": "gb",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Speech by Commissioner Lahbib at the UN General Assembly on Protecting Civilians Better",
       "source": "EU Commission — Economy & Finance",
