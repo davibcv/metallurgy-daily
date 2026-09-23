@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T10:56:27.841764+00:00",
+  "updatedAt": "2026-09-23T16:17:10.012677+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,17 @@
   ],
   "industry": [
     {
+      "title": "Speech by Commissioner Lahbib on Drones, Modern Warfare, and the Protection of International Humanitarian Law in Eastern Democratic Republic of the Congo",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 23 Sep 2026 15:37:45 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1959",
+      "summary": "European Commission Speech New York, 23 Sep 2026 In February, I was in Goma where I met humanitarian workers, visited Ndosho hospital, and spoke to people living with the consequences of this war.\nEverywhere I...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
       "source": "MetalMiner",
       "date": "Wed, 23 Sep 2026 06:00:00 +0000",
@@ -112,17 +123,6 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the UN General Assembly on Protecting Civilians Better",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Tue, 22 Sep 2026 17:19:25 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1943",
-      "summary": "European Commission Speech New York, 22 Sep 2026 Across the world civilians are paying an unbearable price for war.\nThe images appear on our screens almost daily. Families searching for food and water under bo...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
     },
     {
       "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
