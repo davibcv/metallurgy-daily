@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T03:42:22.737803+00:00",
+  "updatedAt": "2026-09-23T10:56:27.841764+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -80,6 +80,28 @@
     }
   ],
   "industry": [
+    {
+      "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
+      "source": "MetalMiner",
+      "date": "Wed, 23 Sep 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/09/23/ai-forecasting-pricing-answers/",
+      "summary": "<img width=\"300\" height=\"169\" src=\"https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-300x169.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Steel roll\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-300x169.png 300w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-1024x576.png 1024w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-768x432.png 768w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-800x450.png 800w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll.png 1100w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong 1\">&#8220;Steel prices are rising, so companies should wait before placing orders.&#8221; That sentence sounds plausible. It may even prove directionally right. It still fails the test that matters in sourcing, cost planning, and risk management. Can anyone audit it? It names no benchmark. &#8220;Steel&#8221; could mean hot-rolled coil, cold-rolled coil, galvanized sheet, plate, stainless sheet, [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone",
+      "source": "MetalMiner",
+      "date": "Wed, 09 Sep 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/09/09/metal-market-data-mcps/",
+      "summary": "<img width=\"300\" height=\"167\" src=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Model Context Protocol, metal market data\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png 300w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-768x429.png 768w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-800x446.png 800w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone 3\">A live metal market data cost dashboard built entirely from market data calls will misstate exposure. MetalMiner MCP (Model Context Protocol) data supplies market price, premium, surcharge, technical, and forecast inputs that eliminate manual price drops from the workflow. It cannot supply the bill of materials, demand plan, supplier contracts, purchase orders, scrap factors, or [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 5,
+      "seriousnessScore": 74
+    },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
       "source": "UK Gov — Business & Trade",
@@ -191,17 +213,6 @@
       "seriousnessScore": 54
     },
     {
-      "title": "An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone",
-      "source": "MetalMiner",
-      "date": "Wed, 09 Sep 2026 06:00:00 +0000",
-      "url": "https://agmetalminer.com/2026/09/09/metal-market-data-mcps/",
-      "summary": "<img width=\"300\" height=\"167\" src=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Model Context Protocol, metal market data\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/09/MCP-300x167.png 300w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-768x429.png 768w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP-800x446.png 800w, https://agmetalminer.com/wp-content/uploads/2026/09/MCP.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"An MCP-Fed Metal Exposure Dashboard Cannot Run on Metal Market Data Alone 2\">A live metal market data cost dashboard built entirely from market data calls will misstate exposure. MetalMiner MCP (Model Context Protocol) data supplies market price, premium, surcharge, technical, and forecast inputs that eliminate manual price drops from the workflow. It cannot supply the bill of materials, demand plan, supplier contracts, purchase orders, scrap factors, or [&#8230;]",
-      "category": "industry",
-      "country": "us",
-      "relevanceScore": 5,
-      "seriousnessScore": 74
-    },
-    {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
       "source": "Instituto Aço Brasil",
       "date": "Mon, 24 Jun 2019 18:40:14 +0000",
@@ -211,17 +222,6 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
-    },
-    {
-      "title": "POSCO Holdings Secures US$700 Million International Financial Institution Credit Facility for Argentina Lithium Business, Accelerating Project Development",
-      "source": "POSCO",
-      "date": "Wed, 02 Sep 2026 16:25:33 +0000",
-      "url": "https://newsroom.posco.com/en/posco-holdings-secures-us700-million-international-financial-institution-credit-facility-for-argentina-lithium-business-accelerating-project-development/",
-      "summary": "POSCO Argentina secures a US$700 million short-term credit facility from the IDB Group, reaffirming the competitiveness of its lithium business A key outcome",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 7,
-      "seriousnessScore": 59
     },
     {
       "title": "July 2026 crude steel production",
