@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T03:34:02.891144+00:00",
+  "updatedAt": "2026-09-24T11:15:52.331743+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,39 @@
   ],
   "industry": [
     {
+      "title": "August 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Thu, 24 Sep 2026 08:40:42 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 144.2 million tonnes (Mt) in August 2026, a 1.2% decrease compared to August 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/\">August 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations",
+      "source": "World Steel Association",
+      "date": "Mon, 21 Sep 2026 06:50:32 +0000",
+      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/",
+      "summary": "<p>Investment is expected to create approximately 250 permanent jobs and approximately 600 during construction  </p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/\">U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 16,
+      "seriousnessScore": 66
+    },
+    {
+      "title": "Joint Communiqué: Seventh Trilateral Meeting of the European Union, the African Union, and the United Nations",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 24 Sep 2026 07:33:04 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1962",
+      "summary": "European Commission Statement New York, 24 Sep 2026 \n\n\n\n\n\n\n\n\n\nThe European Union, the African Union, and the United Nations convened for their Seventh Trilateral Meeting, reaffirming their shared commitment to ef...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Statement by Commissioner Lahbib on behalf of EU Member States on the 75th Anniversary of the 1951 Convention on the Status of Refugees",
       "source": "EU Commission — Economy & Finance",
       "date": "Wed, 23 Sep 2026 21:05:39 GMT",
@@ -90,17 +123,6 @@
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the Call to Action for the Children of Gaza and the West Bank",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 23 Sep 2026 21:02:53 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1960",
-      "summary": "European Commission Speech New York, 23 Sep 2026 A kite.\nA piece of fabric on a string, held in a child's hand, dancing in the wind. The simplest toy. The simplest joy of an ordinary childhood.\nBut in Gaza tod...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
@@ -180,28 +202,6 @@
       "seriousnessScore": 60
     },
     {
-      "title": "U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations",
-      "source": "World Steel Association",
-      "date": "Mon, 21 Sep 2026 06:50:32 +0000",
-      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/",
-      "summary": "<p>Investment is expected to create approximately 250 permanent jobs and approximately 600 during construction  </p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/\">U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 16,
-      "seriousnessScore": 66
-    },
-    {
-      "title": "steelChallenge-21 registration open",
-      "source": "World Steel Association",
-      "date": "Tue, 01 Sep 2026 07:34:10 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/",
-      "summary": "<p>steeluniversity announces the opening of registrations for the 21st edition of steelChallenge.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/\">steelChallenge-21 registration open</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
       "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
       "source": "voestalpine",
       "date": "Mon, 14 Sep 2026 05:00:01 +0000",
@@ -211,17 +211,6 @@
       "country": "at",
       "relevanceScore": 10,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Electric Mobility – #FavoriteMoments With Sustainable Driving",
-      "source": "voestalpine",
-      "date": "Mon, 07 Sep 2026 07:07:45 +0000",
-      "url": "https://www.voestalpine.com/blog/en/innovation-technology/automotive/electric-mobility-favoritemoments-with-sustainable-driving/",
-      "summary": "<p>Sustainability, decarbonization, and electrification— is calling on the global community to embrace these goals, and the automotive industry has long been responding with modern and comfortable electric cars. Today, 900–1,050 fully or partially electric passenger car models are available on the global market, according to Motorwatt . With the switch to electric propulsion, drivers are [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/automotive/electric-mobility-favoritemoments-with-sustainable-driving/\">Electric Mobility – #FavoriteMoments With Sustainable Driving</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
-      "category": "industry",
-      "country": "at",
-      "relevanceScore": 7,
-      "seriousnessScore": 54
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
@@ -235,14 +224,14 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Speech by Commissioner Lahbib on Drones, Modern Warfare, and the Protection of International Humanitarian Law in Eastern Democratic Republic of the Congo",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 23 Sep 2026 15:37:45 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1959",
-      "summary": "European Commission Speech New York, 23 Sep 2026 In February, I was in Goma where I met humanitarian workers, visited Ndosho hospital, and spoke to people living with the consequences of this war.\nEverywhere I...",
+      "title": "steelChallenge-21 registration open",
+      "source": "World Steel Association",
+      "date": "Tue, 01 Sep 2026 07:34:10 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/",
+      "summary": "<p>steeluniversity announces the opening of registrations for the 21st edition of steelChallenge.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/\">steelChallenge-21 registration open</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
+      "country": "be",
+      "relevanceScore": 10,
       "seriousnessScore": 50
     },
     {
@@ -257,6 +246,17 @@
       "seriousnessScore": 70
     },
     {
+      "title": "Speech by Commissioner Lahbib at the Call to Action for the Children of Gaza and the West Bank",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 23 Sep 2026 21:02:53 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1960",
+      "summary": "European Commission Speech New York, 23 Sep 2026 A kite.\nA piece of fabric on a string, held in a child's hand, dancing in the wind. The simplest toy. The simplest joy of an ordinary childhood.\nBut in Gaza tod...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "June 2026 crude steel production",
       "source": "World Steel Association",
       "date": "Thu, 23 Jul 2026 06:13:35 +0000",
@@ -266,17 +266,6 @@
       "country": "be",
       "relevanceScore": 20,
       "seriousnessScore": 70
-    },
-    {
-      "title": "Access Temporarily Restricted",
-      "source": "World Steel Association",
-      "date": "Tue, 21 Jul 2026 07:50:22 +0000",
-      "url": "https://worldsteel.org/access-temporarily-restricted/",
-      "summary": "<p>The post <a href=\"https://worldsteel.org/access-temporarily-restricted/\">Access Temporarily Restricted</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
     }
   ]
 }
