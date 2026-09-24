@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T16:39:30.798949+00:00",
+  "updatedAt": "2026-09-24T21:15:03.501190+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -103,6 +103,28 @@
       "seriousnessScore": 50
     },
     {
+      "title": "KPMG appointed interim manager for Singapore iron ore trader Radiant, sources say",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 24 Sep 2026 14:30:27 +0000",
+      "url": "https://www.mining.com/web/kpmg-appointed-interim-manager-for-singapore-iron-ore-trader-radiant-sources-says/",
+      "summary": "The court appointed KPMG restructuring executives to be interim judicial managers of Radiant World Corporation Pte.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 54
+    },
+    {
+      "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 22 Sep 2026 16:17:58 +0000",
+      "url": "https://www.mining.com/vale-takes-30-of-ligga-iron-ore-mine-in-190m-deal/",
+      "summary": "Vale plans to help quadruple Ferro Sul output after Brazil’s stock exchange sought details on the previously undisclosed deal.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "August 2026 crude steel production",
       "source": "World Steel Association",
       "date": "Thu, 24 Sep 2026 08:40:42 +0000",
@@ -156,17 +178,6 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 22 Sep 2026 16:17:58 +0000",
-      "url": "https://www.mining.com/vale-takes-30-of-ligga-iron-ore-mine-in-190m-deal/",
-      "summary": "Vale plans to help quadruple Ferro Sul output after Brazil’s stock exchange sought details on the previously undisclosed deal.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
     },
     {
       "title": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
