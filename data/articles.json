@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T11:15:52.331743+00:00",
+  "updatedAt": "2026-09-24T16:39:30.798949+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,28 @@
   ],
   "industry": [
     {
+      "title": "Speech by Commissioner Lahbib on Haiti during the UN General Assembly",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 24 Sep 2026 15:32:05 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1975",
+      "summary": "European Commission Speech New York, 24 Sep 2026 In Haiti today, childhood is being stolen.\nChildren are being recruited by gangs. Families are trapped behind walls of violence. Humanitarian workers risk their...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Speech by Commissioner Lahbib at the G20 High Level Independent Panel on Financing Pandemic Preparedness and Response",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 24 Sep 2026 12:56:41 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1973",
+      "summary": "European Commission Speech New York, 24 Sep 2026 In June, I was in Bunia, at the epicentre of the Ebola outbreak. I met nurses, doctors, and local health workers fighting the virus on the front line. They knew...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "August 2026 crude steel production",
       "source": "World Steel Association",
       "date": "Thu, 24 Sep 2026 08:40:42 +0000",
@@ -101,28 +123,6 @@
       "country": "be",
       "relevanceScore": 16,
       "seriousnessScore": 66
-    },
-    {
-      "title": "Joint Communiqué: Seventh Trilateral Meeting of the European Union, the African Union, and the United Nations",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 24 Sep 2026 07:33:04 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1962",
-      "summary": "European Commission Statement New York, 24 Sep 2026 \n\n\n\n\n\n\n\n\n\nThe European Union, the African Union, and the United Nations convened for their Seventh Trilateral Meeting, reaffirming their shared commitment to ef...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Statement by Commissioner Lahbib on behalf of EU Member States on the 75th Anniversary of the 1951 Convention on the Status of Refugees",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 23 Sep 2026 21:05:39 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_1961",
-      "summary": "European Commission Statement New York, 23 Sep 2026 Seventy-five years on, the Refugee Convention continues to safeguard millions of lives, ensuring people escaping persecution can access protection and rights. A...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
     },
     {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
@@ -167,17 +167,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 55
-    },
-    {
-      "title": "EU to impose provisional safeguards to protect electrical steel from imports",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 18 Sep 2026 16:45:19 +0000",
-      "url": "https://www.mining.com/web/eu-to-impose-provisional-safeguards-to-protect-electrical-steel-from-imports/",
-      "summary": "The EU will establish 'safeguards' in the form of quotas for grain-oriented electrical steel to keep production in Europe.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
     },
     {
       "title": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
@@ -244,17 +233,6 @@
       "country": "be",
       "relevanceScore": 20,
       "seriousnessScore": 70
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the Call to Action for the Children of Gaza and the West Bank",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 23 Sep 2026 21:02:53 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1960",
-      "summary": "European Commission Speech New York, 23 Sep 2026 A kite.\nA piece of fabric on a string, held in a child's hand, dancing in the wind. The simplest toy. The simplest joy of an ordinary childhood.\nBut in Gaza tod...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "June 2026 crude steel production",
