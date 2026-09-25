@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25T11:21:02.240674+00:00",
+  "updatedAt": "2026-09-25T16:45:00.428496+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,26 +81,15 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib on Haiti during the UN General Assembly",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 24 Sep 2026 15:32:05 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1975",
-      "summary": "European Commission Speech New York, 24 Sep 2026 In Haiti today, childhood is being stolen.\nChildren are being recruited by gangs. Families are trapped behind walls of violence. Humanitarian workers risk their...",
+      "title": "JFE Steel sees 600,000-ton production impact from Chiba weather damage",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 25 Sep 2026 14:02:34 +0000",
+      "url": "https://www.mining.com/web/jfe-steel-sees-600000-ton-production-impact-from-chiba-weather-damage/",
+      "summary": "The estimated production impact could change depending on the progress of recovery work.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the G20 High Level Independent Panel on Financing Pandemic Preparedness and Response",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 24 Sep 2026 12:56:41 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1973",
-      "summary": "European Commission Speech New York, 24 Sep 2026 In June, I was in Bunia, at the epicentre of the Ebola outbreak. I met nurses, doctors, and local health workers fighting the virus on the front line. They knew...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 55
     },
     {
       "title": "KPMG appointed interim manager for Singapore iron ore trader Radiant, sources say",
@@ -114,15 +103,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 22 Sep 2026 16:17:58 +0000",
-      "url": "https://www.mining.com/vale-takes-30-of-ligga-iron-ore-mine-in-190m-deal/",
-      "summary": "Vale plans to help quadruple Ferro Sul output after Brazil’s stock exchange sought details on the previously undisclosed deal.",
+      "title": "Speech by Commissioner Lahbib on Haiti during the UN General Assembly",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 24 Sep 2026 15:32:05 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_1975",
+      "summary": "European Commission Speech New York, 24 Sep 2026 In Haiti today, childhood is being stolen.\nChildren are being recruited by gangs. Families are trapped behind walls of violence. Humanitarian workers risk their...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
     },
     {
       "title": "August 2026 crude steel production",
@@ -222,6 +211,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Vale takes 30% of Ligga iron ore mine in $190M deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 22 Sep 2026 16:17:58 +0000",
+      "url": "https://www.mining.com/vale-takes-30-of-ligga-iron-ore-mine-in-190m-deal/",
+      "summary": "Vale plans to help quadruple Ferro Sul output after Brazil’s stock exchange sought details on the previously undisclosed deal.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
     },
     {
       "title": "steelChallenge-21 registration open",
