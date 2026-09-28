@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28T13:08:16.922343+00:00",
+  "updatedAt": "2026-09-28T23:00:19.308647+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,28 @@
   ],
   "industry": [
     {
+      "title": "Cleveland-Cliffs to idle output at Canada steel plant, blames tariffs, says CBC",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 28 Sep 2026 20:39:52 +0000",
+      "url": "https://www.mining.com/web/cleveland-cliffs-to-idle-output-at-canada-steel-plant-blames-tariffs-says-cbc/",
+      "summary": "Stelco said it was idling finishing operations in Hamilton and it will offer jobs at its Nanticoke plant to Hamilton employees.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 67
+    },
+    {
+      "title": "Thyssenkrupp steel unit aims to triple core profit in overhaul",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 28 Sep 2026 18:27:42 +0000",
+      "url": "https://www.mining.com/web/thyssenkrupp-steel-unit-aims-to-triple-core-profit-in-overhaul/",
+      "summary": "Brussels imposed stricter limits on steel imports from Asia, which have been a major problem for local steelmakers.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Researcher Selina: Steel Meets Building Materials",
       "source": "voestalpine",
       "date": "Mon, 28 Sep 2026 07:10:55 +0000",
@@ -123,28 +145,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
-    },
-    {
-      "title": "JFE Steel sees 600,000-ton production impact from Chiba weather damage",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 25 Sep 2026 14:02:34 +0000",
-      "url": "https://www.mining.com/web/jfe-steel-sees-600000-ton-production-impact-from-chiba-weather-damage/",
-      "summary": "The estimated production impact could change depending on the progress of recovery work.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "KPMG appointed interim manager for Singapore iron ore trader Radiant, sources say",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 24 Sep 2026 14:30:27 +0000",
-      "url": "https://www.mining.com/web/kpmg-appointed-interim-manager-for-singapore-iron-ore-trader-radiant-sources-says/",
-      "summary": "The court appointed KPMG restructuring executives to be interim judicial managers of Radiant World Corporation Pte.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 54
     },
     {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
@@ -211,6 +211,28 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Trump unveils $15 billion planned Iowa steel project",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 28 Sep 2026 17:45:23 +0000",
+      "url": "https://www.mining.com/web/trump-unveils-15-billion-planned-iowa-steel-project/",
+      "summary": "Mesabi will use iron ore from its Minnesota mine to produce steel in Iowa, with first production expected in 2030.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "Rio Tinto commissions carbon-capture trial at China’s Shougang steel plant",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 28 Sep 2026 15:28:37 +0000",
+      "url": "https://www.mining.com/web/rio-tinto-commissions-carbon-capture-trial-at-chinas-shougang-steel-plant/",
+      "summary": "Rio Tinto and Shougang to research and develop technologies that could help reduce carbon emissions.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 55
     },
     {
       "title": "August 2026 crude steel production",
