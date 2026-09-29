@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T04:40:31.636511+00:00",
+  "updatedAt": "2026-09-29T12:18:24.236352+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -80,6 +80,28 @@
     }
   ],
   "industry": [
+    {
+      "title": "Discours de la Commissaire Lahbib au Parlement fédéral Belge",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Tue, 29 Sep 2026 08:35:51 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2001",
+      "summary": "European Commission Discours Brussels, 29 Sep 2026 C'est un plaisir d'être de retour au Parlement belge, l'enceinte où les échanges sont toujours enrichissants, j'ai pu y aiguiser mon combat politique… J'ai un p...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Liberty Magona: via libera Antitrust Ue a operazione rilancio da parte di Trasteel",
+      "source": "Italy MIMIT (Ministério da Indústria)",
+      "date": "Tue, 29 Sep 2026 09:28:24 +0200",
+      "url": "https://www.mimit.gov.it/it/notizie-stampa/liberty-magona-via-libera-antitrust-ue-a-operazione-rilancio-da-parte-di-trasteel",
+      "summary": "<p><img src=\"https://www.mimit.gov.it//images/stories/images/IMG_6272.JPG\" alt=\"\" width=\"900\" height=\"506\" loading=\"lazy\"></p><p>La società il 30 giugno aveva sottoscritto il contratto di affitto del 100% del ramo d’azienda, operazione propedeutica al passaggio di proprietà</p>",
+      "category": "industry",
+      "country": "it",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
     {
       "title": "Cleveland-Cliffs to idle output at Canada steel plant, blames tariffs, says CBC",
       "source": "Mining.com — Iron Ore",
