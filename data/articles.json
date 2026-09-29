@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T12:18:24.236352+00:00",
+  "updatedAt": "2026-09-29T21:58:48.613679+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,15 +81,26 @@
   ],
   "industry": [
     {
-      "title": "Discours de la Commissaire Lahbib au Parlement fédéral Belge",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Tue, 29 Sep 2026 08:35:51 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/fr/speech_26_2001",
-      "summary": "European Commission Discours Brussels, 29 Sep 2026 C'est un plaisir d'être de retour au Parlement belge, l'enceinte où les échanges sont toujours enrichissants, j'ai pu y aiguiser mon combat politique… J'ai un p...",
+      "title": "Mining Forum: AI begins paying off, McKinsey says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 29 Sep 2026 15:01:31 +0000",
+      "url": "https://www.mining.com/mining-forum-ai-begins-paying-off-mckinsey-says/",
+      "summary": "Fifteen of 19 major mining firms saw AI-driven financial gains in Q3, up from 4 last quarter.",
       "category": "industry",
-      "country": "eu",
+      "country": "ca",
       "relevanceScore": 7,
       "seriousnessScore": 50
+    },
+    {
+      "title": "India targets 600 million tons steel capacity by 2047, secretary says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 29 Sep 2026 13:32:01 +0000",
+      "url": "https://www.mining.com/web/india-targets-600-million-tons-steel-capacity-by-2047-secretary-says/",
+      "summary": "The policy aims to cut the sector's average carbon emission to around 1.54 tons of carbon dioxide per ton of crude steel.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 66
     },
     {
       "title": "Liberty Magona: via libera Antitrust Ue a operazione rilancio da parte di Trasteel",
@@ -101,28 +112,6 @@
       "country": "it",
       "relevanceScore": 10,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Cleveland-Cliffs to idle output at Canada steel plant, blames tariffs, says CBC",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 28 Sep 2026 20:39:52 +0000",
-      "url": "https://www.mining.com/web/cleveland-cliffs-to-idle-output-at-canada-steel-plant-blames-tariffs-says-cbc/",
-      "summary": "Stelco said it was idling finishing operations in Hamilton and it will offer jobs at its Nanticoke plant to Hamilton employees.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
-      "seriousnessScore": 67
-    },
-    {
-      "title": "Thyssenkrupp steel unit aims to triple core profit in overhaul",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 28 Sep 2026 18:27:42 +0000",
-      "url": "https://www.mining.com/web/thyssenkrupp-steel-unit-aims-to-triple-core-profit-in-overhaul/",
-      "summary": "Brussels imposed stricter limits on steel imports from Asia, which have been a major problem for local steelmakers.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
     },
     {
       "title": "Researcher Selina: Steel Meets Building Materials",
@@ -235,26 +224,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Trump unveils $15 billion planned Iowa steel project",
+      "title": "Cleveland-Cliffs to idle output at Canada steel plant, blames tariffs, says CBC",
       "source": "Mining.com — Iron Ore",
-      "date": "Mon, 28 Sep 2026 17:45:23 +0000",
-      "url": "https://www.mining.com/web/trump-unveils-15-billion-planned-iowa-steel-project/",
-      "summary": "Mesabi will use iron ore from its Minnesota mine to produce steel in Iowa, with first production expected in 2030.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 70
-    },
-    {
-      "title": "Rio Tinto commissions carbon-capture trial at China’s Shougang steel plant",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 28 Sep 2026 15:28:37 +0000",
-      "url": "https://www.mining.com/web/rio-tinto-commissions-carbon-capture-trial-at-chinas-shougang-steel-plant/",
-      "summary": "Rio Tinto and Shougang to research and develop technologies that could help reduce carbon emissions.",
+      "date": "Mon, 28 Sep 2026 20:39:52 +0000",
+      "url": "https://www.mining.com/web/cleveland-cliffs-to-idle-output-at-canada-steel-plant-blames-tariffs-says-cbc/",
+      "summary": "Stelco said it was idling finishing operations in Hamilton and it will offer jobs at its Nanticoke plant to Hamilton employees.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 16,
-      "seriousnessScore": 55
+      "seriousnessScore": 67
     },
     {
       "title": "August 2026 crude steel production",
