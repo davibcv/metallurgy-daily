@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-30T12:03:33.216019+00:00",
+  "updatedAt": "2026-09-30T21:57:58.935985+00:00",
   "research": [
+    {
+      "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
+      "source": "AGH — JCME",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8290",
+      "summary": "<p>Rare earth elements (REE), particularly cerium (Ce), are widely used as alloying additions in modern steelmaking due to their strong chemical activity and high affinity for oxygen and sulphur. Their ability to react with impurities allows the effective modification of non-metallic inclusions, enhancing steel microstructure and overall performance. This review focuses on the ways cerium interacts in steel, highlighting transformations of inclusions such as Al₂O₃ and MnS, as well as complex systems like Ce–Al–O, Mn–O–S, and Ce–Ca–Al–O. Particular attention is given to the thermodynamic aspects of inclusion evolution and their dependence on processing conditions. The influence of cerium on sulphide stress cracking (SSC) resistance, solidification microstructure, and mechanical properties is also examined. According to the literature, the optimal cerium content is generally 0.01–0.02 wt.%, while higher amounts can negatively affect material performance.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 27,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Macroscopic And Microstructural Changes in S355 Steel Welded Joints under Different Fire Scenarios",
+      "source": "AGH — JCME",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8330",
+      "summary": "<p class=\"JCMEBody\" style=\"line-height: 115%;\"><span style=\"mso-bidi-font-weight: bold;\">Post-fire assessment of welded steel structures requires knowledge of whether fire exposure may cause permanent changes in the weld and its vicinity. This study examines macro- and microstructural changes in full-penetration butt welded joints made of S355J2+N steel after controlled thermal exposures representative of selected fire-related scenarios. The aim was to determine how maximum temperature, exposure time and cooling method affect the weld metal, heat affected zone (HAZ) and base material. Welded joints, prepared in 16 mm plates were heat-treated at 600°C and 800°C, held for 1 h or 10 h, and cooled freely in a muffle furnace or rapidly in water mist. Etched cross-sections were analysed by optical microscopy. Results showed that short subcritical exposure caused no significant macro- and microstructural changes, whereas prolonged heating below Ac₁ promoted cementite spheroidisation in pearlite and formation of a ferritic–spheroiditic structure. Exposure at 800°C, i.e. within the intercritical Ac<sub>1</sub>–Ac<sub>3</sub> temperature range, led to extensive microstructural transformations, with the final microstructure governed mainly by cooling rate. Thus, at 800°C restructuring of the weld and HAZ becomes more likely, especially after rapid cooling. The originality of the study lies in comparing different fire scenarios for welded joints rather than base steel alone. The findings may support post-fire diagnostics of welded structures and indicate that mechanical testing is needed to relate structural changes to residual load-bearing capacity.</span></p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 17,
+      "seriousnessScore": 66
+    },
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
       "source": "MIT News — Materials Science",
@@ -11,28 +33,6 @@
       "country": "us",
       "relevanceScore": 8,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Microstructure-Erosion Resistance Correlation in High Chromium Cast Iron: A Digital Image Processing Approach",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8227",
-      "summary": "<p>High chromium cast irons (HCCIs) are widely employed as wear-resistant hardfacing materials in industrial applications where solid particle erosion (SPE) represents a primary degradation mechanism, such as in energy production, mining, and cement manufacturing. The erosive wear resistance of these alloys is strongly dependent on the microstructural features of the primary M<sub>7</sub>C<sub>3 </sub>carbides, particularly their size, morphology, and spatial distribution within the metallic matrix. The quantitative relationship between carbide distribution homogeneity and erosion resistance has received limited attention in the literature. This study investigates the erosive wear resistance of a Fe-Cr-C cast iron hardfacing alloy and proposes three digital image processing methods to quantitatively characterise the carbide microstructure and correlate it with experimental erosion test results. Optical microscopy combined with image binarisation was used to segment primary M<sub>7</sub>C<sub>3</sub> carbides. Three methods were adopted: carbide volume fraction (CVF), minimum inter-carbide distances, and a moving scanning area approach. Erosion tests were conducted according to ASTM G76 guidelines using two Arizona road dust powder grades with two mean diameters under equal kinetic energy conditions. Results show that the erosion rate decreases significantly with the increasing erodent particle size and that carbide distribution homogeneity plays a critical role in determining the erosion resistance. The moving scanning area method proved particularly effective at correlating microstructural coverage with experimental erosion rates.</p>",
-      "category": "research",
-      "country": "pl",
-      "relevanceScore": 24,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Numerical Optimization of Investment‑Cast Wheel Components for Drone Applications using MAGMASOFT®",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8176",
-      "summary": "<p>Investment casting technology of thin‑walled components for drone applications requires precise filling and solidification control to minimise porosity and ensure structural integrity. Porosity is one of the most common defects found in castings, and its prediction and analysis are essential for improving the quality of complex superalloy components. In this work, porosity-related defects were examined using the MAGMASOFT® 6.1 numerical simulation software for casting, focusing on the filling and solidification behaviour of an investment casting wheel body component in drone applications. A series of simulations were performed, and two design and simulation versions were developed, analysed and compared.<br>The wheel body component selected for this work is made of IN713 superalloy. The numerical modelling included the assessment of porosity distribution, hot spot formation, filling behaviour, cooling, and solidification patterns. Fifteen combinations of alloy and shell initial temperatures were evaluated to determine the most favourable thermal conditions for reducing porosity, considering the specific geometry and casting characteristics of the wheel. Based on the initial results, the casting design was modified by adjusting the runner geometry and assembly configuration.<br>This study introduces a two-stage simulation approach to optimise porosity reduction. The second version of the simulations demonstrated a noticeable reduction in pores, particularly in critical regions of the wheel body. The findings can support drone component manufacturers in improving casting reliability. The results confirm that simulation-driven optimisation of the casting design and thermal parameters can significantly improve the quality of the components produced by investment casting technology.</p> <p> </p>",
-      "category": "research",
-      "country": "pl",
-      "relevanceScore": 14,
-      "seriousnessScore": 61
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
@@ -55,31 +55,20 @@
       "country": "us",
       "relevanceScore": 7,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Comparison of Component Properties between HPDC and Rheocasting Applying the RheoMetalTM Process",
-      "source": "AGH — JCME",
-      "date": "Thu, 18 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/8201",
-      "summary": "<p class=\"MsoBodyText\">Since the 1970s, there has been increasing interest in semi-solid processes, allowing improved mould filling with lower gas porosity and lower melt temperatures with improved tool life compared to the standard HPDC process. Challenges lie in the process know-how and the precise temperature control to ensure process stability and reproducibility. In contrast to other semi-solid processes, the RheoMetalTM process achieves the semi-solid state by stirring in an enthalpy exchange material (EEM). This work compares component properties (engine mount) produced by standard HPDC and rheocasting, applying the RheoMetalTM process using an AlSi7MnMg alloy. The results of component testing and radioscopic examination reveal promising outcomes regarding process stability, pore formation, and component properties compared to the standard HPDC process.</p>",
-      "category": "research",
-      "country": "pl",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Selection of Molding Sands for Thin-Walled Cast Iron Castings Based on Their Selected Properties",
-      "source": "AGH — JCME",
-      "date": "Mon, 08 Jun 2026 00:00:00 +0200",
-      "url": "https://journals.agh.edu.pl/jcme/article/view/7922",
-      "summary": "<p>The production process of thin-walled iron castings with complex shapes, characterized by high quality while maintaining the required properties, involves many steps. One of them is the appropriate selection of the technology for molding and core sands, taking into account strict environmental requirements. The need to meet high environmental standards is currently the dominant factor in the development of molding sands technologies. It is even being done at the expense of reducing the technological properties of the materials. As part of the development of molding compounds for thin-walled castings, two compounds with organic binders and two compounds with inorganic binders were tested. Tests were carried out on the tensile and bending strength, density, permeability, and friability of the compounds. Their thermophysical behavior was tested via the hot distortion parameter. The tests carried out on the molding sands showed that all the proposed mixtures have the appropriate properties for the production of thin-walled castings.</p> <p> </p>",
-      "category": "research",
-      "country": "pl",
-      "relevanceScore": 17,
-      "seriousnessScore": 60
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib on Equality Data",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 30 Sep 2026 13:30:10 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2029",
+      "summary": "European Commission Speech Brussels, 30 Sep 2026 Like many of you, I love music. Pop, jazz, rap, classical. You name it. One of my favourite artists is Rachmaninoff.\nSometimes when I am listening to his music,...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Texas startup raises $133M to build rare earth magnet-grade iron plant",
       "source": "Mining.com — Iron Ore",
@@ -100,17 +89,6 @@
       "category": "industry",
       "country": "ca",
       "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Liberty Magona: via libera Antitrust Ue a operazione rilancio da parte di Trasteel",
-      "source": "Italy MIMIT (Ministério da Indústria)",
-      "date": "Tue, 29 Sep 2026 09:28:24 +0200",
-      "url": "https://www.mimit.gov.it/it/notizie-stampa/liberty-magona-via-libera-antitrust-ue-a-operazione-rilancio-da-parte-di-trasteel",
-      "summary": "<p><img src=\"https://www.mimit.gov.it//images/stories/images/IMG_6272.JPG\" alt=\"\" width=\"900\" height=\"506\" loading=\"lazy\"></p><p>La società il 30 giugno aveva sottoscritto il contratto di affitto del 100% del ramo d’azienda, operazione propedeutica al passaggio di proprietà</p>",
-      "category": "industry",
-      "country": "it",
-      "relevanceScore": 10,
       "seriousnessScore": 50
     },
     {
