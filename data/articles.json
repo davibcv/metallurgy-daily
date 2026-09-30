@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T21:58:48.613679+00:00",
+  "updatedAt": "2026-09-30T04:24:49.434874+00:00",
   "research": [
     {
       "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
@@ -81,6 +81,17 @@
   ],
   "industry": [
     {
+      "title": "Texas startup raises $133M to build rare earth magnet-grade iron plant",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 29 Sep 2026 23:35:08 +0000",
+      "url": "https://www.mining.com/texas-startup-raises-133m-to-build-rare-earth-magnet-grade-iron-plant/",
+      "summary": "Funding will finance construction of Hertha Chalyx, to produce 10,000 tonnes of steel and magnet-grade high-purity iron.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Mining Forum: AI begins paying off, McKinsey says",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 29 Sep 2026 15:01:31 +0000",
@@ -90,17 +101,6 @@
       "country": "ca",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "India targets 600 million tons steel capacity by 2047, secretary says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 29 Sep 2026 13:32:01 +0000",
-      "url": "https://www.mining.com/web/india-targets-600-million-tons-steel-capacity-by-2047-secretary-says/",
-      "summary": "The policy aims to cut the sector's average carbon emission to around 1.54 tons of carbon dioxide per ton of crude steel.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
-      "seriousnessScore": 66
     },
     {
       "title": "Liberty Magona: via libera Antitrust Ue a operazione rilancio da parte di Trasteel",
@@ -224,15 +224,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Cleveland-Cliffs to idle output at Canada steel plant, blames tariffs, says CBC",
+      "title": "India targets 600 million tons steel capacity by 2047, secretary says",
       "source": "Mining.com — Iron Ore",
-      "date": "Mon, 28 Sep 2026 20:39:52 +0000",
-      "url": "https://www.mining.com/web/cleveland-cliffs-to-idle-output-at-canada-steel-plant-blames-tariffs-says-cbc/",
-      "summary": "Stelco said it was idling finishing operations in Hamilton and it will offer jobs at its Nanticoke plant to Hamilton employees.",
+      "date": "Tue, 29 Sep 2026 13:32:01 +0000",
+      "url": "https://www.mining.com/web/india-targets-600-million-tons-steel-capacity-by-2047-secretary-says/",
+      "summary": "The policy aims to cut the sector's average carbon emission to around 1.54 tons of carbon dioxide per ton of crude steel.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 16,
-      "seriousnessScore": 67
+      "seriousnessScore": 66
     },
     {
       "title": "August 2026 crude steel production",
