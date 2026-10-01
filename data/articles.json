@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T04:36:13.389134+00:00",
+  "updatedAt": "2026-10-01T12:37:12.801051+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -58,17 +58,6 @@
     }
   ],
   "industry": [
-    {
-      "title": "Speech by Commissioner Lahbib on Equality Data",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 30 Sep 2026 13:30:10 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2029",
-      "summary": "European Commission Speech Brussels, 30 Sep 2026 Like many of you, I love music. Pop, jazz, rap, classical. You name it. One of my favourite artists is Rachmaninoff.\nSometimes when I am listening to his music,...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
     {
       "title": "Texas startup raises $133M to build rare earth magnet-grade iron plant",
       "source": "Mining.com — Iron Ore",
