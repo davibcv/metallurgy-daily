@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02T12:01:04.552070+00:00",
+  "updatedAt": "2026-10-02T21:55:16.398678+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -59,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "Statement by Commissioner Lahbib on the siege of Oleshky, Ukraine",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Fri, 02 Oct 2026 15:38:58 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2063",
+      "summary": "European Commission Statement Brussels, 02 Oct 2026 What is happening in Oleshky, Ukraine, is appalling. Civilians are trapped under siege by Russian forces without access to food, medicine, clean water and basic...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Shyam Metalics signs deal to invest over $5 billion in Maharashtra state",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 02 Oct 2026 14:03:05 +0000",
+      "url": "https://www.mining.com/web/shyam-metalics-signs-deal-to-invest-over-5-billion-in-maharashtra-state/",
+      "summary": "The metal producer will build a 9 million-metric-tonnes-per-year greenfield steel complex, and will create around 30,000 jobs.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 66
+    },
+    {
       "title": "Texas startup raises $133M to build rare earth magnet-grade iron plant",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 29 Sep 2026 23:35:08 +0000",
@@ -68,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 65
-    },
-    {
-      "title": "Mining Forum: AI begins paying off, McKinsey says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 29 Sep 2026 15:01:31 +0000",
-      "url": "https://www.mining.com/mining-forum-ai-begins-paying-off-mckinsey-says/",
-      "summary": "Fifteen of 19 major mining firms saw AI-driven financial gains in Q3, up from 4 last quarter.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "Researcher Selina: Steel Meets Building Materials",
