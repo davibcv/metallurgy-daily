@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-03T11:14:26.336927+00:00",
+  "updatedAt": "2026-10-03T15:51:21.045388+00:00",
   "research": [
+    {
+      "title": "Scientists just made a superconductor stronger using “empty space”",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Sat, 03 Oct 2026 08:03:23 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
+      "summary": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%. The discovery opens the possibility of using specially engineered vacuum environments to control quantum materials without direct contact or external driving.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
       "source": "AGH — JCME",
