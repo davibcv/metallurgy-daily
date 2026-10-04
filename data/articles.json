@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T16:33:45.856845+00:00",
+  "updatedAt": "2026-10-04T20:57:31.475213+00:00",
   "research": [
     {
       "title": "Scientists just made a superconductor stronger using “empty space”",
@@ -90,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 66
-    },
-    {
-      "title": "Texas startup raises $133M to build rare earth magnet-grade iron plant",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 29 Sep 2026 23:35:08 +0000",
-      "url": "https://www.mining.com/texas-startup-raises-133m-to-build-rare-earth-magnet-grade-iron-plant/",
-      "summary": "Funding will finance construction of Hertha Chalyx, to produce 10,000 tonnes of steel and magnet-grade high-purity iron.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
     },
     {
       "title": "Researcher Selina: Steel Meets Building Materials",
