@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-10-07T12:48:50.775797+00:00",
+  "updatedAt": "2026-10-07T22:51:02.233124+00:00",
   "research": [
-    {
-      "title": "Scientists just made a superconductor stronger using “empty space”",
-      "source": "ScienceDaily — Materials Science",
-      "date": "Sat, 03 Oct 2026 08:03:23 EDT",
-      "url": "https://www.sciencedaily.com/releases/2026/09/260930225456.htm",
-      "summary": "Researchers have demonstrated that quantum fluctuations in supposedly empty space can strengthen superconductivity, raising the transition temperature of an ultrathin material by as much as 5.4%. The discovery opens the possibility of using specially engineered vacuum environments to control quantum materials without direct contact or external driving.",
-      "category": "research",
-      "country": "us",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
       "source": "AGH — JCME",
@@ -70,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 07 Oct 2026 14:12:47 +0000",
+      "url": "https://www.mining.com/web/india-steel-ministry-unlikely-to-seek-new-curbs-on-cheap-imports-government-source-says/",
+      "summary": "The government source said no hike was planned at present because steel prices were already high.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "World Bank urges Guinea to use iron ore to diversify economy",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 06 Oct 2026 14:54:32 +0000",
+      "url": "https://www.mining.com/web/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy/",
+      "summary": "Diagana said Simandou is an economic turning point for Guinea, creating jobs, investments and new economic opportunities.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 61
+    },
+    {
       "title": "Full Steam Ahead for greentec steel",
       "source": "voestalpine",
       "date": "Tue, 06 Oct 2026 22:00:00 +0000",
@@ -90,28 +101,6 @@
       "country": "at",
       "relevanceScore": 24,
       "seriousnessScore": 60
-    },
-    {
-      "title": "World Bank urges Guinea to use iron ore to diversify economy",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 06 Oct 2026 14:54:32 +0000",
-      "url": "https://www.mining.com/web/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy/",
-      "summary": "Diagana said Simandou is an economic turning point for Guinea, creating jobs, investments and new economic opportunities.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 61
-    },
-    {
-      "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 05 Oct 2026 18:21:55 +0000",
-      "url": "https://www.mining.com/web/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity/",
-      "summary": "Tsingshan's Dinson Steel Company will haul 1.1 million metric tons of coal from Hwange, a distance of about 373 miles.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 66
     },
     {
       "title": "17th Steelie Awards finalists announced",
@@ -202,6 +191,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 05 Oct 2026 18:21:55 +0000",
+      "url": "https://www.mining.com/web/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity/",
+      "summary": "Tsingshan's Dinson Steel Company will haul 1.1 million metric tons of coal from Hwange, a distance of about 373 miles.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 66
+    },
+    {
       "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
       "source": "voestalpine",
       "date": "Mon, 14 Sep 2026 05:00:01 +0000",
@@ -211,17 +211,6 @@
       "country": "at",
       "relevanceScore": 10,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Shyam Metalics signs deal to invest over $5 billion in Maharashtra state",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 02 Oct 2026 14:03:05 +0000",
-      "url": "https://www.mining.com/web/shyam-metalics-signs-deal-to-invest-over-5-billion-in-maharashtra-state/",
-      "summary": "The metal producer will build a 9 million-metric-tonnes-per-year greenfield steel complex, and will create around 30,000 jobs.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 66
     },
     {
       "title": "August 2026 crude steel production",
