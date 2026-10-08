@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T04:55:40.310744+00:00",
+  "updatedAt": "2026-10-08T12:57:37.635846+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -58,6 +58,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the Irish EU Affairs Committee",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 08 Oct 2026 12:17:26 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2117",
+      "summary": "European Commission Speech Dublin, 08 Oct 2026 It is a pleasure to be with you during Ireland's Presidency at an important moment for Europe and for the security of our citizens.\nEarlier this year I was in G...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Fortescue says dispute with China’s CMRG hits iron ore sales",
       "source": "Mining.com — Iron Ore",
