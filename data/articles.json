@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-08T12:57:37.635846+00:00",
+  "updatedAt": "2026-10-08T23:01:53.203903+00:00",
   "research": [
+    {
+      "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
+      "source": "MIT News — Materials Science",
+      "date": "Thu, 08 Oct 2026 14:00:00 -0400",
+      "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008",
+      "summary": "Developed by MIT engineers, this flexible material could be used as a wearable, motion-monitoring “skin” in physical therapy, virtual reality, and gaming.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
+      "source": "MIT News — Materials Science",
+      "date": "Thu, 03 Sep 2026 13:00:00 -0400",
+      "url": "https://news.mit.edu/2026/mit-assistant-professor-thomas-rose-archaeometallurgy-expert-dies-0903",
+      "summary": "Colleagues remember Rose as an enthusiastic and gracious friend who had recently started a promising research track at MIT.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 8,
+      "seriousnessScore": 50
+    },
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
       "source": "AGH — JCME",
@@ -22,17 +44,6 @@
       "country": "pl",
       "relevanceScore": 17,
       "seriousnessScore": 66
-    },
-    {
-      "title": "Assistant Professor Thomas Rose, an expert in archaeometallurgy, dies at 37",
-      "source": "MIT News — Materials Science",
-      "date": "Thu, 03 Sep 2026 13:00:00 -0400",
-      "url": "https://news.mit.edu/2026/mit-assistant-professor-thomas-rose-archaeometallurgy-expert-dies-0903",
-      "summary": "Colleagues remember Rose as an enthusiastic and gracious friend who had recently started a promising research track at MIT.",
-      "category": "research",
-      "country": "us",
-      "relevanceScore": 8,
-      "seriousnessScore": 50
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
@@ -59,14 +70,14 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at the Irish EU Affairs Committee",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 08 Oct 2026 12:17:26 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2117",
-      "summary": "European Commission Speech Dublin, 08 Oct 2026 It is a pleasure to be with you during Ireland's Presidency at an important moment for Europe and for the security of our citizens.\nEarlier this year I was in G...",
+      "title": "Dalian iron ore hits 18-month low as thin steel margins dim demand prospects",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 08 Oct 2026 17:46:45 +0000",
+      "url": "https://www.mining.com/web/dalian-iron-ore-hits-18-month-low-as-thin-steel-margins-dim-demand-prospects/",
+      "summary": "Only 7% of Chinese steelmakers were operating at a profit by end-September while the average daily output slid to a six-month low.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
+      "country": "ca",
+      "relevanceScore": 15,
       "seriousnessScore": 55
     },
     {
@@ -81,15 +92,15 @@
       "seriousnessScore": 55
     },
     {
-      "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 07 Oct 2026 14:12:47 +0000",
-      "url": "https://www.mining.com/web/india-steel-ministry-unlikely-to-seek-new-curbs-on-cheap-imports-government-source-says/",
-      "summary": "The government source said no hike was planned at present because steel prices were already high.",
+      "title": "Speech by Commissioner Lahbib at the Irish EU Affairs Committee",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 08 Oct 2026 12:17:26 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2117",
+      "summary": "European Commission Speech Dublin, 08 Oct 2026 It is a pleasure to be with you during Ireland's Presidency at an important moment for Europe and for the security of our citizens.\nEarlier this year I was in G...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 70
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
     },
     {
       "title": "Full Steam Ahead for greentec steel",
@@ -202,6 +213,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 07 Oct 2026 14:12:47 +0000",
+      "url": "https://www.mining.com/web/india-steel-ministry-unlikely-to-seek-new-curbs-on-cheap-imports-government-source-says/",
+      "summary": "The government source said no hike was planned at present because steel prices were already high.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 70
+    },
+    {
       "title": "World Bank urges Guinea to use iron ore to diversify economy",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 06 Oct 2026 14:54:32 +0000",
@@ -211,28 +233,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 61
-    },
-    {
-      "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 05 Oct 2026 18:21:55 +0000",
-      "url": "https://www.mining.com/web/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity/",
-      "summary": "Tsingshan's Dinson Steel Company will haul 1.1 million metric tons of coal from Hwange, a distance of about 373 miles.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 66
-    },
-    {
-      "title": "How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments",
-      "source": "voestalpine",
-      "date": "Mon, 14 Sep 2026 05:00:01 +0000",
-      "url": "https://www.voestalpine.com/blog/en/innovation-technology/automotive/how-steel-shapes-modern-automotive-design-and-creates-favoritemoments/",
-      "summary": "<p>If you compare cars over the years, you’ll see: shapes are cleaner today, surfaces are smoother, the front end makes a stronger statement than before, and lighting also serves as a brand ambassador. People intuitively perceive these differences—as they walk by, when they open the door, or at their first glance at the front end. [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/automotive/how-steel-shapes-modern-automotive-design-and-creates-favoritemoments/\">How Steel Shapes Modern Automotive Design and Creates #FavoriteMoments</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
-      "category": "industry",
-      "country": "at",
-      "relevanceScore": 10,
-      "seriousnessScore": 55
     },
     {
       "title": "August 2026 crude steel production",
@@ -254,6 +254,17 @@
       "category": "industry",
       "country": "be",
       "relevanceScore": 16,
+      "seriousnessScore": 66
+    },
+    {
+      "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 05 Oct 2026 18:21:55 +0000",
+      "url": "https://www.mining.com/web/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity/",
+      "summary": "Tsingshan's Dinson Steel Company will haul 1.1 million metric tons of coal from Hwange, a distance of about 373 miles.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
       "seriousnessScore": 66
     },
     {
