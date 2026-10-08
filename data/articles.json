@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T22:51:02.233124+00:00",
+  "updatedAt": "2026-10-08T04:55:40.310744+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -59,6 +59,17 @@
   ],
   "industry": [
     {
+      "title": "Fortescue says dispute with China’s CMRG hits iron ore sales",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 08 Oct 2026 00:09:04 +0000",
+      "url": "https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/",
+      "summary": "CMRG is seeking greater pricing power in some key metals.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 07 Oct 2026 14:12:47 +0000",
@@ -68,17 +79,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 70
-    },
-    {
-      "title": "World Bank urges Guinea to use iron ore to diversify economy",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 06 Oct 2026 14:54:32 +0000",
-      "url": "https://www.mining.com/web/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy/",
-      "summary": "Diagana said Simandou is an economic turning point for Guinea, creating jobs, investments and new economic opportunities.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 61
     },
     {
       "title": "Full Steam Ahead for greentec steel",
@@ -189,6 +189,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "World Bank urges Guinea to use iron ore to diversify economy",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 06 Oct 2026 14:54:32 +0000",
+      "url": "https://www.mining.com/web/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy/",
+      "summary": "Diagana said Simandou is an economic turning point for Guinea, creating jobs, investments and new economic opportunities.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 61
     },
     {
       "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
