@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T12:43:47.206616+00:00",
+  "updatedAt": "2026-10-09T22:22:45.967386+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -69,6 +69,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Press Remarks by Commissioner Lahbib at the Foreign Affairs Council on Development",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Fri, 09 Oct 2026 15:09:05 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2129",
+      "summary": "European Commission Speech Dublin, 09 Oct 2026 Yesterday evening we discussed the future of development, along with the important link between humanitarian aid and development, together with key stakeholders...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 60
+    },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
       "source": "UK Gov — Business & Trade",
@@ -243,17 +254,6 @@
       "category": "industry",
       "country": "be",
       "relevanceScore": 16,
-      "seriousnessScore": 66
-    },
-    {
-      "title": "Tsingshan’s Zimbabwe steel unit partners with state rail firm to boost haulage capacity",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 05 Oct 2026 18:21:55 +0000",
-      "url": "https://www.mining.com/web/tsingshans-zimbabwe-steel-unit-partners-with-state-rail-firm-to-boost-haulage-capacity/",
-      "summary": "Tsingshan's Dinson Steel Company will haul 1.1 million metric tons of coal from Hwange, a distance of about 373 miles.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
       "seriousnessScore": 66
     },
     {
