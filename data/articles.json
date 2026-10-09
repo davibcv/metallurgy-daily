@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09T04:59:17.071751+00:00",
+  "updatedAt": "2026-10-09T12:43:47.206616+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
+      "source": "UK Gov — Business & Trade",
+      "date": "2026-10-09T11:58:26+01:00",
+      "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026",
+      "summary": "September 2026 update on implementing the independent review of employers&#39; role in tackling health based economic inactivity and promoting healthy and inclusive workplaces to change outcomes, improve lives and drive grow…",
+      "category": "industry",
+      "country": "gb",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Dalian iron ore hits 18-month low as thin steel margins dim demand prospects",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 08 Oct 2026 17:46:45 +0000",
@@ -89,17 +100,6 @@
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the Irish EU Affairs Committee",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 08 Oct 2026 12:17:26 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2117",
-      "summary": "European Commission Speech Dublin, 08 Oct 2026 It is a pleasure to be with you during Ireland's Presidency at an important moment for Europe and for the security of our citizens.\nEarlier this year I was in G...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
       "seriousnessScore": 55
     },
     {
@@ -167,17 +167,6 @@
       "country": "us",
       "relevanceScore": 5,
       "seriousnessScore": 74
-    },
-    {
-      "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
-      "source": "UK Gov — Business & Trade",
-      "date": "2026-09-23T00:01:04+01:00",
-      "url": "https://www.gov.uk/government/publications/keep-britain-working-review-update-a-national-growth-opportunity-september-2026",
-      "summary": "September 2026 update on implementing the independent review of employers&#39; role in tackling health based economic inactivity and promoting healthy and inclusive workplaces to change outcomes, improve lives and drive grow…",
-      "category": "industry",
-      "country": "gb",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "POSCO to Build State-of-the-Art Galvanized Automotive Steel Sheet Plant, Bringing Together the Latest Automotive Steel Technologies",
