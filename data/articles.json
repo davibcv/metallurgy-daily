@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T04:44:57.474842+00:00",
+  "updatedAt": "2026-10-12T14:39:10.166132+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -70,15 +70,26 @@
   ],
   "industry": [
     {
-      "title": "Press Remarks by Commissioner Lahbib at the Foreign Affairs Council on Development",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Fri, 09 Oct 2026 15:09:05 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2129",
-      "summary": "European Commission Speech Dublin, 09 Oct 2026 Yesterday evening we discussed the future of development, along with the important link between humanitarian aid and development, together with key stakeholders...",
+      "title": "worldsteel Short Range Outlook October 2026",
+      "source": "World Steel Association",
+      "date": "Mon, 12 Oct 2026 05:27:17 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/",
+      "summary": "<p>worldsteel today released its Short Range Outlook (SRO) steel demand forecast for 2026 and 2027. Compared with 2025, worldsteel forecasts that global steel demand will remain essentially unchanged in 2026 at 1,722 Mt, before returning to growth in 2027.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/\">worldsteel Short Range Outlook October 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
+      "country": "be",
+      "relevanceScore": 10,
       "seriousnessScore": 60
+    },
+    {
+      "title": "17th Steelie Awards finalists announced",
+      "source": "World Steel Association",
+      "date": "Mon, 28 Sep 2026 06:31:46 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/",
+      "summary": "<p>worldsteel has announced the finalists for the 17th Steelie Awards. The Steelie Awards recognise member companies for their contribution to the steel industry over a one-year period in six different categories. The winners will be revealed on Monday, 12 October.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/\">17th Steelie Awards finalists announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 43
     },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
@@ -136,28 +147,6 @@
       "seriousnessScore": 60
     },
     {
-      "title": "17th Steelie Awards finalists announced",
-      "source": "World Steel Association",
-      "date": "Mon, 28 Sep 2026 06:31:46 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/",
-      "summary": "<p>worldsteel has announced the finalists for the 17th Steelie Awards. The Steelie Awards recognise member companies for their contribution to the steel industry over a one-year period in six different categories. The winners will be revealed on Monday, 12 October.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/\">17th Steelie Awards finalists announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 43
-    },
-    {
-      "title": "Steelie Awards 2026",
-      "source": "World Steel Association",
-      "date": "Mon, 28 Sep 2026 05:52:32 +0000",
-      "url": "https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026/",
-      "summary": "<p>The post <a href=\"https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026/\">Steelie Awards 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 43
-    },
-    {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
       "source": "MetalMiner",
       "date": "Wed, 23 Sep 2026 06:00:00 +0000",
@@ -213,6 +202,28 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Steelie Awards 2026",
+      "source": "World Steel Association",
+      "date": "Mon, 28 Sep 2026 05:52:32 +0000",
+      "url": "https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026/\">Steelie Awards 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 43
+    },
+    {
+      "title": "August 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Thu, 24 Sep 2026 08:40:42 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 144.2 million tonnes (Mt) in August 2026, a 1.2% decrease compared to August 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/\">August 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
+    },
+    {
       "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 07 Oct 2026 14:12:47 +0000",
@@ -235,17 +246,6 @@
       "seriousnessScore": 61
     },
     {
-      "title": "August 2026 crude steel production",
-      "source": "World Steel Association",
-      "date": "Thu, 24 Sep 2026 08:40:42 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/",
-      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 144.2 million tonnes (Mt) in August 2026, a 1.2% decrease compared to August 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/\">August 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 20,
-      "seriousnessScore": 70
-    },
-    {
       "title": "U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations",
       "source": "World Steel Association",
       "date": "Mon, 21 Sep 2026 06:50:32 +0000",
@@ -255,17 +255,6 @@
       "country": "be",
       "relevanceScore": 16,
       "seriousnessScore": 66
-    },
-    {
-      "title": "steelChallenge-21 registration open",
-      "source": "World Steel Association",
-      "date": "Tue, 01 Sep 2026 07:34:10 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/",
-      "summary": "<p>steeluniversity announces the opening of registrations for the 21st edition of steelChallenge.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/steelchallenge-21-registration-open/\">steelChallenge-21 registration open</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
     }
   ]
 }
