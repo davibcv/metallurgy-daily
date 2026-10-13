@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13T13:43:42.583092+00:00",
+  "updatedAt": "2026-10-13T22:23:04.902681+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -70,6 +70,39 @@
   ],
   "industry": [
     {
+      "title": "The Ore Wars: an interactive history 2002–2026",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 13 Oct 2026 16:38:46 +0000",
+      "url": "https://www.mining.com/the-ore-wars-an-interactive-history-2002-2026/",
+      "summary": "How iron ore went from a relic of the industrial age to the force that reshaped the global economy, in 49 moments and one price line.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Hertha Metals breaks ground on $100M US plant for magnet-grade iron",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 23:27:42 +0000",
+      "url": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
+      "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Speech by Commissioner Lahbib at the EU-Latin America and Caribbean Dialogue on Disaster Risk Management",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Tue, 13 Oct 2026 14:29:00 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2156",
+      "summary": "European Commission Speech Brussels, 13 Oct 2026 Last November, I flew over Jamaica after Hurricane Melissa. And this year, I travelled to Venezuela after the devastating earthquakes. I saw homes destroyed, li...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
       "source": "POSCO",
       "date": "Tue, 13 Oct 2026 13:05:39 +0000",
@@ -101,28 +134,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Hertha Metals breaks ground on $100M US plant for magnet-grade iron",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 12 Oct 2026 23:27:42 +0000",
-      "url": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
-      "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "World Steel cuts 2026 demand outlook, now sees slight contraction",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 12 Oct 2026 16:52:40 +0000",
-      "url": "https://www.mining.com/web/world-steel-cuts-2026-demand-outlook-now-sees-slight-contraction/",
-      "summary": "The industry body expects global steel demand to fall 0.1% in 2026, compared with a forecast in April for growth of 0.3%.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 60
     },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
@@ -180,6 +191,28 @@
       "seriousnessScore": 54
     },
     {
+      "title": "World Steel cuts 2026 demand outlook, now sees slight contraction",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 16:52:40 +0000",
+      "url": "https://www.mining.com/web/world-steel-cuts-2026-demand-outlook-now-sees-slight-contraction/",
+      "summary": "The industry body expects global steel demand to fall 0.1% in 2026, compared with a forecast in April for growth of 0.3%.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Iron ore prices seesaw as restocking hopes counter rising supply",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 15:24:51 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-seesaw-as-restocking-hopes-counter-rising-supply/",
+      "summary": "Expectations of restocking by Chinese steelmakers following a holiday were countered by a possible supply increase.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 65
+    },
+    {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
       "source": "World Steel Association",
       "date": "Tue, 13 Oct 2026 02:29:10 +0000",
@@ -200,17 +233,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
-    },
-    {
-      "title": "Iron ore prices seesaw as restocking hopes counter rising supply",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 12 Oct 2026 15:24:51 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-seesaw-as-restocking-hopes-counter-rising-supply/",
-      "summary": "Expectations of restocking by Chinese steelmakers following a holiday were countered by a possible supply increase.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 65
     },
     {
       "title": "worldsteel Short Range Outlook October 2026",
