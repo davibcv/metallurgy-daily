@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T14:39:10.166132+00:00",
+  "updatedAt": "2026-10-13T00:15:21.183440+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -70,6 +70,39 @@
   ],
   "industry": [
     {
+      "title": "Hertha Metals breaks ground on $100M US plant for magnet-grade iron",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 23:27:42 +0000",
+      "url": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
+      "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "World Steel cuts 2026 demand outlook, now sees slight contraction",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 16:52:40 +0000",
+      "url": "https://www.mining.com/web/world-steel-cuts-2026-demand-outlook-now-sees-slight-contraction/",
+      "summary": "The industry body expects global steel demand to fall 0.1% in 2026, compared with a forecast in April for growth of 0.3%.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "17th Steelie Awards winners announced",
+      "source": "World Steel Association",
+      "date": "Mon, 12 Oct 2026 14:38:53 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-winners-announced/",
+      "summary": "<p>The Steelie Awards celebrate the accomplishments of worldsteel member companies over the past year. Find out who the winners are.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-winners-announced/\">17th Steelie Awards winners announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 43
+    },
+    {
       "title": "worldsteel Short Range Outlook October 2026",
       "source": "World Steel Association",
       "date": "Mon, 12 Oct 2026 05:27:17 +0000",
@@ -81,17 +114,6 @@
       "seriousnessScore": 60
     },
     {
-      "title": "17th Steelie Awards finalists announced",
-      "source": "World Steel Association",
-      "date": "Mon, 28 Sep 2026 06:31:46 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/",
-      "summary": "<p>worldsteel has announced the finalists for the 17th Steelie Awards. The Steelie Awards recognise member companies for their contribution to the steel industry over a one-year period in six different categories. The winners will be revealed on Monday, 12 October.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/\">17th Steelie Awards finalists announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 43
-    },
-    {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
       "source": "UK Gov — Business & Trade",
       "date": "2026-10-09T11:58:26+01:00",
@@ -101,28 +123,6 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Dalian iron ore hits 18-month low as thin steel margins dim demand prospects",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 08 Oct 2026 17:46:45 +0000",
-      "url": "https://www.mining.com/web/dalian-iron-ore-hits-18-month-low-as-thin-steel-margins-dim-demand-prospects/",
-      "summary": "Only 7% of Chinese steelmakers were operating at a profit by end-September while the average daily output slid to a six-month low.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Fortescue says dispute with China’s CMRG hits iron ore sales",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 08 Oct 2026 00:09:04 +0000",
-      "url": "https://www.mining.com/web/fortescue-says-dispute-with-chinas-cmrg-hits-iron-ore-sales/",
-      "summary": "CMRG is seeking greater pricing power in some key metals.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
     },
     {
       "title": "Full Steam Ahead for greentec steel",
@@ -202,6 +202,39 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Iron ore prices seesaw as restocking hopes counter rising supply",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 12 Oct 2026 15:24:51 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-seesaw-as-restocking-hopes-counter-rising-supply/",
+      "summary": "Expectations of restocking by Chinese steelmakers following a holiday were countered by a possible supply increase.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Steelie Awards 2026 winners",
+      "source": "World Steel Association",
+      "date": "Fri, 09 Oct 2026 11:52:50 +0000",
+      "url": "https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026-winners/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/about-us/steelie-awards/steelie-awards-2026-winners/\">Steelie Awards 2026 winners</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 43
+    },
+    {
+      "title": "17th Steelie Awards finalists announced",
+      "source": "World Steel Association",
+      "date": "Mon, 28 Sep 2026 06:31:46 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/",
+      "summary": "<p>worldsteel has announced the finalists for the 17th Steelie Awards. The Steelie Awards recognise member companies for their contribution to the steel industry over a one-year period in six different categories. The winners will be revealed on Monday, 12 October.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-finalists-announced/\">17th Steelie Awards finalists announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 43
+    },
+    {
       "title": "Steelie Awards 2026",
       "source": "World Steel Association",
       "date": "Mon, 28 Sep 2026 05:52:32 +0000",
@@ -211,50 +244,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
-    },
-    {
-      "title": "August 2026 crude steel production",
-      "source": "World Steel Association",
-      "date": "Thu, 24 Sep 2026 08:40:42 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/",
-      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 144.2 million tonnes (Mt) in August 2026, a 1.2% decrease compared to August 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/august-2026-crude-steel-production/\">August 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 20,
-      "seriousnessScore": 70
-    },
-    {
-      "title": "India steel ministry unlikely to seek new curbs on cheap imports, government source says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 07 Oct 2026 14:12:47 +0000",
-      "url": "https://www.mining.com/web/india-steel-ministry-unlikely-to-seek-new-curbs-on-cheap-imports-government-source-says/",
-      "summary": "The government source said no hike was planned at present because steel prices were already high.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 70
-    },
-    {
-      "title": "World Bank urges Guinea to use iron ore to diversify economy",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 06 Oct 2026 14:54:32 +0000",
-      "url": "https://www.mining.com/web/world-bank-urges-guinea-to-use-iron-ore-to-diversify-economy/",
-      "summary": "Diagana said Simandou is an economic turning point for Guinea, creating jobs, investments and new economic opportunities.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 61
-    },
-    {
-      "title": "U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations",
-      "source": "World Steel Association",
-      "date": "Mon, 21 Sep 2026 06:50:32 +0000",
-      "url": "https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/",
-      "summary": "<p>Investment is expected to create approximately 250 permanent jobs and approximately 600 during construction  </p>\n<p>The post <a href=\"https://worldsteel.org/media/industry-member-news/2026-member-news/u-s-steel-breaks-ground-on-475-million-quench-and-tempering-facility-at-fairfield-tubular-operations/\">U. S. Steel Breaks Ground on $475 Million Quench and Tempering Facility at Fairfield Tubular Operations</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 16,
-      "seriousnessScore": 66
     }
   ]
 }
