@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T11:22:12.743952+00:00",
+  "updatedAt": "2026-10-14T16:42:55.386454+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -69,6 +69,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Commissioners Kubilius and Lahbib strengthen global disaster risk management through space technologies",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 14 Oct 2026 13:14:21 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2164",
+      "summary": "European Commission Press release Brussels, 14 Oct 2026 On the occasion of the International Day for Disaster Risk Management, the European Commission is convening the very first cross-regional dialogue ‘From Space to Grassroots: Strengthening Community Resilience to Natural Hazards through Space Technologies'. The dialogue marked the start of a process to further strengthen international cooperation to anticipate, prepare for and respond to disasters using space technologies.",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Rio Tinto on track to release $5 billion in capital after Q3 iron ore sales top estimates",
       "source": "Mining.com — Iron Ore",
@@ -188,17 +199,6 @@
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "World Steel cuts 2026 demand outlook, now sees slight contraction",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 12 Oct 2026 16:52:40 +0000",
-      "url": "https://www.mining.com/web/world-steel-cuts-2026-demand-outlook-now-sees-slight-contraction/",
-      "summary": "The industry body expects global steel demand to fall 0.1% in 2026, compared with a forecast in April for growth of 0.3%.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
       "seriousnessScore": 60
     },
     {
