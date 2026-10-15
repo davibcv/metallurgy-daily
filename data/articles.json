@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T10:59:13.329461+00:00",
+  "updatedAt": "2026-10-15T16:28:09.850652+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -59,26 +59,15 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at the International Conference on the Protection of Aid Workers",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 15 Oct 2026 08:29:41 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2171",
-      "summary": "European Commission Speech Brussels, 15 Oct 2026 I have spent much of my life travelling from one crisis to the next, first as a journalist, later as Foreign Minister, and now as Commissioner for humanitarian ...",
+      "title": "Iron ore slips to two-year low on concerns over weak demand, rising supply",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 15 Oct 2026 15:02:22 +0000",
+      "url": "https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/",
+      "summary": "Downstream steel demand weakened while iron ore supply from the Simandou project is expected to ramp up, analysts said.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Steady progress on the One Europe, One Market roadmap",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 15 Oct 2026 06:36:43 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2169",
-      "summary": "European Commission  Brussels, 15 Oct 2026 In their second review of the joint declaration and roadmap, designed to boost economic growth, the EU institutions reaffirmed their commitment to timely delivery.",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 54
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 59
     },
     {
       "title": "Rio Tinto on track to release $5 billion in capital after Q3 iron ore sales top estimates",
@@ -92,15 +81,15 @@
       "seriousnessScore": 76
     },
     {
-      "title": "The Ore Wars: an interactive history 2002–2026",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 13 Oct 2026 16:38:46 +0000",
-      "url": "https://www.mining.com/the-ore-wars-an-interactive-history-2002-2026/",
-      "summary": "How iron ore went from a relic of the industrial age to the force that reshaped the global economy, in 49 moments and one price line.",
+      "title": "Speech by Commissioner Lahbib at the International Conference on the Protection of Aid Workers",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 15 Oct 2026 08:29:41 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2171",
+      "summary": "European Commission Speech Brussels, 15 Oct 2026 I have spent much of my life travelling from one crisis to the next, first as a journalist, later as Foreign Minister, and now as Commissioner for humanitarian ...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
     },
     {
       "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
@@ -191,11 +180,11 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Hertha Metals breaks ground on $100M US plant for magnet-grade iron",
+      "title": "The Ore Wars: an interactive history 2002–2026",
       "source": "Mining.com — Iron Ore",
-      "date": "Mon, 12 Oct 2026 23:27:42 +0000",
-      "url": "https://www.mining.com/hertha-metals-breaks-ground-on-100m-us-commercial-plant-for-magnet-grade-iron/",
-      "summary": "The plant will run on domestic iron ore, primarily from Minnesota's Iron Range, and Texas natural gas.",
+      "date": "Tue, 13 Oct 2026 16:38:46 +0000",
+      "url": "https://www.mining.com/the-ore-wars-an-interactive-history-2002-2026/",
+      "summary": "How iron ore went from a relic of the industrial age to the force that reshaped the global economy, in 49 moments and one price line.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
