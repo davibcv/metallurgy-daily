@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T03:30:27.386850+00:00",
+  "updatedAt": "2026-10-16T10:53:14.657785+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -59,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
+      "source": "POSCO",
+      "date": "Fri, 16 Oct 2026 13:00:01 +0000",
+      "url": "https://newsroom.posco.com/en/chang-in-hwa-head-of-the-korea-iron-steel-association-secures-seoul-as-host-city-for-the-2027-world-steel-association-general-assembly/",
+      "summary": "Seoul to host World Steel Association General Assembly for first time in 22 years, reaffirming Korea&#8217;s global standing in steel Attended three-day New",
+      "category": "industry",
+      "country": "kr",
+      "relevanceScore": 17,
+      "seriousnessScore": 55
+    },
+    {
+      "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
+      "source": "POSCO",
+      "date": "Tue, 13 Oct 2026 13:05:39 +0000",
+      "url": "https://newsroom.posco.com/en/posco-group-participates-in-the-governments-k-gx-signature-project-leading-the-decarbonization-transition-of-the-steel-industry/",
+      "summary": "Promoting ‘Steel GX,’ a K-GX Signature Project… Driving Regional Growth through a Decarbonized Ecosystem Securing Economical ‘Clean Energy’ and ‘Creating a",
+      "category": "industry",
+      "country": "kr",
+      "relevanceScore": 17,
+      "seriousnessScore": 54
+    },
+    {
       "title": "Iron ore price slips to two-year low on concerns over weak demand, rising supply",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 15 Oct 2026 15:02:22 +0000",
@@ -79,28 +101,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 76
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the International Conference on the Protection of Aid Workers",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 15 Oct 2026 08:29:41 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2171",
-      "summary": "European Commission Speech Brussels, 15 Oct 2026 I have spent much of my life travelling from one crisis to the next, first as a journalist, later as Foreign Minister, and now as Commissioner for humanitarian ...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
-      "source": "POSCO",
-      "date": "Tue, 13 Oct 2026 13:05:39 +0000",
-      "url": "https://newsroom.posco.com/en/posco-group-participates-in-the-governments-k-gx-signature-project-leading-the-decarbonization-transition-of-the-steel-industry/",
-      "summary": "Promoting ‘Steel GX,’ a K-GX Signature Project… Driving Regional Growth through a Decarbonized Ecosystem Securing Economical ‘Clean Energy’ and ‘Creating a",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 17,
-      "seriousnessScore": 54
     },
     {
       "title": "worldsteel elects new officers and welcomes new members",
