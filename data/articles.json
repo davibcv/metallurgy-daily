@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T10:53:14.657785+00:00",
+  "updatedAt": "2026-10-16T16:13:41.217148+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -59,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "Iron ore price rebounds from two-year low on dip buying, improving steel margins",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 16 Oct 2026 15:16:46 +0000",
+      "url": "https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/",
+      "summary": "Market sentiment was boosted by slightly improved profitability among steel mills, analysts said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 25,
+      "seriousnessScore": 64
+    },
+    {
+      "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 16 Oct 2026 15:07:09 +0000",
+      "url": "https://www.mining.com/web/canadian-steelmakers-offset-some-us-tariff-pain-with-domestic-demand/",
+      "summary": "The share of steel used in Canada that was produced domestically rose to 51% in 2025, up from 41% in 2024.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
+    },
+    {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
       "source": "POSCO",
       "date": "Fri, 16 Oct 2026 13:00:01 +0000",
@@ -79,28 +101,6 @@
       "country": "kr",
       "relevanceScore": 17,
       "seriousnessScore": 54
-    },
-    {
-      "title": "Iron ore price slips to two-year low on concerns over weak demand, rising supply",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 15 Oct 2026 15:02:22 +0000",
-      "url": "https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/",
-      "summary": "Downstream steel demand weakened while iron ore supply from the Simandou project is expected to ramp up, analysts said.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 64
-    },
-    {
-      "title": "Rio Tinto on track to release $5 billion in capital after Q3 iron ore sales top estimates",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 13 Oct 2026 23:33:54 +0000",
-      "url": "https://www.mining.com/web/rio-tinto-on-track-to-release-5-billion-in-capital-after-q3-iron-ore-sales-top-estimates/",
-      "summary": "The world's largest iron ore producer sold 85.7 million metric tons from its Pilbara operations in the three months ended Sept. 30, beating the Visible Alpha consensus estimate of 84.41 Mt.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 76
     },
     {
       "title": "worldsteel elects new officers and welcomes new members",
@@ -180,15 +180,26 @@
       "seriousnessScore": 54
     },
     {
-      "title": "The Ore Wars: an interactive history 2002–2026",
+      "title": "AFC eyes iron ore and uranium investments in Africa",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 13 Oct 2026 16:38:46 +0000",
-      "url": "https://www.mining.com/the-ore-wars-an-interactive-history-2002-2026/",
-      "summary": "How iron ore went from a relic of the industrial age to the force that reshaped the global economy, in 49 moments and one price line.",
+      "date": "Fri, 16 Oct 2026 14:42:46 +0000",
+      "url": "https://www.mining.com/web/afc-eyes-iron-ore-and-uranium-investments-in-africa/",
+      "summary": "AFC already has interests in gold, bauxite, copper and manganese across Africa, and now wants to add iron ore and uranium.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
-      "seriousnessScore": 60
+      "seriousnessScore": 61
+    },
+    {
+      "title": "Vale says soaring costs put 10% of iron ore in the red",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 16 Oct 2026 11:08:00 +0000",
+      "url": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/",
+      "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
@@ -211,6 +222,17 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
+    },
+    {
+      "title": "Iron ore price slips to two-year low on concerns over weak demand, rising supply",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 15 Oct 2026 15:02:22 +0000",
+      "url": "https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/",
+      "summary": "Downstream steel demand weakened while iron ore supply from the Simandou project is expected to ramp up, analysts said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 64
     },
     {
       "title": "worldsteel Short Range Outlook October 2026",
