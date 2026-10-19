@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T12:23:41.681780+00:00",
+  "updatedAt": "2026-10-19T22:05:15.394028+00:00",
   "research": [
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
@@ -59,6 +59,17 @@
   ],
   "industry": [
     {
+      "title": "Ghana plans to ban raw mineral exports by 2030, president says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 19 Oct 2026 20:15:40 +0000",
+      "url": "https://www.mining.com/web/ghana-plans-to-ban-raw-mineral-exports-by-2030-president-says/",
+      "summary": "Ghana has already banned exports of iron scrap and non-ferrous metals, as well as raw gold produced by artisanal and small-scale miners.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 12,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Iron ore price rebounds from two-year low on dip buying, improving steel margins",
       "source": "Mining.com — Iron Ore",
       "date": "Fri, 16 Oct 2026 15:16:46 +0000",
@@ -68,17 +79,6 @@
       "country": "ca",
       "relevanceScore": 25,
       "seriousnessScore": 64
-    },
-    {
-      "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 15:07:09 +0000",
-      "url": "https://www.mining.com/web/canadian-steelmakers-offset-some-us-tariff-pain-with-domestic-demand/",
-      "summary": "The share of steel used in Canada that was produced domestically rose to 51% in 2025, up from 41% in 2024.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 56
     },
     {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
@@ -180,6 +180,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 16 Oct 2026 15:07:09 +0000",
+      "url": "https://www.mining.com/web/canadian-steelmakers-offset-some-us-tariff-pain-with-domestic-demand/",
+      "summary": "The share of steel used in Canada that was produced domestically rose to 51% in 2025, up from 41% in 2024.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
+    },
+    {
       "title": "AFC eyes iron ore and uranium investments in Africa",
       "source": "Mining.com — Iron Ore",
       "date": "Fri, 16 Oct 2026 14:42:46 +0000",
@@ -189,17 +200,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 61
-    },
-    {
-      "title": "Vale says soaring costs put 10% of iron ore in the red",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 11:08:00 +0000",
-      "url": "https://www.mining.com/vale-says-soaring-costs-put-10-of-iron-ore-in-the-red/",
-      "summary": "Rising fuel and shipping expenses squeeze producers as weak Chinese demand and new supply push prices to two-year lows.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
@@ -222,17 +222,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
-    },
-    {
-      "title": "Iron ore price slips to two-year low on concerns over weak demand, rising supply",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 15 Oct 2026 15:02:22 +0000",
-      "url": "https://www.mining.com/web/iron-ore-slips-to-two-year-low-on-concerns-over-weak-demand-rising-supply/",
-      "summary": "Downstream steel demand weakened while iron ore supply from the Simandou project is expected to ramp up, analysts said.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 64
     },
     {
       "title": "worldsteel Short Range Outlook October 2026",
