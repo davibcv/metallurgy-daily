@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-20T11:02:59.656908+00:00",
+  "updatedAt": "2026-10-20T16:29:14.977626+00:00",
   "research": [
+    {
+      "title": "Scientists reach the ultimate quantum limit on a surface",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Mon, 19 Oct 2026 23:02:41 EDT",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261018205053.htm",
+      "summary": "Scientists have achieved a quantum breakthrough by creating an ultra-clean surface where individual molecules can maintain their delicate quantum properties at the fundamental limit. The discovery could unlock unprecedented control over molecules and help drive the next generation of quantum technologies.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
       "source": "MIT News — Materials Science",
@@ -59,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 20 Oct 2026 13:35:07 +0000",
+      "url": "https://www.mining.com/web/italys-top-court-set-to-rule-on-future-of-troubled-taranto-steelworks/",
+      "summary": "The country's top court is reviewing an order to shut the steelworks' blast furnaces on health and environmental grounds.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 27,
+      "seriousnessScore": 61
+    },
+    {
       "title": "Ghana plans to ban raw mineral exports by 2030, president says",
       "source": "Mining.com — Iron Ore",
       "date": "Mon, 19 Oct 2026 20:15:40 +0000",
@@ -68,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 12,
       "seriousnessScore": 65
-    },
-    {
-      "title": "Iron ore price rebounds from two-year low on dip buying, improving steel margins",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 15:16:46 +0000",
-      "url": "https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/",
-      "summary": "Market sentiment was boosted by slightly improved profitability among steel mills, analysts said.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 64
     },
     {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
@@ -180,26 +191,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Canadian steelmakers offset some US tariff pain with domestic demand",
+      "title": "Iron ore price rebounds from two-year low on dip buying, improving steel margins",
       "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 15:07:09 +0000",
-      "url": "https://www.mining.com/web/canadian-steelmakers-offset-some-us-tariff-pain-with-domestic-demand/",
-      "summary": "The share of steel used in Canada that was produced domestically rose to 51% in 2025, up from 41% in 2024.",
+      "date": "Fri, 16 Oct 2026 15:16:46 +0000",
+      "url": "https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/",
+      "summary": "Market sentiment was boosted by slightly improved profitability among steel mills, analysts said.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 56
-    },
-    {
-      "title": "AFC eyes iron ore and uranium investments in Africa",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 14:42:46 +0000",
-      "url": "https://www.mining.com/web/afc-eyes-iron-ore-and-uranium-investments-in-africa/",
-      "summary": "AFC already has interests in gold, bauxite, copper and manganese across Africa, and now wants to add iron ore and uranium.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 61
+      "relevanceScore": 25,
+      "seriousnessScore": 64
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
