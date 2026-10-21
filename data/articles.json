@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T16:46:20.560213+00:00",
+  "updatedAt": "2026-10-21T21:21:44.982957+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Carney announces $6.4 billion plan for Ontario steel and autos",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 19:41:56 +0000",
+      "url": "https://www.mining.com/web/carney-announces-6-4-billion-plan-for-ontario-steel-and-autos/",
+      "summary": "The package for the steel sector has a joint C$5 billion fund over five years, with about a third of the money coming from the Ontario government.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
+    },
+    {
       "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 21 Oct 2026 14:18:43 +0000",
@@ -79,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 25,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 20 Oct 2026 13:35:07 +0000",
-      "url": "https://www.mining.com/web/italys-top-court-set-to-rule-on-future-of-troubled-taranto-steelworks/",
-      "summary": "The country's top court is reviewing an order to shut the steelworks' blast furnaces on health and environmental grounds.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 27,
-      "seriousnessScore": 61
     },
     {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
@@ -167,6 +167,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 20 Oct 2026 13:35:07 +0000",
+      "url": "https://www.mining.com/web/italys-top-court-set-to-rule-on-future-of-troubled-taranto-steelworks/",
+      "summary": "The country's top court is reviewing an order to shut the steelworks' blast furnaces on health and environmental grounds.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 27,
+      "seriousnessScore": 61
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
