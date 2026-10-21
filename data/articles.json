@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T11:19:42.744780+00:00",
+  "updatedAt": "2026-10-21T16:46:20.560213+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -22,6 +22,28 @@
       "country": "us",
       "relevanceScore": 7,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
+      "source": "AGH — JCME",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8290",
+      "summary": "<p>Rare earth elements (REE), particularly cerium (Ce), are widely used as alloying additions in modern steelmaking due to their strong chemical activity and high affinity for oxygen and sulphur. Their ability to react with impurities allows the effective modification of non-metallic inclusions, enhancing steel microstructure and overall performance. This review focuses on the ways cerium interacts in steel, highlighting transformations of inclusions such as Al₂O₃ and MnS, as well as complex systems like Ce–Al–O, Mn–O–S, and Ce–Ca–Al–O. Particular attention is given to the thermodynamic aspects of inclusion evolution and their dependence on processing conditions. The influence of cerium on sulphide stress cracking (SSC) resistance, solidification microstructure, and mechanical properties is also examined. According to the literature, the optimal cerium content is generally 0.01–0.02 wt.%, while higher amounts can negatively affect material performance.</p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 27,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Macroscopic And Microstructural Changes in S355 Steel Welded Joints under Different Fire Scenarios",
+      "source": "AGH — JCME",
+      "date": "Wed, 30 Sep 2026 00:00:00 +0200",
+      "url": "https://journals.agh.edu.pl/jcme/article/view/8330",
+      "summary": "<p class=\"JCMEBody\" style=\"line-height: 115%;\"><span style=\"mso-bidi-font-weight: bold;\">Post-fire assessment of welded steel structures requires knowledge of whether fire exposure may cause permanent changes in the weld and its vicinity. This study examines macro- and microstructural changes in full-penetration butt welded joints made of S355J2+N steel after controlled thermal exposures representative of selected fire-related scenarios. The aim was to determine how maximum temperature, exposure time and cooling method affect the weld metal, heat affected zone (HAZ) and base material. Welded joints, prepared in 16 mm plates were heat-treated at 600°C and 800°C, held for 1 h or 10 h, and cooled freely in a muffle furnace or rapidly in water mist. Etched cross-sections were analysed by optical microscopy. Results showed that short subcritical exposure caused no significant macro- and microstructural changes, whereas prolonged heating below Ac₁ promoted cementite spheroidisation in pearlite and formation of a ferritic–spheroiditic structure. Exposure at 800°C, i.e. within the intercritical Ac<sub>1</sub>–Ac<sub>3</sub> temperature range, led to extensive microstructural transformations, with the final microstructure governed mainly by cooling rate. Thus, at 800°C restructuring of the weld and HAZ becomes more likely, especially after rapid cooling. The originality of the study lies in comparing different fire scenarios for welded joints rather than base steel alone. The findings may support post-fire diagnostics of welded structures and indicate that mechanical testing is needed to relate structural changes to residual load-bearing capacity.</span></p>",
+      "category": "research",
+      "country": "pl",
+      "relevanceScore": 17,
+      "seriousnessScore": 66
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
@@ -48,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 14:18:43 +0000",
+      "url": "https://www.mining.com/web/cmrg-agrees-to-new-annual-supply-contract-with-rio-tinto-sources-say/",
+      "summary": "The Chinese iron ore buyer has agreed a new supply deal for the key steelmaking ingredient with Rio Tinto.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 25,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 20 Oct 2026 13:35:07 +0000",
@@ -57,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 27,
       "seriousnessScore": 61
-    },
-    {
-      "title": "Ghana plans to ban raw mineral exports by 2030, president says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 19 Oct 2026 20:15:40 +0000",
-      "url": "https://www.mining.com/web/ghana-plans-to-ban-raw-mineral-exports-by-2030-president-says/",
-      "summary": "Ghana has already banned exports of iron scrap and non-ferrous metals, as well as raw gold produced by artisanal and small-scale miners.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 12,
-      "seriousnessScore": 65
     },
     {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
@@ -125,28 +147,6 @@
       "seriousnessScore": 50
     },
     {
-      "title": "Full Steam Ahead for greentec steel",
-      "source": "voestalpine",
-      "date": "Tue, 06 Oct 2026 22:00:00 +0000",
-      "url": "https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/",
-      "summary": "<p>The transformation of steel production cannot be achieved through a single large-scale project, but rather through numerous interlinked measures. With the commissioning of a new power plant unit, we are creating another prerequisite for green steel production. This will allow us to use large quantities of steam from the electric arc furnace for electricity generation [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/\">Full Steam Ahead for greentec steel</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
-      "category": "industry",
-      "country": "at",
-      "relevanceScore": 27,
-      "seriousnessScore": 69
-    },
-    {
-      "title": "Researcher Selina: Steel Meets Building Materials",
-      "source": "voestalpine",
-      "date": "Mon, 28 Sep 2026 07:10:55 +0000",
-      "url": "https://www.voestalpine.com/blog/en/career/people/researcher-selina-steel-meets-building-materials/",
-      "summary": "<p>Selina R. has been working for us at the Donawitz site since 2018. Her research focuses primarily on electric arc furnace slag, as well as casting powders and refractory products. In doing so, she combines the best of two worlds: steel and construction materials.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/career/people/researcher-selina-steel-meets-building-materials/\">Researcher Selina: Steel Meets Building Materials</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
-      "category": "industry",
-      "country": "at",
-      "relevanceScore": 24,
-      "seriousnessScore": 60
-    },
-    {
       "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
       "source": "MetalMiner",
       "date": "Wed, 23 Sep 2026 06:00:00 +0000",
@@ -167,17 +167,6 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
-    },
-    {
-      "title": "Iron ore price rebounds from two-year low on dip buying, improving steel margins",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 16 Oct 2026 15:16:46 +0000",
-      "url": "https://www.mining.com/web/iron-ore-price-rebounds-from-two-year-low-on-dip-buying-improving-steel-margins/",
-      "summary": "Market sentiment was boosted by slightly improved profitability among steel mills, analysts said.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 64
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
