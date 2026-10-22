@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T11:18:46.214012+00:00",
+  "updatedAt": "2026-10-22T16:46:33.782106+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -69,6 +69,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 22 Oct 2026 11:45:29 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239",
+      "summary": "European Commission Speech Prague, 22 Oct 2026 When you arrived today, I hope you looked up at the roof of this palace. Four stone statues stand along the top. They represent the four elements: fire, water, ...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
       "source": "Mining.com — Iron Ore",
@@ -156,17 +167,6 @@
       "country": "ca",
       "relevanceScore": 25,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 20 Oct 2026 13:35:07 +0000",
-      "url": "https://www.mining.com/web/italys-top-court-set-to-rule-on-future-of-troubled-taranto-steelworks/",
-      "summary": "The country's top court is reviewing an order to shut the steelworks' blast furnaces on health and environmental grounds.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 27,
-      "seriousnessScore": 61
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
