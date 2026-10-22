@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21T21:21:44.982957+00:00",
+  "updatedAt": "2026-10-22T03:39:13.487242+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 23:41:03 +0000",
+      "url": "https://www.mining.com/web/fortescue-warns-of-operations-hit-as-china-state-buyer-talks-rumble-on/",
+      "summary": "The miner maintained its full-year 2027 forecast for iron ore shipments.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Carney announces $6.4 billion plan for Ontario steel and autos",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 21 Oct 2026 19:41:56 +0000",
@@ -79,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 56
-    },
-    {
-      "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 21 Oct 2026 14:18:43 +0000",
-      "url": "https://www.mining.com/web/cmrg-agrees-to-new-annual-supply-contract-with-rio-tinto-sources-say/",
-      "summary": "The Chinese iron ore buyer has agreed a new supply deal for the key steelmaking ingredient with Rio Tinto.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 60
     },
     {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
@@ -167,6 +167,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 14:18:43 +0000",
+      "url": "https://www.mining.com/web/cmrg-agrees-to-new-annual-supply-contract-with-rio-tinto-sources-say/",
+      "summary": "The Chinese iron ore buyer has agreed a new supply deal for the key steelmaking ingredient with Rio Tinto.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 25,
+      "seriousnessScore": 60
     },
     {
       "title": "Italy’s top court set to rule on future of troubled Taranto steelworks",
