@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T16:46:33.782106+00:00",
+  "updatedAt": "2026-10-22T21:17:14.227029+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -70,15 +70,15 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 22 Oct 2026 11:45:29 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239",
-      "summary": "European Commission Speech Prague, 22 Oct 2026 When you arrived today, I hope you looked up at the roof of this palace. Four stone statues stand along the top. They represent the four elements: fire, water, ...",
+      "title": "Nippon Steel to spend $3 billion in U.S. Steel plant equipment upgrade, Nikkei reports",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 22 Oct 2026 17:03:09 +0000",
+      "url": "https://www.mining.com/web/nippon-steel-to-spend-3-billion-in-u-s-steel-plant-equipment-upgrade-nikkei-reports/",
+      "summary": "The move is part of the Japanese steelmaker's pledge to invest $11 billion in U.S. Steel by 2028.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 61
     },
     {
       "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
@@ -92,15 +92,15 @@
       "seriousnessScore": 55
     },
     {
-      "title": "Carney announces $6.4 billion plan for Ontario steel and autos",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 21 Oct 2026 19:41:56 +0000",
-      "url": "https://www.mining.com/web/carney-announces-6-4-billion-plan-for-ontario-steel-and-autos/",
-      "summary": "The package for the steel sector has a joint C$5 billion fund over five years, with about a third of the money coming from the Ontario government.",
+      "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 22 Oct 2026 11:45:29 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239",
+      "summary": "European Commission Speech Prague, 22 Oct 2026 When you arrived today, I hope you looked up at the roof of this palace. Four stone statues stand along the top. They represent the four elements: fire, water, ...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 56
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
     },
     {
       "title": "worldsteel elects new officers and welcomes new members",
@@ -156,6 +156,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Carney announces $6.4 billion plan for Ontario steel and autos",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 19:41:56 +0000",
+      "url": "https://www.mining.com/web/carney-announces-6-4-billion-plan-for-ontario-steel-and-autos/",
+      "summary": "The package for the steel sector has a joint C$5 billion fund over five years, with about a third of the money coming from the Ontario government.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 56
     },
     {
       "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
