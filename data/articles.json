@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23T03:43:24.889060+00:00",
+  "updatedAt": "2026-10-23T11:09:39.203177+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -70,6 +70,28 @@
   ],
   "industry": [
     {
+      "title": "September 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Fri, 23 Oct 2026 06:02:59 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 142.4 million tonnes (Mt) in September 2026, a 0.2% decrease compared to September 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/\">September 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "worldsteel elects new officers and welcomes new members",
+      "source": "World Steel Association",
+      "date": "Tue, 13 Oct 2026 07:15:57 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/",
+      "summary": "<p>The Board of Members of worldsteel has today elected its Executive Board of Directors for the 2026/2027 period and welcomed new regular and affiliated members.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/\">worldsteel elects new officers and welcomes new members</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Rio Tinto and China’s state buyer agree on iron ore supply deal",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 22 Oct 2026 22:53:34 +0000",
@@ -90,39 +112,6 @@
       "country": "ca",
       "relevanceScore": 16,
       "seriousnessScore": 61
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 22 Oct 2026 11:45:29 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239",
-      "summary": "European Commission Speech Prague, 22 Oct 2026 When you arrived today, I hope you looked up at the roof of this palace. Four stone statues stand along the top. They represent the four elements: fire, water, ...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "worldsteel elects new officers and welcomes new members",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 07:15:57 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/",
-      "summary": "<p>The Board of Members of worldsteel has today elected its Executive Board of Directors for the 2026/2027 period and welcomed new regular and affiliated members.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/\">worldsteel elects new officers and welcomes new members</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Safety and Health Excellence Recognition 2026",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 04:55:10 +0000",
-      "url": "https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/",
-      "summary": "<p>The post <a href=\"https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/\">Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
     },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
@@ -158,6 +147,28 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Safety and Health Excellence Recognition 2026",
+      "source": "World Steel Association",
+      "date": "Tue, 13 Oct 2026 04:55:10 +0000",
+      "url": "https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/\">Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "worldsteel Safety and Health Excellence Recognition 2026",
+      "source": "World Steel Association",
+      "date": "Tue, 13 Oct 2026 02:29:10 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/",
+      "summary": "<p>As part of its commitment to the highest safety and health standards, the World Steel Association (worldsteel) recognises excellence in six of its member companies for delivering demonstrable improvements in safety and health.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/\">worldsteel Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 21 Oct 2026 23:41:03 +0000",
@@ -180,17 +191,6 @@
       "seriousnessScore": 56
     },
     {
-      "title": "worldsteel Safety and Health Excellence Recognition 2026",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 02:29:10 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/",
-      "summary": "<p>As part of its commitment to the highest safety and health standards, the World Steel Association (worldsteel) recognises excellence in six of its member companies for delivering demonstrable improvements in safety and health.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/\">worldsteel Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
       "title": "17th Steelie Awards winners announced",
       "source": "World Steel Association",
       "date": "Mon, 12 Oct 2026 14:38:53 +0000",
@@ -200,17 +200,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 43
-    },
-    {
-      "title": "worldsteel Short Range Outlook October 2026",
-      "source": "World Steel Association",
-      "date": "Mon, 12 Oct 2026 05:27:17 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/",
-      "summary": "<p>worldsteel today released its Short Range Outlook (SRO) steel demand forecast for 2026 and 2027. Compared with 2025, worldsteel forecasts that global steel demand will remain essentially unchanged in 2026 at 1,722 Mt, before returning to growth in 2027.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-short-range-outlook-october-2026/\">worldsteel Short Range Outlook October 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 60
     }
   ]
 }
