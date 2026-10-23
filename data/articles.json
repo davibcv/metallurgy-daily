@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T21:17:14.227029+00:00",
+  "updatedAt": "2026-10-23T03:43:24.889060+00:00",
   "research": [
     {
       "title": "Scientists reach the ultimate quantum limit on a surface",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Rio Tinto and China’s state buyer agree on iron ore supply deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 22 Oct 2026 22:53:34 +0000",
+      "url": "https://www.mining.com/web/rio-tinto-and-chinas-state-buyer-agree-iron-ore-supply-deal/",
+      "summary": "The contract will cover the period from November this year to May 2028.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Nippon Steel to spend $3 billion in U.S. Steel plant equipment upgrade, Nikkei reports",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 22 Oct 2026 17:03:09 +0000",
@@ -79,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 16,
       "seriousnessScore": 61
-    },
-    {
-      "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 21 Oct 2026 23:41:03 +0000",
-      "url": "https://www.mining.com/web/fortescue-warns-of-operations-hit-as-china-state-buyer-talks-rumble-on/",
-      "summary": "The miner maintained its full-year 2027 forecast for iron ore shipments.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
     },
     {
       "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
@@ -158,6 +158,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Fortescue warns of operations hit as China state buyer talks rumble on",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 21 Oct 2026 23:41:03 +0000",
+      "url": "https://www.mining.com/web/fortescue-warns-of-operations-hit-as-china-state-buyer-talks-rumble-on/",
+      "summary": "The miner maintained its full-year 2027 forecast for iron ore shipments.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Carney announces $6.4 billion plan for Ontario steel and autos",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 21 Oct 2026 19:41:56 +0000",
@@ -167,17 +178,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 56
-    },
-    {
-      "title": "CMRG agrees to new annual supply contract with Rio Tinto, sources say",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 21 Oct 2026 14:18:43 +0000",
-      "url": "https://www.mining.com/web/cmrg-agrees-to-new-annual-supply-contract-with-rio-tinto-sources-say/",
-      "summary": "The Chinese iron ore buyer has agreed a new supply deal for the key steelmaking ingredient with Rio Tinto.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 60
     },
     {
       "title": "worldsteel Safety and Health Excellence Recognition 2026",
