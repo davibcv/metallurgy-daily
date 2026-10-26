@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-10-26T12:25:06.901786+00:00",
+  "updatedAt": "2026-10-26T22:23:05.133988+00:00",
   "research": [
-    {
-      "title": "Shape-sensing sheet digitally tracks its movement as it bends and twists",
-      "source": "MIT News — Materials Science",
-      "date": "Thu, 08 Oct 2026 14:00:00 -0400",
-      "url": "https://news.mit.edu/2026/shape-sensing-sheet-digitally-tracks-movement-bends-twists-1008",
-      "summary": "Developed by MIT engineers, this flexible material could be used as a wearable, motion-monitoring “skin” in physical therapy, virtual reality, and gaming.",
-      "category": "research",
-      "country": "us",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
       "source": "AGH — JCME",
@@ -59,26 +48,26 @@
   ],
   "industry": [
     {
-      "title": "Diesel price surge putting mining profits to test",
+      "title": "Op-Ed: China’s tug-of-war with Australian miners lurks beneath iron ore calm",
       "source": "Mining.com — Iron Ore",
-      "date": "Fri, 23 Oct 2026 14:24:08 +0000",
-      "url": "https://www.mining.com/diesel-price-surge-putting-mining-profits-to-test/",
-      "summary": "Rising fuel bills are squeezing copper and iron ore producers, while strong bullion prices help miners protect profit margins.",
+      "date": "Mon, 26 Oct 2026 14:02:43 +0000",
+      "url": "https://www.mining.com/web/op-ed-chinas-tug-of-war-with-australian-miners-lurks-beneath-iron-ore-calm/",
+      "summary": "Beijing is attempting to gain more control of iron ore pricing, but Australian miners have market power of their own.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
-      "seriousnessScore": 65
+      "seriousnessScore": 59
     },
     {
-      "title": "Rio Tinto and China’s state buyer agree on iron ore supply deal",
+      "title": "Iron ore prices rangebound as investors weigh weakening demand against stimulus bets",
       "source": "Mining.com — Iron Ore",
-      "date": "Thu, 22 Oct 2026 22:53:34 +0000",
-      "url": "https://www.mining.com/web/rio-tinto-and-chinas-state-buyer-agree-iron-ore-supply-deal/",
-      "summary": "The contract will cover the period from November this year to May 2028.",
+      "date": "Mon, 26 Oct 2026 13:47:35 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/",
+      "summary": "Consumption softened amid weak steelmaker profitability, hampered by sluggish downstream demand and resilient feedstock prices.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
+      "relevanceScore": 15,
+      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -134,17 +123,6 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
-    },
-    {
-      "title": "Nippon Steel to spend $3 billion in U.S. Steel plant equipment upgrade, Nikkei reports",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 22 Oct 2026 17:03:09 +0000",
-      "url": "https://www.mining.com/web/nippon-steel-to-spend-3-billion-in-u-s-steel-plant-equipment-upgrade-nikkei-reports/",
-      "summary": "The move is part of the Japanese steelmaker's pledge to invest $11 billion in U.S. Steel by 2028.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
-      "seriousnessScore": 61
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
