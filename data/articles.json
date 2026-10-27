@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T04:02:30.111099+00:00",
+  "updatedAt": "2026-10-27T11:44:05.262579+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -101,17 +101,6 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong",
-      "source": "MetalMiner",
-      "date": "Wed, 23 Sep 2026 06:00:00 +0000",
-      "url": "https://agmetalminer.com/2026/09/23/ai-forecasting-pricing-answers/",
-      "summary": "<img width=\"300\" height=\"169\" src=\"https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-300x169.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Steel roll\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-300x169.png 300w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-1024x576.png 1024w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-768x432.png 768w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll-800x450.png 800w, https://agmetalminer.com/wp-content/uploads/2026/09/Steel-Roll.png 1100w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"A Metals Price Answer from AI That Sounds Correct, but is Actually Wrong 5\">&#8220;Steel prices are rising, so companies should wait before placing orders.&#8221; That sentence sounds plausible. It may even prove directionally right. It still fails the test that matters in sourcing, cost planning, and risk management. Can anyone audit it? It names no benchmark. &#8220;Steel&#8221; could mean hot-rolled coil, cold-rolled coil, galvanized sheet, plate, stainless sheet, [&#8230;]",
-      "category": "industry",
-      "country": "us",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
