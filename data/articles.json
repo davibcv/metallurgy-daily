@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T17:36:51.839865+00:00",
+  "updatedAt": "2026-10-27T21:54:09.768538+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,17 @@
   ],
   "industry": [
     {
+      "title": "Iron ore price hits 2-year low as concerns over China demand dominate",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 27 Oct 2026 19:47:57 +0000",
+      "url": "https://www.mining.com/web/iron-ore-hits-2-year-low-as-concerns-over-china-demand-dominate/",
+      "summary": "Steel demand has weakened seasonally, with thin margins suppressing hot metal output, while ore supply is expected to rise.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Op-Ed: China’s tug-of-war with Australian miners lurks beneath iron ore calm",
       "source": "Mining.com — Iron Ore",
       "date": "Mon, 26 Oct 2026 14:02:43 +0000",
@@ -57,17 +68,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 59
-    },
-    {
-      "title": "Iron ore prices rangebound as investors weigh weakening demand against stimulus bets",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 26 Oct 2026 13:47:35 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/",
-      "summary": "Consumption softened amid weak steelmaker profitability, hampered by sluggish downstream demand and resilient feedstock prices.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -112,6 +112,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Iron ore prices rangebound as investors weigh weakening demand against stimulus bets",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 26 Oct 2026 13:47:35 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/",
+      "summary": "Consumption softened amid weak steelmaker profitability, hampered by sluggish downstream demand and resilient feedstock prices.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 65
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
