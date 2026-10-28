@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T04:27:47.841866+00:00",
+  "updatedAt": "2026-10-28T12:17:10.909946+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -101,6 +101,28 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Full Steam Ahead for greentec steel",
+      "source": "voestalpine",
+      "date": "Tue, 06 Oct 2026 22:00:00 +0000",
+      "url": "https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/",
+      "summary": "<p>The transformation of steel production cannot be achieved through a single large-scale project, but rather through numerous interlinked measures. With the commissioning of a new power plant unit, we are creating another prerequisite for green steel production. This will allow us to use large quantities of steam from the electric arc furnace for electricity generation [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/\">Full Steam Ahead for greentec steel</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "category": "industry",
+      "country": "at",
+      "relevanceScore": 27,
+      "seriousnessScore": 69
+    },
+    {
+      "title": "Researcher Selina: Steel Meets Building Materials",
+      "source": "voestalpine",
+      "date": "Mon, 28 Sep 2026 07:10:55 +0000",
+      "url": "https://www.voestalpine.com/blog/en/career/people/researcher-selina-steel-meets-building-materials/",
+      "summary": "<p>Selina R. has been working for us at the Donawitz site since 2018. Her research focuses primarily on electric arc furnace slag, as well as casting powders and refractory products. In doing so, she combines the best of two worlds: steel and construction materials.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/career/people/researcher-selina-steel-meets-building-materials/\">Researcher Selina: Steel Meets Building Materials</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "category": "industry",
+      "country": "at",
+      "relevanceScore": 24,
+      "seriousnessScore": 60
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
