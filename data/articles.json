@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T12:17:10.909946+00:00",
+  "updatedAt": "2026-10-28T22:18:12.061777+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,26 +48,26 @@
   ],
   "industry": [
     {
-      "title": "Trafigura, Mubadala cancel planned sale of Brazilian iron ore port",
+      "title": "Fortescue says iron ore deal with China must protect Australia",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 27 Oct 2026 22:39:12 +0000",
-      "url": "https://www.mining.com/web/trafigura-mubadala-cancel-planned-sale-of-brazilian-iron-ore-port/",
-      "summary": "Porto Sudeste moved a record 27.8 million tonnes of iron ore in 2025.",
+      "date": "Wed, 28 Oct 2026 15:04:32 +0000",
+      "url": "https://www.mining.com/web/fortescue-says-iron-ore-deal-with-china-must-protect-australia/",
+      "summary": "Fortescue has been locked in negotiations with CMRG over contract pricing for months, resulting in curbs on some of its products.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 5,
-      "seriousnessScore": 65
+      "seriousnessScore": 60
     },
     {
-      "title": "Iron ore price hits 2-year low as concerns over China demand dominate",
+      "title": "SSAB tops profit expectations as EU import curbs boost steel prices",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 27 Oct 2026 19:47:57 +0000",
-      "url": "https://www.mining.com/web/iron-ore-hits-2-year-low-as-concerns-over-china-demand-dominate/",
-      "summary": "Steel demand has weakened seasonally, with thin margins suppressing hot metal output, while ore supply is expected to rise.",
+      "date": "Wed, 28 Oct 2026 14:26:30 +0000",
+      "url": "https://www.mining.com/web/ssab-tops-profit-expectations-as-eu-import-curbs-boost-steel-prices/",
+      "summary": "The European steel industry has sought relief from high energy costs and cheaper Asian steel entering the region.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 60
+      "relevanceScore": 10,
+      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -134,17 +134,6 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
-    },
-    {
-      "title": "Op-Ed: China’s tug-of-war with Australian miners lurks beneath iron ore calm",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 26 Oct 2026 14:02:43 +0000",
-      "url": "https://www.mining.com/web/op-ed-chinas-tug-of-war-with-australian-miners-lurks-beneath-iron-ore-calm/",
-      "summary": "Beijing is attempting to gain more control of iron ore pricing, but Australian miners have market power of their own.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 59
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
