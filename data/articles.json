@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T21:54:09.768538+00:00",
+  "updatedAt": "2026-10-28T04:27:47.841866+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,17 @@
   ],
   "industry": [
     {
+      "title": "Trafigura, Mubadala cancel planned sale of Brazilian iron ore port",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 27 Oct 2026 22:39:12 +0000",
+      "url": "https://www.mining.com/web/trafigura-mubadala-cancel-planned-sale-of-brazilian-iron-ore-port/",
+      "summary": "Porto Sudeste moved a record 27.8 million tonnes of iron ore in 2025.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Iron ore price hits 2-year low as concerns over China demand dominate",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 27 Oct 2026 19:47:57 +0000",
@@ -57,17 +68,6 @@
       "country": "ca",
       "relevanceScore": 15,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Op-Ed: China’s tug-of-war with Australian miners lurks beneath iron ore calm",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 26 Oct 2026 14:02:43 +0000",
-      "url": "https://www.mining.com/web/op-ed-chinas-tug-of-war-with-australian-miners-lurks-beneath-iron-ore-calm/",
-      "summary": "Beijing is attempting to gain more control of iron ore pricing, but Australian miners have market power of their own.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 59
     },
     {
       "title": "September 2026 crude steel production",
@@ -114,15 +114,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Iron ore prices rangebound as investors weigh weakening demand against stimulus bets",
+      "title": "Op-Ed: China’s tug-of-war with Australian miners lurks beneath iron ore calm",
       "source": "Mining.com — Iron Ore",
-      "date": "Mon, 26 Oct 2026 13:47:35 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-rangebound-as-investors-weigh-weakening-demand-against-stimulus-bets/",
-      "summary": "Consumption softened amid weak steelmaker profitability, hampered by sluggish downstream demand and resilient feedstock prices.",
+      "date": "Mon, 26 Oct 2026 14:02:43 +0000",
+      "url": "https://www.mining.com/web/op-ed-chinas-tug-of-war-with-australian-miners-lurks-beneath-iron-ore-calm/",
+      "summary": "Beijing is attempting to gain more control of iron ore pricing, but Australian miners have market power of their own.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 65
+      "relevanceScore": 5,
+      "seriousnessScore": 59
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
