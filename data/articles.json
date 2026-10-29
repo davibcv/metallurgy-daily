@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T12:26:46.351706+00:00",
+  "updatedAt": "2026-10-29T22:31:10.430133+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,28 @@
   ],
   "industry": [
     {
+      "title": "Iron ore prices drop below $90 tests high-cost supply as losses mount",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 29 Oct 2026 20:24:16 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-drop-below-90-tests-high-cost-supply-as-losses-mount/",
+      "summary": "UBS said in a note in September that iron ore prices draw fundamental support from a cost curve that has risen materially since 2020.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Italy’s top court upholds shutdown of former Ilva steelworks, in setback to Meloni",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 29 Oct 2026 19:46:22 +0000",
+      "url": "https://www.mining.com/web/italys-top-court-upholds-shutdown-of-former-ilva-steelworks-in-setback-to-meloni/",
+      "summary": "Meloni has repeatedly pledged support for the facility, saying her government would do whatever it could to safeguard production.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 20,
+      "seriousnessScore": 61
+    },
+    {
       "title": "Speech by Commissioner Lahbib at the UNESCO Global Forum against Racism and Discrimination",
       "source": "EU Commission — Economy & Finance",
       "date": "Thu, 29 Oct 2026 09:52:00 GMT",
@@ -57,28 +79,6 @@
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Fortescue says iron ore deal with China must protect Australia",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 28 Oct 2026 15:04:32 +0000",
-      "url": "https://www.mining.com/web/fortescue-says-iron-ore-deal-with-china-must-protect-australia/",
-      "summary": "Fortescue has been locked in negotiations with CMRG over contract pricing for months, resulting in curbs on some of its products.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "SSAB tops profit expectations as EU import curbs boost steel prices",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 28 Oct 2026 14:26:30 +0000",
-      "url": "https://www.mining.com/web/ssab-tops-profit-expectations-as-eu-import-curbs-boost-steel-prices/",
-      "summary": "The European steel industry has sought relief from high energy costs and cheaper Asian steel entering the region.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -145,6 +145,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Fortescue says iron ore deal with China must protect Australia",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 28 Oct 2026 15:04:32 +0000",
+      "url": "https://www.mining.com/web/fortescue-says-iron-ore-deal-with-china-must-protect-australia/",
+      "summary": "Fortescue has been locked in negotiations with CMRG over contract pricing for months, resulting in curbs on some of its products.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
