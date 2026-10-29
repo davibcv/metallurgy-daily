@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T04:45:10.536219+00:00",
+  "updatedAt": "2026-10-29T12:26:46.351706+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -47,6 +47,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the UNESCO Global Forum against Racism and Discrimination",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 29 Oct 2026 09:52:00 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2286",
+      "summary": "European Commission Speech The Hague, 29 Oct 2026 Angela Bib.\nDo any of you know her? You won't. She never existed. But she came very close to existing because Angela Bib was almost me.\nBefore politics, I was a...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Fortescue says iron ore deal with China must protect Australia",
       "source": "Mining.com — Iron Ore",
