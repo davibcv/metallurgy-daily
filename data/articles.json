@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T12:17:56.264008+00:00",
+  "updatedAt": "2026-10-30T22:00:09.936150+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,17 @@
   ],
   "industry": [
     {
+      "title": "Vale third-quarter profit tumbles, iron ore output misses forecasts",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 30 Oct 2026 14:00:56 +0000",
+      "url": "https://www.mining.com/web/vale-third-quarter-profit-tumbles-iron-ore-output-misses-forecasts/",
+      "summary": "Vale said that it still was confident that it would reach the lower end of its 2026 iron ore output projection.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 59
+    },
+    {
       "title": "Billionaire Rinehart’s iron ore firm posts $1.3 billion profit",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 29 Oct 2026 23:38:55 +0000",
@@ -59,25 +70,14 @@
       "seriousnessScore": 61
     },
     {
-      "title": "Iron ore prices drop below $90 tests high-cost supply as losses mount",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 29 Oct 2026 20:24:16 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-drop-below-90-tests-high-cost-supply-as-losses-mount/",
-      "summary": "UBS said in a note in September that iron ore prices draw fundamental support from a cost curve that has risen materially since 2020.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
-    },
-    {
-      "title": "EU announces establishment and composition of PreparEU Advisory Group on European Disaster Preparedness",
+      "title": "EU and Canada intensify cooperation in the area of medical countermeasures for preparedness and response to combat health emergencies",
       "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 29 Oct 2026 23:00:00 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2287",
-      "summary": "European Commission Press release Brussels, 30 Oct 2026 Today, the European Commission is establishing the PreparEU Advisory Group, tasked with providing strategic advice to President of the Commission, Ursula von der Leyen, and Commissioner for Equality; Preparedness and Crisis Management Hadja Lahbib on how to best address accelerating disaster risks, including extreme weather events and wildfires",
+      "date": "Fri, 30 Oct 2026 11:36:57 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2309",
+      "summary": "European Commission Joint press release Ottawa, 30 Oct 2026 On Monday 26 October, Hadja Lahbib, EU Commissioner for Preparedness and Crisis Management, and the Honourable Mélanie Joly, Minister of Industry and Minister responsible for Canada Economic Development for Quebec Regions, met to reaffirm the strong Canada-EU partnership on health emergency preparedness and response.",
       "category": "industry",
       "country": "eu",
-      "relevanceScore": 7,
+      "relevanceScore": 14,
       "seriousnessScore": 50
     },
     {
@@ -147,15 +147,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Italy’s top court upholds shutdown of former Ilva steelworks, in setback to Meloni",
+      "title": "Iron ore prices drop below $90 tests high-cost supply as losses mount",
       "source": "Mining.com — Iron Ore",
-      "date": "Thu, 29 Oct 2026 19:46:22 +0000",
-      "url": "https://www.mining.com/web/italys-top-court-upholds-shutdown-of-former-ilva-steelworks-in-setback-to-meloni/",
-      "summary": "Meloni has repeatedly pledged support for the facility, saying her government would do whatever it could to safeguard production.",
+      "date": "Thu, 29 Oct 2026 20:24:16 +0000",
+      "url": "https://www.mining.com/web/iron-ore-prices-drop-below-90-tests-high-cost-supply-as-losses-mount/",
+      "summary": "UBS said in a note in September that iron ore prices draw fundamental support from a cost curve that has risen materially since 2020.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 20,
-      "seriousnessScore": 61
+      "relevanceScore": 5,
+      "seriousnessScore": 65
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
