@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:31:10.430133+00:00",
+  "updatedAt": "2026-10-30T04:44:37.427619+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,17 @@
   ],
   "industry": [
     {
+      "title": "Billionaire Rinehart’s iron ore firm posts $1.3 billion profit",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 29 Oct 2026 23:38:55 +0000",
+      "url": "https://www.mining.com/web/billionaire-rineharts-iron-ore-firm-posts-1-3-billion-profit/",
+      "summary": "Australia’s richest person has seen her net worth slip 16% this year.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 61
+    },
+    {
       "title": "Iron ore prices drop below $90 tests high-cost supply as losses mount",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 29 Oct 2026 20:24:16 +0000",
@@ -57,17 +68,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 65
-    },
-    {
-      "title": "Italy’s top court upholds shutdown of former Ilva steelworks, in setback to Meloni",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 29 Oct 2026 19:46:22 +0000",
-      "url": "https://www.mining.com/web/italys-top-court-upholds-shutdown-of-former-ilva-steelworks-in-setback-to-meloni/",
-      "summary": "Meloni has repeatedly pledged support for the facility, saying her government would do whatever it could to safeguard production.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 20,
-      "seriousnessScore": 61
     },
     {
       "title": "Speech by Commissioner Lahbib at the UNESCO Global Forum against Racism and Discrimination",
@@ -147,15 +147,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Fortescue says iron ore deal with China must protect Australia",
+      "title": "Italy’s top court upholds shutdown of former Ilva steelworks, in setback to Meloni",
       "source": "Mining.com — Iron Ore",
-      "date": "Wed, 28 Oct 2026 15:04:32 +0000",
-      "url": "https://www.mining.com/web/fortescue-says-iron-ore-deal-with-china-must-protect-australia/",
-      "summary": "Fortescue has been locked in negotiations with CMRG over contract pricing for months, resulting in curbs on some of its products.",
+      "date": "Thu, 29 Oct 2026 19:46:22 +0000",
+      "url": "https://www.mining.com/web/italys-top-court-upholds-shutdown-of-former-ilva-steelworks-in-setback-to-meloni/",
+      "summary": "Meloni has repeatedly pledged support for the facility, saying her government would do whatever it could to safeguard production.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
+      "relevanceScore": 20,
+      "seriousnessScore": 61
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
