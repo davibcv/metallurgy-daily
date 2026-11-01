@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T04:48:51.426193+00:00",
+  "updatedAt": "2026-11-01T12:48:59.587490+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -145,17 +145,6 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
-    },
-    {
-      "title": "Iron ore prices drop below $90 tests high-cost supply as losses mount",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 29 Oct 2026 20:24:16 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-drop-below-90-tests-high-cost-supply-as-losses-mount/",
-      "summary": "UBS said in a note in September that iron ore prices draw fundamental support from a cost curve that has risen materially since 2020.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
