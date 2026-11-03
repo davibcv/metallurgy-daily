@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T13:45:45.774469+00:00",
+  "updatedAt": "2026-11-03T22:59:09.468307+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,6 +48,28 @@
   ],
   "industry": [
     {
+      "title": "Gerdau shuts down steel production in Divinopolis plant",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 03 Nov 2026 21:52:24 +0000",
+      "url": "https://www.mining.com/web/gerdau-shuts-down-steel-production-in-divinopolis-plant/",
+      "summary": "The move is part of Gerdau’s strategy to concentrate steel production in Brazil in more efficient and technologically advanced assets.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 20,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Simandou offsets iron ore supply cuts elsewhere, Macquarie says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 03 Nov 2026 18:30:36 +0000",
+      "url": "https://www.mining.com/web/simandou-offsets-iron-ore-supply-cuts-elsewhere-macquarie-says/",
+      "summary": "“Simandou has single-handedly supported seaborne volumes,” the bank said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Speech by Commissioner Lahbib at the Opening of the European Civil Protection Forum",
       "source": "EU Commission — Economy & Finance",
       "date": "Tue, 03 Nov 2026 09:12:47 GMT",
@@ -57,17 +79,6 @@
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Iron ore prices stabilise on slower-than-expected China demand fall",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 02 Nov 2026 14:39:14 +0000",
-      "url": "https://www.mining.com/web/iron-ore-prices-stabilise-on-slower-than-expected-china-demand-fall/",
-      "summary": "Iron ore still faces downside risks from weak fundamentals, but market sentiment has somewhat recovered, analysts told Reuters.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 69
     },
     {
       "title": "September 2026 crude steel production",
