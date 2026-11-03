@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T00:39:45.264506+00:00",
+  "updatedAt": "2026-11-03T13:45:45.774469+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -47,6 +47,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the Opening of the European Civil Protection Forum",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Tue, 03 Nov 2026 09:12:47 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2320",
+      "summary": "European Commission Speech Brussels, 03 Nov 2026 Allow me to start with a personal memory.\nTwenty-five years ago, I was in Afghanistan as a young reporter for Belgian television. It was autumn 2001. The war ha...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Iron ore prices stabilise on slower-than-expected China demand fall",
       "source": "Mining.com — Iron Ore",
