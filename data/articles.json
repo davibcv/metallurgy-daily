@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T13:54:27.300009+00:00",
+  "updatedAt": "2026-11-04T23:19:02.712061+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -48,26 +48,48 @@
   ],
   "industry": [
     {
-      "title": "Gerdau shuts down steel production in Divinopolis plant",
+      "title": "Flacks says he is ready to buy Italy’s Ilva, but seeks €1 billion state loan",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 03 Nov 2026 21:52:24 +0000",
-      "url": "https://www.mining.com/web/gerdau-shuts-down-steel-production-in-divinopolis-plant/",
-      "summary": "The move is part of Gerdau’s strategy to concentrate steel production in Brazil in more efficient and technologically advanced assets.",
+      "date": "Wed, 04 Nov 2026 17:54:42 +0000",
+      "url": "https://www.mining.com/web/flacks-says-he-is-ready-to-buy-italys-ilva-but-seeks-e1-billion-state-loan/",
+      "summary": "Flacks said he saw potential in Taranto and believed it could produce around 4 million metric tons of steel a year.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 20,
+      "relevanceScore": 10,
+      "seriousnessScore": 66
+    },
+    {
+      "title": "Iron ore price nears one-week high on short-covering, China restocking bets",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 04 Nov 2026 14:29:53 +0000",
+      "url": "https://www.mining.com/web/iron-ore-price-nears-one-week-high-on-short-covering-china-restocking-bets/",
+      "summary": "Steel mills are expected to replenish inventories before the Lunar New Year holiday, providing near-term support to prices.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 25,
       "seriousnessScore": 65
     },
     {
-      "title": "Simandou offsets iron ore supply cuts elsewhere, Macquarie says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 03 Nov 2026 18:30:36 +0000",
-      "url": "https://www.mining.com/web/simandou-offsets-iron-ore-supply-cuts-elsewhere-macquarie-says/",
-      "summary": "“Simandou has single-handedly supported seaborne volumes,” the bank said.",
+      "title": "Closing Speech by Commissioner Lahbib at the European Civil Protection Forum",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 04 Nov 2026 16:29:14 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2346",
+      "summary": "European Commission Speech Brussels, 04 Nov 2026 What a fantastic way to end this Forum. I have just come from our workshop with 100 young people. Their energy is contagious.\nThese two days have been unforgett...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "€525 million investment set to drive new generation of European chip design companies",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 04 Nov 2026 14:48:20 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2345",
+      "summary": "European Commission Press release Brussels, 04 Nov 2026 Launching today, the European Chip Design Platform will mobilise €525 million in investment to stimulate a new generation of European chip design companies.",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 61
     },
     {
       "title": "September 2026 crude steel production",
@@ -95,7 +117,7 @@
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
       "source": "POSCO",
       "date": "Fri, 16 Oct 2026 13:00:01 +0000",
-      "url": "http://10.105.230.35/en/chang-in-hwa-head-of-the-korea-iron-steel-association-secures-seoul-as-host-city-for-the-2027-world-steel-association-general-assembly/",
+      "url": "https://newsroom.posco.com/en/chang-in-hwa-head-of-the-korea-iron-steel-association-secures-seoul-as-host-city-for-the-2027-world-steel-association-general-assembly/",
       "summary": "Seoul to host World Steel Association General Assembly for first time in 22 years, reaffirming Korea&#8217;s global standing in steel Attended three-day New",
       "category": "industry",
       "country": "kr",
@@ -106,7 +128,7 @@
       "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
       "source": "POSCO",
       "date": "Tue, 13 Oct 2026 13:05:39 +0000",
-      "url": "http://10.105.230.35/en/posco-group-participates-in-the-governments-k-gx-signature-project-leading-the-decarbonization-transition-of-the-steel-industry/",
+      "url": "https://newsroom.posco.com/en/posco-group-participates-in-the-governments-k-gx-signature-project-leading-the-decarbonization-transition-of-the-steel-industry/",
       "summary": "Promoting ‘Steel GX,’ a K-GX Signature Project… Driving Regional Growth through a Decarbonized Ecosystem Securing Economical ‘Clean Energy’ and ‘Creating a",
       "category": "industry",
       "country": "kr",
@@ -156,6 +178,28 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Gerdau shuts down steel production in Divinopolis plant",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 03 Nov 2026 21:52:24 +0000",
+      "url": "https://www.mining.com/web/gerdau-shuts-down-steel-production-in-divinopolis-plant/",
+      "summary": "The move is part of Gerdau’s strategy to concentrate steel production in Brazil in more efficient and technologically advanced assets.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 20,
+      "seriousnessScore": 65
+    },
+    {
+      "title": "Simandou offsets iron ore supply cuts elsewhere, Macquarie says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 03 Nov 2026 18:30:36 +0000",
+      "url": "https://www.mining.com/web/simandou-offsets-iron-ore-supply-cuts-elsewhere-macquarie-says/",
+      "summary": "“Simandou has single-handedly supported seaborne volumes,” the bank said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
