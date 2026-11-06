@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-06T13:52:42.441159+00:00",
+  "updatedAt": "2026-11-06T22:47:48.065725+00:00",
   "research": [
+    {
+      "title": "Fabric molds could bring material-saving concrete beams within reach",
+      "source": "MIT News — Materials Science",
+      "date": "Fri, 06 Nov 2026 14:35:00 -0500",
+      "url": "https://news.mit.edu/2026/fabric-molds-could-bring-material-saving-concrete-beams-within-reach-1106",
+      "summary": "MIT engineers cast a concrete beam using a sewn fabric mold with one-third the amount of concrete and half as much steel as a conventional beam.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
       "source": "AGH — JCME",
@@ -48,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "China, Gabon elevate ties, pledge deeper mining, security cooperation",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 06 Nov 2026 16:40:53 +0000",
+      "url": "https://www.mining.com/web/china-gabon-elevate-ties-pledge-deeper-mining-security-cooperation/",
+      "summary": "China said it would \"support Gabon in turning its resource advantages into drivers of development.\"",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "European stainless steelmakers see recovery pushed further into 2027",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 06 Nov 2026 15:55:08 +0000",
+      "url": "https://www.mining.com/web/european-stainless-steelmakers-see-recovery-pushed-further-into-2027/",
+      "summary": "For stainless steel producers, lower imports cannot compensate for a lack of orders from end-users.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Speech by Commissioner Lahbib at the InvestFrontier Conference",
       "source": "EU Commission — Economy & Finance",
       "date": "Fri, 06 Nov 2026 12:00:46 GMT",
@@ -57,28 +90,6 @@
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Flacks says he is ready to buy Italy’s Ilva, but seeks €1 billion state loan",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 04 Nov 2026 17:54:42 +0000",
-      "url": "https://www.mining.com/web/flacks-says-he-is-ready-to-buy-italys-ilva-but-seeks-e1-billion-state-loan/",
-      "summary": "Flacks said he saw potential in Taranto and believed it could produce around 4 million metric tons of steel a year.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 66
-    },
-    {
-      "title": "Iron ore price nears one-week high on short-covering, China restocking bets",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 04 Nov 2026 14:29:53 +0000",
-      "url": "https://www.mining.com/web/iron-ore-price-nears-one-week-high-on-short-covering-china-restocking-bets/",
-      "summary": "Steel mills are expected to replenish inventories before the Lunar New Year holiday, providing near-term support to prices.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 25,
-      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -158,26 +169,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Gerdau shuts down steel production in Divinopolis plant",
+      "title": "Flacks says he is ready to buy Italy’s Ilva, but seeks €1 billion state loan",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 03 Nov 2026 21:52:24 +0000",
-      "url": "https://www.mining.com/web/gerdau-shuts-down-steel-production-in-divinopolis-plant/",
-      "summary": "The move is part of Gerdau’s strategy to concentrate steel production in Brazil in more efficient and technologically advanced assets.",
+      "date": "Wed, 04 Nov 2026 17:54:42 +0000",
+      "url": "https://www.mining.com/web/flacks-says-he-is-ready-to-buy-italys-ilva-but-seeks-e1-billion-state-loan/",
+      "summary": "Flacks said he saw potential in Taranto and believed it could produce around 4 million metric tons of steel a year.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 20,
-      "seriousnessScore": 65
-    },
-    {
-      "title": "Simandou offsets iron ore supply cuts elsewhere, Macquarie says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 03 Nov 2026 18:30:36 +0000",
-      "url": "https://www.mining.com/web/simandou-offsets-iron-ore-supply-cuts-elsewhere-macquarie-says/",
-      "summary": "“Simandou has single-handedly supported seaborne volumes,” the bank said.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
+      "relevanceScore": 10,
+      "seriousnessScore": 66
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
