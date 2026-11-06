@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T05:30:22.043011+00:00",
+  "updatedAt": "2026-11-06T13:52:42.441159+00:00",
   "research": [
     {
       "title": "Effect of Cerium Addition on the Ewvolution of Non-Metallic Inclusions in Steel – A Literature Review",
@@ -47,6 +47,17 @@
     }
   ],
   "industry": [
+    {
+      "title": "Speech by Commissioner Lahbib at the InvestFrontier Conference",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Fri, 06 Nov 2026 12:00:46 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2369",
+      "summary": "European Commission Speech Brussels, 06 Nov 2026 I love the word “frontier”. On a map, it is just a line. But for explorers, it was always the place where the known world ended, and new possibilities began. I ...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Flacks says he is ready to buy Italy’s Ilva, but seeks €1 billion state loan",
       "source": "Mining.com — Iron Ore",
