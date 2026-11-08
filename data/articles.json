@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-08T04:52:59.511212+00:00",
+  "updatedAt": "2026-11-08T12:53:43.143269+00:00",
   "research": [
+    {
+      "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Sat, 07 Nov 2026 22:46:51 EST",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
+      "summary": "Scientists have created record-breaking X-ray flashes lasting just 300 attoseconds, concentrating enormous power into an incredibly tiny spot. The breakthrough could unlock a new way to observe electrons in action and potentially control the ultrafast processes that drive chemical reactions.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
       "source": "MIT News — Materials Science",
