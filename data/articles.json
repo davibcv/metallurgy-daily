@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T05:00:08.574267+00:00",
+  "updatedAt": "2026-11-09T15:27:16.325428+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -90,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 16,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Speech by Commissioner Lahbib at the InvestFrontier Conference",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Fri, 06 Nov 2026 12:00:46 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2369",
-      "summary": "European Commission Speech Brussels, 06 Nov 2026 I love the word “frontier”. On a map, it is just a line. But for explorers, it was always the place where the known world ended, and new possibilities began. I ...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
     },
     {
       "title": "September 2026 crude steel production",
