@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T14:28:43.028784+00:00",
+  "updatedAt": "2026-11-10T22:56:06.455104+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "Italian steelmakers halting production due to high energy costs, industry group says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 10 Nov 2026 21:27:43 +0000",
+      "url": "https://www.mining.com/web/italian-steelmakers-halting-production-due-to-high-energy-costs-industry-group-says/",
+      "summary": "The association said that high energy costs were undermining the competitiveness of Italian steelmakers.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Blast at steel plant kills 16 in Turkey",
       "source": "Mining.com — Iron Ore",
       "date": "Mon, 09 Nov 2026 20:01:08 +0000",
@@ -79,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 16,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Jindal, Arvedi bid for former Ilva steelworks",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 09 Nov 2026 19:01:26 +0000",
-      "url": "https://www.mining.com/web/jindal-arvedi-bid-for-former-ilva-steelworks/",
-      "summary": "Italy's main metalworkers' unions said Arvedi's offer was an important development but that it was too early to assess both bids' impact.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 20,
-      "seriousnessScore": 61
     },
     {
       "title": "September 2026 crude steel production",
@@ -147,15 +147,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "China, Gabon elevate ties, pledge deeper mining, security cooperation",
+      "title": "Jindal, Arvedi bid for former Ilva steelworks",
       "source": "Mining.com — Iron Ore",
-      "date": "Fri, 06 Nov 2026 16:40:53 +0000",
-      "url": "https://www.mining.com/web/china-gabon-elevate-ties-pledge-deeper-mining-security-cooperation/",
-      "summary": "China said it would \"support Gabon in turning its resource advantages into drivers of development.\"",
+      "date": "Mon, 09 Nov 2026 19:01:26 +0000",
+      "url": "https://www.mining.com/web/jindal-arvedi-bid-for-former-ilva-steelworks/",
+      "summary": "Italy's main metalworkers' unions said Arvedi's offer was an important development but that it was too early to assess both bids' impact.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
+      "relevanceScore": 20,
+      "seriousnessScore": 61
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
