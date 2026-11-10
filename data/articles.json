@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T15:27:16.325428+00:00",
+  "updatedAt": "2026-11-10T01:16:05.423865+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -70,26 +70,26 @@
   ],
   "industry": [
     {
-      "title": "China, Gabon elevate ties, pledge deeper mining, security cooperation",
+      "title": "Blast at steel plant kills 16 in Turkey",
       "source": "Mining.com — Iron Ore",
-      "date": "Fri, 06 Nov 2026 16:40:53 +0000",
-      "url": "https://www.mining.com/web/china-gabon-elevate-ties-pledge-deeper-mining-security-cooperation/",
-      "summary": "China said it would \"support Gabon in turning its resource advantages into drivers of development.\"",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "European stainless steelmakers see recovery pushed further into 2027",
-      "source": "Mining.com — Iron Ore",
-      "date": "Fri, 06 Nov 2026 15:55:08 +0000",
-      "url": "https://www.mining.com/web/european-stainless-steelmakers-see-recovery-pushed-further-into-2027/",
-      "summary": "For stainless steel producers, lower imports cannot compensate for a lack of orders from end-users.",
+      "date": "Mon, 09 Nov 2026 20:01:08 +0000",
+      "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
+      "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 16,
-      "seriousnessScore": 60
+      "seriousnessScore": 55
+    },
+    {
+      "title": "Jindal, Arvedi bid for former Ilva steelworks",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 09 Nov 2026 19:01:26 +0000",
+      "url": "https://www.mining.com/web/jindal-arvedi-bid-for-former-ilva-steelworks/",
+      "summary": "Italy's main metalworkers' unions said Arvedi's offer was an important development but that it was too early to assess both bids' impact.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 20,
+      "seriousnessScore": 61
     },
     {
       "title": "September 2026 crude steel production",
@@ -145,6 +145,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "China, Gabon elevate ties, pledge deeper mining, security cooperation",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 06 Nov 2026 16:40:53 +0000",
+      "url": "https://www.mining.com/web/china-gabon-elevate-ties-pledge-deeper-mining-security-cooperation/",
+      "summary": "China said it would \"support Gabon in turning its resource advantages into drivers of development.\"",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
