@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T05:02:27.963775+00:00",
+  "updatedAt": "2026-11-11T13:42:55.378273+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -70,6 +70,28 @@
   ],
   "industry": [
     {
+      "title": "President von der Leyen travels to Black Sea region and reaffirms EU's solidarity with Romania and Bulgaria in ‘testing times'",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Wed, 11 Nov 2026 13:31:55 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2416",
+      "summary": "European Commission News Brussels, 11 Nov 2026 \nPresident of the Commission Ursula von der Leyen was in Romania and Bulgaria on 9 and 10 November on a visit to the Black Sea region to reiterate the Commissio...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Simandou’s 120Mtpa export target faces logistics test",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 11 Nov 2026 11:19:00 +0000",
+      "url": "https://www.mining.com/simandous-120mtpa-export-target-faces-logistics-test/",
+      "summary": "Guinea’s iron ore mega-mine is boosting shipments, but competing forecasts raise doubts about when it will reach peak output.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
+    },
+    {
       "title": "China’s iron ore buying clout makes each deal a market event",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 10 Nov 2026 23:51:57 +0000",
@@ -79,17 +101,6 @@
       "country": "ca",
       "relevanceScore": 5,
       "seriousnessScore": 65
-    },
-    {
-      "title": "Italian steelmakers halting production due to high energy costs, industry group says",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 10 Nov 2026 21:27:43 +0000",
-      "url": "https://www.mining.com/web/italian-steelmakers-halting-production-due-to-high-energy-costs-industry-group-says/",
-      "summary": "The association said that high energy costs were undermining the competitiveness of Italian steelmakers.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 55
     },
     {
       "title": "September 2026 crude steel production",
@@ -147,6 +158,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "Italian steelmakers halting production due to high energy costs, industry group says",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 10 Nov 2026 21:27:43 +0000",
+      "url": "https://www.mining.com/web/italian-steelmakers-halting-production-due-to-high-energy-costs-industry-group-says/",
+      "summary": "The association said that high energy costs were undermining the competitiveness of Italian steelmakers.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Blast at steel plant kills 16 in Turkey",
       "source": "Mining.com — Iron Ore",
       "date": "Mon, 09 Nov 2026 20:01:08 +0000",
@@ -156,17 +178,6 @@
       "country": "ca",
       "relevanceScore": 16,
       "seriousnessScore": 55
-    },
-    {
-      "title": "Jindal, Arvedi bid for former Ilva steelworks",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 09 Nov 2026 19:01:26 +0000",
-      "url": "https://www.mining.com/web/jindal-arvedi-bid-for-former-ilva-steelworks/",
-      "summary": "Italy's main metalworkers' unions said Arvedi's offer was an important development but that it was too early to assess both bids' impact.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 20,
-      "seriousnessScore": 61
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
