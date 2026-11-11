@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T22:56:06.455104+00:00",
+  "updatedAt": "2026-11-11T05:02:27.963775+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -70,6 +70,17 @@
   ],
   "industry": [
     {
+      "title": "China’s iron ore buying clout makes each deal a market event",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 10 Nov 2026 23:51:57 +0000",
+      "url": "https://www.mining.com/web/chinas-iron-ore-buying-clout-makes-each-deal-a-market-event/",
+      "summary": "State-backed iron ore buyer CMRG  has had a good year, securing deals with two of its biggest suppliers that establish its dominance of a market worth north of $100 billion.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
+    },
+    {
       "title": "Italian steelmakers halting production due to high energy costs, industry group says",
       "source": "Mining.com — Iron Ore",
       "date": "Tue, 10 Nov 2026 21:27:43 +0000",
@@ -78,17 +89,6 @@
       "category": "industry",
       "country": "ca",
       "relevanceScore": 10,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Blast at steel plant kills 16 in Turkey",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 09 Nov 2026 20:01:08 +0000",
-      "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
-      "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
       "seriousnessScore": 55
     },
     {
@@ -145,6 +145,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Blast at steel plant kills 16 in Turkey",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 09 Nov 2026 20:01:08 +0000",
+      "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
+      "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 16,
+      "seriousnessScore": 55
     },
     {
       "title": "Jindal, Arvedi bid for former Ilva steelworks",
