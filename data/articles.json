@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11T13:42:55.378273+00:00",
+  "updatedAt": "2026-11-12T00:09:53.279465+00:00",
   "research": [
     {
       "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
@@ -70,6 +70,28 @@
   ],
   "industry": [
     {
+      "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 11 Nov 2026 21:28:54 +0000",
+      "url": "https://www.mining.com/web/mexico-says-crackdown-on-asian-steel-shipments-is-paying-off-as-us-tariff-talks-advance/",
+      "summary": "Mexico was able to cut steel imports from Vietnam by 80% in some months by cancelling various registrations.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 66
+    },
+    {
+      "title": "Ternium weighs more anti-dumping cases as steel snarls trade talks with US",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 11 Nov 2026 16:10:49 +0000",
+      "url": "https://www.mining.com/web/ternium-weighs-more-anti-dumping-cases-as-steel-snarls-trade-talks-with-us/",
+      "summary": "Ternium has been the petitioner in several Mexican cases against Asian steel shipments in the past few years.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 60
+    },
+    {
       "title": "President von der Leyen travels to Black Sea region and reaffirms EU's solidarity with Romania and Bulgaria in ‘testing times'",
       "source": "EU Commission — Economy & Finance",
       "date": "Wed, 11 Nov 2026 13:31:55 GMT",
@@ -79,28 +101,6 @@
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Simandou’s 120Mtpa export target faces logistics test",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 11:19:00 +0000",
-      "url": "https://www.mining.com/simandous-120mtpa-export-target-faces-logistics-test/",
-      "summary": "Guinea’s iron ore mega-mine is boosting shipments, but competing forecasts raise doubts about when it will reach peak output.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
-    },
-    {
-      "title": "China’s iron ore buying clout makes each deal a market event",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 10 Nov 2026 23:51:57 +0000",
-      "url": "https://www.mining.com/web/chinas-iron-ore-buying-clout-makes-each-deal-a-market-event/",
-      "summary": "State-backed iron ore buyer CMRG  has had a good year, securing deals with two of its biggest suppliers that establish its dominance of a market worth north of $100 billion.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
     },
     {
       "title": "September 2026 crude steel production",
@@ -158,26 +158,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Italian steelmakers halting production due to high energy costs, industry group says",
+      "title": "Simandou’s 120 million tonnes annual exports target faces logistics test",
       "source": "Mining.com — Iron Ore",
-      "date": "Tue, 10 Nov 2026 21:27:43 +0000",
-      "url": "https://www.mining.com/web/italian-steelmakers-halting-production-due-to-high-energy-costs-industry-group-says/",
-      "summary": "The association said that high energy costs were undermining the competitiveness of Italian steelmakers.",
+      "date": "Wed, 11 Nov 2026 11:19:00 +0000",
+      "url": "https://www.mining.com/simandous-120mtpa-export-target-faces-logistics-test/",
+      "summary": "Guinea’s iron ore mega-mine is boosting shipments, but competing forecasts raise doubts about when it will reach peak output.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Blast at steel plant kills 16 in Turkey",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 09 Nov 2026 20:01:08 +0000",
-      "url": "https://www.mining.com/blast-at-steel-plant-kills-16-in-turkey/",
-      "summary": "Another 13 people were injured following the blast, and 10 others are still waiting to be rescued.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 16,
-      "seriousnessScore": 55
+      "relevanceScore": 5,
+      "seriousnessScore": 75
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
