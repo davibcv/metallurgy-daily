@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-11-12T00:09:53.279465+00:00",
+  "updatedAt": "2026-11-12T14:46:07.244923+00:00",
   "research": [
-    {
-      "title": "Scientists squeeze record-breaking X-ray power into an incredibly tiny spot",
-      "source": "ScienceDaily — Materials Science",
-      "date": "Sat, 07 Nov 2026 22:46:51 EST",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261104012329.htm",
-      "summary": "Scientists have created record-breaking X-ray flashes lasting just 300 attoseconds, concentrating enormous power into an incredibly tiny spot. The breakthrough could unlock a new way to observe electrons in action and potentially control the ultrafast processes that drive chemical reactions.",
-      "category": "research",
-      "country": "us",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
-    },
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
       "source": "MIT News — Materials Science",
@@ -70,6 +59,17 @@
   ],
   "industry": [
     {
+      "title": "Joint statement by President von der Leyen and President Costa following their meeting with President Zelenskyy in Dublin",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 12 Nov 2026 13:46:04 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2425",
+      "summary": "European Commission Statement Dublin, 12 Nov 2026 The EPC Summit in Dublin was another opportunity to reaffirm our unwavering support for President Zelenskyy and Ukraine.\nWe welcome the talks this week in Abu D...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 11 Nov 2026 21:28:54 +0000",
@@ -90,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 60
-    },
-    {
-      "title": "President von der Leyen travels to Black Sea region and reaffirms EU's solidarity with Romania and Bulgaria in ‘testing times'",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 11 Nov 2026 13:31:55 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2416",
-      "summary": "European Commission News Brussels, 11 Nov 2026 \nPresident of the Commission Ursula von der Leyen was in Romania and Bulgaria on 9 and 10 November on a visit to the Black Sea region to reiterate the Commissio...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "September 2026 crude steel production",
