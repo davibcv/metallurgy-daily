@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T14:46:07.244923+00:00",
+  "updatedAt": "2026-11-12T23:17:20.163860+00:00",
   "research": [
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
@@ -59,15 +59,15 @@
   ],
   "industry": [
     {
-      "title": "Joint statement by President von der Leyen and President Costa following their meeting with President Zelenskyy in Dublin",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 12 Nov 2026 13:46:04 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2425",
-      "summary": "European Commission Statement Dublin, 12 Nov 2026 The EPC Summit in Dublin was another opportunity to reaffirm our unwavering support for President Zelenskyy and Ukraine.\nWe welcome the talks this week in Abu D...",
+      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
+      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
+      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
     },
     {
       "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
@@ -81,15 +81,15 @@
       "seriousnessScore": 66
     },
     {
-      "title": "Ternium weighs more anti-dumping cases as steel snarls trade talks with US",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 16:10:49 +0000",
-      "url": "https://www.mining.com/web/ternium-weighs-more-anti-dumping-cases-as-steel-snarls-trade-talks-with-us/",
-      "summary": "Ternium has been the petitioner in several Mexican cases against Asian steel shipments in the past few years.",
+      "title": "Joint statement by President von der Leyen and President Costa following their meeting with President Zelenskyy in Dublin",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Thu, 12 Nov 2026 13:46:04 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2425",
+      "summary": "European Commission Statement Dublin, 12 Nov 2026 The EPC Summit in Dublin was another opportunity to reaffirm our unwavering support for President Zelenskyy and Ukraine.\nWe welcome the talks this week in Abu D...",
       "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 60
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
     },
     {
       "title": "September 2026 crude steel production",
@@ -147,15 +147,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "Simandou’s 120 million tonnes annual exports target faces logistics test",
+      "title": "Ternium weighs more anti-dumping cases as steel snarls trade talks with US",
       "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 11:19:00 +0000",
-      "url": "https://www.mining.com/simandous-120mtpa-export-target-faces-logistics-test/",
-      "summary": "Guinea’s iron ore mega-mine is boosting shipments, but competing forecasts raise doubts about when it will reach peak output.",
+      "date": "Wed, 11 Nov 2026 16:10:49 +0000",
+      "url": "https://www.mining.com/web/ternium-weighs-more-anti-dumping-cases-as-steel-snarls-trade-talks-with-us/",
+      "summary": "Ternium has been the petitioner in several Mexican cases against Asian steel shipments in the past few years.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 75
+      "relevanceScore": 10,
+      "seriousnessScore": 60
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
