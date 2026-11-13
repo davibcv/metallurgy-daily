@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T05:29:06.027374+00:00",
+  "updatedAt": "2026-11-13T14:03:59.446320+00:00",
   "research": [
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
@@ -59,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "Daily News 13 / 11 / 2026",
+      "source": "EU Commission — Economy & Finance",
+      "date": "Fri, 13 Nov 2026 11:14:23 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2434",
+      "summary": "European Commission Daily news Brussels, 13 Nov 2026 COP31 enters second week with the EU driving global climate action\nThe EU continues pushing for accelerated global climate action at the COP31 UN Climate Change...",
+      "category": "industry",
+      "country": "eu",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Security That Protects in an Emergency",
+      "source": "voestalpine",
+      "date": "Fri, 13 Nov 2026 07:35:24 +0000",
+      "url": "https://www.voestalpine.com/blog/en/innovation-technology/security-that-protects-in-an-emergency/",
+      "summary": "<p>Modern road safety systems can mitigate the consequences of traffic accidents and protect people and animals. We are actively driving the modernization of safety-critical infrastructure and are among Europe’s leading providers of innovative vehicle restraint systems.</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/innovation-technology/security-that-protects-in-an-emergency/\">Security That Protects in an Emergency</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
+      "category": "industry",
+      "country": "at",
+      "relevanceScore": 7,
+      "seriousnessScore": 50
+    },
+    {
       "title": "BHP plans overhaul of Australia iron ore business to cut costs",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 12 Nov 2026 15:18:15 +0000",
@@ -79,17 +101,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 66
-    },
-    {
-      "title": "Joint statement by President von der Leyen and President Costa following their meeting with President Zelenskyy in Dublin",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Thu, 12 Nov 2026 13:46:04 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2425",
-      "summary": "European Commission Statement Dublin, 12 Nov 2026 The EPC Summit in Dublin was another opportunity to reaffirm our unwavering support for President Zelenskyy and Ukraine.\nWe welcome the talks this week in Abu D...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "September 2026 crude steel production",
@@ -123,17 +134,6 @@
       "country": "gb",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Full Steam Ahead for greentec steel",
-      "source": "voestalpine",
-      "date": "Tue, 06 Oct 2026 22:00:00 +0000",
-      "url": "https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/",
-      "summary": "<p>The transformation of steel production cannot be achieved through a single large-scale project, but rather through numerous interlinked measures. With the commissioning of a new power plant unit, we are creating another prerequisite for green steel production. This will allow us to use large quantities of steam from the electric arc furnace for electricity generation [&#8230;]</p>\n<p>Der Beitrag <a href=\"https://www.voestalpine.com/blog/en/sustainability/greentec-steel/full-steam-ahead-for-greentec-steel/\">Full Steam Ahead for greentec steel</a> erschien zuerst auf <a href=\"https://www.voestalpine.com/blog/en/\">voestalpine Corporate Blog</a>.</p>",
-      "category": "industry",
-      "country": "at",
-      "relevanceScore": 27,
-      "seriousnessScore": 69
     },
     {
       "title": "Projeção para alta do PIB de 2019 passa de 0,93% para 0,87%, prevê Focus",
