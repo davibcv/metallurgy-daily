@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13T14:03:59.446320+00:00",
+  "updatedAt": "2026-11-13T23:20:11.147070+00:00",
   "research": [
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
@@ -59,6 +59,28 @@
   ],
   "industry": [
     {
+      "title": "CSN swings to Q3 loss as iron ore prices, freight costs bite",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 13 Nov 2026 15:14:34 +0000",
+      "url": "https://www.mining.com/web/csn-swings-to-q3-loss-as-iron-ore-prices-freight-costs-bite/",
+      "summary": "Negative seasonal factors in external steel operations and higher cement production costs also affected results, CSN said.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
+      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
+      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Daily News 13 / 11 / 2026",
       "source": "EU Commission — Economy & Finance",
       "date": "Fri, 13 Nov 2026 11:14:23 GMT",
@@ -79,28 +101,6 @@
       "country": "at",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
-      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
-      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 21:28:54 +0000",
-      "url": "https://www.mining.com/web/mexico-says-crackdown-on-asian-steel-shipments-is-paying-off-as-us-tariff-talks-advance/",
-      "summary": "Mexico was able to cut steel imports from Vietnam by 80% in some months by cancelling various registrations.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 66
     },
     {
       "title": "September 2026 crude steel production",
@@ -145,6 +145,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
+      "source": "Mining.com — Iron Ore",
+      "date": "Wed, 11 Nov 2026 21:28:54 +0000",
+      "url": "https://www.mining.com/web/mexico-says-crackdown-on-asian-steel-shipments-is-paying-off-as-us-tariff-talks-advance/",
+      "summary": "Mexico was able to cut steel imports from Vietnam by 80% in some months by cancelling various registrations.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 66
     },
     {
       "title": "Ternium weighs more anti-dumping cases as steel snarls trade talks with US",
