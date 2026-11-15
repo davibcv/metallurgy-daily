@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T13:34:36.549269+00:00",
+  "updatedAt": "2026-11-15T22:34:11.454513+00:00",
   "research": [
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
@@ -59,6 +59,17 @@
   ],
   "industry": [
     {
+      "title": "Stelco to recall 175 laid-off workers, restart Hamilton plant finishing lines",
+      "source": "Mining.com — Iron Ore",
+      "date": "Sun, 15 Nov 2026 18:29:41 +0000",
+      "url": "https://www.mining.com/web/stelco-to-recall-175-laid-off-workers-restart-hamilton-plant-finishing-lines/",
+      "summary": "The Canadian company makes flat-rolled steel, including coated, cold-rolled and hot-rolled products.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 55
+    },
+    {
       "title": "CSN swings to Q3 loss as iron ore prices, freight costs bite",
       "source": "Mining.com — Iron Ore",
       "date": "Fri, 13 Nov 2026 15:14:34 +0000",
@@ -68,17 +79,6 @@
       "country": "ca",
       "relevanceScore": 15,
       "seriousnessScore": 70
-    },
-    {
-      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
-      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
-      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
     },
     {
       "title": "Daily News 13 / 11 / 2026",
@@ -147,6 +147,17 @@
       "seriousnessScore": 54
     },
     {
+      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
+      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
+      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 55
+    },
+    {
       "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
       "source": "Mining.com — Iron Ore",
       "date": "Wed, 11 Nov 2026 21:28:54 +0000",
@@ -156,17 +167,6 @@
       "country": "ca",
       "relevanceScore": 10,
       "seriousnessScore": 66
-    },
-    {
-      "title": "Ternium weighs more anti-dumping cases as steel snarls trade talks with US",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 16:10:49 +0000",
-      "url": "https://www.mining.com/web/ternium-weighs-more-anti-dumping-cases-as-steel-snarls-trade-talks-with-us/",
-      "summary": "Ternium has been the petitioner in several Mexican cases against Asian steel shipments in the past few years.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 60
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
