@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-16T05:11:43.047989+00:00",
+  "updatedAt": "2026-11-16T15:02:10.121749+00:00",
   "research": [
+    {
+      "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Sun, 15 Nov 2026 21:56:02 EST",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
+      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
+    },
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
       "source": "MIT News — Materials Science",
@@ -79,17 +90,6 @@
       "country": "ca",
       "relevanceScore": 15,
       "seriousnessScore": 70
-    },
-    {
-      "title": "Daily News 13 / 11 / 2026",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Fri, 13 Nov 2026 11:14:23 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2434",
-      "summary": "European Commission Daily news Brussels, 13 Nov 2026 COP31 enters second week with the EU driving global climate action\nThe EU continues pushing for accelerated global climate action at the COP31 UN Climate Change...",
-      "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
     },
     {
       "title": "Security That Protects in an Emergency",
