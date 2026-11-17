@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T15:02:10.121749+00:00",
+  "updatedAt": "2026-11-17T01:41:33.241748+00:00",
   "research": [
     {
       "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
@@ -70,26 +70,26 @@
   ],
   "industry": [
     {
-      "title": "Stelco to recall 175 laid-off workers, restart Hamilton plant finishing lines",
+      "title": "EU sets tariffs on steel from India, Japan, Taiwan, Turkey, Vietnam",
       "source": "Mining.com — Iron Ore",
-      "date": "Sun, 15 Nov 2026 18:29:41 +0000",
-      "url": "https://www.mining.com/web/stelco-to-recall-175-laid-off-workers-restart-hamilton-plant-finishing-lines/",
-      "summary": "The Canadian company makes flat-rolled steel, including coated, cold-rolled and hot-rolled products.",
+      "date": "Mon, 16 Nov 2026 21:00:26 +0000",
+      "url": "https://www.mining.com/web/eu-sets-tariffs-on-steel-from-india-japan-taiwan-turkey-vietnam/",
+      "summary": "Eurofer said unfairly priced imports were putting European production and jobs at risk, suggesting duties to restore fair competition.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 10,
-      "seriousnessScore": 55
+      "seriousnessScore": 87
     },
     {
-      "title": "CSN swings to Q3 loss as iron ore prices, freight costs bite",
+      "title": "Australia wary of iron ore trade manipulation as China seeks more bargaining power",
       "source": "Mining.com — Iron Ore",
-      "date": "Fri, 13 Nov 2026 15:14:34 +0000",
-      "url": "https://www.mining.com/web/csn-swings-to-q3-loss-as-iron-ore-prices-freight-costs-bite/",
-      "summary": "Negative seasonal factors in external steel operations and higher cement production costs also affected results, CSN said.",
+      "date": "Mon, 16 Nov 2026 15:21:21 +0000",
+      "url": "https://www.mining.com/web/australia-wary-of-iron-ore-trade-manipulation-as-china-seeks-more-bargaining-power/",
+      "summary": "Australia's major miners and lobbyists have asked for help to push back against CMRG's efforts to get lower prices in contracts.",
       "category": "industry",
       "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 70
+      "relevanceScore": 5,
+      "seriousnessScore": 75
     },
     {
       "title": "Security That Protects in an Emergency",
@@ -147,26 +147,15 @@
       "seriousnessScore": 54
     },
     {
-      "title": "BHP plans overhaul of Australia iron ore business to cut costs",
+      "title": "Stelco to recall 175 laid-off workers, restart Hamilton plant finishing lines",
       "source": "Mining.com — Iron Ore",
-      "date": "Thu, 12 Nov 2026 15:18:15 +0000",
-      "url": "https://www.mining.com/web/bhp-plans-overhaul-of-australia-iron-ore-business-to-cut-costs/",
-      "summary": "The overhaul is expected to simplify management and put more of the support functions directly under the mining assets they serve.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 55
-    },
-    {
-      "title": "Mexico says crackdown on Asian steel shipments is paying off as US tariff talks advance",
-      "source": "Mining.com — Iron Ore",
-      "date": "Wed, 11 Nov 2026 21:28:54 +0000",
-      "url": "https://www.mining.com/web/mexico-says-crackdown-on-asian-steel-shipments-is-paying-off-as-us-tariff-talks-advance/",
-      "summary": "Mexico was able to cut steel imports from Vietnam by 80% in some months by cancelling various registrations.",
+      "date": "Sun, 15 Nov 2026 18:29:41 +0000",
+      "url": "https://www.mining.com/web/stelco-to-recall-175-laid-off-workers-restart-hamilton-plant-finishing-lines/",
+      "summary": "The Canadian company makes flat-rolled steel, including coated, cold-rolled and hot-rolled products.",
       "category": "industry",
       "country": "ca",
       "relevanceScore": 10,
-      "seriousnessScore": 66
+      "seriousnessScore": 55
     },
     {
       "title": "Safety and Health Excellence Recognition 2026",
