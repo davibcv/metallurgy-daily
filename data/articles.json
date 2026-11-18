@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T00:39:48.835830+00:00",
+  "updatedAt": "2026-11-18T15:15:27.249966+00:00",
   "research": [
     {
       "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
@@ -48,15 +48,37 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at the EIGE Gender Equality Forum",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Tue, 17 Nov 2026 17:11:40 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2483",
-      "summary": "European Commission Speech Brussels, 17 Nov 2026 Last year, on this very day, 17 November, Europe marked Equal Pay Day. From that morning until New Year's Eve, women in the EU were in effect working for free. ...",
+      "title": "World Women in Steel (WWIS)",
+      "source": "World Steel Association",
+      "date": "Wed, 18 Nov 2026 12:36:26 +0000",
+      "url": "https://worldsteel.org/steel-people/world-women-in-steel-wwis/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/steel-people/world-women-in-steel-wwis/\">World Women in Steel (WWIS)</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
+      "country": "be",
+      "relevanceScore": 10,
       "seriousnessScore": 50
+    },
+    {
+      "title": "World Women in Steel (WWIS) Fireside Chats",
+      "source": "World Steel Association",
+      "date": "Wed, 18 Nov 2026 12:20:48 +0000",
+      "url": "https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/\">World Women in Steel (WWIS) Fireside Chats</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
+      "title": "Why Stainless Steel Surcharges Keep Moving Inside “Fixed-Price” Contracts",
+      "source": "MetalMiner",
+      "date": "Wed, 18 Nov 2026 06:00:00 +0000",
+      "url": "https://agmetalminer.com/2026/11/18/stainless-steel-price-trend/",
+      "summary": "<img width=\"300\" height=\"169\" src=\"https://agmetalminer.com/wp-content/uploads/2026/11/Stainless-Bar-300x169.png\" class=\"webfeedsFeaturedVisual wp-post-image\" alt=\"Stainless bar\" style=\"display: block; margin-bottom: 5px; clear:both;max-width: 100%;\" link_thumbnail=\"\" decoding=\"async\" srcset=\"https://agmetalminer.com/wp-content/uploads/2026/11/Stainless-Bar-300x169.png 300w, https://agmetalminer.com/wp-content/uploads/2026/11/Stainless-Bar-767x432.png 767w, https://agmetalminer.com/wp-content/uploads/2026/11/Stainless-Bar-799x450.png 799w, https://agmetalminer.com/wp-content/uploads/2026/11/Stainless-Bar.png 1000w\" sizes=\"(max-width: 300px) 100vw, 300px\" title=\"Why Stainless Steel Surcharges Keep Moving Inside “Fixed-Price” Contracts 1\">MetalMiner approaches stainless steel price trend and shifting surcharge exposures as a quote-structure and risk-management problem, not simply a nickel-price problem. The approach works in four connected layers: That recommendation does not guarantee a market outcome or material availability. It translates the observed market position, quote structure and risk context into a decision framework. The [&#8230;]",
+      "category": "industry",
+      "country": "us",
+      "relevanceScore": 16,
+      "seriousnessScore": 64
     },
     {
       "title": "EU sets tariffs on steel from India, Japan, Taiwan, Turkey, Vietnam",
@@ -92,28 +114,6 @@
       "seriousnessScore": 50
     },
     {
-      "title": "September 2026 crude steel production",
-      "source": "World Steel Association",
-      "date": "Fri, 23 Oct 2026 06:02:59 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/",
-      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 142.4 million tonnes (Mt) in September 2026, a 0.2% decrease compared to September 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/\">September 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 20,
-      "seriousnessScore": 70
-    },
-    {
-      "title": "worldsteel elects new officers and welcomes new members",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 07:15:57 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/",
-      "summary": "<p>The Board of Members of worldsteel has today elected its Executive Board of Directors for the 2026/2027 period and welcomed new regular and affiliated members.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/\">worldsteel elects new officers and welcomes new members</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
       "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
       "source": "POSCO",
       "date": "Fri, 16 Oct 2026 13:00:01 +0000",
@@ -123,17 +123,6 @@
       "country": "kr",
       "relevanceScore": 17,
       "seriousnessScore": 55
-    },
-    {
-      "title": "POSCO group Participates in the Government’s K-GX Signature Project… Leading the Decarbonization Transition of the Steel Industry",
-      "source": "POSCO",
-      "date": "Tue, 13 Oct 2026 13:05:39 +0000",
-      "url": "https://newsroom.posco.com/en/posco-group-participates-in-the-governments-k-gx-signature-project-leading-the-decarbonization-transition-of-the-steel-industry/",
-      "summary": "Promoting ‘Steel GX,’ a K-GX Signature Project… Driving Regional Growth through a Decarbonized Ecosystem Securing Economical ‘Clean Energy’ and ‘Creating a",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 17,
-      "seriousnessScore": 54
     },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
@@ -158,6 +147,28 @@
       "seriousnessScore": 54
     },
     {
+      "title": "September 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Fri, 23 Oct 2026 06:02:59 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 142.4 million tonnes (Mt) in September 2026, a 0.2% decrease compared to September 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/september-2026-crude-steel-production/\">September 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
+    },
+    {
+      "title": "worldsteel elects new officers and welcomes new members",
+      "source": "World Steel Association",
+      "date": "Tue, 13 Oct 2026 07:15:57 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/",
+      "summary": "<p>The Board of Members of worldsteel has today elected its Executive Board of Directors for the 2026/2027 period and welcomed new regular and affiliated members.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/\">worldsteel elects new officers and welcomes new members</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
       "title": "Safety and Health Excellence Recognition 2026",
       "source": "World Steel Association",
       "date": "Tue, 13 Oct 2026 04:55:10 +0000",
@@ -167,28 +178,6 @@
       "country": "be",
       "relevanceScore": 10,
       "seriousnessScore": 50
-    },
-    {
-      "title": "worldsteel Safety and Health Excellence Recognition 2026",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 02:29:10 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/",
-      "summary": "<p>As part of its commitment to the highest safety and health standards, the World Steel Association (worldsteel) recognises excellence in six of its member companies for delivering demonstrable improvements in safety and health.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-safety-and-health-excellence-recognition-2026/\">worldsteel Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "17th Steelie Awards winners announced",
-      "source": "World Steel Association",
-      "date": "Mon, 12 Oct 2026 14:38:53 +0000",
-      "url": "https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-winners-announced/",
-      "summary": "<p>The Steelie Awards celebrate the accomplishments of worldsteel member companies over the past year. Find out who the winners are.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/17th-steelie-awards-winners-announced/\">17th Steelie Awards winners announced</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 43
     }
   ]
 }
