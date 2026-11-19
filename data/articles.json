@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-11-19T07:05:02.726281+00:00",
+  "updatedAt": "2026-11-19T20:04:51.073526+00:00",
   "research": [
     {
-      "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-      "source": "ScienceDaily — Materials Science",
-      "date": "Sun, 15 Nov 2026 21:56:02 EST",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
-      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
+      "title": "Ultrasound imaging without the gel",
+      "source": "MIT News — Materials Science",
+      "date": "Thu, 19 Nov 2026 14:00:00 -0500",
+      "url": "https://news.mit.edu/2026/ultrasound-imaging-without-gel-1119",
+      "summary": "A new dry material could replace the traditional goopy gel for wearable ultrasound patches.",
       "category": "research",
       "country": "us",
       "relevanceScore": 7,
-      "seriousnessScore": 55
+      "seriousnessScore": 50
     },
     {
       "title": "Fabric molds could bring material-saving concrete beams within reach",
@@ -22,6 +22,17 @@
       "country": "us",
       "relevanceScore": 10,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
+      "source": "ScienceDaily — Materials Science",
+      "date": "Sun, 15 Nov 2026 21:56:02 EST",
+      "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
+      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
+      "category": "research",
+      "country": "us",
+      "relevanceScore": 7,
+      "seriousnessScore": 55
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
@@ -47,6 +58,28 @@
     }
   ],
   "industry": [
+    {
+      "title": "U.S. Steel, United Steelworkers reach tentative four-year deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 19 Nov 2026 18:08:53 +0000",
+      "url": "https://www.mining.com/web/u-s-steel-united-steelworkers-reach-tentative-four-year-deal/",
+      "summary": "The agreement includes total wage increases of about 19.25% compounded over the four-year term.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 54
+    },
+    {
+      "title": "EU sets tariffs on steel from India, Japan, Taiwan, Turkey, Vietnam",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 16 Nov 2026 21:00:26 +0000",
+      "url": "https://www.mining.com/web/eu-sets-tariffs-on-steel-from-india-japan-taiwan-turkey-vietnam/",
+      "summary": "Eurofer said unfairly priced imports were putting European production and jobs at risk, suggesting duties to restore fair competition.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 87
+    },
     {
       "title": "World Women in Steel (WWIS)",
       "source": "World Steel Association",
@@ -81,28 +114,6 @@
       "seriousnessScore": 64
     },
     {
-      "title": "EU sets tariffs on steel from India, Japan, Taiwan, Turkey, Vietnam",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 16 Nov 2026 21:00:26 +0000",
-      "url": "https://www.mining.com/web/eu-sets-tariffs-on-steel-from-india-japan-taiwan-turkey-vietnam/",
-      "summary": "Eurofer said unfairly priced imports were putting European production and jobs at risk, suggesting duties to restore fair competition.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 87
-    },
-    {
-      "title": "Australia wary of iron ore trade manipulation as China seeks more bargaining power",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 16 Nov 2026 15:21:21 +0000",
-      "url": "https://www.mining.com/web/australia-wary-of-iron-ore-trade-manipulation-as-china-seeks-more-bargaining-power/",
-      "summary": "Australia's major miners and lobbyists have asked for help to push back against CMRG's efforts to get lower prices in contracts.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 75
-    },
-    {
       "title": "Security That Protects in an Emergency",
       "source": "voestalpine",
       "date": "Fri, 13 Nov 2026 07:35:24 +0000",
@@ -112,17 +123,6 @@
       "country": "at",
       "relevanceScore": 7,
       "seriousnessScore": 50
-    },
-    {
-      "title": "CHANG In Hwa, Head of the Korea Iron & Steel Association, Secures Seoul as Host City for the 2027 World Steel Association General Assembly",
-      "source": "POSCO",
-      "date": "Fri, 16 Oct 2026 13:00:01 +0000",
-      "url": "https://newsroom.posco.com/en/chang-in-hwa-head-of-the-korea-iron-steel-association-secures-seoul-as-host-city-for-the-2027-world-steel-association-general-assembly/",
-      "summary": "Seoul to host World Steel Association General Assembly for first time in 22 years, reaffirming Korea&#8217;s global standing in steel Attended three-day New",
-      "category": "industry",
-      "country": "kr",
-      "relevanceScore": 17,
-      "seriousnessScore": 55
     },
     {
       "title": "Keep Britain Working review update: a national growth opportunity, September 2026",
@@ -145,6 +145,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Australia wary of iron ore trade manipulation as China seeks more bargaining power",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 16 Nov 2026 15:21:21 +0000",
+      "url": "https://www.mining.com/web/australia-wary-of-iron-ore-trade-manipulation-as-china-seeks-more-bargaining-power/",
+      "summary": "Australia's major miners and lobbyists have asked for help to push back against CMRG's efforts to get lower prices in contracts.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 75
     },
     {
       "title": "September 2026 crude steel production",
