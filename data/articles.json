@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:03:22.971209+00:00",
+  "updatedAt": "2026-11-20T19:42:09.304182+00:00",
   "research": [
     {
       "title": "Ultrasound imaging without the gel",
@@ -22,17 +22,6 @@
       "country": "us",
       "relevanceScore": 10,
       "seriousnessScore": 50
-    },
-    {
-      "title": "Physicists defy expectations by controlling the magnetic heart of a single atom",
-      "source": "ScienceDaily — Materials Science",
-      "date": "Sun, 15 Nov 2026 21:56:02 EST",
-      "url": "https://www.sciencedaily.com/releases/2026/11/261114202232.htm",
-      "summary": "Scientists have unexpectedly discovered how to control the magnetic spin inside a single atom's nucleus using radio waves, overturning previous assumptions about atomic behavior. The breakthrough could pave the way for more reliable quantum memory, although researchers are still trying to understand why it works.",
-      "category": "research",
-      "country": "us",
-      "relevanceScore": 7,
-      "seriousnessScore": 55
     },
     {
       "title": "Steel developed at MIT is key to Formula One, Baja 1000, and MIT Motorsports",
