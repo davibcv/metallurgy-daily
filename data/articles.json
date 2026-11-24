@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T08:48:35.022870+00:00",
+  "updatedAt": "2026-11-24T22:00:18.393219+00:00",
   "research": [
     {
       "title": "Ultrasound imaging without the gel",
@@ -48,15 +48,48 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
+      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
       "source": "EU Commission — Economy & Finance",
-      "date": "Mon, 23 Nov 2026 09:20:27 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
-      "summary": "European Commission Speech Brussels, 23 Nov 2026 This surgical mask only costs a few cents, but in April 2020 it was worth its weight in gold.\nPlanes full of masks that European regions had already paid for we...",
+      "date": "Tue, 24 Nov 2026 17:49:10 GMT",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
+      "summary": "European Commission Speech Strasbourg, 24 Nov 2026 I would like to start by paying tribute to the humanitarian workers, UN agencies, international NGOs and local organisations who continue to deliver assistance ...",
       "category": "industry",
       "country": "eu",
       "relevanceScore": 7,
       "seriousnessScore": 50
+    },
+    {
+      "title": "Vale to resume operations at Viga iron ore mine",
+      "source": "Mining.com — Iron Ore",
+      "date": "Tue, 24 Nov 2026 15:23:20 +0000",
+      "url": "https://www.mining.com/vale-to-resume-operations-at-viga-iron-ore-mine/",
+      "summary": "Production at the Brazilian mine has been halted since January 2026 due to water overflows.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Dalian iron ore price slides on weakening China demand, falling steel margins",
+      "source": "Mining.com — Iron Ore",
+      "date": "Mon, 23 Nov 2026 16:11:19 +0000",
+      "url": "https://www.mining.com/web/dalian-iron-ore-price-slides-on-weakening-china-demand-falling-steel-margins/",
+      "summary": "Thinner margins for steelmakers and lackluster steel demand curbed appetite for restocking of feedstocks.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "October 2026 crude steel production",
+      "source": "World Steel Association",
+      "date": "Tue, 24 Nov 2026 09:02:29 +0000",
+      "url": "https://worldsteel.org/media/press-releases/2026/october-2026-crude-steel-production/",
+      "summary": "<p>World crude steel production for the 70 countries reporting to worldsteel was 142.4 million tonnes (Mt) in October 2026, a 1.1% decrease compared to October 2025.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/october-2026-crude-steel-production/\">October 2026 crude steel production</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 20,
+      "seriousnessScore": 70
     },
     {
       "title": "World Women in Steel (WWIS)",
@@ -64,17 +97,6 @@
       "date": "Wed, 18 Nov 2026 12:36:26 +0000",
       "url": "https://worldsteel.org/steel-people/world-women-in-steel-wwis/",
       "summary": "<p>The post <a href=\"https://worldsteel.org/steel-people/world-women-in-steel-wwis/\">World Women in Steel (WWIS)</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "World Women in Steel (WWIS) Fireside Chats",
-      "source": "World Steel Association",
-      "date": "Wed, 18 Nov 2026 12:20:48 +0000",
-      "url": "https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/",
-      "summary": "<p>The post <a href=\"https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/\">World Women in Steel (WWIS) Fireside Chats</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
       "country": "be",
       "relevanceScore": 10,
@@ -125,6 +147,28 @@
       "seriousnessScore": 54
     },
     {
+      "title": "US Steel, United Steelworkers reach tentative four-year deal",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 19 Nov 2026 18:08:53 +0000",
+      "url": "https://www.mining.com/web/u-s-steel-united-steelworkers-reach-tentative-four-year-deal/",
+      "summary": "The agreement includes total wage increases of about 19.25% compounded over the four-year term.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 10,
+      "seriousnessScore": 54
+    },
+    {
+      "title": "World Women in Steel (WWIS) Fireside Chats",
+      "source": "World Steel Association",
+      "date": "Wed, 18 Nov 2026 12:20:48 +0000",
+      "url": "https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/",
+      "summary": "<p>The post <a href=\"https://worldsteel.org/steel-people/world-women-in-steel-wwis/world-women-in-steel-wwis-fireside-chats/\">World Women in Steel (WWIS) Fireside Chats</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
+      "category": "industry",
+      "country": "be",
+      "relevanceScore": 10,
+      "seriousnessScore": 50
+    },
+    {
       "title": "September 2026 crude steel production",
       "source": "World Steel Association",
       "date": "Fri, 23 Oct 2026 06:02:59 +0000",
@@ -141,17 +185,6 @@
       "date": "Tue, 13 Oct 2026 07:15:57 +0000",
       "url": "https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/",
       "summary": "<p>The Board of Members of worldsteel has today elected its Executive Board of Directors for the 2026/2027 period and welcomed new regular and affiliated members.</p>\n<p>The post <a href=\"https://worldsteel.org/media/press-releases/2026/worldsteel-welcomes-new-members-october-2026/\">worldsteel elects new officers and welcomes new members</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
-      "category": "industry",
-      "country": "be",
-      "relevanceScore": 10,
-      "seriousnessScore": 50
-    },
-    {
-      "title": "Safety and Health Excellence Recognition 2026",
-      "source": "World Steel Association",
-      "date": "Tue, 13 Oct 2026 04:55:10 +0000",
-      "url": "https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/",
-      "summary": "<p>The post <a href=\"https://worldsteel.org/safety-and-health/worldsteel-safety-and-health-excellence-recognition-programme/safety-and-health-excellence-recognition-2026/\">Safety and Health Excellence Recognition 2026</a> appeared first on <a href=\"https://worldsteel.org\">worldsteel.org</a>.</p>",
       "category": "industry",
       "country": "be",
       "relevanceScore": 10,
