@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T23:30:39.259461+00:00",
+  "updatedAt": "2026-11-24T08:48:35.022870+00:00",
   "research": [
     {
       "title": "Ultrasound imaging without the gel",
@@ -47,28 +47,6 @@
     }
   ],
   "industry": [
-    {
-      "title": "Dalian iron ore price slides on weakening China demand, falling steel margins",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 23 Nov 2026 16:11:19 +0000",
-      "url": "https://www.mining.com/web/dalian-iron-ore-price-slides-on-weakening-china-demand-falling-steel-margins/",
-      "summary": "Thinner margins for steelmakers and lackluster steel demand curbed appetite for restocking of feedstocks.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "US Steel, United Steelworkers reach tentative four-year deal",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 19 Nov 2026 18:08:53 +0000",
-      "url": "https://www.mining.com/web/u-s-steel-united-steelworkers-reach-tentative-four-year-deal/",
-      "summary": "The agreement includes total wage increases of about 19.25% compounded over the four-year term.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 10,
-      "seriousnessScore": 54
-    },
     {
       "title": "Speech by Commissioner Lahbib at HERA Industry Days",
       "source": "EU Commission — Economy & Finance",
