@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T07:12:08.751718+00:00",
+  "updatedAt": "2026-11-26T21:02:20.564228+00:00",
   "research": [
     {
       "title": "Ultrasound imaging without the gel",
@@ -48,15 +48,26 @@
   ],
   "industry": [
     {
-      "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
-      "source": "EU Commission — Economy & Finance",
-      "date": "Wed, 25 Nov 2026 16:18:22 GMT",
-      "url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
-      "summary": "European Commission Speech Strasbourg, 25 Nov 2026 Digital technologies are transforming every part of our lives. They are changing how we work, communicate and participate in public life. But while this digital...",
+      "title": "Iron ore price gains on expectations of winter restocking at Chinese mills",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 26 Nov 2026 20:41:49 +0000",
+      "url": "https://www.mining.com/web/iron-ore-price-gains-on-expectations-of-winter-restocking-at-chinese-mills/",
+      "summary": "Chinese steelmakers stockpile feedstocks in winter in preparation for demand over the Lunar New Year holiday.",
       "category": "industry",
-      "country": "eu",
-      "relevanceScore": 7,
-      "seriousnessScore": 50
+      "country": "ca",
+      "relevanceScore": 15,
+      "seriousnessScore": 60
+    },
+    {
+      "title": "Planet One leads $933M plan for Senegal iron ore",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 26 Nov 2026 13:33:06 +0000",
+      "url": "https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/",
+      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
     },
     {
       "title": "worldsteel announces steelChallenge-21 World Championship Finalists",
@@ -79,28 +90,6 @@
       "country": "be",
       "relevanceScore": 20,
       "seriousnessScore": 70
-    },
-    {
-      "title": "Vale to resume operations at Viga iron ore mine",
-      "source": "Mining.com — Iron Ore",
-      "date": "Tue, 24 Nov 2026 15:23:20 +0000",
-      "url": "https://www.mining.com/vale-to-resume-operations-at-viga-iron-ore-mine/",
-      "summary": "Production at the Brazilian mine has been halted since January 2026 due to water overflows.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 60
-    },
-    {
-      "title": "Dalian iron ore price slides on weakening China demand, falling steel margins",
-      "source": "Mining.com — Iron Ore",
-      "date": "Mon, 23 Nov 2026 16:11:19 +0000",
-      "url": "https://www.mining.com/web/dalian-iron-ore-price-slides-on-weakening-china-demand-falling-steel-margins/",
-      "summary": "Thinner margins for steelmakers and lackluster steel demand curbed appetite for restocking of feedstocks.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 15,
-      "seriousnessScore": 60
     },
     {
       "title": "Why Stainless Steel Surcharges Keep Moving Inside “Fixed-Price” Contracts",
