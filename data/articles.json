@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-27T07:07:23.260172+00:00",
+  "updatedAt": "2026-11-27T20:47:04.766084+00:00",
   "research": [
     {
       "title": "Ultrasound imaging without the gel",
@@ -48,6 +48,17 @@
   ],
   "industry": [
     {
+      "title": "Rio Tinto ships first Simandou iron ore cargo to Europe",
+      "source": "Mining.com — Iron Ore",
+      "date": "Fri, 27 Nov 2026 11:03:00 +0000",
+      "url": "https://www.mining.com/rio-tinto-ships-first-simandou-iron-ore-cargo-to-europe/",
+      "summary": "A ship with 79,081 tonnes of iron ore fines left Simandou and will arrive in Dunkirk, France, in early December.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 60
+    },
+    {
       "title": "Iron ore price gains on expectations of winter restocking at Chinese mills",
       "source": "Mining.com — Iron Ore",
       "date": "Thu, 26 Nov 2026 20:41:49 +0000",
@@ -57,17 +68,6 @@
       "country": "ca",
       "relevanceScore": 15,
       "seriousnessScore": 60
-    },
-    {
-      "title": "Planet One leads $933M plan for Senegal iron ore",
-      "source": "Mining.com — Iron Ore",
-      "date": "Thu, 26 Nov 2026 13:33:06 +0000",
-      "url": "https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/",
-      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore.",
-      "category": "industry",
-      "country": "ca",
-      "relevanceScore": 5,
-      "seriousnessScore": 65
     },
     {
       "title": "worldsteel announces steelChallenge-21 World Championship Finalists",
@@ -134,6 +134,17 @@
       "country": "br",
       "relevanceScore": 10,
       "seriousnessScore": 54
+    },
+    {
+      "title": "Planet One leads $933M plan for Senegal iron ore",
+      "source": "Mining.com — Iron Ore",
+      "date": "Thu, 26 Nov 2026 13:33:06 +0000",
+      "url": "https://www.mining.com/planet-one-leads-933m-plan-for-senegal-iron-ore/",
+      "summary": "Planet One estimates the three deposits hold up to 600 million tonnes of iron ore.",
+      "category": "industry",
+      "country": "ca",
+      "relevanceScore": 5,
+      "seriousnessScore": 65
     },
     {
       "title": "World Women in Steel (WWIS)",
